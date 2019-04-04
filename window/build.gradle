@@ -1,6 +1,4 @@
 apply plugin: 'java'
-apply plugin: 'application'
-
 repositories {
     jcenter()
 }
@@ -12,4 +10,12 @@ dependencies {
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-mainClassName = 'edu.utdallas.App'
+jar {
+    manifest {
+        attributes 'Main-Class': 'edu.utdallas.App'
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
