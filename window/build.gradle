@@ -7,7 +7,6 @@ repositories {
 
 dependencies {
     compile 'org.ow2.asm:asm:7.1'
-    compile 'org.apache.commons:commons-collections4:4.3'
 }
 
 sourceCompatibility = 1.8

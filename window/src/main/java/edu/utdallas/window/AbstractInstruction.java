@@ -77,7 +77,7 @@ public enum AbstractInstruction {
         return false;
     }
 
-    public static AbstractInstruction abstractAway(final int opcode) {
+    public static AbstractInstruction fromOpcode(final int opcode) {
         for (final AbstractInstruction ic : values()) {
             if (ic.isIn(opcode)) {
                 return ic;

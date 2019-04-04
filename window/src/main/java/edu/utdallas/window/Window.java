@@ -1,8 +1,9 @@
 package edu.utdallas.window;
 
-import org.apache.commons.collections4.IteratorUtils;
-
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Represents a window of instructions of size at most <code>WINDOW_CAPACITY</code>.
@@ -14,11 +15,19 @@ import java.util.Iterator;
  * @author ali
  */
 public class Window implements Iterable<AbstractInstruction> {
-    public static final int WINDOW_CAPACITY = 20;
+    public static final int WINDOW_CAPACITY;
 
-    private final AbstractInstruction[] view;
+    static {
+        final int windowCapacity =
+                Integer.parseInt(System.getProperty("window.capacity", "21"));
+        if (windowCapacity <= 1 || windowCapacity % 2 == 0) {
+            throw new RuntimeException("window capacity must be an odd number greater than 1");
+        }
+        WINDOW_CAPACITY = windowCapacity;
+    }
+
+    private final List<AbstractInstruction> view;
     private final int center;
-    private int size;
 
     /**
      *
@@ -26,9 +35,8 @@ public class Window implements Iterable<AbstractInstruction> {
      *               window.
      */
     public Window(int center) {
-        this.view = new AbstractInstruction[WINDOW_CAPACITY];
+        this.view = new ArrayList<>(WINDOW_CAPACITY);
         this.center = center;
-        this.size = 0;
     }
 
     /**
@@ -44,18 +52,27 @@ public class Window implements Iterable<AbstractInstruction> {
      * @return current size of the window (<= <code>WINDOW_CAPACITY</code>).
      */
     public int getSize() {
-        return this.size;
+        return this.view.size();
     }
 
     public void add(AbstractInstruction instruction) {
-        if (this.size == WINDOW_CAPACITY) {
+        if (this.view.size() == WINDOW_CAPACITY) {
             throw new IllegalStateException("window is full!");
         }
-        this.view[this.size++] = instruction;
+        this.view.add(instruction);
     }
 
     @Override
     public Iterator<AbstractInstruction> iterator() {
-        return IteratorUtils.arrayIterator(this.view);
+        return this.view.iterator();
+    }
+
+    @Override
+    public String toString() {
+        final String contents;
+        contents = this.view.stream()
+                .map(AbstractInstruction::toString)
+                .collect(Collectors.joining(","));
+        return String.format("[%s]", contents);
     }
 }
