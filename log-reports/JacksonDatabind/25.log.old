@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 04:00:56 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 11158
+================================================
+1.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: com/fasterxml/jackson/databind/util/ClassUtil.java
+	Line Number: 785
+	Rank: 1
+	Total Rank: 47
+	Dump: mutant-1.class
+------------------------------------------------

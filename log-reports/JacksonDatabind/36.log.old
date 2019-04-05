@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 06:09:55 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 12187
+================================================
+1.
+	Mutator: FieldNameMutator
+	Description: replaced access to BIG_INTEGER with an access to BIG_DECIMAL
+	File Name: com/fasterxml/jackson/databind/ser/std/NumberSerializer.java
+	Line Number: 81
+	Rank: 1
+	Total Rank: 74
+	Dump: mutant-1.class
+------------------------------------------------

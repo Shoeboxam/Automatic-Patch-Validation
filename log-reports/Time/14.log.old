@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 20:21:29 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 1019
+================================================
+1.
+	Mutator: MethodNameMutator
+	Description: replaced call to add with a call to addWrapPartial
+	File Name: org/joda/time/MonthDay.java
+	Line Number: 519
+	Rank: 1
+	Total Rank: 58
+	Dump: mutant-1.class
+------------------------------------------------

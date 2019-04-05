@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 06:15:03 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 12732
+================================================
+1.
+	Mutator: MethodNameMutator
+	Description: replaced call to next with a call to eatTokensUntilEOL
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+	Line Number: 1432
+	Rank: 1
+	Total Rank: 847
+	Dump: mutant-1.class
+------------------------------------------------

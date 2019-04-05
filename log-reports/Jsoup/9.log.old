@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 12:43:53 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 5101
+================================================
+1.
+	Mutator: MethodNameMutator
+	Description: replaced call to removeIgnoreCase with a call to remove
+	File Name: org/jsoup/nodes/Node.java
+	Line Number: 128
+	Rank: 1
+	Total Rank: 67
+	Dump: mutant-1.class
+------------------------------------------------

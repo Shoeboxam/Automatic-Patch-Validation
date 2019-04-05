@@ -1,0 +1,22 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 22:39:59 CST 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 9436
+================================================
+1.
+	Mutator: InlineConstantMutator
+	Description: Substituted 0 with 1
+	File Name: org/apache/commons/jxpath/util/ValueUtils.java
+	Line Number: 142
+	Rank: 1
+	Total Rank: 1
+	Dump: mutant-2.class
+------------------------------------------------
+2.
+	Mutator: ReturnValsMutator
+	Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	File Name: org/apache/commons/jxpath/util/ValueUtils.java
+	Line Number: 142
+	Rank: 2
+	Total Rank: 2
+	Dump: mutant-1.class
+------------------------------------------------

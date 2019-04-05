@@ -1,0 +1,103 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 21:38:15 CST 2019
+Number of Plausible Fixes: 11
+Total Number of Patches: 134
+================================================
+1.
+	Mutator: FieldNameMutator
+	Description: replaced access to HEX_DECODE_TABLE with an access to ENCODE_TABLE
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 285
+	Rank: 3
+	Total Rank: 23
+	Dump: mutant-13.class
+------------------------------------------------
+2.
+	Mutator: FieldNameMutator
+	Description: replaced access to HEX_DECODE_TABLE with an access to HEX_ENCODE_TABLE
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 285
+	Rank: 3
+	Total Rank: 23
+	Dump: mutant-12.class
+------------------------------------------------
+3.
+	Mutator: FieldNameMutator
+	Description: replaced access to HEX_DECODE_TABLE with an access to CHUNK_SEPARATOR
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 285
+	Rank: 3
+	Total Rank: 23
+	Dump: mutant-11.class
+------------------------------------------------
+4.
+	Mutator: InlineConstantMutator
+	Description: Substituted 1 with 0
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 537
+	Rank: 4
+	Total Rank: 54
+	Dump: mutant-10.class
+------------------------------------------------
+5.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 537
+	Rank: 5
+	Total Rank: 60
+	Dump: mutant-5.class
+------------------------------------------------
+6.
+	Mutator: RemoveConditionalMutator_EQUAL_IF
+	Description: removed conditional - replaced equality check with true
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 308
+	Rank: 6
+	Total Rank: 65
+	Dump: mutant-6.class
+------------------------------------------------
+7.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 537
+	Rank: 7
+	Total Rank: 69
+	Dump: mutant-1.class
+------------------------------------------------
+8.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to org.apache.commons.codec.binary.Base32::isInAlphabet(B)Z is replaced with the used of default value false
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 308
+	Rank: 8
+	Total Rank: 73
+	Dump: mutant-3.class
+------------------------------------------------
+9.
+	Mutator: RemoveConditionalMutator_ORDER_ELSE
+	Description: removed conditional - replaced comparison check with false
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 537
+	Rank: 10
+	Total Rank: 79
+	Dump: mutant-7.class
+------------------------------------------------
+10.
+	Mutator: FieldNameMutator
+	Description: replaced access to decodeTable with an access to encodeTable
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 537
+	Rank: 10
+	Total Rank: 79
+	Dump: mutant-2.class
+------------------------------------------------
+11.
+	Mutator: BooleanFalseReturnValsMutator
+	Description: replaced boolean return with false for org/apache/commons/codec/binary/Base32::isInAlphabet
+	File Name: org/apache/commons/codec/binary/Base32.java
+	Line Number: 537
+	Rank: 11
+	Total Rank: 80
+	Dump: mutant-9.class
+------------------------------------------------

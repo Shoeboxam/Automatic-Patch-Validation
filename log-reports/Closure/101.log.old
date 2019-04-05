@@ -1,0 +1,58 @@
+PraPR 2 (JDK 1.7) Fix Report - Thu Jan 10 21:07:21 CST 2019
+Number of Plausible Fixes: 6
+Total Number of Patches: 39882
+================================================
+1.
+	Mutator: InlineConstantMutator
+	Description: Substituted 1 with 0
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Rank: 1
+	Total Rank: 1519
+	Dump: mutant-1.class
+------------------------------------------------
+2.
+	Mutator: FieldNameMutator
+	Description: replaced access to closurePass with an access to allowLegacyJsMessages
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Rank: 5
+	Total Rank: 1628
+	Dump: mutant-5.class
+------------------------------------------------
+3.
+	Mutator: FieldNameMutator
+	Description: replaced access to closurePass with an access to strictMessageReplacement
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Rank: 5
+	Total Rank: 1628
+	Dump: mutant-2.class
+------------------------------------------------
+4.
+	Mutator: FieldNameMutator
+	Description: replaced access to closurePass with an access to checkDuplicateMessages
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Rank: 5
+	Total Rank: 1628
+	Dump: mutant-4.class
+------------------------------------------------
+5.
+	Mutator: FieldNameMutator
+	Description: replaced access to closurePass with an access to checkSuspiciousCode
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Rank: 5
+	Total Rank: 1628
+	Dump: mutant-3.class
+------------------------------------------------
+6.
+	Mutator: MemberVariableMutator
+	Description: Removed assignment to member variable closurePass
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Rank: 6
+	Total Rank: 1645
+	Dump: mutant-6.class
+------------------------------------------------

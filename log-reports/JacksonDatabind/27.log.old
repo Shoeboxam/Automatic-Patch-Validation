@@ -1,0 +1,31 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 04:23:19 CST 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 18057
+================================================
+1.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to com.fasterxml.jackson.databind.cfg.MapperConfig::getAnnotationIntrospector()Lcom/fasterxml/jackson/databind/AnnotationIntrospector; is guarded using default value null
+	File Name: com/fasterxml/jackson/databind/introspect/AnnotatedClass.java
+	Line Number: 201
+	Rank: 1
+	Total Rank: 3245
+	Dump: mutant-2.class
+------------------------------------------------
+2.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to isAnnotationProcessingEnabled()Z is guarded returning default value null
+	File Name: com/fasterxml/jackson/databind/introspect/AnnotatedClass.java
+	Line Number: 201
+	Rank: 2
+	Total Rank: 3252
+	Dump: mutant-3.class
+------------------------------------------------
+3.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to isAnnotationBundle(Ljava/lang/annotation/Annotation;)Z is guarded returning default value false
+	File Name: com/fasterxml/jackson/databind/introspect/AnnotatedClass.java
+	Line Number: 1165
+	Rank: 3
+	Total Rank: 10854
+	Dump: mutant-1.class
+------------------------------------------------

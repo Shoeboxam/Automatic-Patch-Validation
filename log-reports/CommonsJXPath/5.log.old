@@ -1,0 +1,40 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 22:46:00 CST 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 5767
+================================================
+1.
+	Mutator: ReturnValsMutator
+	Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	File Name: org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
+	Line Number: 88
+	Rank: 1
+	Total Rank: 5
+	Dump: mutant-2.class
+------------------------------------------------
+2.
+	Mutator: BooleanTrueReturnValsMutator
+	Description: replaced boolean return with true for org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression::compute
+	File Name: org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
+	Line Number: 88
+	Rank: 2
+	Total Rank: 8
+	Dump: mutant-3.class
+------------------------------------------------
+3.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
+	Line Number: 87
+	Rank: 3
+	Total Rank: 260
+	Dump: mutant-1.class
+------------------------------------------------
+4.
+	Mutator: LocalNameMutator
+	Description: local right is replaced by local left to be used
+	File Name: org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
+	Line Number: 87
+	Rank: 4
+	Total Rank: 272
+	Dump: mutant-4.class
+------------------------------------------------

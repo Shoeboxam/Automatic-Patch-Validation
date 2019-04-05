@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Fri Jan 11 20:27:39 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 11117
+================================================
+1.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local maxCheckInterval is replaced by access to field stepStart
+	File Name: org/apache/commons/math3/ode/AbstractIntegrator.java
+	Line Number: 127
+	Rank: 1
+	Total Rank: 455
+	Dump: mutant-1.class
+------------------------------------------------

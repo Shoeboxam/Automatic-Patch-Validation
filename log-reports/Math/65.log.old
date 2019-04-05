@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Fri Jan 11 13:44:03 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 4346
+================================================
+1.
+	Mutator: MathMutator
+	Description: Replaced double division with multiplication
+	File Name: org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+	Line Number: 258
+	Rank: 1
+	Total Rank: 197
+	Dump: mutant-1.class
+------------------------------------------------

@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Fri Jan 11 20:05:34 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 23706
+================================================
+1.
+	Mutator: LocalToMethodCallMutator
+	Description: the access to the local nextName is replaced a call nextName.toLowerCase()
+	File Name: com/google/javascript/jscomp/ExploitAssigns.java
+	Line Number: 138
+	Rank: 1
+	Total Rank: 246
+	Dump: mutant-1.class
+------------------------------------------------

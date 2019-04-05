@@ -1,0 +1,94 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 03:46:49 CST 2019
+Number of Plausible Fixes: 10
+Total Number of Patches: 19681
+================================================
+1.
+	Mutator: LocalToMethodCallMutator
+	Description: the access to the local subclass is replaced a call subclass.getSuperclass()
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 372
+	Rank: 1
+	Total Rank: 4988
+	Dump: mutant-2.class
+------------------------------------------------
+2.
+	Mutator: RemoveConditionalMutator_EQUAL_IF
+	Description: removed conditional - replaced equality check with true
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 372
+	Rank: 2
+	Total Rank: 4990
+	Dump: mutant-1.class
+------------------------------------------------
+3.
+	Mutator: LocalNameMutator
+	Description: local subclass is replaced by local rawBase to be used
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 372
+	Rank: 3
+	Total Rank: 4992
+	Dump: mutant-3.class
+------------------------------------------------
+4.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local subclass is replaced by access to field CLS_STRING
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 372
+	Rank: 8
+	Total Rank: 5002
+	Dump: mutant-6.class
+------------------------------------------------
+5.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local subclass is replaced by access to field CLS_OBJECT
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 372
+	Rank: 8
+	Total Rank: 5002
+	Dump: mutant-8.class
+------------------------------------------------
+6.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local subclass is replaced by access to field CLS_CLASS
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 372
+	Rank: 8
+	Total Rank: 5002
+	Dump: mutant-5.class
+------------------------------------------------
+7.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local subclass is replaced by access to field CLS_ENUM
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 372
+	Rank: 8
+	Total Rank: 5002
+	Dump: mutant-4.class
+------------------------------------------------
+8.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local subclass is replaced by access to field CLS_COMPARABLE
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 372
+	Rank: 8
+	Total Rank: 5002
+	Dump: mutant-7.class
+------------------------------------------------
+9.
+	Mutator: InlineConstantMutator
+	Description: Substituted 0 with 1
+	File Name: com/fasterxml/jackson/databind/type/SimpleType.java
+	Line Number: 55
+	Rank: 9
+	Total Rank: 15957
+	Dump: mutant-9.class
+------------------------------------------------
+10.
+	Mutator: FieldToLocalAccessMutator
+	Description: access to field _hash is replaced by access to local additionalHash
+	File Name: com/fasterxml/jackson/databind/JavaType.java
+	Line Number: 80
+	Rank: 10
+	Total Rank: 16769
+	Dump: mutant-10.class
+------------------------------------------------

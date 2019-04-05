@@ -1,0 +1,22 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 20:08:32 CST 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 2772
+================================================
+1.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to getAnnotations()Ljava/util/Collection; is guarded returning default value null
+	File Name: org/jfree/chart/plot/XYPlot.java
+	Line Number: 4492
+	Rank: 2
+	Total Rank: 104
+	Dump: mutant-2.class
+------------------------------------------------
+2.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to getAnnotations()Ljava/util/Collection; is guarded returning local result
+	File Name: org/jfree/chart/plot/XYPlot.java
+	Line Number: 4492
+	Rank: 2
+	Total Rank: 104
+	Dump: mutant-1.class
+------------------------------------------------

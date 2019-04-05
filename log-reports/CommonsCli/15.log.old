@@ -1,0 +1,49 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 21:03:58 CST 2019
+Number of Plausible Fixes: 5
+Total Number of Patches: 1050
+================================================
+1.
+	Mutator: MethodNameMutator
+	Description: replaced call to processOptionToken with a call to burstToken
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 134
+	Rank: 1
+	Total Rank: 90
+	Dump: mutant-2.class
+------------------------------------------------
+2.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to java.lang.String::length()I is replaced with the used of default value 0
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 132
+	Rank: 2
+	Total Rank: 159
+	Dump: mutant-5.class
+------------------------------------------------
+3.
+	Mutator: MethodNameMutator
+	Description: replaced call to length with a call to hashCode
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 132
+	Rank: 3
+	Total Rank: 160
+	Dump: mutant-4.class
+------------------------------------------------
+4.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 132
+	Rank: 4
+	Total Rank: 162
+	Dump: mutant-3.class
+------------------------------------------------
+5.
+	Mutator: InlineConstantMutator
+	Description: Substituted 2 with 3
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 132
+	Rank: 5
+	Total Rank: 163
+	Dump: mutant-1.class
+------------------------------------------------

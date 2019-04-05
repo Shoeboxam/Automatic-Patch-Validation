@@ -1,0 +1,22 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 19:26:27 CST 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 2624
+================================================
+1.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+	Line Number: 1797
+	Rank: 1
+	Total Rank: 205
+	Dump: mutant-2.class
+------------------------------------------------
+2.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+	Line Number: 1797
+	Rank: 2
+	Total Rank: 207
+	Dump: mutant-1.class
+------------------------------------------------

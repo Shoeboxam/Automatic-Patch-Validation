@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 08:51:11 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 7670
+================================================
+1.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: org/jsoup/nodes/Entities.java
+	Line Number: 115
+	Rank: 1
+	Total Rank: 15
+	Dump: mutant-1.class
+------------------------------------------------

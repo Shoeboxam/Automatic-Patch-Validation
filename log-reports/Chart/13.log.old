@@ -1,0 +1,103 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 19:32:08 CST 2019
+Number of Plausible Fixes: 11
+Total Number of Patches: 2308
+================================================
+1.
+	Mutator: MethodNameMutator
+	Description: replaced call to getWidth with a call to getHeight
+	File Name: org/jfree/chart/block/BorderArrangement.java
+	Line Number: 454
+	Rank: 1
+	Total Rank: 525
+	Dump: mutant-8.class
+------------------------------------------------
+2.
+	Mutator: LocalNameMutator
+	Description: local w is replaced by local h to be used
+	File Name: org/jfree/chart/block/BorderArrangement.java
+	Line Number: 450
+	Rank: 2
+	Total Rank: 572
+	Dump: mutant-7.class
+------------------------------------------------
+3.
+	Mutator: InlineConstantMutator
+	Description: Substituted 2 with 3
+	File Name: org/jfree/chart/block/BorderArrangement.java
+	Line Number: 450
+	Rank: 4
+	Total Rank: 631
+	Dump: mutant-6.class
+------------------------------------------------
+4.
+	Mutator: InlineConstantMutator
+	Description: Substituted 2 with 3
+	File Name: org/jfree/chart/block/BorderArrangement.java
+	Line Number: 454
+	Rank: 4
+	Total Rank: 631
+	Dump: mutant-1.class
+------------------------------------------------
+5.
+	Mutator: ConstructorCallMutator
+	Description: removed call to org/jfree/data/Range::<init>
+	File Name: org/jfree/chart/block/BorderArrangement.java
+	Line Number: 454
+	Rank: 5
+	Total Rank: 649
+	Dump: mutant-5.class
+------------------------------------------------
+6.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: org/jfree/chart/block/BorderArrangement.java
+	Line Number: 453
+	Rank: 7
+	Total Rank: 667
+	Dump: mutant-4.class
+------------------------------------------------
+7.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: org/jfree/chart/block/BorderArrangement.java
+	Line Number: 444
+	Rank: 7
+	Total Rank: 667
+	Dump: mutant-2.class
+------------------------------------------------
+8.
+	Mutator: MathMutator
+	Description: Replaced double subtraction with addition
+	File Name: org/jfree/chart/block/BorderArrangement.java
+	Line Number: 454
+	Rank: 8
+	Total Rank: 674
+	Dump: mutant-3.class
+------------------------------------------------
+9.
+	Mutator: LocalNameMutator
+	Description: local upper is replaced by local lower to be used
+	File Name: org/jfree/data/Range.java
+	Line Number: 84
+	Rank: 10
+	Total Rank: 2307
+	Dump: mutant-9.class
+------------------------------------------------
+10.
+	Mutator: LocalNameMutator
+	Description: local lower is replaced by local upper to be used
+	File Name: org/jfree/data/Range.java
+	Line Number: 84
+	Rank: 10
+	Total Rank: 2307
+	Dump: mutant-10.class
+------------------------------------------------
+11.
+	Mutator: RemoveConditionalMutator_ORDER_ELSE
+	Description: removed conditional - replaced comparison check with false
+	File Name: org/jfree/data/Range.java
+	Line Number: 84
+	Rank: 11
+	Total Rank: 2308
+	Dump: mutant-11.class
+------------------------------------------------

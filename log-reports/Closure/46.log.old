@@ -1,0 +1,67 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 10:50:08 CST 2019
+Number of Plausible Fixes: 7
+Total Number of Patches: 8916
+================================================
+1.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to com.google.javascript.rhino.jstype.JSType::isRecordType()Z is replaced with the used of default value false
+	File Name: com/google/javascript/rhino/jstype/RecordType.java
+	Line Number: 142
+	Rank: 1
+	Total Rank: 61
+	Dump: mutant-4.class
+------------------------------------------------
+2.
+	Mutator: MethodNameMutator
+	Description: replaced call to isRecordType with a call to isNumberObjectType
+	File Name: com/google/javascript/rhino/jstype/RecordType.java
+	Line Number: 142
+	Rank: 3
+	Total Rank: 71
+	Dump: mutant-7.class
+------------------------------------------------
+3.
+	Mutator: MethodNameMutator
+	Description: replaced call to isRecordType with a call to isStringObjectType
+	File Name: com/google/javascript/rhino/jstype/RecordType.java
+	Line Number: 142
+	Rank: 3
+	Total Rank: 71
+	Dump: mutant-6.class
+------------------------------------------------
+4.
+	Mutator: RemoveConditionalMutator_EQUAL_IF
+	Description: removed conditional - replaced equality check with true
+	File Name: com/google/javascript/rhino/jstype/RecordType.java
+	Line Number: 142
+	Rank: 4
+	Total Rank: 72
+	Dump: mutant-5.class
+------------------------------------------------
+5.
+	Mutator: LocalNameMutator
+	Description: local b is replaced by local a to be used
+	File Name: com/google/javascript/rhino/testing/Asserts.java
+	Line Number: 95
+	Rank: 6
+	Total Rank: 440
+	Dump: mutant-3.class
+------------------------------------------------
+6.
+	Mutator: LocalNameMutator
+	Description: local a is replaced by local b to be used
+	File Name: com/google/javascript/rhino/testing/Asserts.java
+	Line Number: 95
+	Rank: 6
+	Total Rank: 440
+	Dump: mutant-2.class
+------------------------------------------------
+7.
+	Mutator: VoidMethodCallMutator
+	Description: removed call to com/google/javascript/rhino/testing/Asserts::assertTypeEquals
+	File Name: com/google/javascript/rhino/testing/Asserts.java
+	Line Number: 95
+	Rank: 7
+	Total Rank: 442
+	Dump: mutant-1.class
+------------------------------------------------

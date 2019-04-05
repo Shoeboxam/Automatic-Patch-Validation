@@ -1,0 +1,130 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 21:53:16 CST 2019
+Number of Plausible Fixes: 14
+Total Number of Patches: 10844
+================================================
+1.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to java.util.Iterator::hasNext()Z is replaced with the used of field lenientSet
+	File Name: org/apache/commons/jxpath/JXPathContext.java
+	Line Number: 687
+	Rank: 2
+	Total Rank: 15
+	Dump: mutant-8.class
+------------------------------------------------
+2.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to java.util.Iterator::hasNext()Z is replaced with the used of default value false
+	File Name: org/apache/commons/jxpath/JXPathContext.java
+	Line Number: 687
+	Rank: 2
+	Total Rank: 15
+	Dump: mutant-7.class
+------------------------------------------------
+3.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to jj_scan_token(I)Z is guarded returning field jj_semLA
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
+	Line Number: 2588
+	Rank: 5
+	Total Rank: 396
+	Dump: mutant-12.class
+------------------------------------------------
+4.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to jj_scan_token(I)Z is guarded returning default value false
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
+	Line Number: 2588
+	Rank: 5
+	Total Rank: 396
+	Dump: mutant-11.class
+------------------------------------------------
+5.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to jj_scan_token(I)Z is guarded returning field lookingAhead
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
+	Line Number: 2588
+	Rank: 5
+	Total Rank: 396
+	Dump: mutant-13.class
+------------------------------------------------
+6.
+	Mutator: DereferenceGuardMutator
+	Description: the access to jj_gen is guarded using field jj_la
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
+	Line Number: 533
+	Rank: 7
+	Total Rank: 2044
+	Dump: mutant-10.class
+------------------------------------------------
+7.
+	Mutator: DereferenceGuardMutator
+	Description: the access to jj_gen is guarded using value 0
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
+	Line Number: 533
+	Rank: 7
+	Total Rank: 2044
+	Dump: mutant-9.class
+------------------------------------------------
+8.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to jj_3R_21()Z is guarded returning field jj_semLA
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
+	Line Number: 2829
+	Rank: 10
+	Total Rank: 2305
+	Dump: mutant-15.class
+------------------------------------------------
+9.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to jj_3R_21()Z is guarded returning field lookingAhead
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
+	Line Number: 2829
+	Rank: 10
+	Total Rank: 2305
+	Dump: mutant-16.class
+------------------------------------------------
+10.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to jj_3R_21()Z is guarded returning default value false
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
+	Line Number: 2829
+	Rank: 10
+	Total Rank: 2305
+	Dump: mutant-17.class
+------------------------------------------------
+11.
+	Mutator: RemoveConditionalMutator_EQUAL_IF
+	Description: removed conditional - replaced equality check with true
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
+	Line Number: 2670
+	Rank: 11
+	Total Rank: 2369
+	Dump: mutant-18.class
+------------------------------------------------
+12.
+	Mutator: RemoveConditionalMutator_EQUAL_IF
+	Description: removed conditional - replaced equality check with true
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
+	Line Number: 2306
+	Rank: 12
+	Total Rank: 2969
+	Dump: mutant-14.class
+------------------------------------------------
+13.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to org.apache.commons.jxpath.ri.model.NodePointer::childIterator(Lorg/apache/commons/jxpath/ri/compiler/NodeTest;ZLorg/apache/commons/jxpath/ri/model/NodePointer;)Lorg/apache/commons/jxpath/ri/model/NodeIterator; is guarded using default value null
+	File Name: org/apache/commons/jxpath/ri/axes/ChildContext.java
+	Line Number: 113
+	Rank: 13
+	Total Rank: 4459
+	Dump: mutant-1.class
+------------------------------------------------
+14.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to childIterator(Lorg/apache/commons/jxpath/ri/compiler/NodeTest;ZLorg/apache/commons/jxpath/ri/model/NodePointer;)Lorg/apache/commons/jxpath/ri/model/NodeIterator; is guarded returning enclosing method
+	File Name: org/apache/commons/jxpath/ri/axes/ChildContext.java
+	Line Number: 113
+	Rank: 14
+	Total Rank: 4482
+	Dump: mutant-3.class
+------------------------------------------------

@@ -1,0 +1,31 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 21:08:20 CST 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 1010
+================================================
+1.
+	Mutator: MethodNameMutator
+	Description: replaced call to hasArg with a call to hasValueSeparator
+	File Name: org/apache/commons/cli/HelpFormatter.java
+	Line Number: 632
+	Rank: 3
+	Total Rank: 119
+	Dump: mutant-3.class
+------------------------------------------------
+2.
+	Mutator: MethodNameMutator
+	Description: replaced call to getArgName with a call to getLongOpt
+	File Name: org/apache/commons/cli/HelpFormatter.java
+	Line Number: 632
+	Rank: 3
+	Total Rank: 119
+	Dump: mutant-1.class
+------------------------------------------------
+3.
+	Mutator: MethodNameMutator
+	Description: replaced call to getArgName with a call to getDescription
+	File Name: org/apache/commons/cli/HelpFormatter.java
+	Line Number: 632
+	Rank: 3
+	Total Rank: 119
+	Dump: mutant-2.class
+------------------------------------------------
