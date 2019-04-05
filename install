@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd window
+./gradlew clean assemble
+cp build/libs/window.jar ../log-parser/lib/
+cd ../log-parser
+./gradlew clean assemble
