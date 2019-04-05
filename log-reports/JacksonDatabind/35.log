@@ -1,0 +1,124 @@
+PraPR Fix Report - Thu Apr 04 12:53:17 CDT 2019
+Number of Plausible Fixes: 12
+Total Number of Patches: 22917
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 956
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to START_OBJECT with an access to FIELD_NAME
+	Suspiciousness Value: 0.577350
+	Rank: 6
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 956
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to START_OBJECT with an access to NOT_AVAILABLE
+	Suspiciousness Value: 0.577350
+	Rank: 6
+---------------------------------------------------
+3.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 956
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to START_OBJECT with an access to END_OBJECT
+	Suspiciousness Value: 0.577350
+	Rank: 6
+---------------------------------------------------
+4.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 956
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to START_OBJECT with an access to END_ARRAY
+	Suspiciousness Value: 0.577350
+	Rank: 6
+---------------------------------------------------
+5.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 956
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to START_OBJECT with an access to VALUE_EMBEDDED_OBJECT
+	Suspiciousness Value: 0.577350
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 956
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to START_OBJECT with an access to START_ARRAY
+	Suspiciousness Value: 0.577350
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 956
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.577350
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 956
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.577350
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 957
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.fasterxml.jackson.core.JsonParser::nextToken()Lcom/fasterxml/jackson/core/JsonToken; is replaced with the used of default value null
+	Suspiciousness Value: 0.577350
+	Rank: 10
+---------------------------------------------------
+10.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 957
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.fasterxml.jackson.core.JsonParser::nextToken()Lcom/fasterxml/jackson/core/JsonToken; is replaced with the used of local t
+	Suspiciousness Value: 0.577350
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 957
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to nextToken with a call to getCurrentToken
+	Suspiciousness Value: 0.577350
+	Rank: 12
+---------------------------------------------------
+12.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
+	Method Name: deserializeWithType
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	Line Number: 957
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to nextToken with a call to getLastClearedToken
+	Suspiciousness Value: 0.577350
+	Rank: 12
+---------------------------------------------------

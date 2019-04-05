@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:25:11 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 4686
+===================================================
+1.
+	Class Name: org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer
+	Method Name: doOptimize
+	Method Descriptor: ()Lorg/apache/commons/math/optimization/VectorialPointValuePair;
+	Line Number: 365
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to <init>([D[D)V with a call to <init>([D[DZ)V
+	Suspiciousness Value: 0.200000
+	Rank: 1
+---------------------------------------------------

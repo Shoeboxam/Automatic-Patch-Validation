@@ -1,0 +1,34 @@
+PraPR Fix Report - Thu Apr 04 22:26:32 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 3395
+===================================================
+1.
+	Class Name: org.joda.time.chrono.BasicChronology
+	Method Name: getWeekOfWeekyear
+	Method Descriptor: (JI)I
+	Line Number: 518
+	Mutator Name: PrimitiveReturnsMutator
+	Mutator Description: replaced int return with 0 for org/joda/time/chrono/BasicChronology::getWeekOfWeekyear
+	Suspiciousness Value: 0.551677
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.joda.time.chrono.BasicChronology
+	Method Name: getWeekOfWeekyear
+	Method Descriptor: (JI)I
+	Line Number: 518
+	Mutator Name: ReturnValsMutator
+	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	Suspiciousness Value: 0.551677
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.joda.time.chrono.BasicChronology
+	Method Name: getWeekOfWeekyear
+	Method Descriptor: (JI)I
+	Line Number: 518
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.joda.time.chrono.BasicChronology::getWeeksInYear(I)I is replaced with the used of default value 0
+	Suspiciousness Value: 0.551677
+	Rank: 3
+---------------------------------------------------

@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 20:25:13 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 44150
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.Compiler$5
+	Method Name: call
+	Method Descriptor: ()Ljava/lang/String;
+	Line Number: 1293
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.Node::getNext()Lcom/google/javascript/rhino/Node; is replaced with the used of default value null
+	Suspiciousness Value: 0.099015
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.Compiler$5
+	Method Name: call
+	Method Descriptor: ()Ljava/lang/String;
+	Line Number: 1291
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getFirstChild with a call to getLastChild
+	Suspiciousness Value: 0.099015
+	Rank: 2
+---------------------------------------------------

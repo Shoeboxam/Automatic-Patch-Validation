@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 12:36:25 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 52
+===================================================
+1.
+	Class Name: org.apache.commons.cli.Util
+	Method Name: stripLeadingHyphens
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/String;
+	Line Number: 36
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to startsWith(Ljava/lang/String;)Z is guarded returning default value null
+	Suspiciousness Value: 0.109764
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.cli.Util
+	Method Name: stripLeadingHyphens
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/String;
+	Line Number: 36
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to startsWith(Ljava/lang/String;)Z is guarded returning local str
+	Suspiciousness Value: 0.109764
+	Rank: 2
+---------------------------------------------------

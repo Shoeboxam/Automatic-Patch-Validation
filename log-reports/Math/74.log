@@ -1,0 +1,34 @@
+PraPR Fix Report - Thu Apr 04 22:25:28 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 8094
+===================================================
+1.
+	Class Name: org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator
+	Method Name: integrate
+	Method Descriptor: (Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D
+	Line Number: 239
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field stepSize is replaced by access to local t
+	Suspiciousness Value: 0.447214
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.ode.MultistepIntegrator$NordsieckInitializer
+	Method Name: handleStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;Z)V
+	Line Number: 327
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math.ode.MultistepIntegrator::access$000(Lorg/apache/commons/math/ode/MultistepIntegrator;)I is replaced with the used of field n
+	Suspiciousness Value: 0.316228
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.ode.MultistepIntegrator
+	Method Name: <init>
+	Method Descriptor: (Ljava/lang/String;IIDDDD)V
+	Line Number: 130
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to pow with a call to nextAfter
+	Suspiciousness Value: 0.288675
+	Rank: 3
+---------------------------------------------------

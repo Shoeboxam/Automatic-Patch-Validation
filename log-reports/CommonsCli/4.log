@@ -1,0 +1,64 @@
+PraPR Fix Report - Thu Apr 04 12:36:27 CDT 2019
+Number of Plausible Fixes: 6
+Total Number of Patches: 326
+===================================================
+1.
+	Class Name: org.apache.commons.cli.HelpFormatter
+	Method Name: findWrapPos
+	Method Descriptor: (Ljava/lang/String;II)I
+	Line Number: 939
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.cli.HelpFormatter
+	Method Name: findWrapPos
+	Method Descriptor: (Ljava/lang/String;II)I
+	Line Number: 939
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.cli.HelpFormatter
+	Method Name: findWrapPos
+	Method Descriptor: (Ljava/lang/String;II)I
+	Line Number: 939
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.cli.HelpFormatter
+	Method Name: findWrapPos
+	Method Descriptor: (Ljava/lang/String;II)I
+	Line Number: 939
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::length()I is replaced with the used of default value 0
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.cli.HelpFormatter
+	Method Name: findWrapPos
+	Method Descriptor: (Ljava/lang/String;II)I
+	Line Number: 939
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local pos is replaced by access to field defaultWidth
+	Suspiciousness Value: 1.000000
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.cli.HelpFormatter
+	Method Name: findWrapPos
+	Method Descriptor: (Ljava/lang/String;II)I
+	Line Number: 939
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local pos is replaced by access to field DEFAULT_WIDTH
+	Suspiciousness Value: 1.000000
+	Rank: 6
+---------------------------------------------------

@@ -1,0 +1,434 @@
+PraPR Fix Report - Thu Apr 04 14:29:24 CDT 2019
+Number of Plausible Fixes: 43
+Total Number of Patches: 32426
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 732
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.336011
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 732
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.jscomp.NodeUtil::canBeSideEffected(Lcom/google/javascript/rhino/Node;)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.336011
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 702
+	Mutator Name: NakedReceiverMutator
+	Mutator Description: replaced call to com/google/javascript/rhino/Node::getFirstChild with receiver
+	Suspiciousness Value: 0.230283
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.230283
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isReturn with a call to isSyntheticBlock
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isReturn with a call to isOptionalArg
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isReturn with a call to hasMoreThanOneChild
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+8.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isReturn with a call to isFromExterns
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+9.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 702
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getFirstChild with a call to getParent
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+10.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isReturn with a call to isVarArgs
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+11.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isReturn with a call to isQualifiedName
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+12.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isReturn with a call to isUnscopedQualifiedName
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+13.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 702
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getFirstChild with a call to cloneTree
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+14.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 702
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getFirstChild with a call to getLastSibling
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+15.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 702
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getFirstChild with a call to cloneNode
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+16.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isReturn with a call to wasEmptyNode
+	Suspiciousness Value: 0.230283
+	Rank: 16
+---------------------------------------------------
+17.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 702
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.Node::getFirstChild()Lcom/google/javascript/rhino/Node; is replaced with the used of local callNode
+	Suspiciousness Value: 0.230283
+	Rank: 21
+---------------------------------------------------
+18.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.Node::isReturn()Z is replaced with the used of local hasSideEffects
+	Suspiciousness Value: 0.230283
+	Rank: 21
+---------------------------------------------------
+19.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.Node::isReturn()Z is replaced with the used of default value false
+	Suspiciousness Value: 0.230283
+	Rank: 21
+---------------------------------------------------
+20.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 704
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.jscomp.NodeUtil::mayHaveSideEffects(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.230283
+	Rank: 21
+---------------------------------------------------
+21.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 704
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.jscomp.NodeUtil::mayHaveSideEffects(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z is replaced with the used of local hasSideEffects
+	Suspiciousness Value: 0.230283
+	Rank: 21
+---------------------------------------------------
+22.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local block is replaced by local fnNode to be used
+	Suspiciousness Value: 0.230283
+	Rank: 28
+---------------------------------------------------
+23.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: LocalNameMutator
+	Mutator Description: local stmt is replaced by local block to be used
+	Suspiciousness Value: 0.230283
+	Rank: 28
+---------------------------------------------------
+24.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local stmt is replaced by local fnNode to be used
+	Suspiciousness Value: 0.230283
+	Rank: 28
+---------------------------------------------------
+25.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: LocalNameMutator
+	Mutator Description: local stmt is replaced by local fnNode to be used
+	Suspiciousness Value: 0.230283
+	Rank: 28
+---------------------------------------------------
+26.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: LocalNameMutator
+	Mutator Description: local stmt is replaced by local callNode to be used
+	Suspiciousness Value: 0.230283
+	Rank: 28
+---------------------------------------------------
+27.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local stmt is replaced by local callNode to be used
+	Suspiciousness Value: 0.230283
+	Rank: 28
+---------------------------------------------------
+28.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local block is replaced by local callNode to be used
+	Suspiciousness Value: 0.230283
+	Rank: 28
+---------------------------------------------------
+29.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 702
+	Mutator Name: LocalToMethodCallMutator
+	Mutator Description: the access to the local block is replaced a call block.getFirstChild()
+	Suspiciousness Value: 0.230283
+	Rank: 30
+---------------------------------------------------
+30.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: LocalToMethodCallMutator
+	Mutator Description: the access to the local stmt is replaced a call stmt.getFirstChild()
+	Suspiciousness Value: 0.230283
+	Rank: 30
+---------------------------------------------------
+31.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 703
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.230283
+	Rank: 31
+---------------------------------------------------
+32.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.213201
+	Rank: 32
+---------------------------------------------------
+33.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to hasChildren with a call to isOptionalArg
+	Suspiciousness Value: 0.213201
+	Rank: 41
+---------------------------------------------------
+34.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to hasChildren with a call to hasMoreThanOneChild
+	Suspiciousness Value: 0.213201
+	Rank: 41
+---------------------------------------------------
+35.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to hasChildren with a call to isSyntheticBlock
+	Suspiciousness Value: 0.213201
+	Rank: 41
+---------------------------------------------------
+36.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to hasChildren with a call to isFromExterns
+	Suspiciousness Value: 0.213201
+	Rank: 41
+---------------------------------------------------
+37.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to hasChildren with a call to wasEmptyNode
+	Suspiciousness Value: 0.213201
+	Rank: 41
+---------------------------------------------------
+38.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to hasChildren with a call to isQualifiedName
+	Suspiciousness Value: 0.213201
+	Rank: 41
+---------------------------------------------------
+39.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to hasChildren with a call to isVarArgs
+	Suspiciousness Value: 0.213201
+	Rank: 41
+---------------------------------------------------
+40.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to hasChildren with a call to isUnscopedQualifiedName
+	Suspiciousness Value: 0.213201
+	Rank: 41
+---------------------------------------------------
+41.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to hasChildren with a call to isOnlyModifiesThisCall
+	Suspiciousness Value: 0.213201
+	Rank: 41
+---------------------------------------------------
+42.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.Node::hasChildren()Z is replaced with the used of default value false
+	Suspiciousness Value: 0.213201
+	Rank: 43
+---------------------------------------------------
+43.
+	Class Name: com.google.javascript.jscomp.FunctionInjector
+	Method Name: canInlineReferenceDirectly
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	Line Number: 700
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.Node::hasChildren()Z is replaced with the used of local hasSideEffects
+	Suspiciousness Value: 0.213201
+	Rank: 43
+---------------------------------------------------

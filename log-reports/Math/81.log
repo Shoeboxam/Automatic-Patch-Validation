@@ -1,0 +1,1544 @@
+PraPR Fix Report - Thu Apr 04 22:25:36 CDT 2019
+Number of Plausible Fixes: 154
+Total Number of Patches: 7634
+===================================================
+1.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.577350
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1537
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.577350
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: LocalNameMutator
+	Mutator Description: local start is replaced by local end to be used
+	Suspiciousness Value: 0.577350
+	Rank: 7
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: LocalNameMutator
+	Mutator Description: local end is replaced by local start to be used
+	Suspiciousness Value: 0.577350
+	Rank: 7
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: LocalNameMutator
+	Mutator Description: local end is replaced by local deflated to be used
+	Suspiciousness Value: 0.577350
+	Rank: 7
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: LocalNameMutator
+	Mutator Description: local start is replaced by local np to be used
+	Suspiciousness Value: 0.577350
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: LocalNameMutator
+	Mutator Description: local start is replaced by local nn to be used
+	Suspiciousness Value: 0.577350
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1537
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.577350
+	Rank: 9
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.577350
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local end is replaced by access to field pingPong
+	Suspiciousness Value: 0.577350
+	Rank: 12
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local end is replaced by access to field tType
+	Suspiciousness Value: 0.577350
+	Rank: 12
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local start is replaced by access to field pingPong
+	Suspiciousness Value: 0.577350
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1533
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field pingPong is replaced by access to local deflated
+	Suspiciousness Value: 0.577350
+	Rank: 15
+---------------------------------------------------
+14.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1529
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field tType is replaced by access to local end
+	Suspiciousness Value: 0.577350
+	Rank: 15
+---------------------------------------------------
+15.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1533
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field pingPong is replaced by access to local start
+	Suspiciousness Value: 0.577350
+	Rank: 15
+---------------------------------------------------
+16.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1533
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 2 with 3
+	Suspiciousness Value: 0.577350
+	Rank: 19
+---------------------------------------------------
+17.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1537
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 4 with 5
+	Suspiciousness Value: 0.577350
+	Rank: 19
+---------------------------------------------------
+18.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1543
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 2 with 3
+	Suspiciousness Value: 0.577350
+	Rank: 19
+---------------------------------------------------
+19.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1534
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 2 with 3
+	Suspiciousness Value: 0.577350
+	Rank: 19
+---------------------------------------------------
+20.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1535
+	Mutator Name: MathMutator
+	Mutator Description: Replaced integer subtraction with addition
+	Suspiciousness Value: 0.577350
+	Rank: 20
+---------------------------------------------------
+21.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1537
+	Mutator Name: RemoveConditionalMutator_ORDER_IF
+	Mutator Description: removed conditional - replaced comparison check with true
+	Suspiciousness Value: 0.577350
+	Rank: 21
+---------------------------------------------------
+22.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1533
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to pingPong with an access to tType
+	Suspiciousness Value: 0.577350
+	Rank: 22
+---------------------------------------------------
+23.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst2 to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+24.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local s to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+25.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst1 to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+26.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1512
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst3 to be used
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+27.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local a2 to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+28.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1512
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst2 to be used
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+29.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1512
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst1 to be used
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+30.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1512
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst1 to be used
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+31.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1512
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst2 to be used
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+32.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1511
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst3 to be used
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+33.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst2 to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+34.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1512
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst3 to be used
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+35.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst1 to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+36.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1511
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst2 to be used
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+37.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local b2 to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+38.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst3 to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+39.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local b1 to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+40.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local s to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+41.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local b1 to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+42.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst3 to be defined
+	Suspiciousness Value: 0.500000
+	Rank: 42
+---------------------------------------------------
+43.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1511
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+44.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1512
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+45.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1512
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+46.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+47.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1511
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field lowerSpectra
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+48.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field lowerSpectra
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+49.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1512
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field lowerSpectra
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+50.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+51.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field minPivot
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+52.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field splitTolerance
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+53.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1512
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field lowerSpectra
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+54.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field splitTolerance
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+55.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field minPivot
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+56.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field lowerSpectra
+	Suspiciousness Value: 0.500000
+	Rank: 56
+---------------------------------------------------
+57.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1480
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0.0 with 1.0
+	Suspiciousness Value: 0.500000
+	Rank: 57
+---------------------------------------------------
+58.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1484
+	Mutator Name: MathMutator
+	Mutator Description: Replaced integer subtraction with addition
+	Suspiciousness Value: 0.500000
+	Rank: 58
+---------------------------------------------------
+59.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1479
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dN with an access to minPivot
+	Suspiciousness Value: 0.500000
+	Rank: 61
+---------------------------------------------------
+60.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1479
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dN with an access to sigmaLow
+	Suspiciousness Value: 0.500000
+	Rank: 61
+---------------------------------------------------
+61.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1479
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dN with an access to splitTolerance
+	Suspiciousness Value: 0.500000
+	Rank: 61
+---------------------------------------------------
+62.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1479
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math.linear.EigenDecompositionImpl.dN is replaced by the call to org.apache.commons.math.linear.EigenDecompositionImpl::getDeterminant()D
+	Suspiciousness Value: 0.500000
+	Rank: 62
+---------------------------------------------------
+63.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1520
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.316228
+	Rank: 63
+---------------------------------------------------
+64.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst2 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+65.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local s is replaced by local cnst2 to be defined
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+66.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1523
+	Mutator Name: LocalNameMutator
+	Mutator Description: local s is replaced by local b1 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+67.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst3 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+68.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst1 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+69.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1517
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst1 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+70.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local s is replaced by local b2 to be defined
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+71.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local gam is replaced by local b1 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+72.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1520
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst2 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+73.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local gam is replaced by local b2 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+74.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1520
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst1 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+75.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1523
+	Mutator Name: LocalNameMutator
+	Mutator Description: local s is replaced by local a2 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+76.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1523
+	Mutator Name: LocalNameMutator
+	Mutator Description: local s is replaced by local b2 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+77.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1517
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst3 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+78.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst3 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+79.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst2 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+80.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local s is replaced by local a2 to be defined
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+81.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1517
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst2 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+82.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local gam is replaced by local a2 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+83.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local s is replaced by local b1 to be defined
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+84.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local s is replaced by local cnst3 to be defined
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+85.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1520
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst3 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+86.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst2 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+87.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst3 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+88.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalNameMutator
+	Mutator Description: local s is replaced by local cnst1 to be defined
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+89.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a2 is replaced by local cnst1 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+90.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b2 is replaced by local cnst1 to be used
+	Suspiciousness Value: 0.316228
+	Rank: 90
+---------------------------------------------------
+91.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1520
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.316228
+	Rank: 91
+---------------------------------------------------
+92.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local s is replaced by access to field lowerSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+93.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field lowerSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+94.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local gam is replaced by access to field TOLERANCE
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+95.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local gam is replaced by access to field splitTolerance
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+96.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field lowerSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+97.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1523
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local s is replaced by access to field TOLERANCE
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+98.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local s is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+99.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1520
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+100.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1523
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local s is replaced by access to field splitTolerance
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+101.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local s is replaced by access to field minPivot
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+102.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1520
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field lowerSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+103.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+104.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1517
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+105.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1517
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field lowerSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+106.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+107.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local gam is replaced by access to field TOLERANCE_2
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+108.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local s is replaced by access to field splitTolerance
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+109.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1523
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local s is replaced by access to field TOLERANCE_2
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+110.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local a2 is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.316228
+	Rank: 110
+---------------------------------------------------
+111.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1.0 with 2.0
+	Suspiciousness Value: 0.316228
+	Rank: 111
+---------------------------------------------------
+112.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1517
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double multiplication with division
+	Suspiciousness Value: 0.316228
+	Rank: 113
+---------------------------------------------------
+113.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1502
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double addition with subtraction
+	Suspiciousness Value: 0.316228
+	Rank: 113
+---------------------------------------------------
+114.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Math::sqrt(D)D is replaced with the used of local cnst1
+	Suspiciousness Value: 0.316228
+	Rank: 114
+---------------------------------------------------
+115.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to sqrt with a call to exp
+	Suspiciousness Value: 0.316228
+	Rank: 116
+---------------------------------------------------
+116.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1521
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to sqrt with a call to cos
+	Suspiciousness Value: 0.316228
+	Rank: 116
+---------------------------------------------------
+117.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.250000
+	Rank: 118
+---------------------------------------------------
+118.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1448
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.250000
+	Rank: 118
+---------------------------------------------------
+119.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.250000
+	Rank: 120
+---------------------------------------------------
+120.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1448
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.250000
+	Rank: 120
+---------------------------------------------------
+121.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: goodStep
+	Method Descriptor: (II)I
+	Line Number: 1071
+	Mutator Name: LocalNameMutator
+	Mutator Description: local start is replaced by local l to be used
+	Suspiciousness Value: 0.250000
+	Rank: 123
+---------------------------------------------------
+122.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: goodStep
+	Method Descriptor: (II)I
+	Line Number: 1071
+	Mutator Name: LocalNameMutator
+	Mutator Description: local start is replaced by local end to be used
+	Suspiciousness Value: 0.250000
+	Rank: 123
+---------------------------------------------------
+123.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: goodStep
+	Method Descriptor: (II)I
+	Line Number: 1071
+	Mutator Name: LocalNameMutator
+	Mutator Description: local start is replaced by local deflatedEnd to be used
+	Suspiciousness Value: 0.250000
+	Rank: 123
+---------------------------------------------------
+124.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: dqds
+	Method Descriptor: (II)V
+	Line Number: 1314
+	Mutator Name: ArgumentPropagationMutator
+	Mutator Description: replaced call to java/lang/Math::min with argument
+	Suspiciousness Value: 0.250000
+	Rank: 125
+---------------------------------------------------
+125.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: dqds
+	Method Descriptor: (II)V
+	Line Number: 1292
+	Mutator Name: ArgumentPropagationMutator
+	Mutator Description: replaced call to java/lang/Math::min with argument
+	Suspiciousness Value: 0.250000
+	Rank: 125
+---------------------------------------------------
+126.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: goodStep
+	Method Descriptor: (II)I
+	Line Number: 1071
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local start is replaced by access to field pingPong
+	Suspiciousness Value: 0.250000
+	Rank: 127
+---------------------------------------------------
+127.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: dqds
+	Method Descriptor: (II)V
+	Line Number: 1275
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local d is replaced by access to field upperSpectra
+	Suspiciousness Value: 0.250000
+	Rank: 127
+---------------------------------------------------
+128.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field dN2 is replaced by access to local cnst3
+	Suspiciousness Value: 0.250000
+	Rank: 134
+---------------------------------------------------
+129.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field dN2 is replaced by access to local cnst2
+	Suspiciousness Value: 0.250000
+	Rank: 134
+---------------------------------------------------
+130.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field dN2 is replaced by access to local cnst1
+	Suspiciousness Value: 0.250000
+	Rank: 134
+---------------------------------------------------
+131.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: dqds
+	Method Descriptor: (II)V
+	Line Number: 1292
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field dMin is replaced by access to local d
+	Suspiciousness Value: 0.250000
+	Rank: 134
+---------------------------------------------------
+132.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field dMin is replaced by access to local cnst1
+	Suspiciousness Value: 0.250000
+	Rank: 134
+---------------------------------------------------
+133.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field dMin is replaced by access to local cnst2
+	Suspiciousness Value: 0.250000
+	Rank: 134
+---------------------------------------------------
+134.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field dMin is replaced by access to local cnst3
+	Suspiciousness Value: 0.250000
+	Rank: 134
+---------------------------------------------------
+135.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1448
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.250000
+	Rank: 135
+---------------------------------------------------
+136.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1444
+	Mutator Name: MathMutator
+	Mutator Description: Replaced integer addition with subtraction
+	Suspiciousness Value: 0.250000
+	Rank: 136
+---------------------------------------------------
+137.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dMin with an access to lowerSpectra
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+138.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dMin with an access to sigmaLow
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+139.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dN2 with an access to sigma
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+140.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dMin with an access to minPivot
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+141.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dMin with an access to sigma
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+142.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dMin with an access to splitTolerance
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+143.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: dqds
+	Method Descriptor: (II)V
+	Line Number: 1292
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dMin with an access to upperSpectra
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+144.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dMin with an access to upperSpectra
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+145.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dN2 with an access to sigmaLow
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+146.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: dqds
+	Method Descriptor: (II)V
+	Line Number: 1314
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dMin with an access to upperSpectra
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+147.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dN2 with an access to splitTolerance
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+148.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dN2 with an access to lowerSpectra
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+149.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dN2 with an access to minPivot
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+150.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dN2 with an access to upperSpectra
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+151.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: dqds
+	Method Descriptor: (II)V
+	Line Number: 1314
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to dMin with an access to sigma
+	Suspiciousness Value: 0.250000
+	Rank: 151
+---------------------------------------------------
+152.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: dqds
+	Method Descriptor: (II)V
+	Line Number: 1292
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Math::min(DD)D is replaced with the used of local d
+	Suspiciousness Value: 0.250000
+	Rank: 152
+---------------------------------------------------
+153.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math.linear.EigenDecompositionImpl.dMin is replaced by the call to org.apache.commons.math.linear.EigenDecompositionImpl::getDeterminant()D
+	Suspiciousness Value: 0.250000
+	Rank: 154
+---------------------------------------------------
+154.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: computeShiftIncrement
+	Method Descriptor: (III)V
+	Line Number: 1526
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math.linear.EigenDecompositionImpl.dN2 is replaced by the call to org.apache.commons.math.linear.EigenDecompositionImpl::getDeterminant()D
+	Suspiciousness Value: 0.250000
+	Rank: 154
+---------------------------------------------------

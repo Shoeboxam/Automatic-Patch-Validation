@@ -1,0 +1,34 @@
+PraPR Fix Report - Thu Apr 04 12:49:26 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 18053
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.introspect.AnnotatedClass
+	Method Name: constructWithoutSuperTypes
+	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/cfg/MapperConfig;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+	Line Number: 201
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to isAnnotationProcessingEnabled()Z is guarded returning default value null
+	Suspiciousness Value: 0.105409
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.databind.introspect.AnnotatedClass
+	Method Name: constructWithoutSuperTypes
+	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/cfg/MapperConfig;)Lcom/fasterxml/jackson/databind/introspect/AnnotatedClass;
+	Line Number: 201
+	Mutator Name: NonVoidMethodCallGuardMutator
+	Mutator Description: the call to com.fasterxml.jackson.databind.cfg.MapperConfig::getAnnotationIntrospector()Lcom/fasterxml/jackson/databind/AnnotationIntrospector; is guarded using default value null
+	Suspiciousness Value: 0.105409
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.fasterxml.jackson.databind.introspect.AnnotatedClass
+	Method Name: _isAnnotationBundle
+	Method Descriptor: (Ljava/lang/annotation/Annotation;)Z
+	Line Number: 1165
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to isAnnotationBundle(Ljava/lang/annotation/Annotation;)Z is guarded returning default value false
+	Suspiciousness Value: 0.035760
+	Rank: 3
+---------------------------------------------------

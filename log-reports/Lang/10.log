@@ -1,0 +1,74 @@
+PraPR Fix Report - Thu Apr 04 22:23:42 CDT 2019
+Number of Plausible Fixes: 7
+Total Number of Patches: 919
+===================================================
+1.
+	Class Name: org.apache.commons.lang3.time.FastDateParser
+	Method Name: escapeRegex
+	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	Line Number: 310
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to append(Ljava/lang/String;)Ljava/lang/StringBuilder; with a call to append(C)Ljava/lang/StringBuilder;
+	Suspiciousness Value: 0.223607
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.lang3.time.FastDateParser
+	Method Name: escapeRegex
+	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	Line Number: 307
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.174078
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.lang3.time.FastDateParser
+	Method Name: escapeRegex
+	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	Line Number: 307
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isWhitespace with a call to isLowSurrogate
+	Suspiciousness Value: 0.174078
+	Rank: 6
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.lang3.time.FastDateParser
+	Method Name: escapeRegex
+	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	Line Number: 307
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isWhitespace with a call to isHighSurrogate
+	Suspiciousness Value: 0.174078
+	Rank: 6
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.lang3.time.FastDateParser
+	Method Name: escapeRegex
+	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	Line Number: 307
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isWhitespace with a call to isSurrogate
+	Suspiciousness Value: 0.174078
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.lang3.time.FastDateParser
+	Method Name: escapeRegex
+	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	Line Number: 307
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isWhitespace with a call to isTitleCase
+	Suspiciousness Value: 0.174078
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.lang3.time.FastDateParser
+	Method Name: escapeRegex
+	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	Line Number: 307
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Character::isWhitespace(C)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.174078
+	Rank: 7
+---------------------------------------------------

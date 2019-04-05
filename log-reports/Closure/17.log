@@ -1,0 +1,44 @@
+PraPR Fix Report - Thu Apr 04 16:44:26 CDT 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 44239
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder
+	Method Name: attachLiteralTypes
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 586
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.037503
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder
+	Method Name: attachLiteralTypes
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 586
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLendsName with a call to getSourceName
+	Suspiciousness Value: 0.037503
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder
+	Method Name: attachLiteralTypes
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 586
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLendsName with a call to toString
+	Suspiciousness Value: 0.037503
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder
+	Method Name: attachLiteralTypes
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 586
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.JSDocInfo::getLendsName()Ljava/lang/String; is replaced with the used of field sourceName
+	Suspiciousness Value: 0.037503
+	Rank: 4
+---------------------------------------------------

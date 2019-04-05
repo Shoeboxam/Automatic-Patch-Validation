@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 13:00:08 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 96
+===================================================
+1.
+	Class Name: org.jfree.chart.renderer.GrayPaintScale
+	Method Name: getPaint
+	Method Descriptor: (D)Ljava/awt/Paint;
+	Line Number: 126
+	Mutator Name: LocalNameMutator
+	Mutator Description: local value is replaced by local v to be used
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.jfree.chart.renderer.GrayPaintScale
+	Method Name: getPaint
+	Method Descriptor: (D)Ljava/awt/Paint;
+	Line Number: 125
+	Mutator Name: LocalNameMutator
+	Mutator Description: local v is replaced by local value to be defined
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------

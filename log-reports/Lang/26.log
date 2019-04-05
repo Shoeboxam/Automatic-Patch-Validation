@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:23:48 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 1066
+===================================================
+1.
+	Class Name: org.apache.commons.lang3.time.FastDateFormat
+	Method Name: format
+	Method Descriptor: (Ljava/util/Date;)Ljava/lang/String;
+	Line Number: 820
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to <init>(Ljava/util/TimeZone;)V with a call to <init>(Ljava/util/TimeZone;Ljava/util/Locale;)V
+	Suspiciousness Value: 0.179605
+	Rank: 1
+---------------------------------------------------

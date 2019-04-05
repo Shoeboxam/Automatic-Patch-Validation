@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 22:27:26 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 2716
+===================================================
+1.
+	Class Name: org.mockito.internal.matchers.Same
+	Method Name: describeTo
+	Method Descriptor: (Lorg/hamcrest/Description;)V
+	Line Number: 29
+	Mutator Name: NonVoidMethodCallGuardMutator
+	Mutator Description: the call to java.lang.Object::toString()Ljava/lang/String; is guarded using default value null
+	Suspiciousness Value: 0.447214
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.mockito.internal.matchers.Same
+	Method Name: describeTo
+	Method Descriptor: (Lorg/hamcrest/Description;)V
+	Line Number: 29
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to toString()Ljava/lang/String; is guarded returning enclosing method
+	Suspiciousness Value: 0.447214
+	Rank: 2
+---------------------------------------------------

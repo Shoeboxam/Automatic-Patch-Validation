@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:24:42 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 145
+===================================================
+1.
+	Class Name: org.apache.commons.math3.genetics.ListPopulation
+	Method Name: iterator
+	Method Descriptor: ()Ljava/util/Iterator;
+	Line Number: 209
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math3.genetics.ListPopulation.chromosomes is replaced by the call to org.apache.commons.math3.genetics.ListPopulation::getChromosomes()Ljava/util/List;
+	Suspiciousness Value: 0.707107
+	Rank: 1
+---------------------------------------------------

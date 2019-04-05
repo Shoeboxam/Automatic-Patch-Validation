@@ -1,0 +1,294 @@
+PraPR Fix Report - Thu Apr 04 22:25:35 CDT 2019
+Number of Plausible Fixes: 29
+Total Number of Patches: 9983
+===================================================
+1.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1136
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1137
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1137
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1136
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1135
+	Mutator Name: MathMutator
+	Mutator Description: Replaced integer multiplication with division
+	Suspiciousness Value: 1.000000
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1139
+	Mutator Name: LocalNameMutator
+	Mutator Description: local k is replaced by local j to be used
+	Suspiciousness Value: 1.000000
+	Rank: 13
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1137
+	Mutator Name: LocalNameMutator
+	Mutator Description: local k is replaced by local j to be used
+	Suspiciousness Value: 1.000000
+	Rank: 13
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1137
+	Mutator Name: LocalNameMutator
+	Mutator Description: local k is replaced by local n to be used
+	Suspiciousness Value: 1.000000
+	Rank: 13
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1139
+	Mutator Name: LocalNameMutator
+	Mutator Description: local k is replaced by local n to be used
+	Suspiciousness Value: 1.000000
+	Rank: 13
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1139
+	Mutator Name: LocalNameMutator
+	Mutator Description: local i is replaced by local j to be used
+	Suspiciousness Value: 1.000000
+	Rank: 13
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1136
+	Mutator Name: LocalNameMutator
+	Mutator Description: local i is replaced by local j to be used
+	Suspiciousness Value: 1.000000
+	Rank: 13
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1139
+	Mutator Name: LocalNameMutator
+	Mutator Description: local i is replaced by local n to be used
+	Suspiciousness Value: 1.000000
+	Rank: 13
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1136
+	Mutator Name: LocalNameMutator
+	Mutator Description: local j is replaced by local i to be used
+	Suspiciousness Value: 1.000000
+	Rank: 13
+---------------------------------------------------
+14.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1136
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 1.000000
+	Rank: 14
+---------------------------------------------------
+15.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1135
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local n is replaced by access to field tType
+	Suspiciousness Value: 1.000000
+	Rank: 18
+---------------------------------------------------
+16.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1135
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local n is replaced by access to field pingPong
+	Suspiciousness Value: 1.000000
+	Rank: 18
+---------------------------------------------------
+17.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1136
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local j is replaced by access to field pingPong
+	Suspiciousness Value: 1.000000
+	Rank: 18
+---------------------------------------------------
+18.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1136
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local j is replaced by access to field tType
+	Suspiciousness Value: 1.000000
+	Rank: 18
+---------------------------------------------------
+19.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1133
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.242536
+	Rank: 19
+---------------------------------------------------
+20.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: processGeneralBlock
+	Method Descriptor: (I)V
+	Line Number: 840
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math.linear.EigenDecompositionImpl::flipIfWarranted(II)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.242536
+	Rank: 21
+---------------------------------------------------
+21.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: eigenvaluesRange
+	Method Descriptor: (II)[D
+	Line Number: 1171
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Math::log(D)D is replaced with the used of local lower
+	Suspiciousness Value: 0.242536
+	Rank: 21
+---------------------------------------------------
+22.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: eigenvaluesRange
+	Method Descriptor: (II)[D
+	Line Number: 1203
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double multiplication with division
+	Suspiciousness Value: 0.242536
+	Rank: 23
+---------------------------------------------------
+23.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1133
+	Mutator Name: MathMutator
+	Mutator Description: Replaced integer multiplication with division
+	Suspiciousness Value: 0.242536
+	Rank: 23
+---------------------------------------------------
+24.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1133
+	Mutator Name: LocalNameMutator
+	Mutator Description: local n is replaced by local step to be used
+	Suspiciousness Value: 0.242536
+	Rank: 24
+---------------------------------------------------
+25.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: findEigenvalues
+	Method Descriptor: ()V
+	Line Number: 649
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.242536
+	Rank: 25
+---------------------------------------------------
+26.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: eigenvaluesRange
+	Method Descriptor: (II)[D
+	Line Number: 1203
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to max with a call to pow
+	Suspiciousness Value: 0.242536
+	Rank: 27
+---------------------------------------------------
+27.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: eigenvaluesRange
+	Method Descriptor: (II)[D
+	Line Number: 1168
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to max with a call to pow
+	Suspiciousness Value: 0.242536
+	Rank: 27
+---------------------------------------------------
+28.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: findEigenvalues
+	Method Descriptor: ()V
+	Line Number: 647
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local range is replaced by access to field main
+	Suspiciousness Value: 0.242536
+	Rank: 28
+---------------------------------------------------
+29.
+	Class Name: org.apache.commons.math.linear.EigenDecompositionImpl
+	Method Name: flipIfWarranted
+	Method Descriptor: (II)Z
+	Line Number: 1133
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field pingPong is replaced by access to local step
+	Suspiciousness Value: 0.242536
+	Rank: 29
+---------------------------------------------------

@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:23:50 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 91
+===================================================
+1.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: containsAny
+	Method Descriptor: (Ljava/lang/CharSequence;[C)Z
+	Line Number: 1446
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.577350
+	Rank: 1
+---------------------------------------------------

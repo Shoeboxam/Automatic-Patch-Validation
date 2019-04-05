@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 13:00:01 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 6480
+===================================================
+1.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	Line Number: 1219
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to org/jfree/chart/plot/Plot::draw
+	Suspiciousness Value: 0.125000
+	Rank: 1
+---------------------------------------------------

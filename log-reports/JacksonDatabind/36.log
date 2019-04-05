@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:53:47 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 12191
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.ser.std.NumberSerializer
+	Method Name: acceptJsonFormatVisitor
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper;Lcom/fasterxml/jackson/databind/JavaType;)V
+	Line Number: 81
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to BIG_INTEGER with an access to BIG_DECIMAL
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------

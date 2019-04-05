@@ -1,0 +1,314 @@
+PraPR Fix Report - Thu Apr 04 12:37:34 CDT 2019
+Number of Plausible Fixes: 31
+Total Number of Patches: 1887
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 549
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to com/fasterxml/jackson/core/json/UTF8JsonGenerator::writeRaw
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 546
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to java/lang/String::getChars
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: com.fasterxml.jackson.core.base.GeneratorBase
+	Method Name: writeRawValue
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 299
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to com/fasterxml/jackson/core/base/GeneratorBase::writeRaw
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 549
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to writeRaw with a call to writeString
+	Suspiciousness Value: 1.000000
+	Rank: 8
+---------------------------------------------------
+5.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 549
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to writeRaw with a call to _writeStringSegmentASCII2
+	Suspiciousness Value: 1.000000
+	Rank: 8
+---------------------------------------------------
+6.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 549
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to writeRaw with a call to _writeStringSegment2
+	Suspiciousness Value: 1.000000
+	Rank: 8
+---------------------------------------------------
+7.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 549
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to writeRaw with a call to _writeStringSegment
+	Suspiciousness Value: 1.000000
+	Rank: 8
+---------------------------------------------------
+8.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 549
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to writeRaw with a call to _writeStringSegments
+	Suspiciousness Value: 1.000000
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 542
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 1.000000
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 542
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 1.000000
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 549
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to writeRaw([CII)V with a call to writeRaw(C)V
+	Suspiciousness Value: 1.000000
+	Rank: 12
+---------------------------------------------------
+12.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 549
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to writeRaw([CII)V with a call to writeRaw(Ljava/lang/String;)V
+	Suspiciousness Value: 1.000000
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 542
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local len is replaced by access to field _outputTail
+	Suspiciousness Value: 1.000000
+	Rank: 16
+---------------------------------------------------
+14.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 545
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local blen is replaced by access to field _outputMaxContiguous
+	Suspiciousness Value: 1.000000
+	Rank: 16
+---------------------------------------------------
+15.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 545
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local blen is replaced by access to field MAX_BYTES_TO_BUFFER
+	Suspiciousness Value: 1.000000
+	Rank: 16
+---------------------------------------------------
+16.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 549
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local len2 is replaced by access to field _outputTail
+	Suspiciousness Value: 1.000000
+	Rank: 16
+---------------------------------------------------
+17.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: writeRaw
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 545
+	Mutator Name: LocalNameMutator
+	Mutator Description: local blen is replaced by local offset to be used
+	Suspiciousness Value: 1.000000
+	Rank: 18
+---------------------------------------------------
+18.
+	Class Name: com.fasterxml.jackson.core.base.GeneratorBase
+	Method Name: writeRawValue
+	Method Descriptor: (Ljava/lang/String;II)V
+	Line Number: 299
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len is replaced by local offset to be used
+	Suspiciousness Value: 1.000000
+	Rank: 18
+---------------------------------------------------
+19.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1894
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.577350
+	Rank: 20
+---------------------------------------------------
+20.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1893
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.577350
+	Rank: 20
+---------------------------------------------------
+21.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1894
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.577350
+	Rank: 22
+---------------------------------------------------
+22.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1893
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.577350
+	Rank: 22
+---------------------------------------------------
+23.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1893
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local ch is replaced by access to field _outputTail
+	Suspiciousness Value: 0.577350
+	Rank: 27
+---------------------------------------------------
+24.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1893
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local ch is replaced by access to field _outputEnd
+	Suspiciousness Value: 0.577350
+	Rank: 27
+---------------------------------------------------
+25.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1893
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local ch is replaced by access to field MAX_BYTES_TO_BUFFER
+	Suspiciousness Value: 0.577350
+	Rank: 27
+---------------------------------------------------
+26.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1893
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local ch is replaced by access to field _outputMaxContiguous
+	Suspiciousness Value: 0.577350
+	Rank: 27
+---------------------------------------------------
+27.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1893
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local ch is replaced by access to field _charBufferLength
+	Suspiciousness Value: 0.577350
+	Rank: 27
+---------------------------------------------------
+28.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1893
+	Mutator Name: LocalNameMutator
+	Mutator Description: local ch is replaced by local inputLen to be used
+	Suspiciousness Value: 0.577350
+	Rank: 29
+---------------------------------------------------
+29.
+	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
+	Method Name: _outputRawMultiByteChar
+	Method Descriptor: (I[CII)I
+	Line Number: 1893
+	Mutator Name: LocalNameMutator
+	Mutator Description: local ch is replaced by local inputOffset to be used
+	Suspiciousness Value: 0.577350
+	Rank: 29
+---------------------------------------------------
+30.
+	Class Name: com.fasterxml.jackson.core.util.BufferRecycler
+	Method Name: allocCharBuffer
+	Method Descriptor: (II)[C
+	Line Number: 118
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to charBufferLength with a call to byteBufferLength
+	Suspiciousness Value: 0.059655
+	Rank: 30
+---------------------------------------------------
+31.
+	Class Name: com.fasterxml.jackson.core.util.BufferRecycler
+	Method Name: charBufferLength
+	Method Descriptor: (I)I
+	Line Number: 146
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to CHAR_BUFFER_LENGTHS with an access to BYTE_BUFFER_LENGTHS
+	Suspiciousness Value: 0.059655
+	Rank: 31
+---------------------------------------------------

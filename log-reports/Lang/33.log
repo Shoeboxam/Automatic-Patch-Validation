@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:23:51 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 20
+===================================================
+1.
+	Class Name: org.apache.commons.lang3.ClassUtils
+	Method Name: toClass
+	Method Descriptor: ([Ljava/lang/Object;)[Ljava/lang/Class;
+	Line Number: 910
+	Mutator Name: NonVoidMethodCallGuardMutator
+	Mutator Description: the call to java.lang.Object::getClass()Ljava/lang/Class; is guarded using default value null
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------

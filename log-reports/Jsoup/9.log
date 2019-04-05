@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:59:54 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 5089
+===================================================
+1.
+	Class Name: org.jsoup.nodes.Node
+	Method Name: removeAttr
+	Method Descriptor: (Ljava/lang/String;)Lorg/jsoup/nodes/Node;
+	Line Number: 128
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to removeIgnoreCase with a call to remove
+	Suspiciousness Value: 0.707107
+	Rank: 1
+---------------------------------------------------

@@ -1,0 +1,124 @@
+PraPR Fix Report - Thu Apr 04 15:43:02 CDT 2019
+Number of Plausible Fixes: 12
+Total Number of Patches: 23553
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.MinimizeExitPoints
+	Method Name: tryMinimizeExits
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V
+	Line Number: 143
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to com/google/javascript/jscomp/MinimizeExitPoints::tryMinimizeExits
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.MinimizeExitPoints
+	Method Name: tryMinimizeExits
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V
+	Line Number: 143
+	Mutator Name: LocalNameMutator
+	Mutator Description: local finallyBlock is replaced by local tryBlock to be used
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.MinimizeExitPoints
+	Method Name: tryMinimizeExits
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V
+	Line Number: 143
+	Mutator Name: LocalNameMutator
+	Mutator Description: local finallyBlock is replaced by local allCatchNodes to be used
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.MinimizeExitPoints
+	Method Name: tryMinimizeExits
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V
+	Line Number: 142
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to getFirstChild
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.jscomp.MinimizeExitPoints
+	Method Name: tryMinimizeExits
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V
+	Line Number: 141
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.577350
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.jscomp.MinimizeExitPoints
+	Method Name: tryMinimizeExits
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V
+	Line Number: 141
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.577350
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.jscomp.MinimizeExitPoints
+	Method Name: tryMinimizeExits
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V
+	Line Number: 141
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.jscomp.NodeUtil::hasFinally(Lcom/google/javascript/rhino/Node;)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.577350
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1451
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field next is replaced by access to local n
+	Suspiciousness Value: 0.023011
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1451
+	Mutator Name: LocalNameMutator
+	Mutator Description: local n is replaced by local n2 to be used
+	Suspiciousness Value: 0.023011
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1451
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local n is replaced by access to field last
+	Suspiciousness Value: 0.023011
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1456
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.023008
+	Rank: 11
+---------------------------------------------------
+12.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1456
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.023008
+	Rank: 12
+---------------------------------------------------

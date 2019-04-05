@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 12:59:22 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 5407
+===================================================
+1.
+	Class Name: org.jsoup.safety.Whitelist
+	Method Name: addProtocols
+	Method Descriptor: (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/jsoup/safety/Whitelist;
+	Line Number: 295
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to get with a call to remove
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.jsoup.safety.Whitelist
+	Method Name: addProtocols
+	Method Descriptor: (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/jsoup/safety/Whitelist;
+	Line Number: 301
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to get with a call to remove
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------

@@ -1,0 +1,44 @@
+PraPR Fix Report - Thu Apr 04 22:02:03 CDT 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 19000
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName
+	Method Name: replace
+	Method Descriptor: ()V
+	Line Number: 790
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.408248
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName
+	Method Name: replace
+	Method Descriptor: ()V
+	Line Number: 789
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to indexOf(I)I with a call to indexOf(Ljava/lang/String;I)I
+	Suspiciousness Value: 0.408248
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName
+	Method Name: replace
+	Method Descriptor: ()V
+	Line Number: 789
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 46 with 47
+	Suspiciousness Value: 0.408248
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName
+	Method Name: replace
+	Method Descriptor: ()V
+	Line Number: 789
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to indexOf with a call to lastIndexOf
+	Suspiciousness Value: 0.408248
+	Rank: 4
+---------------------------------------------------

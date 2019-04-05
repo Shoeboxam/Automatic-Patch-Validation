@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:24:50 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 3283
+===================================================
+1.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexTableau
+	Method Name: createTableau
+	Method Descriptor: (Z)Lorg/apache/commons/math/linear/RealMatrix;
+	Line Number: 195
+	Mutator Name: LocalNameMutator
+	Mutator Description: local width is replaced by local height to be used
+	Suspiciousness Value: 0.192450
+	Rank: 1
+---------------------------------------------------

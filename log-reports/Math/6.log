@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 22:25:06 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 317
+===================================================
+1.
+	Class Name: org.apache.commons.math3.optim.BaseOptimizer
+	Method Name: getIterations
+	Method Descriptor: ()I
+	Line Number: 93
+	Mutator Name: ReturnValsMutator
+	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math3.optim.BaseOptimizer
+	Method Name: getIterations
+	Method Descriptor: ()I
+	Line Number: 93
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to iterations with an access to evaluations
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------

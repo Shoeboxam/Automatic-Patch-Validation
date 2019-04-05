@@ -1,0 +1,74 @@
+PraPR Fix Report - Thu Apr 04 20:47:19 CDT 2019
+Number of Plausible Fixes: 7
+Total Number of Patches: 12531
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByOneTypeOfResultVisitor
+	Method Name: caseObjectType
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/ObjectType;)Lcom/google/javascript/rhino/jstype/JSType;
+	Line Number: 611
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::equals(Ljava/lang/Object;)Z is replaced with the used of field resultEqualsValue
+	Suspiciousness Value: 0.342997
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.rhino.testing.Asserts
+	Method Name: assertTypeEquals
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	Line Number: 96
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to com/google/javascript/rhino/testing/Asserts::assertTypeEquals
+	Suspiciousness Value: 0.079057
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.rhino.testing.Asserts
+	Method Name: assertTypeEquals
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	Line Number: 96
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b is replaced by local a to be used
+	Suspiciousness Value: 0.079057
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.rhino.testing.Asserts
+	Method Name: assertTypeEquals
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	Line Number: 96
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a is replaced by local b to be used
+	Suspiciousness Value: 0.079057
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.rhino.testing.Asserts
+	Method Name: assertTypeEquals
+	Method Descriptor: (Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	Line Number: 103
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.074744
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.rhino.testing.BaseJSTypeTestCase
+	Method Name: initTypes
+	Method Descriptor: ()V
+	Line Number: 181
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.jstype.JSTypeRegistry::getNativeType(Lcom/google/javascript/rhino/jstype/JSTypeNative;)Lcom/google/javascript/rhino/jstype/JSType; is replaced with the used of field ALL_TYPE
+	Suspiciousness Value: 0.027395
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.rhino.testing.BaseJSTypeTestCase
+	Method Name: initTypes
+	Method Descriptor: ()V
+	Line Number: 181
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to OBJECT_NUMBER_STRING_BOOLEAN with an access to CHECKED_UNKNOWN_TYPE
+	Suspiciousness Value: 0.027395
+	Rank: 7
+---------------------------------------------------

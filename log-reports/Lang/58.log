@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:24:00 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 367
+===================================================
+1.
+	Class Name: org.apache.commons.lang.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	Line Number: 452
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.577350
+	Rank: 1
+---------------------------------------------------

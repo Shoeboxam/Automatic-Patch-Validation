@@ -1,0 +1,44 @@
+PraPR Fix Report - Thu Apr 04 13:04:53 CDT 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 22355
+===================================================
+1.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1434
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field next is replaced by access to local n
+	Suspiciousness Value: 0.046355
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1434
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local n is replaced by access to field last
+	Suspiciousness Value: 0.046355
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1439
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.046349
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1439
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.046349
+	Rank: 4
+---------------------------------------------------

@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:59:27 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 5005
+===================================================
+1.
+	Class Name: org.jsoup.nodes.Element
+	Method Name: hasClass
+	Method Descriptor: (Ljava/lang/String;)Z
+	Line Number: 1092
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to get with a call to getIgnoreCase
+	Suspiciousness Value: 0.262613
+	Rank: 1
+---------------------------------------------------

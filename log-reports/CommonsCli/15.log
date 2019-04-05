@@ -1,0 +1,54 @@
+PraPR Fix Report - Thu Apr 04 12:36:19 CDT 2019
+Number of Plausible Fixes: 5
+Total Number of Patches: 1050
+===================================================
+1.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: flatten
+	Method Descriptor: (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String;
+	Line Number: 134
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to processOptionToken with a call to burstToken
+	Suspiciousness Value: 0.128037
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: flatten
+	Method Descriptor: (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String;
+	Line Number: 132
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 2 with 3
+	Suspiciousness Value: 0.120386
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: flatten
+	Method Descriptor: (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String;
+	Line Number: 132
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.120386
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: flatten
+	Method Descriptor: (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String;
+	Line Number: 132
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to length with a call to hashCode
+	Suspiciousness Value: 0.120386
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: flatten
+	Method Descriptor: (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String;
+	Line Number: 132
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::length()I is replaced with the used of default value 0
+	Suspiciousness Value: 0.120386
+	Rank: 5
+---------------------------------------------------

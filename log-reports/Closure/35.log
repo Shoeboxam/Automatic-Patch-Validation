@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 18:18:15 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 47373
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.TypeInference
+	Method Name: inferPropertyTypesToMatchConstraint
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	Line Number: 1122
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to restrictByNotNullOrUndefined with a call to collapseUnion
+	Suspiciousness Value: 0.288675
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.TypeInference
+	Method Name: traverse
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/FlowScope;)Lcom/google/javascript/jscomp/FlowScope;
+	Line Number: 371
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to traverseChildren with a call to traverseReturn
+	Suspiciousness Value: 0.020455
+	Rank: 2
+---------------------------------------------------

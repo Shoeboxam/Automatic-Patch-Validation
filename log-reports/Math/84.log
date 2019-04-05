@@ -1,0 +1,34 @@
+PraPR Fix Report - Thu Apr 04 22:25:38 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 571
+===================================================
+1.
+	Class Name: org.apache.commons.math.optimization.direct.MultiDirectional
+	Method Name: iterateSimplex
+	Method Descriptor: (Ljava/util/Comparator;)V
+	Line Number: 90
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.707107
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.optimization.direct.MultiDirectional
+	Method Name: iterateSimplex
+	Method Descriptor: (Ljava/util/Comparator;)V
+	Line Number: 90
+	Mutator Name: RemoveConditionalMutator_ORDER_IF
+	Mutator Description: removed conditional - replaced comparison check with true
+	Suspiciousness Value: 0.707107
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.optimization.direct.MultiDirectional
+	Method Name: iterateSimplex
+	Method Descriptor: (Ljava/util/Comparator;)V
+	Line Number: 90
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.707107
+	Rank: 3
+---------------------------------------------------

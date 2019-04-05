@@ -1,0 +1,34 @@
+PraPR Fix Report - Thu Apr 04 22:28:05 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 258
+===================================================
+1.
+	Class Name: org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool
+	Method Name: toStringEquals
+	Method Descriptor: (Lorg/hamcrest/Matcher;Ljava/lang/Object;)Z
+	Line Number: 48
+	Mutator Name: NonVoidMethodCallGuardMutator
+	Mutator Description: the call to java.lang.Object::toString()Ljava/lang/String; is guarded using default value null
+	Suspiciousness Value: 0.258199
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool
+	Method Name: toStringEquals
+	Method Descriptor: (Lorg/hamcrest/Matcher;Ljava/lang/Object;)Z
+	Line Number: 48
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to toString()Ljava/lang/String; is guarded returning default value false
+	Suspiciousness Value: 0.258199
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.mockito.internal.matchers.Equals
+	Method Name: matches
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 20
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field wanted is replaced by access to local actual
+	Suspiciousness Value: 0.107521
+	Rank: 3
+---------------------------------------------------

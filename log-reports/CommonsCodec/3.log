@@ -1,0 +1,114 @@
+PraPR Fix Report - Thu Apr 04 12:36:21 CDT 2019
+Number of Plausible Fixes: 11
+Total Number of Patches: 134
+===================================================
+1.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: <init>
+	Method Descriptor: (I[BZB)V
+	Line Number: 285
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to HEX_DECODE_TABLE with an access to ENCODE_TABLE
+	Suspiciousness Value: 0.577350
+	Rank: 3
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: <init>
+	Method Descriptor: (I[BZB)V
+	Line Number: 285
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to HEX_DECODE_TABLE with an access to HEX_ENCODE_TABLE
+	Suspiciousness Value: 0.577350
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: <init>
+	Method Descriptor: (I[BZB)V
+	Line Number: 285
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to HEX_DECODE_TABLE with an access to CHUNK_SEPARATOR
+	Suspiciousness Value: 0.577350
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 537
+	Mutator Name: BooleanFalseReturnValsMutator
+	Mutator Description: replaced boolean return with false for org/apache/commons/codec/binary/Base32::isInAlphabet
+	Suspiciousness Value: 0.179605
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 537
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to decodeTable with an access to encodeTable
+	Suspiciousness Value: 0.179605
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 537
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.179605
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: <init>
+	Method Descriptor: (I[BZB)V
+	Line Number: 308
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.codec.binary.Base32::isInAlphabet(B)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.179605
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 537
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.179605
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: <init>
+	Method Descriptor: (I[BZB)V
+	Line Number: 308
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.179605
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 537
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.179605
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.codec.binary.Base32
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 537
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.179605
+	Rank: 11
+---------------------------------------------------

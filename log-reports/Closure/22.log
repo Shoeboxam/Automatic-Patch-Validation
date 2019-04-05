@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 17:18:12 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 27226
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: LocalNameMutator
+	Mutator Description: local an is replaced by local gramps to be used
+	Suspiciousness Value: 0.577350
+	Rank: 1
+---------------------------------------------------

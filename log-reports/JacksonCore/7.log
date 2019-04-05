@@ -1,0 +1,324 @@
+PraPR Fix Report - Thu Apr 04 12:37:36 CDT 2019
+Number of Plausible Fixes: 32
+Total Number of Patches: 2948
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer$TableInfo
+	Method Name: createInitial
+	Method Descriptor: (I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;
+	Line Number: 1262
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to <init>(III[I[Ljava/lang/String;II)V with a call to <init>(Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;)V
+	Suspiciousness Value: 0.051503
+	Rank: 6
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: createRoot
+	Method Descriptor: ()Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+	Line Number: 291
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to createRoot(I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer; with a call to createRoot()Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+	Suspiciousness Value: 0.051503
+	Rank: 6
+---------------------------------------------------
+3.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: createRoot
+	Method Descriptor: ()Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
+	Line Number: 226
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to createRoot(I)Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer; with a call to createRoot()Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
+	Suspiciousness Value: 0.051503
+	Rank: 6
+---------------------------------------------------
+4.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: createRoot
+	Method Descriptor: (I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+	Line Number: 299
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to <init>(IZIZ)V with a call to <init>(Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;ZIZLcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;)V
+	Suspiciousness Value: 0.051503
+	Rank: 6
+---------------------------------------------------
+5.
+	Class Name: com.fasterxml.jackson.core.JsonFactory
+	Method Name: <init>
+	Method Descriptor: ()V
+	Line Number: 282
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to <init>(Lcom/fasterxml/jackson/core/ObjectCodec;)V with a call to <init>(Lcom/fasterxml/jackson/core/JsonFactory;Lcom/fasterxml/jackson/core/ObjectCodec;)V
+	Suspiciousness Value: 0.051503
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: com.fasterxml.jackson.core.JsonFactory
+	Method Name: <init>
+	Method Descriptor: ()V
+	Line Number: 282
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to <init>(Lcom/fasterxml/jackson/core/ObjectCodec;)V with a call to <init>()V
+	Suspiciousness Value: 0.051503
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 279
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+8.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 282
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+9.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 272
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+10.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 271
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+11.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 274
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+12.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 273
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+13.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 278
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+14.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 277
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+15.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 266
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+16.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 268
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+17.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 269
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local parent to be used
+	Suspiciousness Value: 0.051503
+	Rank: 17
+---------------------------------------------------
+18.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 277
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._sizeThreshold is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+19.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 273
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._size is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+20.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 274
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._hashSeed is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+21.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 268
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._flags is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::initTables(I)V
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+22.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 278
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._indexMask is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+23.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 279
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._longestCollisionList is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+24.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (IZIZ)V
+	Line Number: 226
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._failOnDoS is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::nukeSymbols(Z)V
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+25.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 268
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._flags is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+26.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: createRoot
+	Method Descriptor: (I)Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
+	Line Number: 230
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.sBootstrapSymbolTable is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::createRoot()Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+27.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (IZIZ)V
+	Line Number: 225
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._intern is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::nukeSymbols(Z)V
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+28.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 266
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._parent is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::mergeChild(Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;)V
+	Suspiciousness Value: 0.051503
+	Rank: 28
+---------------------------------------------------
+29.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (IZIZ)V
+	Line Number: 223
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field _parent is replaced by access to local this
+	Suspiciousness Value: 0.051503
+	Rank: 30
+---------------------------------------------------
+30.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: <init>
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	Line Number: 266
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field _parent is replaced by access to local this
+	Suspiciousness Value: 0.051503
+	Rank: 30
+---------------------------------------------------
+31.
+	Class Name: com.fasterxml.jackson.core.JsonFactory$Feature
+	Method Name: getMask
+	Method Descriptor: ()I
+	Line Number: 142
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to ordinal with a call to getMask
+	Suspiciousness Value: 0.051503
+	Rank: 31
+---------------------------------------------------
+32.
+	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
+	Method Name: makeOrphan
+	Method Descriptor: (I)Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
+	Line Number: 320
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local this is replaced by access to field _parent
+	Suspiciousness Value: 0.051503
+	Rank: 32
+---------------------------------------------------

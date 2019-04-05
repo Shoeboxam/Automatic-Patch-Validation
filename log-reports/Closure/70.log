@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 20:52:31 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 27857
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.TypedScopeCreator$LocalScopeBuilder
+	Method Name: declareArguments
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)V
+	Line Number: 1744
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.050151
+	Rank: 1
+---------------------------------------------------

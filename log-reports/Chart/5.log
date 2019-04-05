@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 13:00:18 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 244
+===================================================
+1.
+	Class Name: org.jfree.data.xy.XYSeries
+	Method Name: addOrUpdate
+	Method Descriptor: (DD)Lorg/jfree/data/xy/XYDataItem;
+	Line Number: 527
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x is replaced by local y to be used
+	Suspiciousness Value: 0.707107
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.jfree.data.xy.XYSeries
+	Method Name: addOrUpdate
+	Method Descriptor: (Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;
+	Line Number: 563
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.577350
+	Rank: 2
+---------------------------------------------------

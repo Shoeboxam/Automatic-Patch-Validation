@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:58:31 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 7655
+===================================================
+1.
+	Class Name: org.jsoup.nodes.Entities
+	Method Name: escape
+	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Lorg/jsoup/nodes/Document$OutputSettings;ZZZ)V
+	Line Number: 115
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------

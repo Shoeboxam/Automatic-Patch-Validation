@@ -1,0 +1,74 @@
+PraPR Fix Report - Thu Apr 04 22:25:44 CDT 2019
+Number of Plausible Fixes: 7
+Total Number of Patches: 926
+===================================================
+1.
+	Class Name: org.apache.commons.math.distribution.FDistributionImpl
+	Method Name: getInitialDomain
+	Method Descriptor: (D)D
+	Line Number: 148
+	Mutator Name: PrimitiveReturnsMutator
+	Mutator Description: replaced double return with 0.0d for org/apache/commons/math/distribution/FDistributionImpl::getInitialDomain
+	Suspiciousness Value: 0.577350
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.distribution.FDistributionImpl
+	Method Name: getInitialDomain
+	Method Descriptor: (D)D
+	Line Number: 147
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double subtraction with addition
+	Suspiciousness Value: 0.577350
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.distribution.FDistributionImpl
+	Method Name: getInitialDomain
+	Method Descriptor: (D)D
+	Line Number: 148
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local d is replaced by access to field denominatorDegreesOfFreedom
+	Suspiciousness Value: 0.577350
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.distribution.FDistributionImpl
+	Method Name: getInitialDomain
+	Method Descriptor: (D)D
+	Line Number: 148
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local d is replaced by access to field numeratorDegreesOfFreedom
+	Suspiciousness Value: 0.577350
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math.distribution.FDistributionImpl
+	Method Name: getInitialDomain
+	Method Descriptor: (D)D
+	Line Number: 145
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math.distribution.FDistributionImpl::getDenominatorDegreesOfFreedom()D is replaced with the used of default value 0.D
+	Suspiciousness Value: 0.577350
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math.distribution.FDistributionImpl
+	Method Name: getInitialDomain
+	Method Descriptor: (D)D
+	Line Number: 148
+	Mutator Name: LocalNameMutator
+	Mutator Description: local d is replaced by local p to be used
+	Suspiciousness Value: 0.577350
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math.distribution.FDistributionImpl
+	Method Name: getInitialDomain
+	Method Descriptor: (D)D
+	Line Number: 148
+	Mutator Name: LocalNameMutator
+	Mutator Description: local d is replaced by local ret to be used
+	Suspiciousness Value: 0.577350
+	Rank: 7
+---------------------------------------------------

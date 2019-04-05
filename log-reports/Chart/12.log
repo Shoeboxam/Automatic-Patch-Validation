@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 12:59:58 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 1517
+===================================================
+1.
+	Class Name: org.jfree.data.general.AbstractDataset
+	Method Name: hasListener
+	Method Descriptor: (Ljava/util/EventListener;)Z
+	Line Number: 161
+	Mutator Name: BooleanTrueReturnValsMutator
+	Mutator Description: replaced boolean return with true for org/jfree/data/general/AbstractDataset::hasListener
+	Suspiciousness Value: 0.577350
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.jfree.chart.plot.MultiplePiePlot
+	Method Name: <init>
+	Method Descriptor: (Lorg/jfree/data/category/CategoryDataset;)V
+	Line Number: 145
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.jfree.chart.plot.MultiplePiePlot.dataset is replaced by the call to org.jfree.chart.plot.MultiplePiePlot::setDataset(Lorg/jfree/data/category/CategoryDataset;)V
+	Suspiciousness Value: 0.500000
+	Rank: 2
+---------------------------------------------------

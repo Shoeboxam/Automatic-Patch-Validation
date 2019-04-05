@@ -1,0 +1,34 @@
+PraPR Fix Report - Thu Apr 04 12:36:15 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 1138
+===================================================
+1.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: getEncodeLength
+	Method Descriptor: ([BI[B)J
+	Line Number: 976
+	Mutator Name: MathMutator
+	Mutator Description: Replaced long addition with subtraction
+	Suspiciousness Value: 0.188982
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: getEncodeLength
+	Method Descriptor: ([BI[B)J
+	Line Number: 975
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.176777
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: getEncodeLength
+	Method Descriptor: ([BI[B)J
+	Line Number: 981
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.176777
+	Rank: 3
+---------------------------------------------------

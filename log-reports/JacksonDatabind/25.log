@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:48:13 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 11139
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.util.ClassUtil
+	Method Name: checkAndFixAccess
+	Method Descriptor: (Ljava/lang/reflect/Member;Z)V
+	Line Number: 785
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------

@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 17:02:08 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 31637
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.TypeCheck
+	Method Name: checkInterfaceConflictProperties
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;Lcom/google/javascript/rhino/jstype/ObjectType;)V
+	Line Number: 1574
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to getOwnPropertyNames()Ljava/util/Set; is guarded returning enclosing method
+	Suspiciousness Value: 0.242536
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.TypeCheck
+	Method Name: visitFunction
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 1656
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.jstype.FunctionType::getExtendedInterfacesCount()I is replaced with the used of field typedCount
+	Suspiciousness Value: 0.076923
+	Rank: 2
+---------------------------------------------------

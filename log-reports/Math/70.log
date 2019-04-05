@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:25:23 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 189
+===================================================
+1.
+	Class Name: org.apache.commons.math.analysis.solvers.BisectionSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D
+	Line Number: 72
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to solve(DD)D with a call to solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DD)D
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------

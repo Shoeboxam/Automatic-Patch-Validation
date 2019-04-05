@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:25:29 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 381
+===================================================
+1.
+	Class Name: org.apache.commons.math.stat.Frequency
+	Method Name: getPct
+	Method Descriptor: (Ljava/lang/Object;)D
+	Line Number: 303
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getCumPct with a call to getPct
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------

@@ -1,0 +1,114 @@
+PraPR Fix Report - Thu Apr 04 22:24:58 CDT 2019
+Number of Plausible Fixes: 11
+Total Number of Patches: 1220
+===================================================
+1.
+	Class Name: org.apache.commons.math.linear.OpenMapRealVector
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	Line Number: 77
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field epsilon is replaced by access to local epsilon
+	Suspiciousness Value: 0.447214
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.linear.OpenMapRealVector
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	Line Number: 77
+	Mutator Name: MemberVariableMutator
+	Mutator Description: Removed assignment to member variable epsilon
+	Suspiciousness Value: 0.447214
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.linear.OpenMapRealVector
+	Method Name: setEntry
+	Method Descriptor: (ID)V
+	Line Number: 664
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.377964
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.linear.OpenMapRealVector
+	Method Name: setEntry
+	Method Descriptor: (ID)V
+	Line Number: 664
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math.linear.OpenMapRealVector::isDefaultValue(D)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.377964
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math.linear.OpenMapRealVector
+	Method Name: setEntry
+	Method Descriptor: (ID)V
+	Line Number: 664
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local value is replaced by access to field epsilon
+	Suspiciousness Value: 0.377964
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math.linear.OpenMapRealVector
+	Method Name: setEntry
+	Method Descriptor: (ID)V
+	Line Number: 664
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local value is replaced by access to field DEFAULT_ZERO_TOLERANCE
+	Suspiciousness Value: 0.377964
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math.util.OpenIntToDoubleHashMap
+	Method Name: doRemove
+	Method Descriptor: (I)D
+	Line Number: 399
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field count is replaced by access to local index
+	Suspiciousness Value: 0.258199
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.math.util.OpenIntToDoubleHashMap
+	Method Name: doRemove
+	Method Descriptor: (I)D
+	Line Number: 399
+	Mutator Name: MemberVariableMutator
+	Mutator Description: Removed assignment to member variable count
+	Suspiciousness Value: 0.258199
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.math.util.OpenIntToDoubleHashMap
+	Method Name: doRemove
+	Method Descriptor: (I)D
+	Line Number: 399
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math.util.OpenIntToDoubleHashMap.count is replaced by the call to org.apache.commons.math.util.OpenIntToDoubleHashMap::size()I
+	Suspiciousness Value: 0.258199
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.math.util.OpenIntToDoubleHashMap
+	Method Name: doRemove
+	Method Descriptor: (I)D
+	Line Number: 399
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.258199
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.math.util.OpenIntToDoubleHashMap
+	Method Name: doRemove
+	Method Descriptor: (I)D
+	Line Number: 399
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to count with an access to size
+	Suspiciousness Value: 0.258199
+	Rank: 11
+---------------------------------------------------

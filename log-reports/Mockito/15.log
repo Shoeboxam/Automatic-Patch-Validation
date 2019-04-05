@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:26:14 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 1885
+===================================================
+1.
+	Class Name: org.mockito.internal.runners.JUnit45AndHigherRunnerImpl
+	Method Name: run
+	Method Descriptor: (Lorg/junit/runner/notification/RunNotifier;)V
+	Line Number: 37
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to org/junit/runners/BlockJUnit4ClassRunner::run
+	Suspiciousness Value: 0.188982
+	Rank: 1
+---------------------------------------------------

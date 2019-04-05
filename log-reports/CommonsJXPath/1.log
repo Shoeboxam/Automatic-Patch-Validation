@@ -1,0 +1,144 @@
+PraPR Fix Report - Thu Apr 04 12:36:35 CDT 2019
+Number of Plausible Fixes: 14
+Total Number of Patches: 10841
+===================================================
+1.
+	Class Name: org.apache.commons.jxpath.JXPathContext
+	Method Name: selectNodes
+	Method Descriptor: (Ljava/lang/String;)Ljava/util/List;
+	Line Number: 687
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.Iterator::hasNext()Z is replaced with the used of field lenientSet
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.jxpath.JXPathContext
+	Method Name: selectNodes
+	Method Descriptor: (Ljava/lang/String;)Ljava/util/List;
+	Line Number: 687
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.Iterator::hasNext()Z is replaced with the used of default value false
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
+	Method Name: jj_3R_74
+	Method Descriptor: ()Z
+	Line Number: 2588
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to jj_scan_token(I)Z is guarded returning field lookingAhead
+	Suspiciousness Value: 0.301511
+	Rank: 5
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
+	Method Name: jj_3R_74
+	Method Descriptor: ()Z
+	Line Number: 2588
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to jj_scan_token(I)Z is guarded returning default value false
+	Suspiciousness Value: 0.301511
+	Rank: 5
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
+	Method Name: jj_3R_74
+	Method Descriptor: ()Z
+	Line Number: 2588
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to jj_scan_token(I)Z is guarded returning field jj_semLA
+	Suspiciousness Value: 0.301511
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
+	Method Name: AbsoluteLocationPath
+	Method Descriptor: ()Ljava/lang/Object;
+	Line Number: 533
+	Mutator Name: DereferenceGuardMutator
+	Mutator Description: the access to jj_gen is guarded using value 0
+	Suspiciousness Value: 0.109764
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
+	Method Name: AbsoluteLocationPath
+	Method Descriptor: ()Ljava/lang/Object;
+	Line Number: 533
+	Mutator Name: DereferenceGuardMutator
+	Mutator Description: the access to jj_gen is guarded using field jj_la
+	Suspiciousness Value: 0.109764
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
+	Method Name: jj_3R_16
+	Method Descriptor: ()Z
+	Line Number: 2829
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to jj_3R_21()Z is guarded returning field lookingAhead
+	Suspiciousness Value: 0.099504
+	Rank: 10
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
+	Method Name: jj_3R_16
+	Method Descriptor: ()Z
+	Line Number: 2829
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to jj_3R_21()Z is guarded returning default value false
+	Suspiciousness Value: 0.099504
+	Rank: 10
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
+	Method Name: jj_3R_16
+	Method Descriptor: ()Z
+	Line Number: 2829
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to jj_3R_21()Z is guarded returning field jj_semLA
+	Suspiciousness Value: 0.099504
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
+	Method Name: jj_3R_22
+	Method Descriptor: ()Z
+	Line Number: 2670
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.098533
+	Rank: 11
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
+	Method Name: jj_3R_90
+	Method Descriptor: ()Z
+	Line Number: 2306
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.094072
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.jxpath.ri.axes.ChildContext
+	Method Name: prepare
+	Method Descriptor: ()V
+	Line Number: 113
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to childIterator(Lorg/apache/commons/jxpath/ri/compiler/NodeTest;ZLorg/apache/commons/jxpath/ri/model/NodePointer;)Lorg/apache/commons/jxpath/ri/model/NodeIterator; is guarded returning enclosing method
+	Suspiciousness Value: 0.076923
+	Rank: 13
+---------------------------------------------------
+14.
+	Class Name: org.apache.commons.jxpath.ri.axes.ChildContext
+	Method Name: prepare
+	Method Descriptor: ()V
+	Line Number: 113
+	Mutator Name: NonVoidMethodCallGuardMutator
+	Mutator Description: the call to org.apache.commons.jxpath.ri.model.NodePointer::childIterator(Lorg/apache/commons/jxpath/ri/compiler/NodeTest;ZLorg/apache/commons/jxpath/ri/model/NodePointer;)Lorg/apache/commons/jxpath/ri/model/NodeIterator; is guarded using default value null
+	Suspiciousness Value: 0.076923
+	Rank: 14
+---------------------------------------------------

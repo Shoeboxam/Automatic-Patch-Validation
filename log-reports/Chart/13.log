@@ -1,0 +1,114 @@
+PraPR Fix Report - Thu Apr 04 12:59:59 CDT 2019
+Number of Plausible Fixes: 11
+Total Number of Patches: 2308
+===================================================
+1.
+	Class Name: org.jfree.chart.block.BorderArrangement
+	Method Name: arrangeFF
+	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	Line Number: 454
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double subtraction with addition
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.jfree.chart.block.BorderArrangement
+	Method Name: arrangeFF
+	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	Line Number: 444
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: org.jfree.chart.block.BorderArrangement
+	Method Name: arrangeFF
+	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	Line Number: 453
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.jfree.chart.block.BorderArrangement
+	Method Name: arrangeFF
+	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	Line Number: 454
+	Mutator Name: ConstructorCallMutator
+	Mutator Description: removed call to org/jfree/data/Range::<init>
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.jfree.chart.block.BorderArrangement
+	Method Name: arrangeFF
+	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	Line Number: 454
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 2 with 3
+	Suspiciousness Value: 1.000000
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: org.jfree.chart.block.BorderArrangement
+	Method Name: arrangeFF
+	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	Line Number: 450
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 2 with 3
+	Suspiciousness Value: 1.000000
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: org.jfree.chart.block.BorderArrangement
+	Method Name: arrangeFF
+	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	Line Number: 450
+	Mutator Name: LocalNameMutator
+	Mutator Description: local w is replaced by local h to be used
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.jfree.chart.block.BorderArrangement
+	Method Name: arrangeFF
+	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	Line Number: 454
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getWidth with a call to getHeight
+	Suspiciousness Value: 1.000000
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: org.jfree.data.Range
+	Method Name: <init>
+	Method Descriptor: (DD)V
+	Line Number: 84
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.060971
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.jfree.data.Range
+	Method Name: <init>
+	Method Descriptor: (DD)V
+	Line Number: 84
+	Mutator Name: LocalNameMutator
+	Mutator Description: local lower is replaced by local upper to be used
+	Suspiciousness Value: 0.060971
+	Rank: 11
+---------------------------------------------------
+11.
+	Class Name: org.jfree.data.Range
+	Method Name: <init>
+	Method Descriptor: (DD)V
+	Line Number: 84
+	Mutator Name: LocalNameMutator
+	Mutator Description: local upper is replaced by local lower to be used
+	Suspiciousness Value: 0.060971
+	Rank: 11
+---------------------------------------------------

@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 20:38:16 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 10505
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.testing.TestErrorReporter
+	Method Name: warning
+	Method Descriptor: (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;I)V
+	Line Number: 62
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to com/google/javascript/jscomp/testing/TestErrorReporter::fail
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------

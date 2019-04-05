@@ -1,0 +1,134 @@
+PraPR Fix Report - Thu Apr 04 15:58:05 CDT 2019
+Number of Plausible Fixes: 13
+Total Number of Patches: 54617
+===================================================
+1.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: isEquivalentTo
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ZZZ)Z
+	Line Number: 1545
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.020642
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: isEquivalentTo
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ZZZ)Z
+	Line Number: 1545
+	Mutator Name: LocalNameMutator
+	Mutator Description: local node is replaced by local this to be used
+	Suspiciousness Value: 0.020642
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: isEquivalentTo
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ZZZ)Z
+	Line Number: 1545
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local node to be used
+	Suspiciousness Value: 0.020642
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1451
+	Mutator Name: LocalNameMutator
+	Mutator Description: local n is replaced by local n2 to be used
+	Suspiciousness Value: 0.016300
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1451
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local n is replaced by access to field last
+	Suspiciousness Value: 0.016300
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1456
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.016297
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1456
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.016297
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: isEquivalentTo
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ZZZ)Z
+	Line Number: 1544
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.015774
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: isEquivalentTo
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ZZZ)Z
+	Line Number: 1544
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.google.javascript.rhino.Node.type is replaced by the call to com.google.javascript.rhino.Node::getLength()I
+	Suspiciousness Value: 0.015774
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: isEquivalentTo
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ZZZ)Z
+	Line Number: 1544
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to type with an access to sourcePosition
+	Suspiciousness Value: 0.015774
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: isEquivalentTo
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ZZZ)Z
+	Line Number: 1530
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.015772
+	Rank: 11
+---------------------------------------------------
+12.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: isEquivalentTo
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ZZZ)Z
+	Line Number: 1530
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.015772
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: isEquivalentTo
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;ZZZ)Z
+	Line Number: 1530
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.015772
+	Rank: 13
+---------------------------------------------------

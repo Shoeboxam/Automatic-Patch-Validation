@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:36:16 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 914
+===================================================
+1.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: encodeBase64String
+	Method Descriptor: ([B)Ljava/lang/String;
+	Line Number: 670
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to encodeBase64([BZ)[B with a call to encodeBase64([B)[B
+	Suspiciousness Value: 0.707107
+	Rank: 1
+---------------------------------------------------

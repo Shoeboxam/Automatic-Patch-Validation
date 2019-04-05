@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 22:24:00 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 113
+===================================================
+1.
+	Class Name: org.apache.commons.lang.text.StrBuilder
+	Method Name: appendFixedWidthPadRight
+	Method Descriptor: (Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;
+	Line Number: 884
+	Mutator Name: LocalNameMutator
+	Mutator Description: local strLen is replaced by local width to be used
+	Suspiciousness Value: 0.577350
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.lang.text.StrBuilder
+	Method Name: appendFixedWidthPadRight
+	Method Descriptor: (Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;
+	Line Number: 880
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local width is replaced by access to field CAPACITY
+	Suspiciousness Value: 0.577350
+	Rank: 2
+---------------------------------------------------

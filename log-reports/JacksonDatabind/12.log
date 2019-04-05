@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:40:04 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 17804
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.deser.BuilderBasedDeserializer
+	Method Name: deserializeUsingPropertyBasedWithUnwrapped
+	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;)Ljava/lang/Object;
+	Line Number: 583
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.816497
+	Rank: 1
+---------------------------------------------------

@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:58:04 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 5170
+===================================================
+1.
+	Class Name: org.jsoup.parser.HtmlTreeBuilderState
+	Method Name: handleRawtext
+	Method Descriptor: (Lorg/jsoup/parser/Token$StartTag;Lorg/jsoup/parser/HtmlTreeBuilder;)V
+	Line Number: 1490
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to Rawtext with an access to Rcdata
+	Suspiciousness Value: 0.342997
+	Rank: 1
+---------------------------------------------------

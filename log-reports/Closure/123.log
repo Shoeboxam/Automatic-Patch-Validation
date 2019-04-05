@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 15:22:40 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 13482
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.CodeGenerator
+	Method Name: add
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V
+	Line Number: 285
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to OTHER with an access to IN_FOR_INIT_CLAUSE
+	Suspiciousness Value: 0.092057
+	Rank: 1
+---------------------------------------------------

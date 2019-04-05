@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 18:44:11 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 27592
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.NameAnalyzer$FindDeclarationsAndSetters
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 635
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.308607
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.NameAnalyzer
+	Method Name: getName
+	Method Descriptor: (Ljava/lang/String;Z)Lcom/google/javascript/jscomp/NameAnalyzer$JsName;
+	Line Number: 1226
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.080713
+	Rank: 2
+---------------------------------------------------

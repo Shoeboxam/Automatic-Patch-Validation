@@ -1,0 +1,25 @@
+apply plugin:'java'
+
+group 'edu.utdallas'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-csv:1.6'
+    compile 'commons-io:commons-io:2.6'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'edu.utdallas.window.App'
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

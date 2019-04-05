@@ -1,0 +1,204 @@
+PraPR Fix Report - Thu Apr 04 17:12:46 CDT 2019
+Number of Plausible Fixes: 20
+Total Number of Patches: 27347
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 118
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.707107
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 121
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.707107
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 118
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.707107
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 121
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.707107
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 120
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.707107
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 118
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.Iterator::hasNext()Z is replaced with the used of default value false
+	Suspiciousness Value: 0.707107
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 118
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.Iterator::hasNext()Z is replaced with the used of local isResultUsed
+	Suspiciousness Value: 0.707107
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 119
+	Mutator Name: LocalNameMutator
+	Mutator Description: local an is replaced by local parent to be used
+	Suspiciousness Value: 0.707107
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: NakedReceiverMutator
+	Mutator Description: replaced call to com/google/javascript/rhino/Node::getLastChild with receiver
+	Suspiciousness Value: 0.577350
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.577350
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: LocalToMethodCallMutator
+	Mutator Description: the access to the local parent is replaced a call parent.getFirstChild()
+	Suspiciousness Value: 0.577350
+	Rank: 12
+---------------------------------------------------
+12.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: LocalToMethodCallMutator
+	Mutator Description: the access to the local n is replaced a call n.getFirstChild()
+	Suspiciousness Value: 0.577350
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.Node::getLastChild()Lcom/google/javascript/rhino/Node; is replaced with the used of default value null
+	Suspiciousness Value: 0.577350
+	Rank: 13
+---------------------------------------------------
+14.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: LocalNameMutator
+	Mutator Description: local n is replaced by local parent to be used
+	Suspiciousness Value: 0.577350
+	Rank: 15
+---------------------------------------------------
+15.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: LocalNameMutator
+	Mutator Description: local parent is replaced by local n to be used
+	Suspiciousness Value: 0.577350
+	Rank: 15
+---------------------------------------------------
+16.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to cloneNode
+	Suspiciousness Value: 0.577350
+	Rank: 20
+---------------------------------------------------
+17.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to getLastSibling
+	Suspiciousness Value: 0.577350
+	Rank: 20
+---------------------------------------------------
+18.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to cloneTree
+	Suspiciousness Value: 0.577350
+	Rank: 20
+---------------------------------------------------
+19.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to getParent
+	Suspiciousness Value: 0.577350
+	Rank: 20
+---------------------------------------------------
+20.
+	Class Name: com.google.javascript.jscomp.CheckSideEffects
+	Method Name: visit
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 117
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to getNext
+	Suspiciousness Value: 0.577350
+	Rank: 20
+---------------------------------------------------

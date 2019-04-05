@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:25:08 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 1919
+===================================================
+1.
+	Class Name: org.apache.commons.math.distribution.NormalDistributionImpl
+	Method Name: cumulativeProbability
+	Method Descriptor: (D)D
+	Line Number: 127
+	Mutator Name: CatchTypeWideningMutator
+	Mutator Description: catch type org/apache/commons/math/MaxIterationsExceededException is replaced with org/apache/commons/math/ConvergenceException
+	Suspiciousness Value: 0.353553
+	Rank: 1
+---------------------------------------------------

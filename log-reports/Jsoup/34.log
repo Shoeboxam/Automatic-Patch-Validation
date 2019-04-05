@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:59:02 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 4265
+===================================================
+1.
+	Class Name: org.jsoup.nodes.Element
+	Method Name: classNames
+	Method Descriptor: ()Ljava/util/Set;
+	Line Number: 962
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.188982
+	Rank: 1
+---------------------------------------------------

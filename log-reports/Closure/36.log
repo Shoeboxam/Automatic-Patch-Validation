@@ -1,0 +1,84 @@
+PraPR Fix Report - Thu Apr 04 18:24:42 CDT 2019
+Number of Plausible Fixes: 8
+Total Number of Patches: 82543
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.CompilationLevel
+	Method Name: applyFullCompilationOptions
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	Line Number: 157
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.258199
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.CompilationLevel
+	Method Name: applyFullCompilationOptions
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	Line Number: 157
+	Mutator Name: MemberVariableMutator
+	Mutator Description: Removed assignment to member variable removeUnusedPrototypeProperties
+	Suspiciousness Value: 0.258199
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.CompilationLevel
+	Method Name: applyFullCompilationOptions
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	Line Number: 157
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to removeUnusedPrototypeProperties with an access to checkControlStructures
+	Suspiciousness Value: 0.258199
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.CompilationLevel
+	Method Name: applyFullCompilationOptions
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	Line Number: 157
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to removeUnusedPrototypeProperties with an access to foldConstants
+	Suspiciousness Value: 0.258199
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.jscomp.DefaultPassConfig
+	Method Name: getOptimizations
+	Method Descriptor: ()Ljava/util/List;
+	Line Number: 430
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.List::addAll(Ljava/util/Collection;)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.235702
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.jscomp.DefaultPassConfig
+	Method Name: getOptimizations
+	Method Descriptor: ()Ljava/util/List;
+	Line Number: 430
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to addAll with a call to removeAll
+	Suspiciousness Value: 0.235702
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.jscomp.DefaultPassConfig
+	Method Name: getOptimizations
+	Method Descriptor: ()Ljava/util/List;
+	Line Number: 430
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to addAll with a call to containsAll
+	Suspiciousness Value: 0.235702
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: com.google.javascript.jscomp.DefaultPassConfig
+	Method Name: <init>
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	Line Number: 1645
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.051367
+	Rank: 8
+---------------------------------------------------

@@ -1,0 +1,94 @@
+PraPR Fix Report - Thu Apr 04 18:01:32 CDT 2019
+Number of Plausible Fixes: 9
+Total Number of Patches: 23899
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.CompilerOptions
+	Method Name: skipAllCompilerPasses
+	Method Descriptor: ()V
+	Line Number: 1019
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to skipAllPasses with an access to nameAnonymousFunctionsOnly
+	Suspiciousness Value: 0.577350
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1453
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field next is replaced by access to local n
+	Suspiciousness Value: 0.016867
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1453
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local n is replaced by access to field last
+	Suspiciousness Value: 0.016867
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1458
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.016865
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1458
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.016865
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.jscomp.Compiler
+	Method Name: parseInputs
+	Method Descriptor: ()Lcom/google/javascript/rhino/Node;
+	Line Number: 1284
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field skipAllPasses is replaced by access to local staleInputs
+	Suspiciousness Value: 0.016131
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.jscomp.Compiler
+	Method Name: parseInputs
+	Method Descriptor: ()Lcom/google/javascript/rhino/Node;
+	Line Number: 1284
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.016131
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: com.google.javascript.jscomp.Compiler
+	Method Name: parseInputs
+	Method Descriptor: ()Lcom/google/javascript/rhino/Node;
+	Line Number: 1284
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.google.javascript.jscomp.Compiler.options is replaced by the call to com.google.javascript.jscomp.Compiler::newCompilerOptions()Lcom/google/javascript/jscomp/CompilerOptions;
+	Suspiciousness Value: 0.016131
+	Rank: 9
+---------------------------------------------------
+9.
+	Class Name: com.google.javascript.jscomp.Compiler
+	Method Name: parseInputs
+	Method Descriptor: ()Lcom/google/javascript/rhino/Node;
+	Line Number: 1284
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.google.javascript.jscomp.CompilerOptions.skipAllPasses is replaced by the call to com.google.javascript.jscomp.CompilerOptions::assumeClosuresOnlyCaptureReferences()Z
+	Suspiciousness Value: 0.016131
+	Rank: 9
+---------------------------------------------------

@@ -1,0 +1,34 @@
+PraPR Fix Report - Thu Apr 04 21:39:14 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 5255
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.NodeUtil
+	Method Name: evaluatesToLocalValue
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/common/base/Predicate;)Z
+	Line Number: 2465
+	Mutator Name: BooleanFalseReturnValsMutator
+	Mutator Description: replaced boolean return with false for com/google/javascript/jscomp/NodeUtil::evaluatesToLocalValue
+	Suspiciousness Value: 0.623610
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.NodeUtil
+	Method Name: evaluatesToLocalValue
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/common/base/Predicate;)Z
+	Line Number: 2465
+	Mutator Name: ReturnValsMutator
+	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	Suspiciousness Value: 0.623610
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.NodeUtil
+	Method Name: evaluatesToLocalValue
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/common/base/Predicate;)Z
+	Line Number: 2465
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.623610
+	Rank: 3
+---------------------------------------------------

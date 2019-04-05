@@ -1,0 +1,34 @@
+PraPR Fix Report - Thu Apr 04 22:24:01 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 436
+===================================================
+1.
+	Class Name: org.apache.commons.lang.text.StrBuilder
+	Method Name: contains
+	Method Descriptor: (C)Z
+	Line Number: 1672
+	Mutator Name: LocalToMethodCallMutator
+	Mutator Description: the access to the local this is replaced a call this.minimizeCapacity()
+	Suspiciousness Value: 0.707107
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.lang.text.StrBuilder
+	Method Name: deleteFirst
+	Method Descriptor: (Ljava/lang/String;)Lorg/apache/commons/lang/text/StrBuilder;
+	Line Number: 1209
+	Mutator Name: LocalToMethodCallMutator
+	Mutator Description: the access to the local this is replaced a call this.minimizeCapacity()
+	Suspiciousness Value: 0.577350
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.lang.text.StrBuilder
+	Method Name: deleteImpl
+	Method Descriptor: (III)V
+	Line Number: 1114
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.lang.text.StrBuilder.size is replaced by the call to org.apache.commons.lang.text.StrBuilder::capacity()I
+	Suspiciousness Value: 0.250000
+	Rank: 3
+---------------------------------------------------

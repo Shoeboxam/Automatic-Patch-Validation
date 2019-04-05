@@ -1,0 +1,74 @@
+PraPR Fix Report - Thu Apr 04 22:24:46 CDT 2019
+Number of Plausible Fixes: 7
+Total Number of Patches: 4159
+===================================================
+1.
+	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
+	Method Name: initializeStep
+	Method Descriptor: (ZI[DD[D[D[D[D)D
+	Line Number: 267
+	Mutator Name: ArgumentPropagationMutator
+	Mutator Description: replaced call to org/apache/commons/math/util/FastMath::sqrt with argument
+	Suspiciousness Value: 0.353553
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
+	Method Name: initializeStep
+	Method Descriptor: (ZI[DD[D[D[D[D)D
+	Line Number: 267
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to sqrt with a call to sinh
+	Suspiciousness Value: 0.353553
+	Rank: 6
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
+	Method Name: initializeStep
+	Method Descriptor: (ZI[DD[D[D[D[D)D
+	Line Number: 267
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to sqrt with a call to tanh
+	Suspiciousness Value: 0.353553
+	Rank: 6
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
+	Method Name: initializeStep
+	Method Descriptor: (ZI[DD[D[D[D[D)D
+	Line Number: 267
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to sqrt with a call to asinh
+	Suspiciousness Value: 0.353553
+	Rank: 6
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
+	Method Name: initializeStep
+	Method Descriptor: (ZI[DD[D[D[D[D)D
+	Line Number: 267
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to sqrt with a call to nextUp
+	Suspiciousness Value: 0.353553
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
+	Method Name: initializeStep
+	Method Descriptor: (ZI[DD[D[D[D[D)D
+	Line Number: 267
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to sqrt with a call to expm1
+	Suspiciousness Value: 0.353553
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
+	Method Name: initializeStep
+	Method Descriptor: (ZI[DD[D[D[D[D)D
+	Line Number: 260
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.353553
+	Rank: 7
+---------------------------------------------------

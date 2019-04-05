@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:25:03 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 373
+===================================================
+1.
+	Class Name: org.apache.commons.math.stat.clustering.EuclideanIntegerPoint
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 84
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.447214
+	Rank: 1
+---------------------------------------------------

@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:24:01 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 342
+===================================================
+1.
+	Class Name: org.apache.commons.lang.text.StrBuilder
+	Method Name: deleteImpl
+	Method Descriptor: (III)V
+	Line Number: 1114
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.lang.text.StrBuilder.size is replaced by the call to org.apache.commons.lang.text.StrBuilder::capacity()I
+	Suspiciousness Value: 0.365148
+	Rank: 1
+---------------------------------------------------

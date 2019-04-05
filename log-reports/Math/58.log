@@ -1,0 +1,24 @@
+PraPR Fix Report - Thu Apr 04 22:25:05 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 6250
+===================================================
+1.
+	Class Name: org.apache.commons.math.optimization.fitting.GaussianFitter$ParameterGuesser$1
+	Method Name: compare
+	Method Descriptor: (Lorg/apache/commons/math/optimization/fitting/WeightedObservedPoint;Lorg/apache/commons/math/optimization/fitting/WeightedObservedPoint;)I
+	Line Number: 313
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getX with a call to getY
+	Suspiciousness Value: 0.408248
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.optimization.fitting.GaussianFitter
+	Method Name: fit
+	Method Descriptor: ()[D
+	Line Number: 121
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to fit(Lorg/apache/commons/math/analysis/ParametricUnivariateRealFunction;[D)[D with a call to fit([D)[D
+	Suspiciousness Value: 0.353553
+	Rank: 2
+---------------------------------------------------

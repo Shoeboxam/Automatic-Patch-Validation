@@ -1,0 +1,34 @@
+PraPR Fix Report - Thu Apr 04 14:56:25 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 27711
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.CheckGlobalNames
+	Method Name: process
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 101
+	Mutator Name: RemoveConditionalMutator_ORDER_IF
+	Mutator Description: removed conditional - replaced comparison check with true
+	Suspiciousness Value: 0.097129
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.CheckGlobalNames
+	Method Name: process
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 101
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.097129
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.CheckGlobalNames
+	Method Name: process
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 101
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.097129
+	Rank: 3
+---------------------------------------------------

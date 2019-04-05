@@ -1,0 +1,34 @@
+PraPR Fix Report - Thu Apr 04 15:37:23 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 52857
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.TypeCheck
+	Method Name: visitNew
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 1663
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.jstype.FunctionType::getInstanceType()Lcom/google/javascript/rhino/jstype/ObjectType; is replaced with the used of default value null
+	Suspiciousness Value: 0.044721
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.TypeCheck
+	Method Name: visitNew
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 1663
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getInstanceType with a call to getPrototype
+	Suspiciousness Value: 0.044721
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.TypeCheck
+	Method Name: visitNew
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	Line Number: 1663
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getInstanceType with a call to getImplicitPrototype
+	Suspiciousness Value: 0.044721
+	Rank: 3
+---------------------------------------------------

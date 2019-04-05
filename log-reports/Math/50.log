@@ -1,0 +1,404 @@
+PraPR Fix Report - Thu Apr 04 22:24:59 CDT 2019
+Number of Plausible Fixes: 40
+Total Number of Patches: 970
+===================================================
+1.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to max with a call to pow
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to max with a call to min
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to max with a call to IEEEremainder
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to max with a call to atan2
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to abs with a call to atanh
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to max with a call to copySign
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to max with a call to nextAfter
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local f0 to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x0 is replaced by local x1 to be defined
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: LocalNameMutator
+	Mutator Description: local atol is replaced by local f1 to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x0 is replaced by local f1 to be defined
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 189
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x0 is replaced by local atol to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local x0 to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+14.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x0 is replaced by local f0 to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+15.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 189
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x0 is replaced by local ftol to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+16.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: LocalNameMutator
+	Mutator Description: local atol is replaced by local rtol to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+17.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 189
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x0 is replaced by local x1 to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+18.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x0 is replaced by local f0 to be defined
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+19.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 189
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x0 is replaced by local rtol to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+20.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 189
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x0 is replaced by local f1 to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+21.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: LocalNameMutator
+	Mutator Description: local atol is replaced by local ftol to be used
+	Suspiciousness Value: 1.000000
+	Rank: 21
+---------------------------------------------------
+22.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double subtraction with addition
+	Suspiciousness Value: 1.000000
+	Rank: 22
+---------------------------------------------------
+23.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0.5 with 1.0
+	Suspiciousness Value: 1.000000
+	Rank: 23
+---------------------------------------------------
+24.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 189
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math.analysis.solvers.BaseSecantSolver::computeObjectiveValue(D)D is replaced with the used of default value 0.D
+	Suspiciousness Value: 1.000000
+	Rank: 25
+---------------------------------------------------
+25.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 188
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math.util.FastMath::max(DD)D is replaced with the used of default value 0.D
+	Suspiciousness Value: 1.000000
+	Rank: 25
+---------------------------------------------------
+26.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 189
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local x0 is replaced by access to field DEFAULT_ABSOLUTE_ACCURACY
+	Suspiciousness Value: 1.000000
+	Rank: 26
+---------------------------------------------------
+27.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.377964
+	Rank: 27
+---------------------------------------------------
+28.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x is replaced by local x0 to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+29.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local f0 to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+30.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x is replaced by local ftol to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+31.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x is replaced by local atol to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+32.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local atol to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+33.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local f1 to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+34.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x is replaced by local f1 to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+35.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local ftol to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+36.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local x0 to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+37.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local rtol to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+38.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x is replaced by local f0 to be used
+	Suspiciousness Value: 0.377964
+	Rank: 38
+---------------------------------------------------
+39.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local x1 is replaced by access to field DEFAULT_ABSOLUTE_ACCURACY
+	Suspiciousness Value: 0.377964
+	Rank: 40
+---------------------------------------------------
+40.
+	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+	Method Name: doSolve
+	Method Descriptor: ()D
+	Line Number: 187
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local x is replaced by access to field DEFAULT_ABSOLUTE_ACCURACY
+	Suspiciousness Value: 0.377964
+	Rank: 40
+---------------------------------------------------

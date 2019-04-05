@@ -1,0 +1,44 @@
+PraPR Fix Report - Thu Apr 04 13:38:34 CDT 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 33473
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.ScopedAliases$Traversal
+	Method Name: findAliases
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;)V
+	Line Number: 418
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.jscomp.Scope$Var::getJSDocInfo()Lcom/google/javascript/rhino/JSDocInfo; is replaced with the used of default value null
+	Suspiciousness Value: 0.353553
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode
+	Method Name: applyAlias
+	Method Descriptor: ()V
+	Line Number: 236
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to com/google/common/base/Preconditions::checkState
+	Suspiciousness Value: 0.223607
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode
+	Method Name: applyAlias
+	Method Descriptor: ()V
+	Line Number: 236
+	Mutator Name: LocalNameMutator
+	Mutator Description: local aliasName is replaced by local typeName to be used
+	Suspiciousness Value: 0.223607
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode
+	Method Name: applyAlias
+	Method Descriptor: ()V
+	Line Number: 236
+	Mutator Name: LocalNameMutator
+	Mutator Description: local typeName is replaced by local aliasName to be used
+	Suspiciousness Value: 0.223607
+	Rank: 4
+---------------------------------------------------

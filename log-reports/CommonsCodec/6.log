@@ -1,0 +1,174 @@
+PraPR Fix Report - Thu Apr 04 12:36:22 CDT 2019
+Number of Plausible Fixes: 17
+Total Number of Patches: 152
+===================================================
+1.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 772
+	Mutator Name: DereferenceGuardMutator
+	Mutator Description: the access to decodeTable is guarded using value null
+	Suspiciousness Value: 0.292174
+	Rank: 3
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 772
+	Mutator Name: DereferenceGuardMutator
+	Mutator Description: the access to decodeTable is guarded using field CHUNK_SEPARATOR
+	Suspiciousness Value: 0.292174
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 772
+	Mutator Name: ReturningDereferenceGuardMutator
+	Mutator Description: the access to decodeTable is guarded returning default value false
+	Suspiciousness Value: 0.292174
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 772
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.292174
+	Rank: 9
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 276
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to containsAlphabetOrPad([B)Z is guarded returning enclosing method
+	Suspiciousness Value: 0.292174
+	Rank: 9
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 280
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.292174
+	Rank: 9
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 276
+	Mutator Name: NonVoidMethodCallGuardMutator
+	Mutator Description: the call to org.apache.commons.codec.binary.Base64::containsAlphabetOrPad([B)Z is guarded using default value false
+	Suspiciousness Value: 0.292174
+	Rank: 9
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 280
+	Mutator Name: RemoveConditionalMutator_ORDER_IF
+	Mutator Description: removed conditional - replaced comparison check with true
+	Suspiciousness Value: 0.292174
+	Rank: 9
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: isInAlphabet
+	Method Descriptor: (B)Z
+	Line Number: 772
+	Mutator Name: RemoveConditionalMutator_ORDER_IF
+	Mutator Description: removed conditional - replaced comparison check with true
+	Suspiciousness Value: 0.292174
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 292
+	Mutator Name: DereferenceGuardMutator
+	Mutator Description: the access to encodeSize is guarded using local lineLength
+	Suspiciousness Value: 0.290409
+	Rank: 12
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 292
+	Mutator Name: ReturningDereferenceGuardMutator
+	Mutator Description: the access to encodeSize is guarded returning enclosing method
+	Suspiciousness Value: 0.290409
+	Rank: 12
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 292
+	Mutator Name: DereferenceGuardMutator
+	Mutator Description: the access to encodeSize is guarded using value 0
+	Suspiciousness Value: 0.290409
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 292
+	Mutator Name: MathMutator
+	Mutator Description: Replaced integer subtraction with addition
+	Suspiciousness Value: 0.290409
+	Rank: 13
+---------------------------------------------------
+14.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 292
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.290409
+	Rank: 15
+---------------------------------------------------
+15.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 270
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 3 with 4
+	Suspiciousness Value: 0.290409
+	Rank: 15
+---------------------------------------------------
+16.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 292
+	Mutator Name: MemberVariableMutator
+	Mutator Description: Removed assignment to member variable decodeSize
+	Suspiciousness Value: 0.290409
+	Rank: 16
+---------------------------------------------------
+17.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: <init>
+	Method Descriptor: (I[BZ)V
+	Line Number: 292
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field encodeSize is replaced by access to local lineLength
+	Suspiciousness Value: 0.290409
+	Rank: 17
+---------------------------------------------------

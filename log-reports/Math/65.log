@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:25:12 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 4346
+===================================================
+1.
+	Class Name: org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer
+	Method Name: getChiSquare
+	Method Descriptor: ()D
+	Line Number: 258
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double division with multiplication
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------

@@ -1,0 +1,104 @@
+PraPR Fix Report - Thu Apr 04 12:47:44 CDT 2019
+Number of Plausible Fixes: 10
+Total Number of Patches: 19668
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructSpecializedType
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	Line Number: 372
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local subclass is replaced by access to field CLS_COMPARABLE
+	Suspiciousness Value: 0.063119
+	Rank: 5
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructSpecializedType
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	Line Number: 372
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local subclass is replaced by access to field CLS_STRING
+	Suspiciousness Value: 0.063119
+	Rank: 5
+---------------------------------------------------
+3.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructSpecializedType
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	Line Number: 372
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local subclass is replaced by access to field CLS_ENUM
+	Suspiciousness Value: 0.063119
+	Rank: 5
+---------------------------------------------------
+4.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructSpecializedType
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	Line Number: 372
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local subclass is replaced by access to field CLS_CLASS
+	Suspiciousness Value: 0.063119
+	Rank: 5
+---------------------------------------------------
+5.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructSpecializedType
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	Line Number: 372
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local subclass is replaced by access to field CLS_OBJECT
+	Suspiciousness Value: 0.063119
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructSpecializedType
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	Line Number: 372
+	Mutator Name: LocalNameMutator
+	Mutator Description: local subclass is replaced by local rawBase to be used
+	Suspiciousness Value: 0.063119
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructSpecializedType
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	Line Number: 372
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.063119
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructSpecializedType
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	Line Number: 372
+	Mutator Name: LocalToMethodCallMutator
+	Mutator Description: the access to the local subclass is replaced a call subclass.getSuperclass()
+	Suspiciousness Value: 0.063119
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: com.fasterxml.jackson.databind.type.SimpleType
+	Method Name: <init>
+	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Object;Ljava/lang/Object;Z)V
+	Line Number: 55
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.030686
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: com.fasterxml.jackson.databind.JavaType
+	Method Name: <init>
+	Method Descriptor: (Ljava/lang/Class;ILjava/lang/Object;Ljava/lang/Object;Z)V
+	Line Number: 80
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field _hash is replaced by access to local additionalHash
+	Suspiciousness Value: 0.029591
+	Rank: 10
+---------------------------------------------------

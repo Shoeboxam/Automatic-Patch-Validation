@@ -1,0 +1,1004 @@
+PraPR Fix Report - Thu Apr 04 13:00:15 CDT 2019
+Number of Plausible Fixes: 100
+Total Number of Patches: 9480
+===================================================
+1.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2537
+	Mutator Name: RemoveConditionalMutator_ORDER_IF
+	Mutator Description: removed conditional - replaced comparison check with true
+	Suspiciousness Value: 0.957427
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2536
+	Mutator Name: RemoveConditionalMutator_ORDER_IF
+	Mutator Description: removed conditional - replaced comparison check with true
+	Suspiciousness Value: 0.957427
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2571
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.jfree.chart.plot.CategoryPlot::drawAxes(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;)Ljava/util/Map; is replaced with the used of field foregroundDomainMarkers
+	Suspiciousness Value: 0.957427
+	Rank: 7
+---------------------------------------------------
+4.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2536
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.awt.geom.Rectangle2D::getWidth()D is replaced with the used of default value 0.D
+	Suspiciousness Value: 0.957427
+	Rank: 7
+---------------------------------------------------
+5.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2536
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.awt.geom.Rectangle2D::getWidth()D is replaced with the used of field anchorValue
+	Suspiciousness Value: 0.957427
+	Rank: 7
+---------------------------------------------------
+6.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2537
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.awt.geom.Rectangle2D::getHeight()D is replaced with the used of default value 0.D
+	Suspiciousness Value: 0.957427
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2537
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.awt.geom.Rectangle2D::getHeight()D is replaced with the used of field anchorValue
+	Suspiciousness Value: 0.957427
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2538
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b2 is replaced by access to field DEFAULT_RANGE_GRIDLINES_VISIBLE
+	Suspiciousness Value: 0.957427
+	Rank: 9
+---------------------------------------------------
+9.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2538
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local b1 is replaced by access to field DEFAULT_RANGE_GRIDLINES_VISIBLE
+	Suspiciousness Value: 0.957427
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2537
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.957427
+	Rank: 12
+---------------------------------------------------
+11.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2536
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.957427
+	Rank: 12
+---------------------------------------------------
+12.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2538
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.957427
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2538
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.957427
+	Rank: 13
+---------------------------------------------------
+14.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2538
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.957427
+	Rank: 14
+---------------------------------------------------
+15.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2536
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.957427
+	Rank: 16
+---------------------------------------------------
+16.
+	Class Name: org.jfree.chart.plot.CategoryPlot
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	Line Number: 2537
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.957427
+	Rank: 16
+---------------------------------------------------
+17.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1192
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.jfree.chart.ChartRenderingInfo::getEntityCollection()Lorg/jfree/chart/entity/EntityCollection; is replaced with the used of default value null
+	Suspiciousness Value: 0.938083
+	Rank: 17
+---------------------------------------------------
+18.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1192
+	Mutator Name: NonVoidMethodCallGuardMutator
+	Mutator Description: the call to org.jfree.chart.ChartRenderingInfo::getEntityCollection()Lorg/jfree/chart/entity/EntityCollection; is guarded using default value null
+	Suspiciousness Value: 0.938083
+	Rank: 18
+---------------------------------------------------
+19.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1192
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to getEntityCollection()Lorg/jfree/chart/entity/EntityCollection; is guarded returning local state
+	Suspiciousness Value: 0.938083
+	Rank: 19
+---------------------------------------------------
+20.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: isVisible
+	Method Descriptor: ()Z
+	Line Number: 314
+	Mutator Name: BooleanFalseReturnValsMutator
+	Mutator Description: replaced boolean return with false for org/jfree/chart/axis/Axis::isVisible
+	Suspiciousness Value: 0.699206
+	Rank: 20
+---------------------------------------------------
+21.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1101
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::equals(Ljava/lang/Object;)Z is replaced with the used of field DEFAULT_AXIS_VISIBLE
+	Suspiciousness Value: 0.699206
+	Rank: 21
+---------------------------------------------------
+22.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1101
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local label is replaced by access to field labelURL
+	Suspiciousness Value: 0.699206
+	Rank: 23
+---------------------------------------------------
+23.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1101
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local label is replaced by access to field labelToolTip
+	Suspiciousness Value: 0.699206
+	Rank: 23
+---------------------------------------------------
+24.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1190
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.699206
+	Rank: 25
+---------------------------------------------------
+25.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1101
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.699206
+	Rank: 25
+---------------------------------------------------
+26.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: isVisible
+	Method Descriptor: ()Z
+	Line Number: 314
+	Mutator Name: ReturnValsMutator
+	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	Suspiciousness Value: 0.699206
+	Rank: 26
+---------------------------------------------------
+27.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1190
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.699206
+	Rank: 28
+---------------------------------------------------
+28.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1101
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.699206
+	Rank: 28
+---------------------------------------------------
+29.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: drawLabel
+	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	Line Number: 1101
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.699206
+	Rank: 29
+---------------------------------------------------
+30.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: drawTitle
+	Method Descriptor: (Lorg/jfree/chart/title/Title;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Z)Lorg/jfree/chart/entity/EntityCollection;
+	Line Number: 1312
+	Mutator Name: LocalNameMutator
+	Mutator Description: local area is replaced by local titleArea to be used
+	Suspiciousness Value: 0.677003
+	Rank: 30
+---------------------------------------------------
+31.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: drawTitle
+	Method Descriptor: (Lorg/jfree/chart/title/Title;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Z)Lorg/jfree/chart/entity/EntityCollection;
+	Line Number: 1312
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.awt.geom.Rectangle2D::getWidth()D is replaced with the used of default value 0.D
+	Suspiciousness Value: 0.677003
+	Rank: 32
+---------------------------------------------------
+32.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: drawTitle
+	Method Descriptor: (Lorg/jfree/chart/title/Title;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Z)Lorg/jfree/chart/entity/EntityCollection;
+	Line Number: 1312
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.awt.geom.Rectangle2D::getHeight()D is replaced with the used of default value 0.D
+	Suspiciousness Value: 0.677003
+	Rank: 32
+---------------------------------------------------
+33.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: drawTitle
+	Method Descriptor: (Lorg/jfree/chart/title/Title;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Z)Lorg/jfree/chart/entity/EntityCollection;
+	Line Number: 1312
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field height is replaced by access to local hh
+	Suspiciousness Value: 0.677003
+	Rank: 34
+---------------------------------------------------
+34.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: drawTitle
+	Method Descriptor: (Lorg/jfree/chart/title/Title;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Z)Lorg/jfree/chart/entity/EntityCollection;
+	Line Number: 1312
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field height is replaced by access to local ww
+	Suspiciousness Value: 0.677003
+	Rank: 34
+---------------------------------------------------
+35.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 526
+	Mutator Name: ArgumentPropagationMutator
+	Mutator Description: replaced call to org/jfree/chart/util/RectangleInsets::calculateTopInset with argument
+	Suspiciousness Value: 0.670059
+	Rank: 38
+---------------------------------------------------
+36.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 527
+	Mutator Name: ArgumentPropagationMutator
+	Mutator Description: replaced call to org/jfree/chart/util/RectangleInsets::calculateBottomInset with argument
+	Suspiciousness Value: 0.670059
+	Rank: 38
+---------------------------------------------------
+37.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 525
+	Mutator Name: ArgumentPropagationMutator
+	Mutator Description: replaced call to org/jfree/chart/util/RectangleInsets::calculateRightInset with argument
+	Suspiciousness Value: 0.670059
+	Rank: 38
+---------------------------------------------------
+38.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 524
+	Mutator Name: ArgumentPropagationMutator
+	Mutator Description: replaced call to org/jfree/chart/util/RectangleInsets::calculateLeftInset with argument
+	Suspiciousness Value: 0.670059
+	Rank: 38
+---------------------------------------------------
+39.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local h is replaced by local t to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+40.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local r is replaced by local w to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+41.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	Line Number: 1181
+	Mutator Name: LocalNameMutator
+	Mutator Description: local chartArea is replaced by local nonTitleArea to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+42.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local t is replaced by local h to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+43.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local w is replaced by local l to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+44.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local t is replaced by local w to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+45.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local h is replaced by local l to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+46.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local w is replaced by local t to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+47.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b is replaced by local h to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+48.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local l is replaced by local w to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+49.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b is replaced by local w to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+50.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	Line Number: 1181
+	Mutator Name: LocalNameMutator
+	Mutator Description: local nonTitleArea is replaced by local chartArea to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+51.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local w is replaced by local r to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+52.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local h is replaced by local r to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+53.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local w is replaced by local b to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+54.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalNameMutator
+	Mutator Description: local h is replaced by local b to be used
+	Suspiciousness Value: 0.670059
+	Rank: 54
+---------------------------------------------------
+55.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 524
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.jfree.chart.util.RectangleInsets::calculateLeftInset(D)D is replaced with the used of local w
+	Suspiciousness Value: 0.670059
+	Rank: 62
+---------------------------------------------------
+56.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 523
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.awt.geom.Rectangle2D::getHeight()D is replaced with the used of default value 0.D
+	Suspiciousness Value: 0.670059
+	Rank: 62
+---------------------------------------------------
+57.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 525
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.jfree.chart.util.RectangleInsets::calculateRightInset(D)D is replaced with the used of local w
+	Suspiciousness Value: 0.670059
+	Rank: 62
+---------------------------------------------------
+58.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 522
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.awt.geom.Rectangle2D::getWidth()D is replaced with the used of default value 0.D
+	Suspiciousness Value: 0.670059
+	Rank: 62
+---------------------------------------------------
+59.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 526
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.jfree.chart.util.RectangleInsets::calculateTopInset(D)D is replaced with the used of local w
+	Suspiciousness Value: 0.670059
+	Rank: 62
+---------------------------------------------------
+60.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 522
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.awt.geom.Rectangle2D::getWidth()D is replaced with the used of field top
+	Suspiciousness Value: 0.670059
+	Rank: 62
+---------------------------------------------------
+61.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 527
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.jfree.chart.util.RectangleInsets::calculateBottomInset(D)D is replaced with the used of local w
+	Suspiciousness Value: 0.670059
+	Rank: 62
+---------------------------------------------------
+62.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 523
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.awt.geom.Rectangle2D::getHeight()D is replaced with the used of field top
+	Suspiciousness Value: 0.670059
+	Rank: 62
+---------------------------------------------------
+63.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local h is replaced by access to field bottom
+	Suspiciousness Value: 0.670059
+	Rank: 70
+---------------------------------------------------
+64.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local h is replaced by access to field left
+	Suspiciousness Value: 0.670059
+	Rank: 70
+---------------------------------------------------
+65.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local w is replaced by access to field right
+	Suspiciousness Value: 0.670059
+	Rank: 70
+---------------------------------------------------
+66.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local w is replaced by access to field bottom
+	Suspiciousness Value: 0.670059
+	Rank: 70
+---------------------------------------------------
+67.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local h is replaced by access to field right
+	Suspiciousness Value: 0.670059
+	Rank: 70
+---------------------------------------------------
+68.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local w is replaced by access to field top
+	Suspiciousness Value: 0.670059
+	Rank: 70
+---------------------------------------------------
+69.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local w is replaced by access to field left
+	Suspiciousness Value: 0.670059
+	Rank: 70
+---------------------------------------------------
+70.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 528
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local h is replaced by access to field top
+	Suspiciousness Value: 0.670059
+	Rank: 70
+---------------------------------------------------
+71.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 527
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateBottomInset with a call to extendWidth
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+72.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 526
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateTopInset with a call to trimHeight
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+73.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 524
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateLeftInset with a call to trimWidth
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+74.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 526
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateTopInset with a call to extendWidth
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+75.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 525
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateRightInset with a call to extendWidth
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+76.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 526
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateTopInset with a call to trimWidth
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+77.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 525
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateRightInset with a call to trimHeight
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+78.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 525
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateRightInset with a call to trimWidth
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+79.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 527
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateBottomInset with a call to trimHeight
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+80.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 524
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateLeftInset with a call to extendWidth
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+81.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 527
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateBottomInset with a call to trimWidth
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+82.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: trim
+	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	Line Number: 524
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to calculateLeftInset with a call to trimHeight
+	Suspiciousness Value: 0.670059
+	Rank: 82
+---------------------------------------------------
+83.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	Line Number: 1181
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to java/awt/geom/Rectangle2D::setRect
+	Suspiciousness Value: 0.670059
+	Rank: 84
+---------------------------------------------------
+84.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	Line Number: 1213
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to org/jfree/chart/plot/Plot::draw
+	Suspiciousness Value: 0.670059
+	Rank: 84
+---------------------------------------------------
+85.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	Line Number: 1181
+	Mutator Name: LocalToMethodCallMutator
+	Mutator Description: the access to the local nonTitleArea is replaced a call nonTitleArea.getBounds2D()
+	Suspiciousness Value: 0.670059
+	Rank: 85
+---------------------------------------------------
+86.
+	Class Name: org.jfree.chart.JFreeChart
+	Method Name: draw
+	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	Line Number: 1181
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to setRect(Ljava/awt/geom/Rectangle2D;)V with a call to setRect(DDDD)V
+	Suspiciousness Value: 0.670059
+	Rank: 86
+---------------------------------------------------
+87.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: calculateLeftInset
+	Method Descriptor: (D)D
+	Line Number: 422
+	Mutator Name: LocalNameMutator
+	Mutator Description: local result is replaced by local width to be used
+	Suspiciousness Value: 0.663325
+	Rank: 90
+---------------------------------------------------
+88.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: calculateRightInset
+	Method Descriptor: (D)D
+	Line Number: 452
+	Mutator Name: LocalNameMutator
+	Mutator Description: local result is replaced by local width to be used
+	Suspiciousness Value: 0.663325
+	Rank: 90
+---------------------------------------------------
+89.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: calculateBottomInset
+	Method Descriptor: (D)D
+	Line Number: 392
+	Mutator Name: LocalNameMutator
+	Mutator Description: local result is replaced by local height to be used
+	Suspiciousness Value: 0.663325
+	Rank: 90
+---------------------------------------------------
+90.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: calculateTopInset
+	Method Descriptor: (D)D
+	Line Number: 362
+	Mutator Name: LocalNameMutator
+	Mutator Description: local result is replaced by local height to be used
+	Suspiciousness Value: 0.663325
+	Rank: 90
+---------------------------------------------------
+91.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: calculateTopInset
+	Method Descriptor: (D)D
+	Line Number: 358
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field top is replaced by access to local height
+	Suspiciousness Value: 0.663325
+	Rank: 94
+---------------------------------------------------
+92.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: calculateRightInset
+	Method Descriptor: (D)D
+	Line Number: 448
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field right is replaced by access to local width
+	Suspiciousness Value: 0.663325
+	Rank: 94
+---------------------------------------------------
+93.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: calculateBottomInset
+	Method Descriptor: (D)D
+	Line Number: 388
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field bottom is replaced by access to local height
+	Suspiciousness Value: 0.663325
+	Rank: 94
+---------------------------------------------------
+94.
+	Class Name: org.jfree.chart.util.RectangleInsets
+	Method Name: calculateLeftInset
+	Method Descriptor: (D)D
+	Line Number: 418
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field left is replaced by access to local width
+	Suspiciousness Value: 0.663325
+	Rank: 94
+---------------------------------------------------
+95.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: getLabel
+	Method Descriptor: ()Ljava/lang/String;
+	Line Number: 342
+	Mutator Name: EmptyObjectReturnValsMutator
+	Mutator Description: replaced return value with "" for org/jfree/chart/axis/Axis::getLabel
+	Suspiciousness Value: 0.650444
+	Rank: 95
+---------------------------------------------------
+96.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: getLabel
+	Method Descriptor: ()Ljava/lang/String;
+	Line Number: 342
+	Mutator Name: ReturnValsMutator
+	Mutator Description: mutated return of Object value for org/jfree/chart/axis/Axis::getLabel to ( if (x != null) null else throw new RuntimeException )
+	Suspiciousness Value: 0.650444
+	Rank: 96
+---------------------------------------------------
+97.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: getLabel
+	Method Descriptor: ()Ljava/lang/String;
+	Line Number: 342
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.jfree.chart.axis.Axis.label is replaced by the call to org.jfree.chart.axis.Axis::getLabelURL()Ljava/lang/String;
+	Suspiciousness Value: 0.650444
+	Rank: 98
+---------------------------------------------------
+98.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: getLabel
+	Method Descriptor: ()Ljava/lang/String;
+	Line Number: 342
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.jfree.chart.axis.Axis.label is replaced by the call to org.jfree.chart.axis.Axis::getLabelToolTip()Ljava/lang/String;
+	Suspiciousness Value: 0.650444
+	Rank: 98
+---------------------------------------------------
+99.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: getLabel
+	Method Descriptor: ()Ljava/lang/String;
+	Line Number: 342
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to label with an access to labelToolTip
+	Suspiciousness Value: 0.650444
+	Rank: 100
+---------------------------------------------------
+100.
+	Class Name: org.jfree.chart.axis.Axis
+	Method Name: getLabel
+	Method Descriptor: ()Ljava/lang/String;
+	Line Number: 342
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to label with an access to labelURL
+	Suspiciousness Value: 0.650444
+	Rank: 100
+---------------------------------------------------

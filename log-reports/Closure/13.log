@@ -1,0 +1,134 @@
+PraPR Fix Report - Thu Apr 04 16:04:52 CDT 2019
+Number of Plausible Fixes: 13
+Total Number of Patches: 66713
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
+	Method Name: shouldVisit
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	Line Number: 160
+	Mutator Name: BooleanTrueReturnValsMutator
+	Mutator Description: replaced boolean return with true for com/google/javascript/jscomp/PeepholeOptimizationsPass::shouldVisit
+	Suspiciousness Value: 0.223607
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
+	Method Name: shouldVisit
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	Line Number: 160
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.223607
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
+	Method Name: shouldVisit
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	Line Number: 160
+	Mutator Name: ReturnValsMutator
+	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	Suspiciousness Value: 0.223607
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
+	Method Name: shouldRetraverse
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	Line Number: 149
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.058026
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
+	Method Name: shouldRetraverse
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	Line Number: 149
+	Mutator Name: MemberVariableMutator
+	Mutator Description: Removed assignment to member variable traverseChildScopes
+	Suspiciousness Value: 0.058026
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.jscomp.DefaultPassConfig
+	Method Name: <init>
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	Line Number: 1045
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.049629
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
+	Method Name: shouldVisit
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	Line Number: 159
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.047246
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
+	Method Name: traverse
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)V
+	Line Number: 118
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.047193
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1453
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field next is replaced by access to local n
+	Suspiciousness Value: 0.016646
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1453
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local n is replaced by access to field last
+	Suspiciousness Value: 0.016646
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1453
+	Mutator Name: LocalNameMutator
+	Mutator Description: local n is replaced by local n2 to be used
+	Suspiciousness Value: 0.016646
+	Rank: 11
+---------------------------------------------------
+12.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1458
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.016644
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	Line Number: 1458
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.016644
+	Rank: 13
+---------------------------------------------------

@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:23:46 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 821
+===================================================
+1.
+	Class Name: org.apache.commons.math.special.Gamma
+	Method Name: regularizedGammaP
+	Method Descriptor: (DDDI)D
+	Line Number: 162
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.162221
+	Rank: 1
+---------------------------------------------------

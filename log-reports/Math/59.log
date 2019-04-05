@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 22:25:06 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 1736
+===================================================
+1.
+	Class Name: org.apache.commons.math.util.FastMath
+	Method Name: max
+	Method Descriptor: (FF)F
+	Line Number: 3482
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b is replaced by local a to be used
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------

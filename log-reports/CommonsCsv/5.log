@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:36:35 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 1263
+===================================================
+1.
+	Class Name: org.apache.commons.csv.CSVRecord
+	Method Name: putIn
+	Method Descriptor: (Ljava/util/Map;)Ljava/util/Map;
+	Line Number: 180
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to entrySet()Ljava/util/Set; is guarded returning local map
+	Suspiciousness Value: 0.447214
+	Rank: 1
+---------------------------------------------------

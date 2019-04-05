@@ -1,0 +1,44 @@
+PraPR Fix Report - Thu Apr 04 13:10:15 CDT 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 25908
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.NodeUtil
+	Method Name: mayBeString
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Z)Z
+	Line Number: 1416
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.182574
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.NodeUtil
+	Method Name: mayBeString
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Z)Z
+	Line Number: 1416
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.182574
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.NodeUtil
+	Method Name: mayBeString
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	Line Number: 1412
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.182574
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.NodeUtil
+	Method Name: mayBeString
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Z)Z
+	Line Number: 1417
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to allResultsMatch with a call to anyResultsMatch
+	Suspiciousness Value: 0.182574
+	Rank: 4
+---------------------------------------------------

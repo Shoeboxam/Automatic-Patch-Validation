@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 16:50:35 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 36741
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.Compiler
+	Method Name: parseInputs
+	Method Descriptor: ()Lcom/google/javascript/rhino/Node;
+	Line Number: 1288
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.015937
+	Rank: 1
+---------------------------------------------------

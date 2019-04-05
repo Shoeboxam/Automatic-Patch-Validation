@@ -1,0 +1,234 @@
+PraPR Fix Report - Thu Apr 04 12:55:30 CDT 2019
+Number of Plausible Fixes: 23
+Total Number of Patches: 22386
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.databind.type.ResolvedRecursiveType._referencedType is replaced by the call to com.fasterxml.jackson.databind.type.ResolvedRecursiveType::getSuperClass()Lcom/fasterxml/jackson/databind/JavaType;
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.databind.type.ResolvedRecursiveType._referencedType is replaced by the call to com.fasterxml.jackson.databind.type.ResolvedRecursiveType::withStaticTyping()Lcom/fasterxml/jackson/databind/JavaType;
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 113
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 1.000000
+	Rank: 5
+---------------------------------------------------
+4.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 114
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 1.000000
+	Rank: 5
+---------------------------------------------------
+5.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 1.000000
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 113
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 114
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.fasterxml.jackson.databind.JavaType::equals(Ljava/lang/Object;)Z is replaced with the used of default value false
+	Suspiciousness Value: 1.000000
+	Rank: 11
+---------------------------------------------------
+9.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.fasterxml.jackson.databind.type.ResolvedRecursiveType::getSelfReferencedType()Lcom/fasterxml/jackson/databind/JavaType; is replaced with the used of default value null
+	Suspiciousness Value: 1.000000
+	Rank: 11
+---------------------------------------------------
+10.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Object::getClass()Ljava/lang/Class; is replaced with the used of default value null
+	Suspiciousness Value: 1.000000
+	Rank: 11
+---------------------------------------------------
+11.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.fasterxml.jackson.databind.type.ResolvedRecursiveType::getSelfReferencedType()Lcom/fasterxml/jackson/databind/JavaType; is replaced with the used of field _referencedType
+	Suspiciousness Value: 1.000000
+	Rank: 11
+---------------------------------------------------
+12.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field _referencedType is replaced by access to local this
+	Suspiciousness Value: 1.000000
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 1.000000
+	Rank: 13
+---------------------------------------------------
+14.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getSelfReferencedType with a call to withStaticTyping
+	Suspiciousness Value: 1.000000
+	Rank: 15
+---------------------------------------------------
+15.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 130
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getSelfReferencedType with a call to getSuperClass
+	Suspiciousness Value: 1.000000
+	Rank: 15
+---------------------------------------------------
+16.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 112
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.500000
+	Rank: 16
+---------------------------------------------------
+17.
+	Class Name: com.fasterxml.jackson.databind.type.ResolvedRecursiveType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 112
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.500000
+	Rank: 17
+---------------------------------------------------
+18.
+	Class Name: com.fasterxml.jackson.databind.type.MapLikeType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 305
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.databind.type.MapLikeType._keyType is replaced by the call to com.fasterxml.jackson.databind.type.MapLikeType::getContentType()Lcom/fasterxml/jackson/databind/JavaType;
+	Suspiciousness Value: 0.052778
+	Rank: 19
+---------------------------------------------------
+19.
+	Class Name: com.fasterxml.jackson.databind.type.MapLikeType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 305
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.databind.type.MapLikeType._valueType is replaced by the call to com.fasterxml.jackson.databind.type.MapLikeType::getKeyType()Lcom/fasterxml/jackson/databind/JavaType;
+	Suspiciousness Value: 0.052778
+	Rank: 19
+---------------------------------------------------
+20.
+	Class Name: com.fasterxml.jackson.databind.type.MapLikeType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 305
+	Mutator Name: LocalNameMutator
+	Mutator Description: local this is replaced by local other to be used
+	Suspiciousness Value: 0.052778
+	Rank: 21
+---------------------------------------------------
+21.
+	Class Name: com.fasterxml.jackson.databind.type.MapLikeType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 305
+	Mutator Name: LocalNameMutator
+	Mutator Description: local other is replaced by local this to be used
+	Suspiciousness Value: 0.052778
+	Rank: 21
+---------------------------------------------------
+22.
+	Class Name: com.fasterxml.jackson.databind.type.MapLikeType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 305
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to _keyType with an access to _valueType
+	Suspiciousness Value: 0.052778
+	Rank: 23
+---------------------------------------------------
+23.
+	Class Name: com.fasterxml.jackson.databind.type.MapLikeType
+	Method Name: equals
+	Method Descriptor: (Ljava/lang/Object;)Z
+	Line Number: 305
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to _valueType with an access to _keyType
+	Suspiciousness Value: 0.052778
+	Rank: 23
+---------------------------------------------------

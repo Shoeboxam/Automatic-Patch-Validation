@@ -1,0 +1,44 @@
+PraPR Fix Report - Thu Apr 04 22:25:26 CDT 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 1187
+===================================================
+1.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D
+	Line Number: 138
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D with a call to solve(DDD)D
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D
+	Line Number: 138
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D with a call to solve(DD)D
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D
+	Line Number: 138
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D with a call to solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DD)D
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D
+	Line Number: 138
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D with a call to solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------

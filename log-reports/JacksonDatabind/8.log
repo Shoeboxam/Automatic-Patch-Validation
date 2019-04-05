@@ -1,0 +1,14 @@
+PraPR Fix Report - Thu Apr 04 12:57:28 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 18280
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerFactory
+	Method Name: addBeanProps
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/BeanDescription;Lcom/fasterxml/jackson/databind/deser/BeanDeserializerBuilder;)V
+	Line Number: 495
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getIgnored with a call to findIgnoredForDeserialization
+	Suspiciousness Value: 0.250000
+	Rank: 1
+---------------------------------------------------

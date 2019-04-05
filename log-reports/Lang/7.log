@@ -1,0 +1,54 @@
+PraPR Fix Report - Thu Apr 04 22:24:03 CDT 2019
+Number of Plausible Fixes: 5
+Total Number of Patches: 721
+===================================================
+1.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	Line Number: 452
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.577350
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	Line Number: 452
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to startsWith with a call to equalsIgnoreCase
+	Suspiciousness Value: 0.577350
+	Rank: 4
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	Line Number: 452
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to startsWith with a call to endsWith
+	Suspiciousness Value: 0.577350
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	Line Number: 452
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to startsWith with a call to matches
+	Suspiciousness Value: 0.577350
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	Line Number: 452
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::startsWith(Ljava/lang/String;)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.577350
+	Rank: 5
+---------------------------------------------------
