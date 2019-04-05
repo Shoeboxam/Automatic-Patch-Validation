@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 18:53:55 CDT 2019
+PraPR Fix Report - Fri Apr 05 08:57:28 CDT 2019
 Number of Plausible Fixes: 3
 Total Number of Patches: 11248
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 11248
 	Class Name: com.google.javascript.jscomp.testing.TestErrorReporter
 	Method Name: hasEncounteredAllErrors
 	Method Descriptor: ()Z
+	File Name: com/google/javascript/jscomp/testing/TestErrorReporter.java
 	Line Number: 87
 	Mutator Name: BooleanTrueReturnValsMutator
 	Mutator Description: replaced boolean return with true for com/google/javascript/jscomp/testing/TestErrorReporter::hasEncounteredAllErrors
@@ -16,6 +17,7 @@ Total Number of Patches: 11248
 	Class Name: com.google.javascript.jscomp.testing.TestErrorReporter
 	Method Name: hasEncounteredAllErrors
 	Method Descriptor: ()Z
+	File Name: com/google/javascript/jscomp/testing/TestErrorReporter.java
 	Line Number: 87
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -26,6 +28,7 @@ Total Number of Patches: 11248
 	Class Name: com.google.javascript.jscomp.testing.TestErrorReporter
 	Method Name: hasEncounteredAllErrors
 	Method Descriptor: ()Z
+	File Name: com/google/javascript/jscomp/testing/TestErrorReporter.java
 	Line Number: 87
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1

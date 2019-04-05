@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 13:00:19 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:04:44 CDT 2019
 Number of Plausible Fixes: 16
 Total Number of Patches: 1039
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: getMaxMiddleIndex
 	Method Descriptor: ()I
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 552
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to maxMiddleIndex with an access to maxEndIndex
@@ -16,6 +17,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: getMaxMiddleIndex
 	Method Descriptor: ()I
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 552
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to maxMiddleIndex with an access to maxStartIndex
@@ -26,6 +28,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: getMaxMiddleIndex
 	Method Descriptor: ()I
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 552
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field org.jfree.data.time.TimePeriodValues.maxMiddleIndex is replaced by the call to org.jfree.data.time.TimePeriodValues::getMaxStartIndex()I
@@ -36,6 +39,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 300
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to minMiddleIndex with an access to maxEndIndex
@@ -46,6 +50,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 300
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to minMiddleIndex with an access to maxMiddleIndex
@@ -56,6 +61,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 302
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to minMiddleIndex with an access to maxMiddleIndex
@@ -66,6 +72,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 288
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to minMiddleIndex with an access to maxStartIndex
@@ -76,6 +83,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 288
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to minMiddleIndex with an access to maxEndIndex
@@ -86,6 +94,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 300
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to minMiddleIndex with an access to maxStartIndex
@@ -96,6 +105,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 288
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to minMiddleIndex with an access to maxMiddleIndex
@@ -106,6 +116,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 302
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to minMiddleIndex with an access to maxStartIndex
@@ -116,6 +127,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 302
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to minMiddleIndex with an access to maxEndIndex
@@ -126,6 +138,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 300
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field org.jfree.data.time.TimePeriodValues.minMiddleIndex is replaced by the call to org.jfree.data.time.TimePeriodValues::getMaxStartIndex()I
@@ -136,6 +149,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 302
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field org.jfree.data.time.TimePeriodValues.minMiddleIndex is replaced by the call to org.jfree.data.time.TimePeriodValues::getMaxStartIndex()I
@@ -146,6 +160,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 288
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field org.jfree.data.time.TimePeriodValues.minMiddleIndex is replaced by the call to org.jfree.data.time.TimePeriodValues::getMaxStartIndex()I
@@ -156,6 +171,7 @@ Total Number of Patches: 1039
 	Class Name: org.jfree.data.time.TimePeriodValues
 	Method Name: updateBounds
 	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
 	Line Number: 306
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local index is replaced by access to field maxStartIndex

@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:53:50 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:58:16 CDT 2019
 Number of Plausible Fixes: 24
 Total Number of Patches: 1616
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1040
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; with a call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)[Lcom/fasterxml/jackson/databind/JavaType;
@@ -16,6 +17,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1040
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; with a call to findTypeParameters(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType;
@@ -26,6 +28,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1040
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.fasterxml.jackson.databind.type.TypeFactory::findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; is replaced with the used of local pt
@@ -36,6 +39,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1040
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.fasterxml.jackson.databind.type.TypeFactory::findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; is replaced with the used of default value null
@@ -46,6 +50,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1040
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.fasterxml.jackson.databind.type.TypeFactory::findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; is replaced with the used of field NO_TYPES
@@ -56,6 +61,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1040
 	Mutator Name: NonVoidMethodCallGuardMutator
 	Mutator Description: the call to com.fasterxml.jackson.databind.type.TypeFactory::findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; is guarded using default value null
@@ -66,6 +72,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1041
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local pts is replaced by access to field NO_TYPES
@@ -76,6 +83,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1041
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -86,6 +94,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1041
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -96,6 +105,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1040
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local rawType is replaced a call rawType.getSuperclass()
@@ -106,6 +116,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromClass
 	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 911
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; with a call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)[Lcom/fasterxml/jackson/databind/JavaType;
@@ -116,6 +127,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromClass
 	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 911
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; with a call to findTypeParameters(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType;
@@ -126,6 +138,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromClass
 	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 913
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local pts is replaced by access to field NO_TYPES
@@ -136,6 +149,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromClass
 	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 911
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local this is replaced by access to field instance
@@ -146,6 +160,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromParamType
 	Method Descriptor: (Ljava/lang/reflect/ParameterizedType;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 1032
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -156,6 +171,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeBindings
 	Method Name: _resolveBindings
 	Method Descriptor: (Ljava/lang/reflect/Type;)V
+	File Name: com/fasterxml/jackson/databind/type/TypeBindings.java
 	Line Number: 307
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.util.Map::containsKey(Ljava/lang/Object;)Z is replaced with the used of default value false
@@ -166,6 +182,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeBindings
 	Method Name: _resolveBindings
 	Method Descriptor: (Ljava/lang/reflect/Type;)V
+	File Name: com/fasterxml/jackson/databind/type/TypeBindings.java
 	Line Number: 314
 	Mutator Name: NonVoidMethodCallGuardMutator
 	Mutator Description: the call to java.util.Map::put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; is guarded using default value null
@@ -176,6 +193,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeBindings
 	Method Name: _resolveBindings
 	Method Descriptor: (Ljava/lang/reflect/Type;)V
+	File Name: com/fasterxml/jackson/databind/type/TypeBindings.java
 	Line Number: 314
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; is guarded returning enclosing method
@@ -186,6 +204,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: findTypeParameters
 	Method Descriptor: (Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 377
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local this is replaced by access to field instance
@@ -196,6 +215,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: findTypeParameters
 	Method Descriptor: (Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 377
 	Mutator Name: LocalNameMutator
 	Mutator Description: local clz is replaced by local expType to be used
@@ -206,6 +226,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromClass
 	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 910
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.lang.Class::isAssignableFrom(Ljava/lang/Class;)Z is replaced with the used of default value false
@@ -216,6 +237,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromClass
 	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 904
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to isAssignableFrom(Ljava/lang/Class;)Z is guarded returning default value null
@@ -226,6 +248,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromClass
 	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 898
 	Mutator Name: NonVoidMethodCallGuardMutator
 	Mutator Description: the call to java.lang.Class::isAssignableFrom(Ljava/lang/Class;)Z is guarded using default value false
@@ -236,6 +259,7 @@ Total Number of Patches: 1616
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: _fromClass
 	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 892
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to isEnum()Z is guarded returning default value null

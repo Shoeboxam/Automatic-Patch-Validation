@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:47:44 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:52:02 CDT 2019
 Number of Plausible Fixes: 10
 Total Number of Patches: 19668
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 19668
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: constructSpecializedType
 	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 372
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local subclass is replaced by access to field CLS_COMPARABLE
@@ -16,6 +17,7 @@ Total Number of Patches: 19668
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: constructSpecializedType
 	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 372
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local subclass is replaced by access to field CLS_STRING
@@ -26,6 +28,7 @@ Total Number of Patches: 19668
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: constructSpecializedType
 	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 372
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local subclass is replaced by access to field CLS_ENUM
@@ -36,6 +39,7 @@ Total Number of Patches: 19668
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: constructSpecializedType
 	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 372
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local subclass is replaced by access to field CLS_CLASS
@@ -46,6 +50,7 @@ Total Number of Patches: 19668
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: constructSpecializedType
 	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 372
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local subclass is replaced by access to field CLS_OBJECT
@@ -56,6 +61,7 @@ Total Number of Patches: 19668
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: constructSpecializedType
 	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 372
 	Mutator Name: LocalNameMutator
 	Mutator Description: local subclass is replaced by local rawBase to be used
@@ -66,6 +72,7 @@ Total Number of Patches: 19668
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: constructSpecializedType
 	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 372
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -76,6 +83,7 @@ Total Number of Patches: 19668
 	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
 	Method Name: constructSpecializedType
 	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
 	Line Number: 372
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local subclass is replaced a call subclass.getSuperclass()
@@ -86,6 +94,7 @@ Total Number of Patches: 19668
 	Class Name: com.fasterxml.jackson.databind.type.SimpleType
 	Method Name: <init>
 	Method Descriptor: (Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;Lcom/fasterxml/jackson/databind/JavaType;[Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Object;Ljava/lang/Object;Z)V
+	File Name: com/fasterxml/jackson/databind/type/SimpleType.java
 	Line Number: 55
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -96,6 +105,7 @@ Total Number of Patches: 19668
 	Class Name: com.fasterxml.jackson.databind.JavaType
 	Method Name: <init>
 	Method Descriptor: (Ljava/lang/Class;ILjava/lang/Object;Ljava/lang/Object;Z)V
+	File Name: com/fasterxml/jackson/databind/JavaType.java
 	Line Number: 80
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field _hash is replaced by access to local additionalHash

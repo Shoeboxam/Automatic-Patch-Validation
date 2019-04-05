@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:36:23 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:40:30 CDT 2019
 Number of Plausible Fixes: 3
 Total Number of Patches: 1008
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 1008
 	Class Name: org.apache.commons.cli.HelpFormatter
 	Method Name: appendOption
 	Method Descriptor: (Ljava/lang/StringBuffer;Lorg/apache/commons/cli/Option;Z)V
+	File Name: org/apache/commons/cli/HelpFormatter.java
 	Line Number: 632
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to getArgName with a call to getDescription
@@ -16,6 +17,7 @@ Total Number of Patches: 1008
 	Class Name: org.apache.commons.cli.HelpFormatter
 	Method Name: appendOption
 	Method Descriptor: (Ljava/lang/StringBuffer;Lorg/apache/commons/cli/Option;Z)V
+	File Name: org/apache/commons/cli/HelpFormatter.java
 	Line Number: 632
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to getArgName with a call to getLongOpt
@@ -26,6 +28,7 @@ Total Number of Patches: 1008
 	Class Name: org.apache.commons.cli.HelpFormatter
 	Method Name: appendOption
 	Method Descriptor: (Ljava/lang/StringBuffer;Lorg/apache/commons/cli/Option;Z)V
+	File Name: org/apache/commons/cli/HelpFormatter.java
 	Line Number: 632
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to hasArg with a call to hasValueSeparator

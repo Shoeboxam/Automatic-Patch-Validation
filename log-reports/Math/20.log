@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:24:20 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:28:43 CDT 2019
 Number of Plausible Fixes: 33
 Total Number of Patches: 11630
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: <init>
 	Method Descriptor: ()V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 240
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to <init>(I)V with a call to <init>(I[DIDZIILorg/apache/commons/math3/random/RandomGenerator;ZLorg/apache/commons/math3/optimization/ConvergenceChecker;)V
@@ -16,6 +17,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: <init>
 	Method Descriptor: ()V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 240
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to <init>(I)V with a call to <init>(I[DIDZIILorg/apache/commons/math3/random/RandomGenerator;Z)V
@@ -26,6 +28,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction
 	Method Name: repair
 	Method Descriptor: ([D)[D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 995
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 1.0 with 2.0
@@ -36,6 +39,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction
 	Method Name: repair
 	Method Descriptor: ([D)[D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 995
 	Mutator Name: LocalNameMutator
 	Mutator Description: local repaired is replaced by local x to be used
@@ -46,6 +50,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction
 	Method Name: penalty
 	Method Descriptor: ([D[D)D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 1012
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double multiplication with division
@@ -56,6 +61,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction
 	Method Name: encode
 	Method Descriptor: ([D)[D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 911
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double subtraction with addition
@@ -66,6 +72,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction
 	Method Name: encode
 	Method Descriptor: ([D)[D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 911
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -76,6 +83,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction
 	Method Name: encode
 	Method Descriptor: ([D)[D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 909
 	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
 	Mutator Description: removed conditional - replaced comparison check with false
@@ -86,6 +94,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction
 	Method Name: encode
 	Method Descriptor: ([D)[D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 913
 	Mutator Name: LocalNameMutator
 	Mutator Description: local res is replaced by local x to be used
@@ -96,6 +105,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction
 	Method Name: encode
 	Method Descriptor: ([D)[D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 911
 	Mutator Name: LocalNameMutator
 	Mutator Description: local res is replaced by local x to be used
@@ -106,6 +116,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: sumRows
 	Method Descriptor: (Lorg/apache/commons/math3/linear/RealMatrix;)Lorg/apache/commons/math3/linear/RealMatrix;
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 1132
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -116,6 +127,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: initializeCMA
 	Method Descriptor: ([D)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 575
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double multiplication with division
@@ -126,6 +138,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: initializeCMA
 	Method Descriptor: ([D)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 594
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double addition with subtraction
@@ -136,6 +149,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: initializeCMA
 	Method Descriptor: ([D)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 602
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double addition with subtraction
@@ -146,6 +160,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: initializeCMA
 	Method Descriptor: ([D)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 596
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double addition with subtraction
@@ -156,6 +171,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: initializeCMA
 	Method Descriptor: ([D)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 588
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double multiplication with division
@@ -166,6 +182,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: initializeCMA
 	Method Descriptor: ([D)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 571
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to max(Lorg/apache/commons/math3/linear/RealMatrix;)D with a call to max([D)D
@@ -176,6 +193,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction
 	Method Name: encode
 	Method Descriptor: ([D)[D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 905
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -186,6 +204,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: max
 	Method Descriptor: (Lorg/apache/commons/math3/linear/RealMatrix;)D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 1253
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -196,6 +215,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: log
 	Method Descriptor: (Lorg/apache/commons/math3/linear/RealMatrix;)Lorg/apache/commons/math3/linear/RealMatrix;
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 1028
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to log with a call to atan
@@ -206,6 +226,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: initializeCMA
 	Method Descriptor: ([D)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 597
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field mueff is replaced by access to local sumwq
@@ -216,6 +237,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: initializeCMA
 	Method Descriptor: ([D)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 610
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.apache.commons.math3.linear.MatrixUtils::createColumnRealMatrix([D)Lorg/apache/commons/math3/linear/RealMatrix; is replaced with the used of local insigma
@@ -226,6 +248,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction
 	Method Name: encode
 	Method Descriptor: ([D)[D
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 905
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.apache.commons.math3.optimization.direct.CMAESOptimizer::access$100(Lorg/apache/commons/math3/optimization/direct/CMAESOptimizer;)[[D is replaced with the used of default value null
@@ -236,6 +259,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: initializeCMA
 	Method Descriptor: ([D)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 581
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to mu with an access to dimension
@@ -246,6 +270,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: initializeCMA
 	Method Descriptor: ([D)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 597
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to mueff with an access to logMu2
@@ -256,6 +281,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: doOptimize
 	Method Descriptor: ()Lorg/apache/commons/math3/optimization/PointValuePair;
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 415
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local bestValue is replaced by access to field stopTolUpX
@@ -266,6 +292,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: doOptimize
 	Method Descriptor: ()Lorg/apache/commons/math3/optimization/PointValuePair;
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 416
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local bestFitness is replaced by access to field stopTolUpX
@@ -276,6 +303,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: doOptimize
 	Method Descriptor: ()Lorg/apache/commons/math3/optimization/PointValuePair;
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 354
 	Mutator Name: ArgumentPropagationMutator
 	Mutator Description: replaced call to org/apache/commons/math3/optimization/direct/CMAESOptimizer$FitnessFunction::encode with argument
@@ -286,6 +314,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: doOptimize
 	Method Descriptor: ()Lorg/apache/commons/math3/optimization/PointValuePair;
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 354
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to encode with a call to decode
@@ -296,6 +325,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: doOptimize
 	Method Descriptor: ()Lorg/apache/commons/math3/optimization/PointValuePair;
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 354
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to encode with a call to repairAndDecode
@@ -306,6 +336,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: <init>
 	Method Descriptor: (I[DIDZIILorg/apache/commons/math3/random/RandomGenerator;Z)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 282
 	Mutator Name: LocalNameMutator
 	Mutator Description: local checkFeasableCount is replaced by local maxIterations to be used
@@ -316,6 +347,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.optimization.direct.CMAESOptimizer
 	Method Name: <init>
 	Method Descriptor: (I[DIDZIILorg/apache/commons/math3/random/RandomGenerator;ZLorg/apache/commons/math3/optimization/ConvergenceChecker;)V
+	File Name: org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
 	Line Number: 314
 	Mutator Name: LocalNameMutator
 	Mutator Description: local checkFeasableCount is replaced by local maxIterations to be used
@@ -326,6 +358,7 @@ Total Number of Patches: 11630
 	Class Name: org.apache.commons.math3.util.FastMath
 	Method Name: cos
 	Method Descriptor: (D)D
+	File Name: org/apache/commons/math3/util/FastMath.java
 	Line Number: 2293
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to getK()I is guarded returning local xa

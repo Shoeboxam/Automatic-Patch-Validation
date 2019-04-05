@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 13:00:16 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:04:40 CDT 2019
 Number of Plausible Fixes: 1
 Total Number of Patches: 801
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 801
 	Class Name: org.jfree.data.time.TimeSeries
 	Method Name: add
 	Method Descriptor: (Lorg/jfree/data/time/TimeSeriesDataItem;Z)V
+	File Name: org/jfree/data/time/TimeSeries.java
 	Line Number: 638
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to fireSeriesChanged with a call to findBoundsByIteration

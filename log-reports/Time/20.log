@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:26:25 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:30:50 CDT 2019
 Number of Plausible Fixes: 3
 Total Number of Patches: 6991
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 6991
 	Class Name: org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId
 	Method Name: parseInto
 	Method Descriptor: (Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I
+	File Name: org/joda/time/format/DateTimeFormatterBuilder.java
 	Line Number: 2543
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to startsWith with a call to equalsIgnoreCase
@@ -16,6 +17,7 @@ Total Number of Patches: 6991
 	Class Name: org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId
 	Method Name: parseInto
 	Method Descriptor: (Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I
+	File Name: org/joda/time/format/DateTimeFormatterBuilder.java
 	Line Number: 2543
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to startsWith with a call to endsWith
@@ -26,6 +28,7 @@ Total Number of Patches: 6991
 	Class Name: org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId
 	Method Name: parseInto
 	Method Descriptor: (Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I
+	File Name: org/joda/time/format/DateTimeFormatterBuilder.java
 	Line Number: 2543
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to startsWith with a call to matches

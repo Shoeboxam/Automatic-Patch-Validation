@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:25:34 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:59 CDT 2019
 Number of Plausible Fixes: 7
 Total Number of Patches: 1086
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 1086
 	Class Name: org.apache.commons.math3.distribution.DiscreteDistribution
 	Method Name: sample
 	Method Descriptor: (I)[Ljava/lang/Object;
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
 	Line Number: 189
 	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
 	Mutator Description: removed conditional - replaced comparison check with false
@@ -16,6 +17,7 @@ Total Number of Patches: 1086
 	Class Name: org.apache.commons.math3.distribution.DiscreteDistribution
 	Method Name: sample
 	Method Descriptor: (I)[Ljava/lang/Object;
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
 	Line Number: 189
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -26,6 +28,7 @@ Total Number of Patches: 1086
 	Class Name: org.apache.commons.math3.distribution.DiscreteDistribution
 	Method Name: sample
 	Method Descriptor: (I)[Ljava/lang/Object;
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
 	Line Number: 189
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -36,6 +39,7 @@ Total Number of Patches: 1086
 	Class Name: org.apache.commons.math3.distribution.DiscreteDistribution
 	Method Name: sample
 	Method Descriptor: (I)[Ljava/lang/Object;
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
 	Line Number: 187
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -46,6 +50,7 @@ Total Number of Patches: 1086
 	Class Name: org.apache.commons.math3.distribution.DiscreteDistribution
 	Method Name: sample
 	Method Descriptor: (I)[Ljava/lang/Object;
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
 	Line Number: 190
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.apache.commons.math3.distribution.DiscreteDistribution::sample()Ljava/lang/Object; is replaced with the used of default value null
@@ -56,6 +61,7 @@ Total Number of Patches: 1086
 	Class Name: org.apache.commons.math3.distribution.DiscreteDistribution
 	Method Name: sample
 	Method Descriptor: (I)[Ljava/lang/Object;
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
 	Line Number: 189
 	Mutator Name: LocalNameMutator
 	Mutator Description: local sampleSize is replaced by local i to be used
@@ -66,6 +72,7 @@ Total Number of Patches: 1086
 	Class Name: org.apache.commons.math3.distribution.DiscreteDistribution
 	Method Name: sample
 	Method Descriptor: (I)[Ljava/lang/Object;
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
 	Line Number: 189
 	Mutator Name: LocalNameMutator
 	Mutator Description: local i is replaced by local sampleSize to be used

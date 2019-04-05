@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 13:41:50 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:46:04 CDT 2019
 Number of Plausible Fixes: 8
 Total Number of Patches: 12446
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 12446
 	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
 	Method Name: parseFunctionType
 	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
 	Line Number: 2012
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to parseContextTypeExpression with a call to parseTypeExpression
@@ -16,6 +17,7 @@ Total Number of Patches: 12446
 	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
 	Method Name: parseFunctionType
 	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
 	Line Number: 2012
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to parseContextTypeExpression with a call to parseAndRecordTypeNode
@@ -26,6 +28,7 @@ Total Number of Patches: 12446
 	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
 	Method Name: parseFunctionType
 	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
 	Line Number: 2012
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to parseContextTypeExpression with a call to parseTopLevelTypeExpression
@@ -36,6 +39,7 @@ Total Number of Patches: 12446
 	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
 	Method Name: parseContextTypeExpression
 	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
 	Line Number: 1908
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to parseTypeName with a call to parseTypeExpressionAnnotation
@@ -46,6 +50,7 @@ Total Number of Patches: 12446
 	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
 	Method Name: parseContextTypeExpression
 	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
 	Line Number: 1908
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to parseTypeName with a call to parseTopLevelTypeExpression
@@ -56,6 +61,7 @@ Total Number of Patches: 12446
 	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
 	Method Name: parseContextTypeExpression
 	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
 	Line Number: 1908
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to parseTypeName with a call to parseAndRecordTypeNode
@@ -66,6 +72,7 @@ Total Number of Patches: 12446
 	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
 	Method Name: parseContextTypeExpression
 	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
 	Line Number: 1908
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to parseTypeName with a call to parseTypeExpression
@@ -76,6 +83,7 @@ Total Number of Patches: 12446
 	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
 	Method Name: parseFunctionType
 	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
 	Line Number: 2012
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to parseContextTypeExpression with a call to parseTypeExpressionAnnotation

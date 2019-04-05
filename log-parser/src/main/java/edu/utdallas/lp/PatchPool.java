@@ -43,7 +43,6 @@ public final class PatchPool {
             while ((line = br.readLine()) != null) {
                 line = line.trim();
                 if (line.matches(LogParser.ROW_HEADER)) {
-                    final int rowNo = Integer.parseInt(line.substring(0, line.length() - 1));
                     final String dumpFileName = processRow(row, br);
                     if (dumpFileName != null) {
                         return dumpFileName;

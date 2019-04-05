@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:24:03 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:28:27 CDT 2019
 Number of Plausible Fixes: 5
 Total Number of Patches: 721
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 721
 	Class Name: org.apache.commons.lang3.math.NumberUtils
 	Method Name: createNumber
 	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
 	Line Number: 452
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -16,6 +17,7 @@ Total Number of Patches: 721
 	Class Name: org.apache.commons.lang3.math.NumberUtils
 	Method Name: createNumber
 	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
 	Line Number: 452
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to startsWith with a call to equalsIgnoreCase
@@ -26,6 +28,7 @@ Total Number of Patches: 721
 	Class Name: org.apache.commons.lang3.math.NumberUtils
 	Method Name: createNumber
 	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
 	Line Number: 452
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to startsWith with a call to endsWith
@@ -36,6 +39,7 @@ Total Number of Patches: 721
 	Class Name: org.apache.commons.lang3.math.NumberUtils
 	Method Name: createNumber
 	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
 	Line Number: 452
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to startsWith with a call to matches
@@ -46,6 +50,7 @@ Total Number of Patches: 721
 	Class Name: org.apache.commons.lang3.math.NumberUtils
 	Method Name: createNumber
 	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
 	Line Number: 452
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.lang.String::startsWith(Ljava/lang/String;)Z is replaced with the used of default value false

@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:23:42 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:28:06 CDT 2019
 Number of Plausible Fixes: 7
 Total Number of Patches: 919
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 919
 	Class Name: org.apache.commons.lang3.time.FastDateParser
 	Method Name: escapeRegex
 	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	File Name: org/apache/commons/lang3/time/FastDateParser.java
 	Line Number: 310
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to append(Ljava/lang/String;)Ljava/lang/StringBuilder; with a call to append(C)Ljava/lang/StringBuilder;
@@ -16,6 +17,7 @@ Total Number of Patches: 919
 	Class Name: org.apache.commons.lang3.time.FastDateParser
 	Method Name: escapeRegex
 	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	File Name: org/apache/commons/lang3/time/FastDateParser.java
 	Line Number: 307
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -26,6 +28,7 @@ Total Number of Patches: 919
 	Class Name: org.apache.commons.lang3.time.FastDateParser
 	Method Name: escapeRegex
 	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	File Name: org/apache/commons/lang3/time/FastDateParser.java
 	Line Number: 307
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isWhitespace with a call to isLowSurrogate
@@ -36,6 +39,7 @@ Total Number of Patches: 919
 	Class Name: org.apache.commons.lang3.time.FastDateParser
 	Method Name: escapeRegex
 	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	File Name: org/apache/commons/lang3/time/FastDateParser.java
 	Line Number: 307
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isWhitespace with a call to isHighSurrogate
@@ -46,6 +50,7 @@ Total Number of Patches: 919
 	Class Name: org.apache.commons.lang3.time.FastDateParser
 	Method Name: escapeRegex
 	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	File Name: org/apache/commons/lang3/time/FastDateParser.java
 	Line Number: 307
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isWhitespace with a call to isSurrogate
@@ -56,6 +61,7 @@ Total Number of Patches: 919
 	Class Name: org.apache.commons.lang3.time.FastDateParser
 	Method Name: escapeRegex
 	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	File Name: org/apache/commons/lang3/time/FastDateParser.java
 	Line Number: 307
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isWhitespace with a call to isTitleCase
@@ -66,6 +72,7 @@ Total Number of Patches: 919
 	Class Name: org.apache.commons.lang3.time.FastDateParser
 	Method Name: escapeRegex
 	Method Descriptor: (Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
+	File Name: org/apache/commons/lang3/time/FastDateParser.java
 	Line Number: 307
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.lang.Character::isWhitespace(C)Z is replaced with the used of default value false

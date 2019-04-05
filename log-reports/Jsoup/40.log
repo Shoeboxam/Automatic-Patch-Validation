@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:59:10 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:03:34 CDT 2019
 Number of Plausible Fixes: 5
 Total Number of Patches: 5556
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 5556
 	Class Name: org.jsoup.safety.Cleaner
 	Method Name: clean
 	Method Descriptor: (Lorg/jsoup/nodes/Document;)Lorg/jsoup/nodes/Document;
+	File Name: org/jsoup/safety/Cleaner.java
 	Line Number: 43
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local dirtyDocument is replaced a call dirtyDocument.normalise()
@@ -16,6 +17,7 @@ Total Number of Patches: 5556
 	Class Name: org.jsoup.safety.Cleaner
 	Method Name: clean
 	Method Descriptor: (Lorg/jsoup/nodes/Document;)Lorg/jsoup/nodes/Document;
+	File Name: org/jsoup/safety/Cleaner.java
 	Line Number: 42
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local dirtyDocument is replaced a call dirtyDocument.normalise()
@@ -26,6 +28,7 @@ Total Number of Patches: 5556
 	Class Name: org.jsoup.safety.Cleaner
 	Method Name: clean
 	Method Descriptor: (Lorg/jsoup/nodes/Document;)Lorg/jsoup/nodes/Document;
+	File Name: org/jsoup/safety/Cleaner.java
 	Line Number: 40
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local dirtyDocument is replaced a call dirtyDocument.normalise()
@@ -36,6 +39,7 @@ Total Number of Patches: 5556
 	Class Name: org.jsoup.safety.Cleaner
 	Method Name: clean
 	Method Descriptor: (Lorg/jsoup/nodes/Document;)Lorg/jsoup/nodes/Document;
+	File Name: org/jsoup/safety/Cleaner.java
 	Line Number: 43
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to body with a call to clone
@@ -46,6 +50,7 @@ Total Number of Patches: 5556
 	Class Name: org.jsoup.safety.Cleaner
 	Method Name: copySafeNodes
 	Method Descriptor: (Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)I
+	File Name: org/jsoup/safety/Cleaner.java
 	Line Number: 73
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to childNodes()Ljava/util/List; is guarded returning default value 0

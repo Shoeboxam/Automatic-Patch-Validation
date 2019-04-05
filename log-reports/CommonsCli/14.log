@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:36:18 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:40:26 CDT 2019
 Number of Plausible Fixes: 6
 Total Number of Patches: 1329
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 1329
 	Class Name: org.apache.commons.cli.PosixParser
 	Method Name: processOptionToken
 	Method Descriptor: (Ljava/lang/String;Z)V
+	File Name: org/apache/commons/cli/PosixParser.java
 	Line Number: 234
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -16,6 +17,7 @@ Total Number of Patches: 1329
 	Class Name: org.apache.commons.cli.PosixParser
 	Method Name: flatten
 	Method Descriptor: (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String;
+	File Name: org/apache/commons/cli/PosixParser.java
 	Line Number: 134
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to processOptionToken with a call to burstToken
@@ -26,6 +28,7 @@ Total Number of Patches: 1329
 	Class Name: org.apache.commons.cli.PosixParser
 	Method Name: flatten
 	Method Descriptor: (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String;
+	File Name: org/apache/commons/cli/PosixParser.java
 	Line Number: 132
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 2 with 3
@@ -36,6 +39,7 @@ Total Number of Patches: 1329
 	Class Name: org.apache.commons.cli.PosixParser
 	Method Name: flatten
 	Method Descriptor: (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String;
+	File Name: org/apache/commons/cli/PosixParser.java
 	Line Number: 132
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -46,6 +50,7 @@ Total Number of Patches: 1329
 	Class Name: org.apache.commons.cli.PosixParser
 	Method Name: flatten
 	Method Descriptor: (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String;
+	File Name: org/apache/commons/cli/PosixParser.java
 	Line Number: 132
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to length with a call to hashCode
@@ -56,6 +61,7 @@ Total Number of Patches: 1329
 	Class Name: org.apache.commons.cli.PosixParser
 	Method Name: flatten
 	Method Descriptor: (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String;
+	File Name: org/apache/commons/cli/PosixParser.java
 	Line Number: 132
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.lang.String::length()I is replaced with the used of default value 0

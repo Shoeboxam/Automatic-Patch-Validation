@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:58:36 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:03:00 CDT 2019
 Number of Plausible Fixes: 6
 Total Number of Patches: 7003
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 7003
 	Class Name: org.jsoup.parser.HtmlTreeBuilderState$9
 	Method Name: process
 	Method Descriptor: (Lorg/jsoup/parser/Token;Lorg/jsoup/parser/HtmlTreeBuilder;)Z
+	File Name: org/jsoup/parser/HtmlTreeBuilderState.java
 	Line Number: 832
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -16,6 +17,7 @@ Total Number of Patches: 7003
 	Class Name: org.jsoup.parser.HtmlTreeBuilderState$9
 	Method Name: process
 	Method Descriptor: (Lorg/jsoup/parser/Token;Lorg/jsoup/parser/HtmlTreeBuilder;)Z
+	File Name: org/jsoup/parser/HtmlTreeBuilderState.java
 	Line Number: 832
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -26,6 +28,7 @@ Total Number of Patches: 7003
 	Class Name: org.jsoup.nodes.Node
 	Method Name: before
 	Method Descriptor: (Lorg/jsoup/nodes/Node;)Lorg/jsoup/nodes/Node;
+	File Name: org/jsoup/nodes/Node.java
 	Line Number: 306
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field org.jsoup.nodes.Node.siblingIndex is replaced by the call to org.jsoup.nodes.Node::childNodeSize()I
@@ -36,6 +39,7 @@ Total Number of Patches: 7003
 	Class Name: org.jsoup.parser.HtmlTreeBuilderState$14
 	Method Name: process
 	Method Descriptor: (Lorg/jsoup/parser/Token;Lorg/jsoup/parser/HtmlTreeBuilder;)Z
+	File Name: org/jsoup/parser/HtmlTreeBuilderState.java
 	Line Number: 1109
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -46,6 +50,7 @@ Total Number of Patches: 7003
 	Class Name: org.jsoup.parser.HtmlTreeBuilderState$14
 	Method Name: process
 	Method Descriptor: (Lorg/jsoup/parser/Token;Lorg/jsoup/parser/HtmlTreeBuilder;)Z
+	File Name: org/jsoup/parser/HtmlTreeBuilderState.java
 	Line Number: 1109
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -56,6 +61,7 @@ Total Number of Patches: 7003
 	Class Name: org.jsoup.parser.HtmlTreeBuilderState$14
 	Method Name: process
 	Method Descriptor: (Lorg/jsoup/parser/Token;Lorg/jsoup/parser/HtmlTreeBuilder;)Z
+	File Name: org/jsoup/parser/HtmlTreeBuilderState.java
 	Line Number: 1109
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.lang.String::equals(Ljava/lang/Object;)Z is replaced with the used of default value false

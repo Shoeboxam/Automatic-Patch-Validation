@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:37:03 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:41:08 CDT 2019
 Number of Plausible Fixes: 4
 Total Number of Patches: 5778
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 5778
 	Class Name: org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression
 	Method Name: compute
 	Method Descriptor: (Ljava/lang/Object;Ljava/lang/Object;)Z
+	File Name: org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
 	Line Number: 88
 	Mutator Name: BooleanTrueReturnValsMutator
 	Mutator Description: replaced boolean return with true for org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression::compute
@@ -16,6 +17,7 @@ Total Number of Patches: 5778
 	Class Name: org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression
 	Method Name: compute
 	Method Descriptor: (Ljava/lang/Object;Ljava/lang/Object;)Z
+	File Name: org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
 	Line Number: 88
 	Mutator Name: ReturnValsMutator
 	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
@@ -26,6 +28,7 @@ Total Number of Patches: 5778
 	Class Name: org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression
 	Method Name: compute
 	Method Descriptor: (Ljava/lang/Object;Ljava/lang/Object;)Z
+	File Name: org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
 	Line Number: 87
 	Mutator Name: LocalNameMutator
 	Mutator Description: local right is replaced by local left to be used
@@ -36,6 +39,7 @@ Total Number of Patches: 5778
 	Class Name: org.apache.commons.jxpath.ri.compiler.CoreOperationRelationalExpression
 	Method Name: compute
 	Method Descriptor: (Ljava/lang/Object;Ljava/lang/Object;)Z
+	File Name: org/apache/commons/jxpath/ri/compiler/CoreOperationRelationalExpression.java
 	Line Number: 87
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false

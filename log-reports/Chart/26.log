@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 13:00:15 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:04:40 CDT 2019
 Number of Plausible Fixes: 100
 Total Number of Patches: 9480
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2537
 	Mutator Name: RemoveConditionalMutator_ORDER_IF
 	Mutator Description: removed conditional - replaced comparison check with true
@@ -16,6 +17,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2536
 	Mutator Name: RemoveConditionalMutator_ORDER_IF
 	Mutator Description: removed conditional - replaced comparison check with true
@@ -26,6 +28,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2571
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.jfree.chart.plot.CategoryPlot::drawAxes(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;)Ljava/util/Map; is replaced with the used of field foregroundDomainMarkers
@@ -36,6 +39,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2536
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.awt.geom.Rectangle2D::getWidth()D is replaced with the used of default value 0.D
@@ -46,6 +50,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2536
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.awt.geom.Rectangle2D::getWidth()D is replaced with the used of field anchorValue
@@ -56,6 +61,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2537
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.awt.geom.Rectangle2D::getHeight()D is replaced with the used of default value 0.D
@@ -66,6 +72,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2537
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.awt.geom.Rectangle2D::getHeight()D is replaced with the used of field anchorValue
@@ -76,6 +83,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2538
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local b2 is replaced by access to field DEFAULT_RANGE_GRIDLINES_VISIBLE
@@ -86,6 +94,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2538
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local b1 is replaced by access to field DEFAULT_RANGE_GRIDLINES_VISIBLE
@@ -96,6 +105,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2537
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -106,6 +116,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2536
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -116,6 +127,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2538
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -126,6 +138,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2538
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -136,6 +149,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2538
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -146,6 +160,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2536
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -156,6 +171,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.plot.CategoryPlot
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V
+	File Name: org/jfree/chart/plot/CategoryPlot.java
 	Line Number: 2537
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -166,6 +182,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1192
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.jfree.chart.ChartRenderingInfo::getEntityCollection()Lorg/jfree/chart/entity/EntityCollection; is replaced with the used of default value null
@@ -176,6 +193,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1192
 	Mutator Name: NonVoidMethodCallGuardMutator
 	Mutator Description: the call to org.jfree.chart.ChartRenderingInfo::getEntityCollection()Lorg/jfree/chart/entity/EntityCollection; is guarded using default value null
@@ -186,6 +204,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1192
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to getEntityCollection()Lorg/jfree/chart/entity/EntityCollection; is guarded returning local state
@@ -196,6 +215,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: isVisible
 	Method Descriptor: ()Z
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 314
 	Mutator Name: BooleanFalseReturnValsMutator
 	Mutator Description: replaced boolean return with false for org/jfree/chart/axis/Axis::isVisible
@@ -206,6 +226,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1101
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.lang.String::equals(Ljava/lang/Object;)Z is replaced with the used of field DEFAULT_AXIS_VISIBLE
@@ -216,6 +237,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1101
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local label is replaced by access to field labelURL
@@ -226,6 +248,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1101
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local label is replaced by access to field labelToolTip
@@ -236,6 +259,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1190
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -246,6 +270,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1101
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -256,6 +281,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: isVisible
 	Method Descriptor: ()Z
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 314
 	Mutator Name: ReturnValsMutator
 	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
@@ -266,6 +292,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1190
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -276,6 +303,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1101
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -286,6 +314,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: drawLabel
 	Method Descriptor: (Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 1101
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -296,6 +325,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: drawTitle
 	Method Descriptor: (Lorg/jfree/chart/title/Title;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Z)Lorg/jfree/chart/entity/EntityCollection;
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1312
 	Mutator Name: LocalNameMutator
 	Mutator Description: local area is replaced by local titleArea to be used
@@ -306,6 +336,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: drawTitle
 	Method Descriptor: (Lorg/jfree/chart/title/Title;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Z)Lorg/jfree/chart/entity/EntityCollection;
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1312
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.awt.geom.Rectangle2D::getWidth()D is replaced with the used of default value 0.D
@@ -316,6 +347,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: drawTitle
 	Method Descriptor: (Lorg/jfree/chart/title/Title;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Z)Lorg/jfree/chart/entity/EntityCollection;
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1312
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.awt.geom.Rectangle2D::getHeight()D is replaced with the used of default value 0.D
@@ -326,6 +358,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: drawTitle
 	Method Descriptor: (Lorg/jfree/chart/title/Title;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Z)Lorg/jfree/chart/entity/EntityCollection;
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1312
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field height is replaced by access to local hh
@@ -336,6 +369,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: drawTitle
 	Method Descriptor: (Lorg/jfree/chart/title/Title;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Z)Lorg/jfree/chart/entity/EntityCollection;
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1312
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field height is replaced by access to local ww
@@ -346,6 +380,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 526
 	Mutator Name: ArgumentPropagationMutator
 	Mutator Description: replaced call to org/jfree/chart/util/RectangleInsets::calculateTopInset with argument
@@ -356,6 +391,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 527
 	Mutator Name: ArgumentPropagationMutator
 	Mutator Description: replaced call to org/jfree/chart/util/RectangleInsets::calculateBottomInset with argument
@@ -366,6 +402,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 525
 	Mutator Name: ArgumentPropagationMutator
 	Mutator Description: replaced call to org/jfree/chart/util/RectangleInsets::calculateRightInset with argument
@@ -376,6 +413,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 524
 	Mutator Name: ArgumentPropagationMutator
 	Mutator Description: replaced call to org/jfree/chart/util/RectangleInsets::calculateLeftInset with argument
@@ -386,6 +424,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local h is replaced by local t to be used
@@ -396,6 +435,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local r is replaced by local w to be used
@@ -406,6 +446,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1181
 	Mutator Name: LocalNameMutator
 	Mutator Description: local chartArea is replaced by local nonTitleArea to be used
@@ -416,6 +457,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local t is replaced by local h to be used
@@ -426,6 +468,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local w is replaced by local l to be used
@@ -436,6 +479,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local t is replaced by local w to be used
@@ -446,6 +490,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local h is replaced by local l to be used
@@ -456,6 +501,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local w is replaced by local t to be used
@@ -466,6 +512,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local b is replaced by local h to be used
@@ -476,6 +523,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local l is replaced by local w to be used
@@ -486,6 +534,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local b is replaced by local w to be used
@@ -496,6 +545,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1181
 	Mutator Name: LocalNameMutator
 	Mutator Description: local nonTitleArea is replaced by local chartArea to be used
@@ -506,6 +556,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local w is replaced by local r to be used
@@ -516,6 +567,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local h is replaced by local r to be used
@@ -526,6 +578,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local w is replaced by local b to be used
@@ -536,6 +589,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalNameMutator
 	Mutator Description: local h is replaced by local b to be used
@@ -546,6 +600,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 524
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.jfree.chart.util.RectangleInsets::calculateLeftInset(D)D is replaced with the used of local w
@@ -556,6 +611,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 523
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.awt.geom.Rectangle2D::getHeight()D is replaced with the used of default value 0.D
@@ -566,6 +622,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 525
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.jfree.chart.util.RectangleInsets::calculateRightInset(D)D is replaced with the used of local w
@@ -576,6 +633,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 522
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.awt.geom.Rectangle2D::getWidth()D is replaced with the used of default value 0.D
@@ -586,6 +644,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 526
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.jfree.chart.util.RectangleInsets::calculateTopInset(D)D is replaced with the used of local w
@@ -596,6 +655,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 522
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.awt.geom.Rectangle2D::getWidth()D is replaced with the used of field top
@@ -606,6 +666,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 527
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.jfree.chart.util.RectangleInsets::calculateBottomInset(D)D is replaced with the used of local w
@@ -616,6 +677,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 523
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.awt.geom.Rectangle2D::getHeight()D is replaced with the used of field top
@@ -626,6 +688,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local h is replaced by access to field bottom
@@ -636,6 +699,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local h is replaced by access to field left
@@ -646,6 +710,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local w is replaced by access to field right
@@ -656,6 +721,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local w is replaced by access to field bottom
@@ -666,6 +732,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local h is replaced by access to field right
@@ -676,6 +743,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local w is replaced by access to field top
@@ -686,6 +754,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local w is replaced by access to field left
@@ -696,6 +765,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 528
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local h is replaced by access to field top
@@ -706,6 +776,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 527
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateBottomInset with a call to extendWidth
@@ -716,6 +787,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 526
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateTopInset with a call to trimHeight
@@ -726,6 +798,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 524
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateLeftInset with a call to trimWidth
@@ -736,6 +809,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 526
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateTopInset with a call to extendWidth
@@ -746,6 +820,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 525
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateRightInset with a call to extendWidth
@@ -756,6 +831,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 526
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateTopInset with a call to trimWidth
@@ -766,6 +842,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 525
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateRightInset with a call to trimHeight
@@ -776,6 +853,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 525
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateRightInset with a call to trimWidth
@@ -786,6 +864,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 527
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateBottomInset with a call to trimHeight
@@ -796,6 +875,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 524
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateLeftInset with a call to extendWidth
@@ -806,6 +886,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 527
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateBottomInset with a call to trimWidth
@@ -816,6 +897,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: trim
 	Method Descriptor: (Ljava/awt/geom/Rectangle2D;)V
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 524
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to calculateLeftInset with a call to trimHeight
@@ -826,6 +908,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1181
 	Mutator Name: VoidMethodCallMutator
 	Mutator Description: removed call to java/awt/geom/Rectangle2D::setRect
@@ -836,6 +919,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1213
 	Mutator Name: VoidMethodCallMutator
 	Mutator Description: removed call to org/jfree/chart/plot/Plot::draw
@@ -846,6 +930,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1181
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local nonTitleArea is replaced a call nonTitleArea.getBounds2D()
@@ -856,6 +941,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.JFreeChart
 	Method Name: draw
 	Method Descriptor: (Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/ChartRenderingInfo;)V
+	File Name: org/jfree/chart/JFreeChart.java
 	Line Number: 1181
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to setRect(Ljava/awt/geom/Rectangle2D;)V with a call to setRect(DDDD)V
@@ -866,6 +952,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: calculateLeftInset
 	Method Descriptor: (D)D
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 422
 	Mutator Name: LocalNameMutator
 	Mutator Description: local result is replaced by local width to be used
@@ -876,6 +963,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: calculateRightInset
 	Method Descriptor: (D)D
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 452
 	Mutator Name: LocalNameMutator
 	Mutator Description: local result is replaced by local width to be used
@@ -886,6 +974,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: calculateBottomInset
 	Method Descriptor: (D)D
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 392
 	Mutator Name: LocalNameMutator
 	Mutator Description: local result is replaced by local height to be used
@@ -896,6 +985,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: calculateTopInset
 	Method Descriptor: (D)D
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 362
 	Mutator Name: LocalNameMutator
 	Mutator Description: local result is replaced by local height to be used
@@ -906,6 +996,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: calculateTopInset
 	Method Descriptor: (D)D
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 358
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field top is replaced by access to local height
@@ -916,6 +1007,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: calculateRightInset
 	Method Descriptor: (D)D
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 448
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field right is replaced by access to local width
@@ -926,6 +1018,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: calculateBottomInset
 	Method Descriptor: (D)D
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 388
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field bottom is replaced by access to local height
@@ -936,6 +1029,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.util.RectangleInsets
 	Method Name: calculateLeftInset
 	Method Descriptor: (D)D
+	File Name: org/jfree/chart/util/RectangleInsets.java
 	Line Number: 418
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field left is replaced by access to local width
@@ -946,6 +1040,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: getLabel
 	Method Descriptor: ()Ljava/lang/String;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 342
 	Mutator Name: EmptyObjectReturnValsMutator
 	Mutator Description: replaced return value with "" for org/jfree/chart/axis/Axis::getLabel
@@ -956,6 +1051,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: getLabel
 	Method Descriptor: ()Ljava/lang/String;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 342
 	Mutator Name: ReturnValsMutator
 	Mutator Description: mutated return of Object value for org/jfree/chart/axis/Axis::getLabel to ( if (x != null) null else throw new RuntimeException )
@@ -966,6 +1062,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: getLabel
 	Method Descriptor: ()Ljava/lang/String;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 342
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field org.jfree.chart.axis.Axis.label is replaced by the call to org.jfree.chart.axis.Axis::getLabelURL()Ljava/lang/String;
@@ -976,6 +1073,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: getLabel
 	Method Descriptor: ()Ljava/lang/String;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 342
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field org.jfree.chart.axis.Axis.label is replaced by the call to org.jfree.chart.axis.Axis::getLabelToolTip()Ljava/lang/String;
@@ -986,6 +1084,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: getLabel
 	Method Descriptor: ()Ljava/lang/String;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 342
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to label with an access to labelToolTip
@@ -996,6 +1095,7 @@ Total Number of Patches: 9480
 	Class Name: org.jfree.chart.axis.Axis
 	Method Name: getLabel
 	Method Descriptor: ()Ljava/lang/String;
+	File Name: org/jfree/chart/axis/Axis.java
 	Line Number: 342
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to label with an access to labelURL

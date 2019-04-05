@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 16:23:51 CDT 2019
+PraPR Fix Report - Fri Apr 05 06:28:22 CDT 2019
 Number of Plausible Fixes: 1
 Total Number of Patches: 12726
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 12726
 	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
 	Method Name: extractMultilineTextualBlock
 	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;Lcom/google/javascript/jscomp/parsing/JsDocInfoParser$WhitespaceOption;)Lcom/google/javascript/jscomp/parsing/JsDocInfoParser$ExtractionInfo;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
 	Line Number: 1432
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to next with a call to eatTokensUntilEOL

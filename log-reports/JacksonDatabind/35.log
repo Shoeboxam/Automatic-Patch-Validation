@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:53:17 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:57:42 CDT 2019
 Number of Plausible Fixes: 12
 Total Number of Patches: 22917
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 956
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to START_OBJECT with an access to FIELD_NAME
@@ -16,6 +17,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 956
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to START_OBJECT with an access to NOT_AVAILABLE
@@ -26,6 +28,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 956
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to START_OBJECT with an access to END_OBJECT
@@ -36,6 +39,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 956
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to START_OBJECT with an access to END_ARRAY
@@ -46,6 +50,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 956
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to START_OBJECT with an access to VALUE_EMBEDDED_OBJECT
@@ -56,6 +61,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 956
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to START_OBJECT with an access to START_ARRAY
@@ -66,6 +72,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 956
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -76,6 +83,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 956
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -86,6 +94,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 957
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.fasterxml.jackson.core.JsonParser::nextToken()Lcom/fasterxml/jackson/core/JsonToken; is replaced with the used of default value null
@@ -96,6 +105,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 957
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.fasterxml.jackson.core.JsonParser::nextToken()Lcom/fasterxml/jackson/core/JsonToken; is replaced with the used of local t
@@ -106,6 +116,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 957
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to nextToken with a call to getCurrentToken
@@ -116,6 +127,7 @@ Total Number of Patches: 22917
 	Class Name: com.fasterxml.jackson.databind.deser.BeanDeserializerBase
 	Method Name: deserializeWithType
 	Method Descriptor: (Lcom/fasterxml/jackson/core/JsonParser;Lcom/fasterxml/jackson/databind/DeserializationContext;Lcom/fasterxml/jackson/databind/jsontype/TypeDeserializer;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
 	Line Number: 957
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to nextToken with a call to getLastClearedToken

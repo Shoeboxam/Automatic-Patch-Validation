@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:24:58 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:23 CDT 2019
 Number of Plausible Fixes: 3
 Total Number of Patches: 201
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 201
 	Class Name: org.apache.commons.math3.complex.Complex
 	Method Name: reciprocal
 	Method Descriptor: ()Lorg/apache/commons/math3/complex/Complex;
+	File Name: org/apache/commons/math3/complex/Complex.java
 	Line Number: 305
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to NaN with an access to INF
@@ -16,6 +17,7 @@ Total Number of Patches: 201
 	Class Name: org.apache.commons.math3.complex.Complex
 	Method Name: equals
 	Method Descriptor: (Ljava/lang/Object;)Z
+	File Name: org/apache/commons/math3/complex/Complex.java
 	Line Number: 345
 	Mutator Name: LocalNameMutator
 	Mutator Description: local c is replaced by local this to be used
@@ -26,6 +28,7 @@ Total Number of Patches: 201
 	Class Name: org.apache.commons.math3.complex.Complex
 	Method Name: equals
 	Method Descriptor: (Ljava/lang/Object;)Z
+	File Name: org/apache/commons/math3/complex/Complex.java
 	Line Number: 340
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local this is replaced by access to field INF

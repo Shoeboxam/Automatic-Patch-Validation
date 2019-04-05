@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 13:00:08 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:04:33 CDT 2019
 Number of Plausible Fixes: 2
 Total Number of Patches: 96
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 96
 	Class Name: org.jfree.chart.renderer.GrayPaintScale
 	Method Name: getPaint
 	Method Descriptor: (D)Ljava/awt/Paint;
+	File Name: org/jfree/chart/renderer/GrayPaintScale.java
 	Line Number: 126
 	Mutator Name: LocalNameMutator
 	Mutator Description: local value is replaced by local v to be used
@@ -16,6 +17,7 @@ Total Number of Patches: 96
 	Class Name: org.jfree.chart.renderer.GrayPaintScale
 	Method Name: getPaint
 	Method Descriptor: (D)Ljava/awt/Paint;
+	File Name: org/jfree/chart/renderer/GrayPaintScale.java
 	Line Number: 125
 	Mutator Name: LocalNameMutator
 	Mutator Description: local v is replaced by local value to be defined

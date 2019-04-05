@@ -7,11 +7,15 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    flatDir {
+        dirs 'lib'
+    }
 }
 
 dependencies {
     compile 'org.apache.commons:commons-csv:1.6'
     compile 'commons-io:commons-io:2.6'
+    compile 'edu.utdallas:window:1.0'
 }
 
 jar {

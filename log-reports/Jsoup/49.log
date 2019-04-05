@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:59:24 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:03:48 CDT 2019
 Number of Plausible Fixes: 3
 Total Number of Patches: 3239
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 3239
 	Class Name: org.jsoup.parser.TreeBuilderState$7
 	Method Name: process
 	Method Descriptor: (Lorg/jsoup/parser/Token;Lorg/jsoup/parser/TreeBuilder;)Z
+	File Name: org/jsoup/parser/TreeBuilderState.java
 	Line Number: 250
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -16,6 +17,7 @@ Total Number of Patches: 3239
 	Class Name: org.jsoup.parser.TreeBuilderState$7
 	Method Name: process
 	Method Descriptor: (Lorg/jsoup/parser/Token;Lorg/jsoup/parser/TreeBuilder;)Z
+	File Name: org/jsoup/parser/TreeBuilderState.java
 	Line Number: 250
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.jsoup.parser.TreeBuilderState::access$400()Ljava/lang/String; is replaced with the used of default value null
@@ -26,6 +28,7 @@ Total Number of Patches: 3239
 	Class Name: org.jsoup.parser.TreeBuilderState$7
 	Method Name: process
 	Method Descriptor: (Lorg/jsoup/parser/Token;Lorg/jsoup/parser/TreeBuilder;)Z
+	File Name: org/jsoup/parser/TreeBuilderState.java
 	Line Number: 250
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.lang.String::equals(Ljava/lang/Object;)Z is replaced with the used of default value false

@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:59:14 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:03:38 CDT 2019
 Number of Plausible Fixes: 13
 Total Number of Patches: 3942
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$27
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 558
 	Mutator Name: VoidMethodCallMutator
 	Mutator Description: removed call to org/jsoup/parser/CharacterReader::advance
@@ -16,6 +17,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$25
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 530
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -26,6 +28,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$27
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 554
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -36,6 +39,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$26
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 541
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -46,6 +50,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$27
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 554
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -56,6 +61,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$25
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 530
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -66,6 +72,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$26
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 541
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -76,6 +83,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$25
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 530
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.jsoup.parser.CharacterReader::matches(C)Z is replaced with the used of default value false
@@ -86,6 +94,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$26
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 541
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.jsoup.parser.CharacterReader::matchesLetter()Z is replaced with the used of default value false
@@ -96,6 +105,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$27
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 554
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.jsoup.parser.CharacterReader::matchesLetter()Z is replaced with the used of default value false
@@ -106,6 +116,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$25
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 530
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 47 with 48
@@ -116,6 +127,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$25
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 525
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -126,6 +138,7 @@ Total Number of Patches: 3942
 	Class Name: org.jsoup.parser.TokeniserState$25
 	Method Name: read
 	Method Descriptor: (Lorg/jsoup/parser/Tokeniser;Lorg/jsoup/parser/CharacterReader;)V
+	File Name: org/jsoup/parser/TokeniserState.java
 	Line Number: 525
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true

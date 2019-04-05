@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 14:29:24 CDT 2019
+PraPR Fix Report - Fri Apr 05 04:32:54 CDT 2019
 Number of Plausible Fixes: 43
 Total Number of Patches: 32426
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 732
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -16,6 +17,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 732
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.google.javascript.jscomp.NodeUtil::canBeSideEffected(Lcom/google/javascript/rhino/Node;)Z is replaced with the used of default value false
@@ -26,6 +28,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 702
 	Mutator Name: NakedReceiverMutator
 	Mutator Description: replaced call to com/google/javascript/rhino/Node::getFirstChild with receiver
@@ -36,6 +39,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -46,6 +50,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isReturn with a call to isSyntheticBlock
@@ -56,6 +61,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isReturn with a call to isOptionalArg
@@ -66,6 +72,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isReturn with a call to hasMoreThanOneChild
@@ -76,6 +83,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isReturn with a call to isFromExterns
@@ -86,6 +94,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 702
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to getFirstChild with a call to getParent
@@ -96,6 +105,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isReturn with a call to isVarArgs
@@ -106,6 +116,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isReturn with a call to isQualifiedName
@@ -116,6 +127,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isReturn with a call to isUnscopedQualifiedName
@@ -126,6 +138,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 702
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to getFirstChild with a call to cloneTree
@@ -136,6 +149,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 702
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to getFirstChild with a call to getLastSibling
@@ -146,6 +160,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 702
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to getFirstChild with a call to cloneNode
@@ -156,6 +171,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isReturn with a call to wasEmptyNode
@@ -166,6 +182,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 702
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.google.javascript.rhino.Node::getFirstChild()Lcom/google/javascript/rhino/Node; is replaced with the used of local callNode
@@ -176,6 +193,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.google.javascript.rhino.Node::isReturn()Z is replaced with the used of local hasSideEffects
@@ -186,6 +204,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.google.javascript.rhino.Node::isReturn()Z is replaced with the used of default value false
@@ -196,6 +215,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 704
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.google.javascript.jscomp.NodeUtil::mayHaveSideEffects(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z is replaced with the used of default value false
@@ -206,6 +226,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 704
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.google.javascript.jscomp.NodeUtil::mayHaveSideEffects(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z is replaced with the used of local hasSideEffects
@@ -216,6 +237,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local block is replaced by local fnNode to be used
@@ -226,6 +248,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: LocalNameMutator
 	Mutator Description: local stmt is replaced by local block to be used
@@ -236,6 +259,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local stmt is replaced by local fnNode to be used
@@ -246,6 +270,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: LocalNameMutator
 	Mutator Description: local stmt is replaced by local fnNode to be used
@@ -256,6 +281,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: LocalNameMutator
 	Mutator Description: local stmt is replaced by local callNode to be used
@@ -266,6 +292,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local stmt is replaced by local callNode to be used
@@ -276,6 +303,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local block is replaced by local callNode to be used
@@ -286,6 +314,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 702
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local block is replaced a call block.getFirstChild()
@@ -296,6 +325,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local stmt is replaced a call stmt.getFirstChild()
@@ -306,6 +336,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 703
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -316,6 +347,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -326,6 +358,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to hasChildren with a call to isOptionalArg
@@ -336,6 +369,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to hasChildren with a call to hasMoreThanOneChild
@@ -346,6 +380,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to hasChildren with a call to isSyntheticBlock
@@ -356,6 +391,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to hasChildren with a call to isFromExterns
@@ -366,6 +402,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to hasChildren with a call to wasEmptyNode
@@ -376,6 +413,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to hasChildren with a call to isQualifiedName
@@ -386,6 +424,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to hasChildren with a call to isVarArgs
@@ -396,6 +435,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to hasChildren with a call to isUnscopedQualifiedName
@@ -406,6 +446,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to hasChildren with a call to isOnlyModifiesThisCall
@@ -416,6 +457,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.google.javascript.rhino.Node::hasChildren()Z is replaced with the used of default value false
@@ -426,6 +468,7 @@ Total Number of Patches: 32426
 	Class Name: com.google.javascript.jscomp.FunctionInjector
 	Method Name: canInlineReferenceDirectly
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;
+	File Name: com/google/javascript/jscomp/FunctionInjector.java
 	Line Number: 700
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.google.javascript.rhino.Node::hasChildren()Z is replaced with the used of local hasSideEffects

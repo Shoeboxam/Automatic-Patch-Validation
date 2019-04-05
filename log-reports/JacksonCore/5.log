@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:37:33 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:41:37 CDT 2019
 Number of Plausible Fixes: 32
 Total Number of Patches: 832
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 277
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._sizeThreshold is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
@@ -16,6 +17,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 273
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._size is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
@@ -26,6 +28,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 274
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._hashSeed is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
@@ -36,6 +39,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 268
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._flags is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::initTables(I)V
@@ -46,6 +50,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 278
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._indexMask is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
@@ -56,6 +61,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 279
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._longestCollisionList is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
@@ -66,6 +72,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (IZIZ)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 226
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._failOnDoS is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::nukeSymbols(Z)V
@@ -76,6 +83,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 268
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._flags is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
@@ -86,6 +94,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: createRoot
 	Method Descriptor: (I)Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 230
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.sBootstrapSymbolTable is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::createRoot()Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
@@ -96,6 +105,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (IZIZ)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 225
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._intern is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::nukeSymbols(Z)V
@@ -106,6 +116,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 266
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._parent is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::mergeChild(Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;)V
@@ -116,6 +127,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer$TableInfo
 	Method Name: createInitial
 	Method Descriptor: (I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 1259
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to <init>(III[I[Ljava/lang/String;II)V with a call to <init>(Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;)V
@@ -126,6 +138,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: createRoot
 	Method Descriptor: ()Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 291
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to createRoot(I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer; with a call to createRoot()Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
@@ -136,6 +149,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: createRoot
 	Method Descriptor: ()Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 226
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to createRoot(I)Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer; with a call to createRoot()Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
@@ -146,6 +160,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: createRoot
 	Method Descriptor: (I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 299
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to <init>(IZIZ)V with a call to <init>(Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;ZIZLcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;)V
@@ -156,6 +171,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.JsonFactory
 	Method Name: <init>
 	Method Descriptor: ()V
+	File Name: com/fasterxml/jackson/core/JsonFactory.java
 	Line Number: 282
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to <init>(Lcom/fasterxml/jackson/core/ObjectCodec;)V with a call to <init>(Lcom/fasterxml/jackson/core/JsonFactory;Lcom/fasterxml/jackson/core/ObjectCodec;)V
@@ -166,6 +182,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.JsonFactory
 	Method Name: <init>
 	Method Descriptor: ()V
+	File Name: com/fasterxml/jackson/core/JsonFactory.java
 	Line Number: 282
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to <init>(Lcom/fasterxml/jackson/core/ObjectCodec;)V with a call to <init>()V
@@ -176,6 +193,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.JsonFactory$Feature
 	Method Name: getMask
 	Method Descriptor: ()I
+	File Name: com/fasterxml/jackson/core/JsonFactory.java
 	Line Number: 142
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to ordinal with a call to getMask
@@ -186,6 +204,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 279
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -196,6 +215,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 282
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -206,6 +226,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 272
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -216,6 +237,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 271
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -226,6 +248,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 274
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -236,6 +259,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 273
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -246,6 +270,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 278
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -256,6 +281,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 277
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -266,6 +292,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 266
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -276,6 +303,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 268
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -286,6 +314,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 269
 	Mutator Name: LocalNameMutator
 	Mutator Description: local this is replaced by local parent to be used
@@ -296,6 +325,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (IZIZ)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 223
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field _parent is replaced by access to local this
@@ -306,6 +336,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;I[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;III)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 266
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field _parent is replaced by access to local this
@@ -316,6 +347,7 @@ Total Number of Patches: 832
 	Class Name: com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer
 	Method Name: makeOrphan
 	Method Descriptor: (I)Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
 	Line Number: 320
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local this is replaced by access to field _parent

@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:59:59 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:04:23 CDT 2019
 Number of Plausible Fixes: 11
 Total Number of Patches: 2308
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.chart.block.BorderArrangement
 	Method Name: arrangeFF
 	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	File Name: org/jfree/chart/block/BorderArrangement.java
 	Line Number: 454
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double subtraction with addition
@@ -16,6 +17,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.chart.block.BorderArrangement
 	Method Name: arrangeFF
 	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	File Name: org/jfree/chart/block/BorderArrangement.java
 	Line Number: 444
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -26,6 +28,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.chart.block.BorderArrangement
 	Method Name: arrangeFF
 	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	File Name: org/jfree/chart/block/BorderArrangement.java
 	Line Number: 453
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -36,6 +39,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.chart.block.BorderArrangement
 	Method Name: arrangeFF
 	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	File Name: org/jfree/chart/block/BorderArrangement.java
 	Line Number: 454
 	Mutator Name: ConstructorCallMutator
 	Mutator Description: removed call to org/jfree/data/Range::<init>
@@ -46,6 +50,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.chart.block.BorderArrangement
 	Method Name: arrangeFF
 	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	File Name: org/jfree/chart/block/BorderArrangement.java
 	Line Number: 454
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 2 with 3
@@ -56,6 +61,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.chart.block.BorderArrangement
 	Method Name: arrangeFF
 	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	File Name: org/jfree/chart/block/BorderArrangement.java
 	Line Number: 450
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 2 with 3
@@ -66,6 +72,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.chart.block.BorderArrangement
 	Method Name: arrangeFF
 	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	File Name: org/jfree/chart/block/BorderArrangement.java
 	Line Number: 450
 	Mutator Name: LocalNameMutator
 	Mutator Description: local w is replaced by local h to be used
@@ -76,6 +83,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.chart.block.BorderArrangement
 	Method Name: arrangeFF
 	Method Descriptor: (Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;
+	File Name: org/jfree/chart/block/BorderArrangement.java
 	Line Number: 454
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to getWidth with a call to getHeight
@@ -86,6 +94,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.data.Range
 	Method Name: <init>
 	Method Descriptor: (DD)V
+	File Name: org/jfree/data/Range.java
 	Line Number: 84
 	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
 	Mutator Description: removed conditional - replaced comparison check with false
@@ -96,6 +105,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.data.Range
 	Method Name: <init>
 	Method Descriptor: (DD)V
+	File Name: org/jfree/data/Range.java
 	Line Number: 84
 	Mutator Name: LocalNameMutator
 	Mutator Description: local lower is replaced by local upper to be used
@@ -106,6 +116,7 @@ Total Number of Patches: 2308
 	Class Name: org.jfree.data.Range
 	Method Name: <init>
 	Method Descriptor: (DD)V
+	File Name: org/jfree/data/Range.java
 	Line Number: 84
 	Mutator Name: LocalNameMutator
 	Mutator Description: local upper is replaced by local lower to be used

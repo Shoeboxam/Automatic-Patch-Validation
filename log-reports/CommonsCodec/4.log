@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:36:21 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:40:28 CDT 2019
 Number of Plausible Fixes: 5
 Total Number of Patches: 316
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 316
 	Class Name: org.apache.commons.codec.language.Soundex
 	Method Name: getMappingCode
 	Method Descriptor: (Ljava/lang/String;I)C
+	File Name: org/apache/commons/codec/language/Soundex.java
 	Line Number: 192
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -16,6 +17,7 @@ Total Number of Patches: 316
 	Class Name: org.apache.commons.codec.language.Soundex
 	Method Name: getMappingCode
 	Method Descriptor: (Ljava/lang/String;I)C
+	File Name: org/apache/commons/codec/language/Soundex.java
 	Line Number: 192
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 72 with 73
@@ -26,6 +28,7 @@ Total Number of Patches: 316
 	Class Name: org.apache.commons.codec.language.Soundex
 	Method Name: getMappingCode
 	Method Descriptor: (Ljava/lang/String;I)C
+	File Name: org/apache/commons/codec/language/Soundex.java
 	Line Number: 192
 	Mutator Name: LocalNameMutator
 	Mutator Description: local preHWChar is replaced by local firstCode to be used
@@ -36,6 +39,7 @@ Total Number of Patches: 316
 	Class Name: org.apache.commons.codec.language.Soundex
 	Method Name: getMappingCode
 	Method Descriptor: (Ljava/lang/String;I)C
+	File Name: org/apache/commons/codec/language/Soundex.java
 	Line Number: 192
 	Mutator Name: LocalNameMutator
 	Mutator Description: local preHWChar is replaced by local mappedChar to be used
@@ -46,6 +50,7 @@ Total Number of Patches: 316
 	Class Name: org.apache.commons.codec.language.Soundex
 	Method Name: getMappingCode
 	Method Descriptor: (Ljava/lang/String;I)C
+	File Name: org/apache/commons/codec/language/Soundex.java
 	Line Number: 189
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 87 with 88

@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:58:33 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:02:57 CDT 2019
 Number of Plausible Fixes: 16
 Total Number of Patches: 4789
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 398
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to InRow with an access to BeforeHead
@@ -16,6 +17,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 398
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to InRow with an access to InHead
@@ -26,6 +28,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 398
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to InRow with an access to InHeadNoscript
@@ -36,6 +39,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 398
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to InRow with an access to AfterHead
@@ -46,6 +50,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 398
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to InRow with an access to Initial
@@ -56,6 +61,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 398
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to InRow with an access to BeforeHtml
@@ -66,6 +72,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 424
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -76,6 +83,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 424
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local last is replaced by access to field $assertionsDisabled
@@ -86,6 +94,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 403
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -96,6 +105,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 412
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -106,6 +116,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 415
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -116,6 +127,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 412
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -126,6 +138,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 403
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -136,6 +149,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 394
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -146,6 +160,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 394
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -156,6 +171,7 @@ Total Number of Patches: 4789
 	Class Name: org.jsoup.parser.HtmlTreeBuilder
 	Method Name: resetInsertionMode
 	Method Descriptor: ()V
+	File Name: org/jsoup/parser/HtmlTreeBuilder.java
 	Line Number: 383
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1

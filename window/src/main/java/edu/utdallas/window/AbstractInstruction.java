@@ -1,6 +1,7 @@
 package edu.utdallas.window;
 
 import org.objectweb.asm.Opcodes;
+import org.omg.CORBA.UNKNOWN;
 
 public enum AbstractInstruction {
     NOP(Opcodes.NOP),
@@ -60,7 +61,8 @@ public enum AbstractInstruction {
     RET(Opcodes.RET),
     SWITCH_CASE(Opcodes.TABLESWITCH, Opcodes.LOOKUPSWITCH),
     RETURN(Opcodes.RETURN, Opcodes.IRETURN, Opcodes.LRETURN, Opcodes.FRETURN,
-            Opcodes.DRETURN, Opcodes.ARETURN);
+            Opcodes.DRETURN, Opcodes.ARETURN),
+    UNKNOWN;
 
     private final int[] ops;
 
@@ -69,6 +71,9 @@ public enum AbstractInstruction {
     }
 
     public boolean isIn(final int opcode) {
+        if (this == UNKNOWN) {
+            return true;
+        }
         for (final int op : ops) {
             if (op == opcode) {
                 return true;

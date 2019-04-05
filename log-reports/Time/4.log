@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:26:49 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:31:14 CDT 2019
 Number of Plausible Fixes: 5
 Total Number of Patches: 1812
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 1812
 	Class Name: org.joda.time.field.ZeroIsMaxDateTimeField
 	Method Name: getMaximumValue
 	Method Descriptor: (Lorg/joda/time/ReadablePartial;[I)I
+	File Name: org/joda/time/field/ZeroIsMaxDateTimeField.java
 	Line Number: 178
 	Mutator Name: PrimitiveReturnsMutator
 	Mutator Description: replaced int return with 0 for org/joda/time/field/ZeroIsMaxDateTimeField::getMaximumValue
@@ -16,6 +17,7 @@ Total Number of Patches: 1812
 	Class Name: org.joda.time.field.ZeroIsMaxDateTimeField
 	Method Name: getMaximumValue
 	Method Descriptor: (Lorg/joda/time/ReadablePartial;[I)I
+	File Name: org/joda/time/field/ZeroIsMaxDateTimeField.java
 	Line Number: 178
 	Mutator Name: ReturnValsMutator
 	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
@@ -26,6 +28,7 @@ Total Number of Patches: 1812
 	Class Name: org.joda.time.field.ZeroIsMaxDateTimeField
 	Method Name: getMaximumValue
 	Method Descriptor: (Lorg/joda/time/ReadablePartial;[I)I
+	File Name: org/joda/time/field/ZeroIsMaxDateTimeField.java
 	Line Number: 178
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.joda.time.DateTimeField::getMaximumValue(Lorg/joda/time/ReadablePartial;[I)I is replaced with the used of default value 0
@@ -36,6 +39,7 @@ Total Number of Patches: 1812
 	Class Name: org.joda.time.field.ZeroIsMaxDateTimeField
 	Method Name: getMaximumValue
 	Method Descriptor: (Lorg/joda/time/ReadablePartial;[I)I
+	File Name: org/joda/time/field/ZeroIsMaxDateTimeField.java
 	Line Number: 178
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to getMaximumValue with a call to getMinimumValue
@@ -46,6 +50,7 @@ Total Number of Patches: 1812
 	Class Name: org.joda.time.Partial
 	Method Name: with
 	Method Descriptor: (Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;
+	File Name: org/joda/time/Partial.java
 	Line Number: 464
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to <init>(Lorg/joda/time/Chronology;[Lorg/joda/time/DateTimeFieldType;[I)V with a call to <init>([Lorg/joda/time/DateTimeFieldType;[I)V

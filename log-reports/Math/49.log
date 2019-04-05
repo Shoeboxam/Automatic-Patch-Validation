@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:24:58 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:23 CDT 2019
 Number of Plausible Fixes: 11
 Total Number of Patches: 1220
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.linear.OpenMapRealVector
 	Method Name: <init>
 	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/linear/OpenMapRealVector.java
 	Line Number: 77
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field epsilon is replaced by access to local epsilon
@@ -16,6 +17,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.linear.OpenMapRealVector
 	Method Name: <init>
 	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/linear/OpenMapRealVector.java
 	Line Number: 77
 	Mutator Name: MemberVariableMutator
 	Mutator Description: Removed assignment to member variable epsilon
@@ -26,6 +28,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.linear.OpenMapRealVector
 	Method Name: setEntry
 	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/linear/OpenMapRealVector.java
 	Line Number: 664
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -36,6 +39,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.linear.OpenMapRealVector
 	Method Name: setEntry
 	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/linear/OpenMapRealVector.java
 	Line Number: 664
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.apache.commons.math.linear.OpenMapRealVector::isDefaultValue(D)Z is replaced with the used of default value false
@@ -46,6 +50,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.linear.OpenMapRealVector
 	Method Name: setEntry
 	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/linear/OpenMapRealVector.java
 	Line Number: 664
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local value is replaced by access to field epsilon
@@ -56,6 +61,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.linear.OpenMapRealVector
 	Method Name: setEntry
 	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/linear/OpenMapRealVector.java
 	Line Number: 664
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local value is replaced by access to field DEFAULT_ZERO_TOLERANCE
@@ -66,6 +72,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.util.OpenIntToDoubleHashMap
 	Method Name: doRemove
 	Method Descriptor: (I)D
+	File Name: org/apache/commons/math/util/OpenIntToDoubleHashMap.java
 	Line Number: 399
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field count is replaced by access to local index
@@ -76,6 +83,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.util.OpenIntToDoubleHashMap
 	Method Name: doRemove
 	Method Descriptor: (I)D
+	File Name: org/apache/commons/math/util/OpenIntToDoubleHashMap.java
 	Line Number: 399
 	Mutator Name: MemberVariableMutator
 	Mutator Description: Removed assignment to member variable count
@@ -86,6 +94,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.util.OpenIntToDoubleHashMap
 	Method Name: doRemove
 	Method Descriptor: (I)D
+	File Name: org/apache/commons/math/util/OpenIntToDoubleHashMap.java
 	Line Number: 399
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field org.apache.commons.math.util.OpenIntToDoubleHashMap.count is replaced by the call to org.apache.commons.math.util.OpenIntToDoubleHashMap::size()I
@@ -96,6 +105,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.util.OpenIntToDoubleHashMap
 	Method Name: doRemove
 	Method Descriptor: (I)D
+	File Name: org/apache/commons/math/util/OpenIntToDoubleHashMap.java
 	Line Number: 399
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 1 with 0
@@ -106,6 +116,7 @@ Total Number of Patches: 1220
 	Class Name: org.apache.commons.math.util.OpenIntToDoubleHashMap
 	Method Name: doRemove
 	Method Descriptor: (I)D
+	File Name: org/apache/commons/math/util/OpenIntToDoubleHashMap.java
 	Line Number: 399
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to count with an access to size

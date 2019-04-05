@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:24:59 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:24 CDT 2019
 Number of Plausible Fixes: 40
 Total Number of Patches: 970
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to max with a call to pow
@@ -16,6 +17,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to max with a call to min
@@ -26,6 +28,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to max with a call to IEEEremainder
@@ -36,6 +39,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to max with a call to atan2
@@ -46,6 +50,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to abs with a call to atanh
@@ -56,6 +61,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to max with a call to copySign
@@ -66,6 +72,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to max with a call to nextAfter
@@ -76,6 +83,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x1 is replaced by local f0 to be used
@@ -86,6 +94,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x0 is replaced by local x1 to be defined
@@ -96,6 +105,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: LocalNameMutator
 	Mutator Description: local atol is replaced by local f1 to be used
@@ -106,6 +116,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x0 is replaced by local f1 to be defined
@@ -116,6 +127,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 189
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x0 is replaced by local atol to be used
@@ -126,6 +138,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x1 is replaced by local x0 to be used
@@ -136,6 +149,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x0 is replaced by local f0 to be used
@@ -146,6 +160,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 189
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x0 is replaced by local ftol to be used
@@ -156,6 +171,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: LocalNameMutator
 	Mutator Description: local atol is replaced by local rtol to be used
@@ -166,6 +182,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 189
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x0 is replaced by local x1 to be used
@@ -176,6 +193,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x0 is replaced by local f0 to be defined
@@ -186,6 +204,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 189
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x0 is replaced by local rtol to be used
@@ -196,6 +215,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 189
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x0 is replaced by local f1 to be used
@@ -206,6 +226,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: LocalNameMutator
 	Mutator Description: local atol is replaced by local ftol to be used
@@ -216,6 +237,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double subtraction with addition
@@ -226,6 +248,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0.5 with 1.0
@@ -236,6 +259,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 189
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.apache.commons.math.analysis.solvers.BaseSecantSolver::computeObjectiveValue(D)D is replaced with the used of default value 0.D
@@ -246,6 +270,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 188
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.apache.commons.math.util.FastMath::max(DD)D is replaced with the used of default value 0.D
@@ -256,6 +281,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 189
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local x0 is replaced by access to field DEFAULT_ABSOLUTE_ACCURACY
@@ -266,6 +292,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -276,6 +303,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x is replaced by local x0 to be used
@@ -286,6 +314,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x1 is replaced by local f0 to be used
@@ -296,6 +325,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x is replaced by local ftol to be used
@@ -306,6 +336,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x is replaced by local atol to be used
@@ -316,6 +347,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x1 is replaced by local atol to be used
@@ -326,6 +358,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x1 is replaced by local f1 to be used
@@ -336,6 +369,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x is replaced by local f1 to be used
@@ -346,6 +380,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x1 is replaced by local ftol to be used
@@ -356,6 +391,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x1 is replaced by local x0 to be used
@@ -366,6 +402,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x1 is replaced by local rtol to be used
@@ -376,6 +413,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalNameMutator
 	Mutator Description: local x is replaced by local f0 to be used
@@ -386,6 +424,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local x1 is replaced by access to field DEFAULT_ABSOLUTE_ACCURACY
@@ -396,6 +435,7 @@ Total Number of Patches: 970
 	Class Name: org.apache.commons.math.analysis.solvers.BaseSecantSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BaseSecantSolver.java
 	Line Number: 187
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local x is replaced by access to field DEFAULT_ABSOLUTE_ACCURACY

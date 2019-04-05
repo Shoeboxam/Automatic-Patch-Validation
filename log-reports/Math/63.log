@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:25:09 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:35 CDT 2019
 Number of Plausible Fixes: 13
 Total Number of Patches: 76
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isNaN with a call to isInfinite
@@ -16,6 +17,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local x is replaced by access to field EPSILON
@@ -26,6 +28,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local y is replaced by access to field SAFE_MIN
@@ -36,6 +39,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local y is replaced by access to field EPSILON
@@ -46,6 +50,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local x is replaced by access to field TWO_PI
@@ -56,6 +61,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local y is replaced by access to field TWO_PI
@@ -66,6 +72,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local x is replaced by access to field SAFE_MIN
@@ -76,6 +83,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: ([D[D)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 530
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to equals(DD)Z with a call to equals(DDD)Z
@@ -86,6 +94,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: ([D[D)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 530
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to equals(DD)Z with a call to equals(DDI)Z
@@ -96,6 +105,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.lang.Double::isNaN(D)Z is replaced with the used of default value false
@@ -106,6 +116,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -116,6 +127,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -126,6 +138,7 @@ Total Number of Patches: 76
 	Class Name: org.apache.commons.math.util.MathUtils
 	Method Name: equals
 	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
 	Line Number: 417
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional

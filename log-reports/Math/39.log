@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:24:46 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:10 CDT 2019
 Number of Plausible Fixes: 7
 Total Number of Patches: 4159
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 4159
 	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
 	Method Name: initializeStep
 	Method Descriptor: (ZI[DD[D[D[D[D)D
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
 	Line Number: 267
 	Mutator Name: ArgumentPropagationMutator
 	Mutator Description: replaced call to org/apache/commons/math/util/FastMath::sqrt with argument
@@ -16,6 +17,7 @@ Total Number of Patches: 4159
 	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
 	Method Name: initializeStep
 	Method Descriptor: (ZI[DD[D[D[D[D)D
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
 	Line Number: 267
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to sqrt with a call to sinh
@@ -26,6 +28,7 @@ Total Number of Patches: 4159
 	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
 	Method Name: initializeStep
 	Method Descriptor: (ZI[DD[D[D[D[D)D
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
 	Line Number: 267
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to sqrt with a call to tanh
@@ -36,6 +39,7 @@ Total Number of Patches: 4159
 	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
 	Method Name: initializeStep
 	Method Descriptor: (ZI[DD[D[D[D[D)D
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
 	Line Number: 267
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to sqrt with a call to asinh
@@ -46,6 +50,7 @@ Total Number of Patches: 4159
 	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
 	Method Name: initializeStep
 	Method Descriptor: (ZI[DD[D[D[D[D)D
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
 	Line Number: 267
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to sqrt with a call to nextUp
@@ -56,6 +61,7 @@ Total Number of Patches: 4159
 	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
 	Method Name: initializeStep
 	Method Descriptor: (ZI[DD[D[D[D[D)D
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
 	Line Number: 267
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to sqrt with a call to expm1
@@ -66,6 +72,7 @@ Total Number of Patches: 4159
 	Class Name: org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator
 	Method Name: initializeStep
 	Method Descriptor: (ZI[DD[D[D[D[D)D
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
 	Line Number: 260
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1

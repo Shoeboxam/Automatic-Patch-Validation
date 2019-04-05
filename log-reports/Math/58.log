@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:25:05 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:30 CDT 2019
 Number of Plausible Fixes: 2
 Total Number of Patches: 6250
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 6250
 	Class Name: org.apache.commons.math.optimization.fitting.GaussianFitter$ParameterGuesser$1
 	Method Name: compare
 	Method Descriptor: (Lorg/apache/commons/math/optimization/fitting/WeightedObservedPoint;Lorg/apache/commons/math/optimization/fitting/WeightedObservedPoint;)I
+	File Name: org/apache/commons/math/optimization/fitting/GaussianFitter.java
 	Line Number: 313
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to getX with a call to getY
@@ -16,6 +17,7 @@ Total Number of Patches: 6250
 	Class Name: org.apache.commons.math.optimization.fitting.GaussianFitter
 	Method Name: fit
 	Method Descriptor: ()[D
+	File Name: org/apache/commons/math/optimization/fitting/GaussianFitter.java
 	Line Number: 121
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to fit(Lorg/apache/commons/math/analysis/ParametricUnivariateRealFunction;[D)[D with a call to fit([D)[D

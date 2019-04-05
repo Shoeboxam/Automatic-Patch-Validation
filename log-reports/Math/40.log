@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:24:48 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:12 CDT 2019
 Number of Plausible Fixes: 3
 Total Number of Patches: 1660
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 1660
 	Class Name: org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
 	Line Number: 297
 	Mutator Name: LocalNameMutator
 	Mutator Description: local signChangeIndex is replaced by local end to be used
@@ -16,6 +17,7 @@ Total Number of Patches: 1660
 	Class Name: org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver
 	Method Name: doSolve
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
 	Line Number: 260
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local signChangeIndex is replaced by access to field MAXIMAL_AGING
@@ -26,6 +28,7 @@ Total Number of Patches: 1660
 	Class Name: org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver
 	Method Name: guessX
 	Method Descriptor: (D[D[DII)D
+	File Name: org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
 	Line Number: 374
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local end is replaced by access to field maximalOrder

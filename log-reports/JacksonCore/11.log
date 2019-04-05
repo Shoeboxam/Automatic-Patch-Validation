@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:37:24 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:41:28 CDT 2019
 Number of Plausible Fixes: 111
 Total Number of Patches: 6741
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to _findSecondary(II[II)Ljava/lang/String; with a call to _findSecondary(IIII)Ljava/lang/String;
@@ -16,6 +17,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to _findSecondary(II[II)Ljava/lang/String; with a call to _findSecondary(II)Ljava/lang/String;
@@ -26,6 +28,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to _findSecondary(II[II)Ljava/lang/String; with a call to _findSecondary(III)Ljava/lang/String;
@@ -36,6 +39,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local qlen is replaced by local origOffset to be used
@@ -46,6 +50,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: LocalNameMutator
 	Mutator Description: local origOffset is replaced by local qlen to be used
@@ -56,6 +61,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local len to be used
@@ -66,6 +72,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local offset2 to be used
@@ -76,6 +83,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local end is replaced by local origOffset to be used
@@ -86,6 +94,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local offset to be used
@@ -96,6 +105,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalNameMutator
 	Mutator Description: local qlen is replaced by local offset to be used
@@ -106,6 +116,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local len to be used
@@ -116,6 +127,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local hash to be used
@@ -126,6 +138,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local origOffset to be used
@@ -136,6 +149,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local end is replaced by local offset to be used
@@ -146,6 +160,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local qlen to be used
@@ -156,6 +171,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local len2 to be used
@@ -166,6 +182,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local end is replaced by local qlen to be used
@@ -176,6 +193,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local offset2 to be used
@@ -186,6 +204,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local bucketSize to be used
@@ -196,6 +215,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local len is replaced by local origOffset to be used
@@ -206,6 +226,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalNameMutator
 	Mutator Description: local qlen is replaced by local offset2 to be used
@@ -216,6 +237,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local qlen to be used
@@ -226,6 +248,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local len is replaced by local offset to be used
@@ -236,6 +259,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local end to be used
@@ -246,6 +270,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local qlen is replaced by local end to be used
@@ -256,6 +281,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local len to be used
@@ -266,6 +292,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 705
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local bucketSize to be used
@@ -276,6 +303,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local qlen is replaced by local bucketSize to be used
@@ -286,6 +314,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local len is replaced by local end to be used
@@ -296,6 +325,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local len is replaced by local bucketSize to be used
@@ -306,6 +336,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local qlen to be used
@@ -316,6 +347,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local len is replaced by local hash to be used
@@ -326,6 +358,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local qlen is replaced by local offset to be used
@@ -336,6 +369,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local bucketSize to be used
@@ -346,6 +380,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 705
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local len to be used
@@ -356,6 +391,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalNameMutator
 	Mutator Description: local qlen is replaced by local hash to be used
@@ -366,6 +402,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local bucketSize to be used
@@ -376,6 +413,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local qlen is replaced by local hash to be used
@@ -386,6 +424,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local end to be used
@@ -396,6 +435,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local qlen to be used
@@ -406,6 +446,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local end to be used
@@ -416,6 +457,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 703
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local qlen to be used
@@ -426,6 +468,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local end is replaced by local bucketSize to be used
@@ -436,6 +479,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local offset to be used
@@ -446,6 +490,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalNameMutator
 	Mutator Description: local offset is replaced by local origOffset to be used
@@ -456,6 +501,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalNameMutator
 	Mutator Description: local hash is replaced by local qlen to be used
@@ -466,6 +512,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field MAX_ENTRIES_FOR_REUSE
@@ -476,6 +523,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local offset is replaced by access to field MAX_T_SIZE
@@ -486,6 +534,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local offset is replaced by access to field _seed
@@ -496,6 +545,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 705
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local offset is replaced by access to field DEFAULT_T_SIZE
@@ -506,6 +556,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field DEFAULT_T_SIZE
@@ -516,6 +567,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local qlen is replaced by access to field DEFAULT_T_SIZE
@@ -526,6 +578,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field _seed
@@ -536,6 +589,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local qlen is replaced by access to field MAX_ENTRIES_FOR_REUSE
@@ -546,6 +600,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local qlen is replaced by access to field DEFAULT_T_SIZE
@@ -556,6 +611,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local len is replaced by access to field MAX_T_SIZE
@@ -566,6 +622,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local offset is replaced by access to field DEFAULT_T_SIZE
@@ -576,6 +633,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local len is replaced by access to field MIN_HASH_SIZE
@@ -586,6 +644,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local len is replaced by access to field DEFAULT_T_SIZE
@@ -596,6 +655,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field MIN_HASH_SIZE
@@ -606,6 +666,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field MAX_T_SIZE
@@ -616,6 +677,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local offset is replaced by access to field MIN_HASH_SIZE
@@ -626,6 +688,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local offset is replaced by access to field DEFAULT_T_SIZE
@@ -636,6 +699,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local qlen is replaced by access to field MAX_ENTRIES_FOR_REUSE
@@ -646,6 +710,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local this is replaced by access to field _parent
@@ -656,6 +721,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field MIN_HASH_SIZE
@@ -666,6 +732,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local end is replaced by access to field DEFAULT_T_SIZE
@@ -676,6 +743,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local offset is replaced by access to field MAX_ENTRIES_FOR_REUSE
@@ -686,6 +754,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local qlen is replaced by access to field MIN_HASH_SIZE
@@ -696,6 +765,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field _seed
@@ -706,6 +776,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local qlen is replaced by access to field _seed
@@ -716,6 +787,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local qlen is replaced by access to field MIN_HASH_SIZE
@@ -726,6 +798,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local len is replaced by access to field MAX_ENTRIES_FOR_REUSE
@@ -736,6 +809,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field DEFAULT_T_SIZE
@@ -746,6 +820,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local len is replaced by access to field _seed
@@ -756,6 +831,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local qlen is replaced by access to field MAX_T_SIZE
@@ -766,6 +842,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field MAX_T_SIZE
@@ -776,6 +853,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field MAX_ENTRIES_FOR_REUSE
@@ -786,6 +864,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local qlen is replaced by access to field _seed
@@ -796,6 +875,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local offset is replaced by access to field DEFAULT_T_SIZE
@@ -806,6 +886,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local end is replaced by access to field MIN_HASH_SIZE
@@ -816,6 +897,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local qlen is replaced by access to field MAX_T_SIZE
@@ -826,6 +908,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 598
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -836,6 +919,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -846,6 +930,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -856,6 +941,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
 	Mutator Description: removed conditional - replaced comparison check with false
@@ -866,6 +952,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 598
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -876,6 +963,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 702
 	Mutator Name: MathMutator
 	Mutator Description: Replaced integer addition with subtraction
@@ -886,6 +974,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 701
 	Mutator Name: MathMutator
 	Mutator Description: Replaced Shift Left with Shift Right
@@ -896,6 +985,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 703
 	Mutator Name: MathMutator
 	Mutator Description: Replaced integer addition with subtraction
@@ -906,6 +996,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 705
 	Mutator Name: ReturnValsMutator
 	Mutator Description: mutated return of Object value for com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer::_findSecondary to ( if (x != null) null else throw new RuntimeException )
@@ -916,6 +1007,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 704
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -926,6 +1018,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to _tertiaryStart with an access to _hashSize
@@ -936,6 +1029,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to _tertiaryShift with an access to _seed
@@ -946,6 +1040,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to _tertiaryStart with an access to _tertiaryShift
@@ -956,6 +1051,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to _tertiaryStart with an access to _count
@@ -966,6 +1062,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to _tertiaryShift with an access to _hashSize
@@ -976,6 +1073,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to _tertiaryStart with an access to _spilloverEnd
@@ -986,6 +1084,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryStart is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::size()I
@@ -996,6 +1095,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryShift is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::hashSeed()I
@@ -1006,6 +1106,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryStart is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::primaryCount()I
@@ -1016,6 +1117,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryStart is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::secondaryCount()I
@@ -1026,6 +1128,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryStart is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::bucketCount()I
@@ -1036,6 +1139,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 703
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 3 with 4
@@ -1046,6 +1150,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 701
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 1 with 0
@@ -1056,6 +1161,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 601
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::_findSecondary(II[II)Ljava/lang/String; is replaced with the used of default value null
@@ -1066,6 +1172,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field _tertiaryShift is replaced by access to local qlen
@@ -1076,6 +1183,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: _findSecondary
 	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 698
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field _tertiaryStart is replaced by access to local qlen
@@ -1086,6 +1194,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 574
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local hash is replaced by access to field DEFAULT_T_SIZE
@@ -1096,6 +1205,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 586
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -1106,6 +1216,7 @@ Total Number of Patches: 6741
 	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
 	Method Name: findName
 	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
 	Line Number: 586
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true

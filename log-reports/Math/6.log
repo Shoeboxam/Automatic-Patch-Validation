@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:25:06 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:32 CDT 2019
 Number of Plausible Fixes: 2
 Total Number of Patches: 317
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 317
 	Class Name: org.apache.commons.math3.optim.BaseOptimizer
 	Method Name: getIterations
 	Method Descriptor: ()I
+	File Name: org/apache/commons/math3/optim/BaseOptimizer.java
 	Line Number: 93
 	Mutator Name: ReturnValsMutator
 	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
@@ -16,6 +17,7 @@ Total Number of Patches: 317
 	Class Name: org.apache.commons.math3.optim.BaseOptimizer
 	Method Name: getIterations
 	Method Descriptor: ()I
+	File Name: org/apache/commons/math3/optim/BaseOptimizer.java
 	Line Number: 93
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to iterations with an access to evaluations

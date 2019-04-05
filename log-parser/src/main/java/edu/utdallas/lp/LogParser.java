@@ -1,5 +1,6 @@
 package edu.utdallas.lp;
 
+import edu.utdallas.window.App;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.io.FileUtils;
@@ -16,7 +17,9 @@ import java.util.Map;
 
 public final class LogParser {
     private static LogParser instance = null;
-    public static final String ROW_HEADER = "[1-9]+\\.";
+    public static final String ROW_HEADER = "[0-9]+\\.";
+    public static final File ORIGINALS_POOL = FileUtils.getFile("pool", "original");
+    public static final File PLAUSIBLES_POOL = FileUtils.getFile("pool", "mutated");
     private final Map<BugId, int[]> correctPatches;
     private final List<BugId> allBugs;
 
@@ -33,6 +36,9 @@ public final class LogParser {
     }
 
     private GroundTruthLabel getLabel(final BugId bugId, final int row) {
+        if (correctPatches.get(bugId) == null) {
+            return GroundTruthLabel.INCORRECT;
+        }
         for (final int r : correctPatches.get(bugId)) {
             if (r == row) {
                 return GroundTruthLabel.CORRECT;
@@ -58,12 +64,34 @@ public final class LogParser {
                 mutatorName,
                 mutatorDescription);
         final String dumpFileName = PatchPool.v().dumpFileName(bugId, theRow);
-        final String classInternalName = classJavaName.replace('.', '/');
-        final File unmutatedClassFile = FileUtils.getFile("pool",
-                "original",
+        final String originalClassFileName =
+                classJavaName.replace('.', File.separatorChar) + ".class";
+        final File originalClassFile = FileUtils.getFile(ORIGINALS_POOL,
                 bugId.getSubject(),
                 String.valueOf(bugId.getBugNo()),
-                classInternalName + ".class");
+                originalClassFileName);
+        final File mutatedClassFile = FileUtils.getFile(PLAUSIBLES_POOL,
+                bugId.getSubject(),
+                String.valueOf(bugId.getBugNo()),
+                dumpFileName);
+        System.out.println("\t{");
+        System.out.print("\t\tbuggy:");
+        extractWindow(originalClassFile, lineNumber);
+        System.out.print("\t\tfixed:");
+        extractWindow(mutatedClassFile, lineNumber);
+        System.out.printf("\t\tlabel:%s%n", label.toString());
+        System.out.println("\t}");
+    }
+
+    private void extractWindow(final File classFile, int lineNumber) {
+        final String classFileName = classFile.getAbsolutePath();
+        final String ln = String.valueOf(lineNumber);
+        try {
+            App.main(new String[]{classFileName, ln});
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.exit(1);
+        }
     }
 
     private void loadCorrectPatches(final File csvFile) throws Exception {
@@ -119,6 +147,8 @@ public final class LogParser {
         final File correctPatchesFile = new File(args[1]);
         LogParser.v().loadAllBugs(allBugsFile);
         LogParser.v().loadCorrectPatches(correctPatchesFile);
+        System.out.println("{");
         LogParser.v().processBugs();
+        System.out.println("}");
     }
 }

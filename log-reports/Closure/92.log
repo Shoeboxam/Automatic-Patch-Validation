@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:02:03 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:06:28 CDT 2019
 Number of Plausible Fixes: 4
 Total Number of Patches: 19000
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 19000
 	Class Name: com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName
 	Method Name: replace
 	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/ProcessClosurePrimitives.java
 	Line Number: 790
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -16,6 +17,7 @@ Total Number of Patches: 19000
 	Class Name: com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName
 	Method Name: replace
 	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/ProcessClosurePrimitives.java
 	Line Number: 789
 	Mutator Name: ArgumentsListMutator
 	Mutator Description: replaced call to indexOf(I)I with a call to indexOf(Ljava/lang/String;I)I
@@ -26,6 +28,7 @@ Total Number of Patches: 19000
 	Class Name: com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName
 	Method Name: replace
 	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/ProcessClosurePrimitives.java
 	Line Number: 789
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 46 with 47
@@ -36,6 +39,7 @@ Total Number of Patches: 19000
 	Class Name: com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName
 	Method Name: replace
 	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/ProcessClosurePrimitives.java
 	Line Number: 789
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to indexOf with a call to lastIndexOf

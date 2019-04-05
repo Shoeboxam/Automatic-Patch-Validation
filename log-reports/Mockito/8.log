@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:28:26 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:32:48 CDT 2019
 Number of Plausible Fixes: 6
 Total Number of Patches: 246
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 246
 	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
 	Method Name: readTypeVariables
 	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
 	Line Number: 376
 	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
 	Mutator Description: removed conditional - replaced comparison check with false
@@ -16,6 +17,7 @@ Total Number of Patches: 246
 	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
 	Method Name: readTypeVariables
 	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
 	Line Number: 376
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -26,6 +28,7 @@ Total Number of Patches: 246
 	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
 	Method Name: readTypeVariables
 	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
 	Line Number: 376
 	Mutator Name: LocalNameMutator
 	Mutator Description: local i$ is replaced by local len$ to be used
@@ -36,6 +39,7 @@ Total Number of Patches: 246
 	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
 	Method Name: readTypeVariables
 	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
 	Line Number: 376
 	Mutator Name: LocalNameMutator
 	Mutator Description: local len$ is replaced by local i$ to be used
@@ -46,6 +50,7 @@ Total Number of Patches: 246
 	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
 	Method Name: readTypeVariables
 	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
 	Line Number: 377
 	Mutator Name: VoidMethodCallMutator
 	Mutator Description: removed call to org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType::registerTypeVariablesOn
@@ -56,6 +61,7 @@ Total Number of Patches: 246
 	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
 	Method Name: readTypeVariables
 	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
 	Line Number: 376
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional

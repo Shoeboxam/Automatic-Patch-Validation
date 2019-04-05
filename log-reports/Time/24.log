@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:26:32 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:30:57 CDT 2019
 Number of Plausible Fixes: 3
 Total Number of Patches: 3395
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 3395
 	Class Name: org.joda.time.chrono.BasicChronology
 	Method Name: getWeekOfWeekyear
 	Method Descriptor: (JI)I
+	File Name: org/joda/time/chrono/BasicChronology.java
 	Line Number: 518
 	Mutator Name: PrimitiveReturnsMutator
 	Mutator Description: replaced int return with 0 for org/joda/time/chrono/BasicChronology::getWeekOfWeekyear
@@ -16,6 +17,7 @@ Total Number of Patches: 3395
 	Class Name: org.joda.time.chrono.BasicChronology
 	Method Name: getWeekOfWeekyear
 	Method Descriptor: (JI)I
+	File Name: org/joda/time/chrono/BasicChronology.java
 	Line Number: 518
 	Mutator Name: ReturnValsMutator
 	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
@@ -26,6 +28,7 @@ Total Number of Patches: 3395
 	Class Name: org.joda.time.chrono.BasicChronology
 	Method Name: getWeekOfWeekyear
 	Method Descriptor: (JI)I
+	File Name: org/joda/time/chrono/BasicChronology.java
 	Line Number: 518
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.joda.time.chrono.BasicChronology::getWeeksInYear(I)I is replaced with the used of default value 0

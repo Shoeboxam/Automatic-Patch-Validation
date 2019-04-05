@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 17:45:32 CDT 2019
+PraPR Fix Report - Fri Apr 05 07:50:20 CDT 2019
 Number of Plausible Fixes: 4
 Total Number of Patches: 28389
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 28389
 	Class Name: com.google.javascript.rhino.Node
 	Method Name: checkTreeEqualsImpl
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
 	Line Number: 1453
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field next is replaced by access to local n
@@ -16,6 +17,7 @@ Total Number of Patches: 28389
 	Class Name: com.google.javascript.rhino.Node
 	Method Name: checkTreeEqualsImpl
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
 	Line Number: 1453
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local n is replaced by access to field last
@@ -26,6 +28,7 @@ Total Number of Patches: 28389
 	Class Name: com.google.javascript.rhino.Node
 	Method Name: checkTreeEqualsImpl
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
 	Line Number: 1458
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -36,6 +39,7 @@ Total Number of Patches: 28389
 	Class Name: com.google.javascript.rhino.Node
 	Method Name: checkTreeEqualsImpl
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
 	Line Number: 1458
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional

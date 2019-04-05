@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:24:16 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:28:39 CDT 2019
 Number of Plausible Fixes: 9
 Total Number of Patches: 1325
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 1325
 	Class Name: org.apache.commons.math3.distribution.HypergeometricDistribution
 	Method Name: getNumericalMean
 	Method Descriptor: ()D
+	File Name: org/apache/commons/math3/distribution/HypergeometricDistribution.java
 	Line Number: 268
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to getNumberOfSuccesses with a call to getSupportUpperBound
@@ -16,6 +17,7 @@ Total Number of Patches: 1325
 	Class Name: org.apache.commons.math3.distribution.AbstractIntegerDistribution
 	Method Name: inverseCumulativeProbability
 	Method Descriptor: (D)I
+	File Name: org/apache/commons/math3/distribution/AbstractIntegerDistribution.java
 	Line Number: 137
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -26,6 +28,7 @@ Total Number of Patches: 1325
 	Class Name: org.apache.commons.math3.distribution.AbstractIntegerDistribution
 	Method Name: inverseCumulativeProbability
 	Method Descriptor: (D)I
+	File Name: org/apache/commons/math3/distribution/AbstractIntegerDistribution.java
 	Line Number: 137
 	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
 	Mutator Description: removed conditional - replaced comparison check with false
@@ -36,6 +39,7 @@ Total Number of Patches: 1325
 	Class Name: org.apache.commons.math3.distribution.AbstractIntegerDistribution
 	Method Name: inverseCumulativeProbability
 	Method Descriptor: (D)I
+	File Name: org/apache/commons/math3/distribution/AbstractIntegerDistribution.java
 	Line Number: 127
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -46,6 +50,7 @@ Total Number of Patches: 1325
 	Class Name: org.apache.commons.math3.distribution.AbstractIntegerDistribution
 	Method Name: inverseCumulativeProbability
 	Method Descriptor: (D)I
+	File Name: org/apache/commons/math3/distribution/AbstractIntegerDistribution.java
 	Line Number: 129
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -56,6 +61,7 @@ Total Number of Patches: 1325
 	Class Name: org.apache.commons.math3.distribution.AbstractIntegerDistribution
 	Method Name: inverseCumulativeProbability
 	Method Descriptor: (D)I
+	File Name: org/apache/commons/math3/distribution/AbstractIntegerDistribution.java
 	Line Number: 127
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -66,6 +72,7 @@ Total Number of Patches: 1325
 	Class Name: org.apache.commons.math3.distribution.AbstractIntegerDistribution
 	Method Name: inverseCumulativeProbability
 	Method Descriptor: (D)I
+	File Name: org/apache/commons/math3/distribution/AbstractIntegerDistribution.java
 	Line Number: 126
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.apache.commons.math3.distribution.AbstractIntegerDistribution::getNumericalVariance()D is replaced with the used of default value 0.D
@@ -76,6 +83,7 @@ Total Number of Patches: 1325
 	Class Name: org.apache.commons.math3.distribution.AbstractIntegerDistribution
 	Method Name: inverseCumulativeProbability
 	Method Descriptor: (D)I
+	File Name: org/apache/commons/math3/distribution/AbstractIntegerDistribution.java
 	Line Number: 126
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.apache.commons.math3.util.FastMath::sqrt(D)D is replaced with the used of default value 0.D
@@ -86,6 +94,7 @@ Total Number of Patches: 1325
 	Class Name: org.apache.commons.math3.distribution.AbstractIntegerDistribution
 	Method Name: inverseCumulativeProbability
 	Method Descriptor: (D)I
+	File Name: org/apache/commons/math3/distribution/AbstractIntegerDistribution.java
 	Line Number: 127
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 1 with 0

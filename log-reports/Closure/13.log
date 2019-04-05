@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 16:04:52 CDT 2019
+PraPR Fix Report - Fri Apr 05 06:07:50 CDT 2019
 Number of Plausible Fixes: 13
 Total Number of Patches: 66713
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
 	Method Name: shouldVisit
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	File Name: com/google/javascript/jscomp/PeepholeOptimizationsPass.java
 	Line Number: 160
 	Mutator Name: BooleanTrueReturnValsMutator
 	Mutator Description: replaced boolean return with true for com/google/javascript/jscomp/PeepholeOptimizationsPass::shouldVisit
@@ -16,6 +17,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
 	Method Name: shouldVisit
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	File Name: com/google/javascript/jscomp/PeepholeOptimizationsPass.java
 	Line Number: 160
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -26,6 +28,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
 	Method Name: shouldVisit
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	File Name: com/google/javascript/jscomp/PeepholeOptimizationsPass.java
 	Line Number: 160
 	Mutator Name: ReturnValsMutator
 	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
@@ -36,6 +39,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
 	Method Name: shouldRetraverse
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	File Name: com/google/javascript/jscomp/PeepholeOptimizationsPass.java
 	Line Number: 149
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 0 with 1
@@ -46,6 +50,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
 	Method Name: shouldRetraverse
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	File Name: com/google/javascript/jscomp/PeepholeOptimizationsPass.java
 	Line Number: 149
 	Mutator Name: MemberVariableMutator
 	Mutator Description: Removed assignment to member variable traverseChildScopes
@@ -56,6 +61,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.jscomp.DefaultPassConfig
 	Method Name: <init>
 	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/DefaultPassConfig.java
 	Line Number: 1045
 	Mutator Name: InlineConstantMutator
 	Mutator Description: Substituted 1 with 0
@@ -66,6 +72,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
 	Method Name: shouldVisit
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Z
+	File Name: com/google/javascript/jscomp/PeepholeOptimizationsPass.java
 	Line Number: 159
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -76,6 +83,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.jscomp.PeepholeOptimizationsPass
 	Method Name: traverse
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/PeepholeOptimizationsPass.java
 	Line Number: 118
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -86,6 +94,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.rhino.Node
 	Method Name: checkTreeEqualsImpl
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
 	Line Number: 1453
 	Mutator Name: FieldToLocalAccessMutator
 	Mutator Description: access to field next is replaced by access to local n
@@ -96,6 +105,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.rhino.Node
 	Method Name: checkTreeEqualsImpl
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
 	Line Number: 1453
 	Mutator Name: LocalToFieldAccessMutator
 	Mutator Description: access to local n is replaced by access to field last
@@ -106,6 +116,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.rhino.Node
 	Method Name: checkTreeEqualsImpl
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
 	Line Number: 1453
 	Mutator Name: LocalNameMutator
 	Mutator Description: local n is replaced by local n2 to be used
@@ -116,6 +127,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.rhino.Node
 	Method Name: checkTreeEqualsImpl
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
 	Line Number: 1458
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -126,6 +138,7 @@ Total Number of Patches: 66713
 	Class Name: com.google.javascript.rhino.Node
 	Method Name: checkTreeEqualsImpl
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
 	Line Number: 1458
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional

@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:36:35 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:40:41 CDT 2019
 Number of Plausible Fixes: 14
 Total Number of Patches: 10841
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.JXPathContext
 	Method Name: selectNodes
 	Method Descriptor: (Ljava/lang/String;)Ljava/util/List;
+	File Name: org/apache/commons/jxpath/JXPathContext.java
 	Line Number: 687
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.util.Iterator::hasNext()Z is replaced with the used of field lenientSet
@@ -16,6 +17,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.JXPathContext
 	Method Name: selectNodes
 	Method Descriptor: (Ljava/lang/String;)Ljava/util/List;
+	File Name: org/apache/commons/jxpath/JXPathContext.java
 	Line Number: 687
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to java.util.Iterator::hasNext()Z is replaced with the used of default value false
@@ -26,6 +28,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
 	Method Name: jj_3R_74
 	Method Descriptor: ()Z
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
 	Line Number: 2588
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to jj_scan_token(I)Z is guarded returning field lookingAhead
@@ -36,6 +39,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
 	Method Name: jj_3R_74
 	Method Descriptor: ()Z
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
 	Line Number: 2588
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to jj_scan_token(I)Z is guarded returning default value false
@@ -46,6 +50,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
 	Method Name: jj_3R_74
 	Method Descriptor: ()Z
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
 	Line Number: 2588
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to jj_scan_token(I)Z is guarded returning field jj_semLA
@@ -56,6 +61,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
 	Method Name: AbsoluteLocationPath
 	Method Descriptor: ()Ljava/lang/Object;
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
 	Line Number: 533
 	Mutator Name: DereferenceGuardMutator
 	Mutator Description: the access to jj_gen is guarded using value 0
@@ -66,6 +72,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
 	Method Name: AbsoluteLocationPath
 	Method Descriptor: ()Ljava/lang/Object;
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
 	Line Number: 533
 	Mutator Name: DereferenceGuardMutator
 	Mutator Description: the access to jj_gen is guarded using field jj_la
@@ -76,6 +83,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
 	Method Name: jj_3R_16
 	Method Descriptor: ()Z
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
 	Line Number: 2829
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to jj_3R_21()Z is guarded returning field lookingAhead
@@ -86,6 +94,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
 	Method Name: jj_3R_16
 	Method Descriptor: ()Z
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
 	Line Number: 2829
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to jj_3R_21()Z is guarded returning default value false
@@ -96,6 +105,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
 	Method Name: jj_3R_16
 	Method Descriptor: ()Z
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
 	Line Number: 2829
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to jj_3R_21()Z is guarded returning field jj_semLA
@@ -106,6 +116,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
 	Method Name: jj_3R_22
 	Method Descriptor: ()Z
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
 	Line Number: 2670
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -116,6 +127,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.parser.XPathParser
 	Method Name: jj_3R_90
 	Method Descriptor: ()Z
+	File Name: org/apache/commons/jxpath/ri/parser/XPathParser.java
 	Line Number: 2306
 	Mutator Name: RemoveConditionalMutator_EQUAL_IF
 	Mutator Description: removed conditional - replaced equality check with true
@@ -126,6 +138,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.axes.ChildContext
 	Method Name: prepare
 	Method Descriptor: ()V
+	File Name: org/apache/commons/jxpath/ri/axes/ChildContext.java
 	Line Number: 113
 	Mutator Name: ReturningMethodCallGuardMutator
 	Mutator Description: the call to childIterator(Lorg/apache/commons/jxpath/ri/compiler/NodeTest;ZLorg/apache/commons/jxpath/ri/model/NodePointer;)Lorg/apache/commons/jxpath/ri/model/NodeIterator; is guarded returning enclosing method
@@ -136,6 +149,7 @@ Total Number of Patches: 10841
 	Class Name: org.apache.commons.jxpath.ri.axes.ChildContext
 	Method Name: prepare
 	Method Descriptor: ()V
+	File Name: org/apache/commons/jxpath/ri/axes/ChildContext.java
 	Line Number: 113
 	Mutator Name: NonVoidMethodCallGuardMutator
 	Mutator Description: the call to org.apache.commons.jxpath.ri.model.NodePointer::childIterator(Lorg/apache/commons/jxpath/ri/compiler/NodeTest;ZLorg/apache/commons/jxpath/ri/model/NodePointer;)Lorg/apache/commons/jxpath/ri/model/NodeIterator; is guarded using default value null

@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:59:56 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:04:21 CDT 2019
 Number of Plausible Fixes: 2
 Total Number of Patches: 2623
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 2623
 	Class Name: org.jfree.chart.renderer.category.AbstractCategoryItemRenderer
 	Method Name: getLegendItems
 	Method Descriptor: ()Lorg/jfree/chart/LegendItemCollection;
+	File Name: org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
 	Line Number: 1797
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -16,6 +17,7 @@ Total Number of Patches: 2623
 	Class Name: org.jfree.chart.renderer.category.AbstractCategoryItemRenderer
 	Method Name: getLegendItems
 	Method Descriptor: ()Lorg/jfree/chart/LegendItemCollection;
+	File Name: org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
 	Line Number: 1797
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional

@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 13:49:05 CDT 2019
+PraPR Fix Report - Fri Apr 05 03:53:19 CDT 2019
 Number of Plausible Fixes: 15
 Total Number of Patches: 42370
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: LocalNameMutator
 	Mutator Description: local parent is replaced by local property to be used
@@ -16,6 +17,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: LocalNameMutator
 	Mutator Description: local parent is replaced by local objNode to be used
@@ -26,6 +28,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: LocalNameMutator
 	Mutator Description: local parent is replaced by local n to be used
@@ -36,6 +39,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visit
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 519
 	Mutator Name: LocalNameMutator
 	Mutator Description: local parent is replaced by local n to be used
@@ -46,6 +50,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
 	Mutator Description: removed conditional - replaced equality check with false
@@ -56,6 +61,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local parent is replaced a call parent.getFirstChild()
@@ -66,6 +72,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visit
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 519
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local parent is replaced a call parent.getFirstChild()
@@ -76,6 +83,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -86,6 +94,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isAssign with a call to wasEmptyNode
@@ -96,6 +105,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isAssign with a call to isFromExterns
@@ -106,6 +116,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isAssign with a call to isOptionalArg
@@ -116,6 +127,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isAssign with a call to isVarArgs
@@ -126,6 +138,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to isAssign with a call to isSyntheticBlock
@@ -136,6 +149,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.google.javascript.rhino.Node::isAssign()Z is replaced with the used of default value false
@@ -146,6 +160,7 @@ Total Number of Patches: 42370
 	Class Name: com.google.javascript.jscomp.TypeCheck
 	Method Name: visitGetProp
 	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
 	Line Number: 1314
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to com.google.javascript.rhino.Node::getJSType()Lcom/google/javascript/rhino/jstype/JSType; is replaced with the used of default value null

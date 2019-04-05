@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 20:20:07 CDT 2019
+PraPR Fix Report - Fri Apr 05 10:23:56 CDT 2019
 Number of Plausible Fixes: 2
 Total Number of Patches: 346
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 346
 	Class Name: com.google.javascript.jscomp.LightweightMessageFormatter
 	Method Name: format
 	Method Descriptor: (Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;
+	File Name: com/google/javascript/jscomp/LightweightMessageFormatter.java
 	Line Number: 97
 	Mutator Name: RemoveConditionalMutator_ORDER_IF
 	Mutator Description: removed conditional - replaced comparison check with true
@@ -16,6 +17,7 @@ Total Number of Patches: 346
 	Class Name: com.google.javascript.jscomp.LightweightMessageFormatter
 	Method Name: format
 	Method Descriptor: (Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;
+	File Name: com/google/javascript/jscomp/LightweightMessageFormatter.java
 	Line Number: 97
 	Mutator Name: ConditionalsBoundaryMutator
 	Mutator Description: changed conditional boundary

@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:24:41 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:04 CDT 2019
 Number of Plausible Fixes: 6
 Total Number of Patches: 17539
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 17539
 	Class Name: org.apache.commons.math3.geometry.euclidean.threed.Vector3D
 	Method Name: orthogonal
 	Method Descriptor: ()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;
+	File Name: org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java
 	Line Number: 330
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double division with multiplication
@@ -16,6 +17,7 @@ Total Number of Patches: 17539
 	Class Name: org.apache.commons.math3.geometry.euclidean.threed.Vector3D
 	Method Name: orthogonal
 	Method Descriptor: ()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;
+	File Name: org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java
 	Line Number: 330
 	Mutator Name: MathMutator
 	Mutator Description: Replaced double multiplication with division
@@ -26,6 +28,7 @@ Total Number of Patches: 17539
 	Class Name: org.apache.commons.math3.geometry.partitioning.AbstractRegion$1
 	Method Name: compare
 	Method Descriptor: (Lorg/apache/commons/math3/geometry/partitioning/SubHyperplane;Lorg/apache/commons/math3/geometry/partitioning/SubHyperplane;)I
+	File Name: org/apache/commons/math3/geometry/partitioning/AbstractRegion.java
 	Line Number: 105
 	Mutator Name: NegateConditionalsMutator
 	Mutator Description: negated conditional
@@ -36,6 +39,7 @@ Total Number of Patches: 17539
 	Class Name: org.apache.commons.math3.geometry.euclidean.threed.Vector3D
 	Method Name: orthogonal
 	Method Descriptor: ()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;
+	File Name: org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java
 	Line Number: 330
 	Mutator Name: MethodNameMutator
 	Mutator Description: replaced call to sqrt with a call to signum
@@ -46,6 +50,7 @@ Total Number of Patches: 17539
 	Class Name: org.apache.commons.math3.geometry.euclidean.threed.Vector3D
 	Method Name: orthogonal
 	Method Descriptor: ()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;
+	File Name: org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java
 	Line Number: 330
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to z with an access to x
@@ -56,6 +61,7 @@ Total Number of Patches: 17539
 	Class Name: org.apache.commons.math3.geometry.euclidean.threed.Vector3D
 	Method Name: orthogonal
 	Method Descriptor: ()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;
+	File Name: org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java
 	Line Number: 330
 	Mutator Name: FieldAccessToMethodCallMutator
 	Mutator Description: the access to field org.apache.commons.math3.geometry.euclidean.threed.Vector3D.z is replaced by the call to org.apache.commons.math3.geometry.euclidean.threed.Vector3D::getX()D

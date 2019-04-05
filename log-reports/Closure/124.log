@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 15:28:42 CDT 2019
+PraPR Fix Report - Fri Apr 05 05:32:02 CDT 2019
 Number of Plausible Fixes: 1
 Total Number of Patches: 23688
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 23688
 	Class Name: com.google.javascript.jscomp.ExploitAssigns
 	Method Name: collapseAssignEqualTo
 	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Z
+	File Name: com/google/javascript/jscomp/ExploitAssigns.java
 	Line Number: 138
 	Mutator Name: LocalToMethodCallMutator
 	Mutator Description: the access to the local nextName is replaced a call nextName.toLowerCase()

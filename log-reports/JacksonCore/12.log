@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 12:37:26 CDT 2019
+PraPR Fix Report - Fri Apr 05 02:41:30 CDT 2019
 Number of Plausible Fixes: 2
 Total Number of Patches: 4895
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 4895
 	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
 	Method Name: writeString
 	Method Descriptor: (Ljava/lang/String;)V
+	File Name: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java
 	Line Number: 425
 	Mutator Name: FieldNameMutator
 	Mutator Description: replaced access to _charBufferLength with an access to _outputMaxContiguous
@@ -16,6 +17,7 @@ Total Number of Patches: 4895
 	Class Name: com.fasterxml.jackson.core.json.UTF8JsonGenerator
 	Method Name: <init>
 	Method Descriptor: (Lcom/fasterxml/jackson/core/io/IOContext;ILcom/fasterxml/jackson/core/ObjectCodec;Ljava/io/OutputStream;)V
+	File Name: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java
 	Line Number: 127
 	Mutator Name: MemberVariableMutator
 	Mutator Description: Removed assignment to member variable _charBufferLength

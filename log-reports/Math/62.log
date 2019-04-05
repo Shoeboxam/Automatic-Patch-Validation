@@ -1,4 +1,4 @@
-PraPR Fix Report - Thu Apr 04 22:25:09 CDT 2019
+PraPR Fix Report - Fri Apr 05 12:29:34 CDT 2019
 Number of Plausible Fixes: 3
 Total Number of Patches: 2310
 ===================================================
@@ -6,6 +6,7 @@ Total Number of Patches: 2310
 	Class Name: org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
 	Method Name: optimize
 	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;Lorg/apache/commons/math/optimization/GoalType;DDD)Lorg/apache/commons/math/optimization/univariate/UnivariateRealPointValuePair;
+	File Name: org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java
 	Line Number: 162
 	Mutator Name: NonVoidMethodCallRemovalMutator
 	Mutator Description: the call to org.apache.commons.math.util.FastMath::min(DD)D is replaced with the used of local min
@@ -16,6 +17,7 @@ Total Number of Patches: 2310
 	Class Name: org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
 	Method Name: optimize
 	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;Lorg/apache/commons/math/optimization/GoalType;DDD)Lorg/apache/commons/math/optimization/univariate/UnivariateRealPointValuePair;
+	File Name: org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java
 	Line Number: 162
 	Mutator Name: LocalNameMutator
 	Mutator Description: local bound1 is replaced by local min to be used
@@ -26,6 +28,7 @@ Total Number of Patches: 2310
 	Class Name: org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer
 	Method Name: optimize
 	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;Lorg/apache/commons/math/optimization/GoalType;DDD)Lorg/apache/commons/math/optimization/univariate/UnivariateRealPointValuePair;
+	File Name: org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java
 	Line Number: 162
 	Mutator Name: LocalNameMutator
 	Mutator Description: local bound2 is replaced by local min to be used
