@@ -1,0 +1,48 @@
+PraPR Fix Report - Fri Apr 05 12:30:04 CDT 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 1190
+===================================================
+1.
+	Class Name: org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+	Method Name: bracket
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D
+	File Name: org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+	Line Number: 198
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.242536
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+	Method Name: bracket
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D
+	File Name: org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+	Line Number: 198
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.242536
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+	Method Name: bracket
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D
+	File Name: org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+	Line Number: 198
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double multiplication with division
+	Suspiciousness Value: 0.242536
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils
+	Method Name: bracket
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D
+	File Name: org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+	Line Number: 198
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0.0 with 1.0
+	Suspiciousness Value: 0.242536
+	Rank: 4
+---------------------------------------------------

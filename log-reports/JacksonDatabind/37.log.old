@@ -1,0 +1,220 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 06:18:48 CST 2019
+Number of Plausible Fixes: 24
+Total Number of Patches: 1622
+================================================
+1.
+	Mutator: LocalToMethodCallMutator
+	Description: the access to the local rawType is replaced a call rawType.getSuperclass()
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1040
+	Rank: 1
+	Total Rank: 3
+	Dump: mutant-2.class
+------------------------------------------------
+2.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1041
+	Rank: 2
+	Total Rank: 5
+	Dump: mutant-19.class
+------------------------------------------------
+3.
+	Mutator: RemoveConditionalMutator_EQUAL_IF
+	Description: removed conditional - replaced equality check with true
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1041
+	Rank: 3
+	Total Rank: 10
+	Dump: mutant-20.class
+------------------------------------------------
+4.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local pts is replaced by access to field NO_TYPES
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1041
+	Rank: 4
+	Total Rank: 13
+	Dump: mutant-16.class
+------------------------------------------------
+5.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to com.fasterxml.jackson.databind.type.TypeFactory::findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; is guarded using default value null
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1040
+	Rank: 5
+	Total Rank: 14
+	Dump: mutant-17.class
+------------------------------------------------
+6.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to com.fasterxml.jackson.databind.type.TypeFactory::findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; is replaced with the used of default value null
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1040
+	Rank: 8
+	Total Rank: 17
+	Dump: mutant-41.class
+------------------------------------------------
+7.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to com.fasterxml.jackson.databind.type.TypeFactory::findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; is replaced with the used of local pt
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1040
+	Rank: 8
+	Total Rank: 17
+	Dump: mutant-39.class
+------------------------------------------------
+8.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to com.fasterxml.jackson.databind.type.TypeFactory::findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; is replaced with the used of field NO_TYPES
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1040
+	Rank: 8
+	Total Rank: 17
+	Dump: mutant-40.class
+------------------------------------------------
+9.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; with a call to findTypeParameters(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1040
+	Rank: 10
+	Total Rank: 20
+	Dump: mutant-4.class
+------------------------------------------------
+10.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; with a call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)[Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1040
+	Rank: 10
+	Total Rank: 20
+	Dump: mutant-8.class
+------------------------------------------------
+11.
+	Mutator: RemoveConditionalMutator_EQUAL_IF
+	Description: removed conditional - replaced equality check with true
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 1032
+	Rank: 11
+	Total Rank: 31
+	Dump: mutant-14.class
+------------------------------------------------
+12.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local pts is replaced by access to field NO_TYPES
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 913
+	Rank: 13
+	Total Rank: 34
+	Dump: mutant-21.class
+------------------------------------------------
+13.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local this is replaced by access to field instance
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 911
+	Rank: 13
+	Total Rank: 34
+	Dump: mutant-13.class
+------------------------------------------------
+14.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; with a call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;Lcom/fasterxml/jackson/databind/type/TypeBindings;)[Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 911
+	Rank: 15
+	Total Rank: 40
+	Dump: mutant-26.class
+------------------------------------------------
+15.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to findTypeParameters(Ljava/lang/Class;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType; with a call to findTypeParameters(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/Class;)[Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 911
+	Rank: 15
+	Total Rank: 40
+	Dump: mutant-25.class
+------------------------------------------------
+16.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to java.util.Map::containsKey(Ljava/lang/Object;)Z is replaced with the used of default value false
+	File Name: com/fasterxml/jackson/databind/type/TypeBindings.java
+	Line Number: 307
+	Rank: 16
+	Total Rank: 92
+	Dump: mutant-1.class
+------------------------------------------------
+17.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; is guarded returning enclosing method
+	File Name: com/fasterxml/jackson/databind/type/TypeBindings.java
+	Line Number: 314
+	Rank: 17
+	Total Rank: 113
+	Dump: mutant-3.class
+------------------------------------------------
+18.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.util.Map::put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; is guarded using default value null
+	File Name: com/fasterxml/jackson/databind/type/TypeBindings.java
+	Line Number: 314
+	Rank: 18
+	Total Rank: 116
+	Dump: mutant-15.class
+------------------------------------------------
+19.
+	Mutator: LocalNameMutator
+	Description: local clz is replaced by local expType to be used
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 377
+	Rank: 19
+	Total Rank: 220
+	Dump: mutant-35.class
+------------------------------------------------
+20.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local this is replaced by access to field instance
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 377
+	Rank: 20
+	Total Rank: 224
+	Dump: mutant-42.class
+------------------------------------------------
+21.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to isAssignableFrom(Ljava/lang/Class;)Z is guarded returning default value null
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 904
+	Rank: 21
+	Total Rank: 943
+	Dump: mutant-22.class
+------------------------------------------------
+22.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to java.lang.Class::isAssignableFrom(Ljava/lang/Class;)Z is replaced with the used of default value false
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 910
+	Rank: 22
+	Total Rank: 949
+	Dump: mutant-29.class
+------------------------------------------------
+23.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.Class::isAssignableFrom(Ljava/lang/Class;)Z is guarded using default value false
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 898
+	Rank: 23
+	Total Rank: 981
+	Dump: mutant-38.class
+------------------------------------------------
+24.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to isEnum()Z is guarded returning default value null
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 892
+	Rank: 24
+	Total Rank: 996
+	Dump: mutant-34.class
+------------------------------------------------

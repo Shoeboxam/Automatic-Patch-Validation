@@ -1,0 +1,37 @@
+PraPR Fix Report - Fri Apr 05 12:28:23 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 10
+===================================================
+1.
+	Class Name: org.apache.commons.lang.LocaleUtils
+	Method Name: isAvailableLocale
+	Method Descriptor: (Ljava/util/Locale;)Z
+	File Name: org/apache/commons/lang/LocaleUtils.java
+	Line Number: 223
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.lang.LocaleUtils.cAvailableLocaleSet is replaced by the call to org.apache.commons.lang.LocaleUtils::availableLocaleSet()Ljava/util/Set;
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.lang.LocaleUtils
+	Method Name: isAvailableLocale
+	Method Descriptor: (Ljava/util/Locale;)Z
+	File Name: org/apache/commons/lang/LocaleUtils.java
+	Line Number: 223
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to contains(Ljava/lang/Object;)Z is guarded returning default value false
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.lang.LocaleUtils
+	Method Name: isAvailableLocale
+	Method Descriptor: (Ljava/util/Locale;)Z
+	File Name: org/apache/commons/lang/LocaleUtils.java
+	Line Number: 223
+	Mutator Name: NonVoidMethodCallGuardMutator
+	Mutator Description: the call to java.util.Set::contains(Ljava/lang/Object;)Z is guarded using default value false
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------

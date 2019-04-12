@@ -1,0 +1,49 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 21:38:40 CST 2019
+Number of Plausible Fixes: 5
+Total Number of Patches: 319
+================================================
+1.
+	Mutator: LocalNameMutator
+	Description: local preHWChar is replaced by local firstCode to be used
+	File Name: org/apache/commons/codec/language/Soundex.java
+	Line Number: 192
+	Rank: 2
+	Total Rank: 35
+	Dump: mutant-3.class
+------------------------------------------------
+2.
+	Mutator: LocalNameMutator
+	Description: local preHWChar is replaced by local mappedChar to be used
+	File Name: org/apache/commons/codec/language/Soundex.java
+	Line Number: 192
+	Rank: 2
+	Total Rank: 35
+	Dump: mutant-2.class
+------------------------------------------------
+3.
+	Mutator: InlineConstantMutator
+	Description: Substituted 72 with 73
+	File Name: org/apache/commons/codec/language/Soundex.java
+	Line Number: 192
+	Rank: 3
+	Total Rank: 38
+	Dump: mutant-5.class
+------------------------------------------------
+4.
+	Mutator: RemoveConditionalMutator_EQUAL_IF
+	Description: removed conditional - replaced equality check with true
+	File Name: org/apache/commons/codec/language/Soundex.java
+	Line Number: 192
+	Rank: 4
+	Total Rank: 40
+	Dump: mutant-4.class
+------------------------------------------------
+5.
+	Mutator: InlineConstantMutator
+	Description: Substituted 87 with 88
+	File Name: org/apache/commons/codec/language/Soundex.java
+	Line Number: 189
+	Rank: 5
+	Total Rank: 104
+	Dump: mutant-1.class
+------------------------------------------------

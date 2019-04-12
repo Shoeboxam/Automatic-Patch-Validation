@@ -1,0 +1,103 @@
+PraPR Fix Report - Fri Apr 05 02:41:26 CDT 2019
+Number of Plausible Fixes: 9
+Total Number of Patches: 5100
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findOffsetForAdd
+	Method Descriptor: (I)I
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 932
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to _reportTooManyCollisions with a call to release
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findOffsetForAdd
+	Method Descriptor: (I)I
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 932
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to _reportTooManyCollisions with a call to rehash
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findOffsetForAdd
+	Method Descriptor: (I)I
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 936
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to _needRehash with an access to _hashShared
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findOffsetForAdd
+	Method Descriptor: (I)I
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 936
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._needRehash is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::nukeSymbols(Z)V
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: mergeChild
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 340
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to count with an access to tertiaryShift
+	Suspiciousness Value: 0.140028
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: mergeChild
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 340
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to count with an access to size
+	Suspiciousness Value: 0.140028
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: mergeChild
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 340
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local childCount is replaced by access to field MIN_HASH_SIZE
+	Suspiciousness Value: 0.140028
+	Rank: 8
+---------------------------------------------------
+8.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: mergeChild
+	Method Descriptor: (Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 340
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local childCount is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.140028
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: maybeDirty
+	Method Descriptor: ()Z
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 380
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to _hashShared with an access to _needRehash
+	Suspiciousness Value: 0.090909
+	Rank: 9
+---------------------------------------------------

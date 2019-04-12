@@ -1,0 +1,26 @@
+PraPR Fix Report - Fri Apr 05 12:30:36 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 6323
+===================================================
+1.
+	Class Name: org.joda.time.DateTimeZone
+	Method Name: adjustOffset
+	Method Descriptor: (JZ)J
+	File Name: org/joda/time/DateTimeZone.java
+	Line Number: 1168
+	Mutator Name: ArgumentPropagationMutator
+	Mutator Description: replaced call to org/joda/time/DateTimeZone::convertUTCToLocal with argument
+	Suspiciousness Value: 0.577350
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.joda.time.DateTimeZone
+	Method Name: adjustOffset
+	Method Descriptor: (JZ)J
+	File Name: org/joda/time/DateTimeZone.java
+	Line Number: 1168
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.joda.time.DateTimeZone::convertUTCToLocal(J)J is replaced with the used of default value 0L
+	Suspiciousness Value: 0.577350
+	Rank: 2
+---------------------------------------------------

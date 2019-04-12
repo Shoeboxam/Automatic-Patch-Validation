@@ -1,0 +1,59 @@
+PraPR Fix Report - Fri Apr 05 02:56:05 CDT 2019
+Number of Plausible Fixes: 5
+Total Number of Patches: 934
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructType
+	Method Descriptor: (Ljava/lang/reflect/Type;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 602
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local contextType is replaced by access to field CLS_OBJECT
+	Suspiciousness Value: 1.000000
+	Rank: 5
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructType
+	Method Descriptor: (Ljava/lang/reflect/Type;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 602
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local contextType is replaced by access to field CLS_COMPARABLE
+	Suspiciousness Value: 1.000000
+	Rank: 5
+---------------------------------------------------
+3.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructType
+	Method Descriptor: (Ljava/lang/reflect/Type;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 602
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local contextType is replaced by access to field CLS_CLASS
+	Suspiciousness Value: 1.000000
+	Rank: 5
+---------------------------------------------------
+4.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructType
+	Method Descriptor: (Ljava/lang/reflect/Type;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 602
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local contextType is replaced by access to field CLS_STRING
+	Suspiciousness Value: 1.000000
+	Rank: 5
+---------------------------------------------------
+5.
+	Class Name: com.fasterxml.jackson.databind.type.TypeFactory
+	Method Name: constructType
+	Method Descriptor: (Ljava/lang/reflect/Type;Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 602
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local contextType is replaced by access to field CLS_ENUM
+	Suspiciousness Value: 1.000000
+	Rank: 5
+---------------------------------------------------

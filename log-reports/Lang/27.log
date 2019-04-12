@@ -1,0 +1,92 @@
+PraPR Fix Report - Fri Apr 05 12:28:12 CDT 2019
+Number of Plausible Fixes: 8
+Total Number of Patches: 653
+===================================================
+1.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
+	Line Number: 489
+	Mutator Name: NakedReceiverMutator
+	Mutator Description: replaced call to java/lang/String::substring with receiver
+	Suspiciousness Value: 0.707107
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
+	Line Number: 489
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to substring(II)Ljava/lang/String; with a call to substring(I)Ljava/lang/String;
+	Suspiciousness Value: 0.707107
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
+	Line Number: 489
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::substring(II)Ljava/lang/String; is replaced with the used of default value null
+	Suspiciousness Value: 0.707107
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
+	Line Number: 489
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::substring(II)Ljava/lang/String; is replaced with the used of local str
+	Suspiciousness Value: 0.707107
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
+	Line Number: 488
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.577350
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
+	Line Number: 474
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to indexOf(I)I with a call to indexOf(Ljava/lang/String;I)I
+	Suspiciousness Value: 0.577350
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
+	Line Number: 474
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.577350
+	Rank: 8
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.lang3.math.NumberUtils
+	Method Name: createNumber
+	Method Descriptor: (Ljava/lang/String;)Ljava/lang/Number;
+	File Name: org/apache/commons/lang3/math/NumberUtils.java
+	Line Number: 474
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 101 with 102
+	Suspiciousness Value: 0.577350
+	Rank: 8
+---------------------------------------------------

@@ -1,0 +1,40 @@
+PraPR 2 (JDK 1.7) Fix Report - Mon Jan 14 02:30:05 CST 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 21424
+================================================
+1.
+	Mutator: FieldNameMutator
+	Description: replaced access to nullCount with an access to noTypeCheckSection
+	File Name: com/google/javascript/jscomp/TypeCheck.java
+	Line Number: 1913
+	Rank: 1
+	Total Rank: 42
+	Dump: mutant-3.class
+------------------------------------------------
+2.
+	Mutator: FieldNameMutator
+	Description: replaced access to nullCount with an access to typedCount
+	File Name: com/google/javascript/jscomp/TypeCheck.java
+	Line Number: 822
+	Rank: 2
+	Total Rank: 169
+	Dump: mutant-1.class
+------------------------------------------------
+3.
+	Mutator: MemberVariableMutator
+	Description: Removed assignment to member variable nullCount
+	File Name: com/google/javascript/jscomp/TypeCheck.java
+	Line Number: 822
+	Rank: 3
+	Total Rank: 170
+	Dump: mutant-2.class
+------------------------------------------------
+4.
+	Mutator: InlineConstantMutator
+	Description: Substituted 1 with 0
+	File Name: com/google/javascript/jscomp/TypeCheck.java
+	Line Number: 822
+	Rank: 4
+	Total Rank: 171
+	Dump: mutant-4.class
+------------------------------------------------

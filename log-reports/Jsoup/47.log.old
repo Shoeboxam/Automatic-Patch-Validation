@@ -1,0 +1,22 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 11:22:02 CST 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 5409
+================================================
+1.
+	Mutator: MethodNameMutator
+	Description: replaced call to get with a call to remove
+	File Name: org/jsoup/safety/Whitelist.java
+	Line Number: 295
+	Rank: 2
+	Total Rank: 21
+	Dump: mutant-1.class
+------------------------------------------------
+2.
+	Mutator: MethodNameMutator
+	Description: replaced call to get with a call to remove
+	File Name: org/jsoup/safety/Whitelist.java
+	Line Number: 301
+	Rank: 2
+	Total Rank: 21
+	Dump: mutant-2.class
+------------------------------------------------

@@ -1,0 +1,112 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 05:54:18 CST 2019
+Number of Plausible Fixes: 12
+Total Number of Patches: 22911
+================================================
+1.
+	Mutator: MethodNameMutator
+	Description: replaced call to nextToken with a call to getCurrentToken
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 957
+	Rank: 2
+	Total Rank: 109
+	Dump: mutant-8.class
+------------------------------------------------
+2.
+	Mutator: MethodNameMutator
+	Description: replaced call to nextToken with a call to getLastClearedToken
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 957
+	Rank: 2
+	Total Rank: 109
+	Dump: mutant-7.class
+------------------------------------------------
+3.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to com.fasterxml.jackson.core.JsonParser::nextToken()Lcom/fasterxml/jackson/core/JsonToken; is replaced with the used of local t
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 957
+	Rank: 4
+	Total Rank: 123
+	Dump: mutant-9.class
+------------------------------------------------
+4.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to com.fasterxml.jackson.core.JsonParser::nextToken()Lcom/fasterxml/jackson/core/JsonToken; is replaced with the used of default value null
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 957
+	Rank: 4
+	Total Rank: 123
+	Dump: mutant-10.class
+------------------------------------------------
+5.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 956
+	Rank: 5
+	Total Rank: 128
+	Dump: mutant-11.class
+------------------------------------------------
+6.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 956
+	Rank: 6
+	Total Rank: 133
+	Dump: mutant-12.class
+------------------------------------------------
+7.
+	Mutator: FieldNameMutator
+	Description: replaced access to START_OBJECT with an access to START_ARRAY
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 956
+	Rank: 12
+	Total Rank: 145
+	Dump: mutant-4.class
+------------------------------------------------
+8.
+	Mutator: FieldNameMutator
+	Description: replaced access to START_OBJECT with an access to FIELD_NAME
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 956
+	Rank: 12
+	Total Rank: 145
+	Dump: mutant-6.class
+------------------------------------------------
+9.
+	Mutator: FieldNameMutator
+	Description: replaced access to START_OBJECT with an access to VALUE_EMBEDDED_OBJECT
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 956
+	Rank: 12
+	Total Rank: 145
+	Dump: mutant-2.class
+------------------------------------------------
+10.
+	Mutator: FieldNameMutator
+	Description: replaced access to START_OBJECT with an access to END_OBJECT
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 956
+	Rank: 12
+	Total Rank: 145
+	Dump: mutant-3.class
+------------------------------------------------
+11.
+	Mutator: FieldNameMutator
+	Description: replaced access to START_OBJECT with an access to END_ARRAY
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 956
+	Rank: 12
+	Total Rank: 145
+	Dump: mutant-5.class
+------------------------------------------------
+12.
+	Mutator: FieldNameMutator
+	Description: replaced access to START_OBJECT with an access to NOT_AVAILABLE
+	File Name: com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+	Line Number: 956
+	Rank: 12
+	Total Rank: 145
+	Dump: mutant-1.class
+------------------------------------------------

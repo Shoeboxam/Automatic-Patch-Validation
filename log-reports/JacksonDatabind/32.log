@@ -1,0 +1,15 @@
+PraPR Fix Report - Fri Apr 05 02:56:18 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 8014
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.DeserializationContext
+	Method Name: weirdKeyException
+	Method Descriptor: (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)Lcom/fasterxml/jackson/databind/JsonMappingException;
+	File Name: com/fasterxml/jackson/databind/DeserializationContext.java
+	Line Number: 930
+	Mutator Name: LocalNameMutator
+	Mutator Description: local keyValue is replaced by local msg to be used
+	Suspiciousness Value: 0.707107
+	Rank: 1
+---------------------------------------------------

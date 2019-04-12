@@ -1,0 +1,103 @@
+PraPR Fix Report - Fri Apr 05 12:30:02 CDT 2019
+Number of Plausible Fixes: 9
+Total Number of Patches: 2051
+===================================================
+1.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (ILorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 82
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.267261
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (ILorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 84
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.267261
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (ILorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 82
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field epsilon is replaced by access to local entry
+	Suspiciousness Value: 0.267261
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexSolver
+	Method Name: getPivotColumn
+	Method Descriptor: (Lorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 63
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math.optimization.linear.SimplexTableau::getEntry(II)D is replaced with the used of local minValue
+	Suspiciousness Value: 0.267261
+	Rank: 6
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexSolver
+	Method Name: getPivotColumn
+	Method Descriptor: (Lorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 63
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math.optimization.linear.SimplexTableau::getEntry(II)D is replaced with the used of default value 0.D
+	Suspiciousness Value: 0.267261
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexSolver
+	Method Name: getPivotColumn
+	Method Descriptor: (Lorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 63
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math.optimization.linear.SimplexTableau::getEntry(II)D is replaced with the used of field DEFAULT_EPSILON
+	Suspiciousness Value: 0.267261
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexSolver
+	Method Name: getPivotColumn
+	Method Descriptor: (Lorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 62
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local minValue is replaced by access to field epsilon
+	Suspiciousness Value: 0.267261
+	Rank: 8
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexSolver
+	Method Name: getPivotColumn
+	Method Descriptor: (Lorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 62
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local minValue is replaced by access to field DEFAULT_EPSILON
+	Suspiciousness Value: 0.267261
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (ILorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 85
+	Mutator Name: LocalNameMutator
+	Mutator Description: local ratio is replaced by local rhs to be used
+	Suspiciousness Value: 0.267261
+	Rank: 9
+---------------------------------------------------

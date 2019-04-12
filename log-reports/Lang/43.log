@@ -1,0 +1,26 @@
+PraPR Fix Report - Fri Apr 05 12:28:18 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 173
+===================================================
+1.
+	Class Name: org.apache.commons.lang.text.ExtendedMessageFormat
+	Method Name: applyPattern
+	Method Descriptor: (Ljava/lang/String;)V
+	File Name: org/apache/commons/lang/text/ExtendedMessageFormat.java
+	Line Number: 158
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.lang.text.ExtendedMessageFormat
+	Method Name: applyPattern
+	Method Descriptor: (Ljava/lang/String;)V
+	File Name: org/apache/commons/lang/text/ExtendedMessageFormat.java
+	Line Number: 156
+	Mutator Name: RemoveSwitchMutator
+	Mutator Description: RemoveSwitch 0 mutation
+	Suspiciousness Value: 0.500000
+	Rank: 2
+---------------------------------------------------

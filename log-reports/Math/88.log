@@ -1,0 +1,37 @@
+PraPR Fix Report - Fri Apr 05 12:30:06 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 2356
+===================================================
+1.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexTableau
+	Method Name: getSolution
+	Method Descriptor: ()Lorg/apache/commons/math/optimization/RealPointValuePair;
+	File Name: org/apache/commons/math/optimization/linear/SimplexTableau.java
+	Line Number: 338
+	Mutator Name: LocalNameMutator
+	Mutator Description: local j is replaced by local i to be used
+	Suspiciousness Value: 0.333333
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexTableau
+	Method Name: getSolution
+	Method Descriptor: ()Lorg/apache/commons/math/optimization/RealPointValuePair;
+	File Name: org/apache/commons/math/optimization/linear/SimplexTableau.java
+	Line Number: 337
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math.optimization.linear.SimplexTableau::getNumObjectiveFunctions()I is replaced with the used of local i
+	Suspiciousness Value: 0.333333
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (ILorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 83
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.301511
+	Rank: 3
+---------------------------------------------------

@@ -1,0 +1,48 @@
+PraPR Fix Report - Fri Apr 05 10:34:56 CDT 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 21425
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.TypeCheck
+	Method Name: getTypedPercent
+	Method Descriptor: ()D
+	File Name: com/google/javascript/jscomp/TypeCheck.java
+	Line Number: 1913
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to nullCount with an access to noTypeCheckSection
+	Suspiciousness Value: 0.213201
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.TypeCheck
+	Method Name: doPercentTypedAccounting
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
+	Line Number: 822
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.109764
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.TypeCheck
+	Method Name: doPercentTypedAccounting
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
+	Line Number: 822
+	Mutator Name: MemberVariableMutator
+	Mutator Description: Removed assignment to member variable nullCount
+	Suspiciousness Value: 0.109764
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.TypeCheck
+	Method Name: doPercentTypedAccounting
+	Method Descriptor: (Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V
+	File Name: com/google/javascript/jscomp/TypeCheck.java
+	Line Number: 822
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to nullCount with an access to typedCount
+	Suspiciousness Value: 0.109764
+	Rank: 4
+---------------------------------------------------

@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 14:15:41 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 27247
+================================================
+1.
+	Mutator: LocalNameMutator
+	Description: local an is replaced by local gramps to be used
+	File Name: com/google/javascript/jscomp/CheckSideEffects.java
+	Line Number: 117
+	Rank: 1
+	Total Rank: 122
+	Dump: mutant-1.class
+------------------------------------------------

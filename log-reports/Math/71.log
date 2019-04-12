@@ -1,0 +1,301 @@
+PraPR Fix Report - Fri Apr 05 12:29:50 CDT 2019
+Number of Plausible Fixes: 27
+Total Number of Patches: 2821
+===================================================
+1.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 238
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to abs with a call to toRadians
+	Suspiciousness Value: 0.147442
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.ode.AbstractIntegrator
+	Method Name: addEndTimeChecker
+	Method Descriptor: (DDLorg/apache/commons/math/ode/events/CombinedEventsManager;)Lorg/apache/commons/math/ode/events/CombinedEventsManager;
+	File Name: org/apache/commons/math/ode/AbstractIntegrator.java
+	Line Number: 240
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to abs with a call to toDegrees
+	Suspiciousness Value: 0.142134
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to abs with a call to atan
+	Suspiciousness Value: 0.125988
+	Rank: 7
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to abs with a call to sin
+	Suspiciousness Value: 0.125988
+	Rank: 7
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to abs with a call to tan
+	Suspiciousness Value: 0.125988
+	Rank: 7
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to abs with a call to toRadians
+	Suspiciousness Value: 0.125988
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to abs with a call to cos
+	Suspiciousness Value: 0.125988
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: ArgumentPropagationMutator
+	Mutator Description: replaced call to java/lang/Math::max with argument
+	Suspiciousness Value: 0.125988
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Math::abs(D)D is replaced with the used of default value 0.D
+	Suspiciousness Value: 0.125988
+	Rank: 10
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Math::abs(D)D is replaced with the used of field DEFAULT_ABSOLUTE_ACCURACY
+	Suspiciousness Value: 0.125988
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local delta to be used
+	Suspiciousness Value: 0.125988
+	Rank: 14
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local y2 to be used
+	Suspiciousness Value: 0.125988
+	Rank: 14
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local y0 to be used
+	Suspiciousness Value: 0.125988
+	Rank: 14
+---------------------------------------------------
+14.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: LocalNameMutator
+	Mutator Description: local x1 is replaced by local y1 to be used
+	Suspiciousness Value: 0.125988
+	Rank: 14
+---------------------------------------------------
+15.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 282
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local x1 is replaced by access to field DEFAULT_ABSOLUTE_ACCURACY
+	Suspiciousness Value: 0.125988
+	Rank: 15
+---------------------------------------------------
+16.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 65
+	Mutator Name: MemberVariableMutator
+	Mutator Description: Removed assignment to member variable relativeAccuracy
+	Suspiciousness Value: 0.103142
+	Rank: 17
+---------------------------------------------------
+17.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 63
+	Mutator Name: MemberVariableMutator
+	Mutator Description: Removed assignment to member variable defaultRelativeAccuracy
+	Suspiciousness Value: 0.103142
+	Rank: 17
+---------------------------------------------------
+18.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 65
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math.ConvergingAlgorithmImpl.defaultRelativeAccuracy is replaced by the call to org.apache.commons.math.ConvergingAlgorithmImpl::getRelativeAccuracy()D
+	Suspiciousness Value: 0.103142
+	Rank: 20
+---------------------------------------------------
+19.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 63
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math.ConvergingAlgorithmImpl.defaultRelativeAccuracy is replaced by the call to org.apache.commons.math.ConvergingAlgorithmImpl::setAbsoluteAccuracy(D)V
+	Suspiciousness Value: 0.103142
+	Rank: 20
+---------------------------------------------------
+20.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 63
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math.ConvergingAlgorithmImpl.defaultRelativeAccuracy is replaced by the call to org.apache.commons.math.ConvergingAlgorithmImpl::setRelativeAccuracy(D)V
+	Suspiciousness Value: 0.103142
+	Rank: 20
+---------------------------------------------------
+21.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 65
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to relativeAccuracy with an access to defaultAbsoluteAccuracy
+	Suspiciousness Value: 0.103142
+	Rank: 26
+---------------------------------------------------
+22.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 65
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to relativeAccuracy with an access to defaultRelativeAccuracy
+	Suspiciousness Value: 0.103142
+	Rank: 26
+---------------------------------------------------
+23.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 63
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to defaultRelativeAccuracy with an access to defaultAbsoluteAccuracy
+	Suspiciousness Value: 0.103142
+	Rank: 26
+---------------------------------------------------
+24.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 63
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to defaultRelativeAccuracy with an access to absoluteAccuracy
+	Suspiciousness Value: 0.103142
+	Rank: 26
+---------------------------------------------------
+25.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 63
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to defaultRelativeAccuracy with an access to relativeAccuracy
+	Suspiciousness Value: 0.103142
+	Rank: 26
+---------------------------------------------------
+26.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 65
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to defaultRelativeAccuracy with an access to relativeAccuracy
+	Suspiciousness Value: 0.103142
+	Rank: 26
+---------------------------------------------------
+27.
+	Class Name: org.apache.commons.math.ConvergingAlgorithmImpl
+	Method Name: <init>
+	Method Descriptor: (ID)V
+	File Name: org/apache/commons/math/ConvergingAlgorithmImpl.java
+	Line Number: 65
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field relativeAccuracy is replaced by access to local defaultAbsoluteAccuracy
+	Suspiciousness Value: 0.103142
+	Rank: 27
+---------------------------------------------------

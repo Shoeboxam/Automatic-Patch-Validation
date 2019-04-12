@@ -1,0 +1,49 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 20:51:50 CST 2019
+Number of Plausible Fixes: 5
+Total Number of Patches: 1812
+================================================
+1.
+	Mutator: MethodNameMutator
+	Description: replaced call to getMaximumValue with a call to getMinimumValue
+	File Name: org/joda/time/field/ZeroIsMaxDateTimeField.java
+	Line Number: 178
+	Rank: 1
+	Total Rank: 9
+	Dump: mutant-10.class
+------------------------------------------------
+2.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to org.joda.time.DateTimeField::getMaximumValue(Lorg/joda/time/ReadablePartial;[I)I is replaced with the used of default value 0
+	File Name: org/joda/time/field/ZeroIsMaxDateTimeField.java
+	Line Number: 178
+	Rank: 2
+	Total Rank: 11
+	Dump: mutant-7.class
+------------------------------------------------
+3.
+	Mutator: ReturnValsMutator
+	Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	File Name: org/joda/time/field/ZeroIsMaxDateTimeField.java
+	Line Number: 178
+	Rank: 3
+	Total Rank: 17
+	Dump: mutant-9.class
+------------------------------------------------
+4.
+	Mutator: PrimitiveReturnsMutator
+	Description: replaced int return with 0 for org/joda/time/field/ZeroIsMaxDateTimeField::getMaximumValue
+	File Name: org/joda/time/field/ZeroIsMaxDateTimeField.java
+	Line Number: 178
+	Rank: 4
+	Total Rank: 20
+	Dump: mutant-8.class
+------------------------------------------------
+5.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to <init>(Lorg/joda/time/Chronology;[Lorg/joda/time/DateTimeFieldType;[I)V with a call to <init>([Lorg/joda/time/DateTimeFieldType;[I)V
+	File Name: org/joda/time/Partial.java
+	Line Number: 464
+	Rank: 5
+	Total Rank: 315
+	Dump: mutant-3.class
+------------------------------------------------

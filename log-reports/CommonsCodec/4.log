@@ -1,0 +1,59 @@
+PraPR Fix Report - Fri Apr 05 02:40:28 CDT 2019
+Number of Plausible Fixes: 5
+Total Number of Patches: 316
+===================================================
+1.
+	Class Name: org.apache.commons.codec.language.Soundex
+	Method Name: getMappingCode
+	Method Descriptor: (Ljava/lang/String;I)C
+	File Name: org/apache/commons/codec/language/Soundex.java
+	Line Number: 192
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.377964
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.codec.language.Soundex
+	Method Name: getMappingCode
+	Method Descriptor: (Ljava/lang/String;I)C
+	File Name: org/apache/commons/codec/language/Soundex.java
+	Line Number: 192
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 72 with 73
+	Suspiciousness Value: 0.377964
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.codec.language.Soundex
+	Method Name: getMappingCode
+	Method Descriptor: (Ljava/lang/String;I)C
+	File Name: org/apache/commons/codec/language/Soundex.java
+	Line Number: 192
+	Mutator Name: LocalNameMutator
+	Mutator Description: local preHWChar is replaced by local firstCode to be used
+	Suspiciousness Value: 0.377964
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.codec.language.Soundex
+	Method Name: getMappingCode
+	Method Descriptor: (Ljava/lang/String;I)C
+	File Name: org/apache/commons/codec/language/Soundex.java
+	Line Number: 192
+	Mutator Name: LocalNameMutator
+	Mutator Description: local preHWChar is replaced by local mappedChar to be used
+	Suspiciousness Value: 0.377964
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.codec.language.Soundex
+	Method Name: getMappingCode
+	Method Descriptor: (Ljava/lang/String;I)C
+	File Name: org/apache/commons/codec/language/Soundex.java
+	Line Number: 189
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 87 with 88
+	Suspiciousness Value: 0.213201
+	Rank: 5
+---------------------------------------------------

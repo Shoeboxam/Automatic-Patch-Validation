@@ -1,0 +1,26 @@
+PraPR Fix Report - Fri Apr 05 03:04:44 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 403
+===================================================
+1.
+	Class Name: org.jfree.data.time.Week
+	Method Name: <init>
+	Method Descriptor: (Ljava/util/Date;Ljava/util/TimeZone;)V
+	File Name: org/jfree/data/time/Week.java
+	Line Number: 175
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field DEFAULT_TIME_ZONE is replaced by access to local zone
+	Suspiciousness Value: 0.577350
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.jfree.data.time.Week
+	Method Name: <init>
+	Method Descriptor: (Ljava/util/Date;Ljava/util/TimeZone;Ljava/util/Locale;)V
+	File Name: org/jfree/data/time/Week.java
+	Line Number: 198
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to getInstance(Ljava/util/TimeZone;Ljava/util/Locale;)Ljava/util/Calendar; with a call to getInstance(Ljava/util/Locale;)Ljava/util/Calendar;
+	Suspiciousness Value: 0.577350
+	Rank: 2
+---------------------------------------------------

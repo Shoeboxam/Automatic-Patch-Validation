@@ -1,0 +1,400 @@
+PraPR Fix Report - Fri Apr 05 12:28:56 CDT 2019
+Number of Plausible Fixes: 36
+Total Number of Patches: 3361
+===================================================
+1.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 143
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.500000
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 144
+	Mutator Name: RemoveConditionalMutator_ORDER_IF
+	Mutator Description: removed conditional - replaced comparison check with true
+	Suspiciousness Value: 0.500000
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 143
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.500000
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 123
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.333333
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 122
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math3.optimization.linear.SimplexTableau::getEntry(II)D is replaced with the used of default value 0.D
+	Suspiciousness Value: 0.333333
+	Rank: 13
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 123
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math3.util.Precision::equals(DDI)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.333333
+	Rank: 13
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 123
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math3.optimization.linear.SimplexTableau::getBasicRow(I)Ljava/lang/Integer; is replaced with the used of default value null
+	Suspiciousness Value: 0.333333
+	Rank: 13
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 122
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math3.optimization.linear.SimplexTableau::getEntry(II)D is replaced with the used of local minRatio
+	Suspiciousness Value: 0.333333
+	Rank: 13
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 122
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Integer::intValue()I is replaced with the used of default value 0
+	Suspiciousness Value: 0.333333
+	Rank: 13
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 122
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math3.optimization.linear.SimplexTableau::getEntry(II)D is replaced with the used of field DEFAULT_EPSILON
+	Suspiciousness Value: 0.333333
+	Rank: 13
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 121
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math3.optimization.linear.SimplexTableau::getArtificialVariableOffset()I is replaced with the used of local col
+	Suspiciousness Value: 0.333333
+	Rank: 13
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 121
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math3.optimization.linear.SimplexTableau::getArtificialVariableOffset()I is replaced with the used of default value 0
+	Suspiciousness Value: 0.333333
+	Rank: 13
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 123
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Integer::equals(Ljava/lang/Object;)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.333333
+	Rank: 13
+---------------------------------------------------
+14.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 123
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.333333
+	Rank: 14
+---------------------------------------------------
+15.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 123
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1.0 with 2.0
+	Suspiciousness Value: 0.333333
+	Rank: 15
+---------------------------------------------------
+16.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 120
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.316228
+	Rank: 16
+---------------------------------------------------
+17.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 120
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math3.optimization.linear.SimplexTableau::getNumArtificialVariables()I is replaced with the used of default value 0
+	Suspiciousness Value: 0.316228
+	Rank: 18
+---------------------------------------------------
+18.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 104
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.List::add(Ljava/lang/Object;)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.316228
+	Rank: 18
+---------------------------------------------------
+19.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 120
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.316228
+	Rank: 19
+---------------------------------------------------
+20.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 104
+	Mutator Name: LocalNameMutator
+	Mutator Description: local i is replaced by local cmp to be used
+	Suspiciousness Value: 0.316228
+	Rank: 20
+---------------------------------------------------
+21.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 104
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to add with a call to remove
+	Suspiciousness Value: 0.316228
+	Rank: 23
+---------------------------------------------------
+22.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 104
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to add with a call to equals
+	Suspiciousness Value: 0.316228
+	Rank: 23
+---------------------------------------------------
+23.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 104
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to add with a call to contains
+	Suspiciousness Value: 0.316228
+	Rank: 23
+---------------------------------------------------
+24.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 115
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.204124
+	Rank: 24
+---------------------------------------------------
+25.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 103
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.204124
+	Rank: 25
+---------------------------------------------------
+26.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 115
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.List::size()I is replaced with the used of default value 0
+	Suspiciousness Value: 0.204124
+	Rank: 26
+---------------------------------------------------
+27.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 115
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.204124
+	Rank: 27
+---------------------------------------------------
+28.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 103
+	Mutator Name: LocalNameMutator
+	Mutator Description: local cmp is replaced by local i to be used
+	Suspiciousness Value: 0.204124
+	Rank: 32
+---------------------------------------------------
+29.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotColumn
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 77
+	Mutator Name: LocalNameMutator
+	Mutator Description: local minValue is replaced by local entry to be defined
+	Suspiciousness Value: 0.204124
+	Rank: 32
+---------------------------------------------------
+30.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 103
+	Mutator Name: LocalNameMutator
+	Mutator Description: local cmp is replaced by local col to be used
+	Suspiciousness Value: 0.204124
+	Rank: 32
+---------------------------------------------------
+31.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotColumn
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 77
+	Mutator Name: LocalNameMutator
+	Mutator Description: local entry is replaced by local minValue to be used
+	Suspiciousness Value: 0.204124
+	Rank: 32
+---------------------------------------------------
+32.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 106
+	Mutator Name: LocalNameMutator
+	Mutator Description: local ratio is replaced by local rhs to be used
+	Suspiciousness Value: 0.204124
+	Rank: 32
+---------------------------------------------------
+33.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 103
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local cmp is replaced by access to field maxUlps
+	Suspiciousness Value: 0.204124
+	Rank: 34
+---------------------------------------------------
+34.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexSolver
+	Method Name: getPivotRow
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/SimplexTableau;I)Ljava/lang/Integer;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexSolver.java
+	Line Number: 103
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local cmp is replaced by access to field DEFAULT_ULPS
+	Suspiciousness Value: 0.204124
+	Rank: 34
+---------------------------------------------------
+35.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexTableau
+	Method Name: normalize
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/LinearConstraint;)Lorg/apache/commons/math3/optimization/linear/LinearConstraint;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexTableau.java
+	Line Number: 265
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0.0 with 1.0
+	Suspiciousness Value: 0.182574
+	Rank: 35
+---------------------------------------------------
+36.
+	Class Name: org.apache.commons.math3.optimization.linear.SimplexTableau
+	Method Name: normalize
+	Method Descriptor: (Lorg/apache/commons/math3/optimization/linear/LinearConstraint;)Lorg/apache/commons/math3/optimization/linear/LinearConstraint;
+	File Name: org/apache/commons/math3/optimization/linear/SimplexTableau.java
+	Line Number: 265
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.182574
+	Rank: 36
+---------------------------------------------------

@@ -1,0 +1,147 @@
+PraPR Fix Report - Fri Apr 05 12:29:35 CDT 2019
+Number of Plausible Fixes: 13
+Total Number of Patches: 76
+===================================================
+1.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to isNaN with a call to isInfinite
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local x is replaced by access to field EPSILON
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local y is replaced by access to field SAFE_MIN
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local y is replaced by access to field EPSILON
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local x is replaced by access to field TWO_PI
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local y is replaced by access to field TWO_PI
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local x is replaced by access to field SAFE_MIN
+	Suspiciousness Value: 1.000000
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: ([D[D)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 530
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to equals(DD)Z with a call to equals(DDD)Z
+	Suspiciousness Value: 1.000000
+	Rank: 9
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: ([D[D)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 530
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to equals(DD)Z with a call to equals(DDI)Z
+	Suspiciousness Value: 1.000000
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Double::isNaN(D)Z is replaced with the used of default value false
+	Suspiciousness Value: 1.000000
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 1.000000
+	Rank: 12
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 1.000000
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.math.util.MathUtils
+	Method Name: equals
+	Method Descriptor: (DD)Z
+	File Name: org/apache/commons/math/util/MathUtils.java
+	Line Number: 417
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 1.000000
+	Rank: 13
+---------------------------------------------------

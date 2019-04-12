@@ -1,0 +1,158 @@
+PraPR Fix Report - Fri Apr 05 12:29:56 CDT 2019
+Number of Plausible Fixes: 14
+Total Number of Patches: 2279
+===================================================
+1.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double subtraction with addition
+	Suspiciousness Value: 0.106600
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to ceil with a call to exp
+	Suspiciousness Value: 0.106600
+	Rank: 4
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to ceil with a call to toDegrees
+	Suspiciousness Value: 0.106600
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to abs with a call to toDegrees
+	Suspiciousness Value: 0.106600
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math.ode.events.EventState.t0 is replaced by the call to org.apache.commons.math.ode.events.EventState::getMaxCheckInterval()D
+	Suspiciousness Value: 0.106600
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math.ode.events.EventState.t0 is replaced by the call to org.apache.commons.math.ode.events.EventState::getConvergence()D
+	Suspiciousness Value: 0.106600
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Math::abs(D)D is replaced with the used of local t1
+	Suspiciousness Value: 0.106600
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local t1 is replaced by access to field convergence
+	Suspiciousness Value: 0.106600
+	Rank: 9
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local t1 is replaced by access to field g0
+	Suspiciousness Value: 0.106600
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to t0 with an access to g0
+	Suspiciousness Value: 0.106600
+	Rank: 12
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to t0 with an access to convergence
+	Suspiciousness Value: 0.106600
+	Rank: 12
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.math.ode.events.EventState
+	Method Name: evaluateStep
+	Method Descriptor: (Lorg/apache/commons/math/ode/sampling/StepInterpolator;)Z
+	File Name: org/apache/commons/math/ode/events/EventState.java
+	Line Number: 174
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to t0 with an access to maxCheckInterval
+	Suspiciousness Value: 0.106600
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 277
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double multiplication with division
+	Suspiciousness Value: 0.092848
+	Rank: 13
+---------------------------------------------------
+14.
+	Class Name: org.apache.commons.math.analysis.solvers.BrentSolver
+	Method Name: solve
+	Method Descriptor: (Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDDDD)D
+	File Name: org/apache/commons/math/analysis/solvers/BrentSolver.java
+	Line Number: 277
+	Mutator Name: LocalNameMutator
+	Mutator Description: local p1 is replaced by local y1 to be used
+	Suspiciousness Value: 0.092848
+	Rank: 14
+---------------------------------------------------

@@ -1,0 +1,37 @@
+PraPR Fix Report - Fri Apr 05 12:28:57 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 1591
+===================================================
+1.
+	Class Name: org.apache.commons.math3.linear.OpenMapRealVector
+	Method Name: <init>
+	Method Descriptor: ([DD)V
+	File Name: org/apache/commons/math3/linear/OpenMapRealVector.java
+	Line Number: 139
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.210042
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math3.linear.OpenMapRealVector
+	Method Name: <init>
+	Method Descriptor: ([DD)V
+	File Name: org/apache/commons/math3/linear/OpenMapRealVector.java
+	Line Number: 139
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.math3.linear.OpenMapRealVector::isDefaultValue(D)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.210042
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math3.linear.OpenMapRealVector
+	Method Name: <init>
+	Method Descriptor: ([DD)V
+	File Name: org/apache/commons/math3/linear/OpenMapRealVector.java
+	Line Number: 139
+	Mutator Name: LocalNameMutator
+	Mutator Description: local value is replaced by local epsilon to be used
+	Suspiciousness Value: 0.210042
+	Rank: 3
+---------------------------------------------------

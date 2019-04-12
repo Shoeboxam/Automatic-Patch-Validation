@@ -1,0 +1,147 @@
+PraPR Fix Report - Fri Apr 05 02:40:23 CDT 2019
+Number of Plausible Fixes: 13
+Total Number of Patches: 1022
+===================================================
+1.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 170
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to org/apache/commons/codec/binary/Base64::setInitialBuffer
+	Suspiciousness Value: 0.408248
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 170
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b is replaced by local buf to be used
+	Suspiciousness Value: 0.408248
+	Rank: 4
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 170
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len is replaced by local readLen to be used
+	Suspiciousness Value: 0.408248
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 170
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len is replaced by local offset to be used
+	Suspiciousness Value: 0.408248
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 169
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len is replaced by local readLen to be used
+	Suspiciousness Value: 0.353553
+	Rank: 9
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 169
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b is replaced by local buf to be used
+	Suspiciousness Value: 0.353553
+	Rank: 9
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 169
+	Mutator Name: LocalNameMutator
+	Mutator Description: local c is replaced by local offset to be used
+	Suspiciousness Value: 0.353553
+	Rank: 9
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 169
+	Mutator Name: LocalNameMutator
+	Mutator Description: local c is replaced by local readLen to be used
+	Suspiciousness Value: 0.353553
+	Rank: 9
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 169
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len is replaced by local offset to be used
+	Suspiciousness Value: 0.353553
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 169
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.353553
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 169
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.353553
+	Rank: 11
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.codec.binary.Base64InputStream
+	Method Name: read
+	Method Descriptor: ([BII)I
+	File Name: org/apache/commons/codec/binary/Base64InputStream.java
+	Line Number: 169
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.353553
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.codec.binary.Base64
+	Method Name: setInitialBuffer
+	Method Descriptor: ([BII)V
+	File Name: org/apache/commons/codec/binary/Base64.java
+	Line Number: 424
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.131306
+	Rank: 13
+---------------------------------------------------

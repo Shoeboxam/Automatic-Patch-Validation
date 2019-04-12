@@ -1,0 +1,31 @@
+PraPR 2 (JDK 1.7) Fix Report - Fri Jan 11 22:36:29 CST 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 2356
+================================================
+1.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to org.apache.commons.math.optimization.linear.SimplexTableau::getNumObjectiveFunctions()I is replaced with the used of local i
+	File Name: org/apache/commons/math/optimization/linear/SimplexTableau.java
+	Line Number: 337
+	Rank: 1
+	Total Rank: 304
+	Dump: mutant-3.class
+------------------------------------------------
+2.
+	Mutator: LocalNameMutator
+	Description: local j is replaced by local i to be used
+	File Name: org/apache/commons/math/optimization/linear/SimplexTableau.java
+	Line Number: 338
+	Rank: 2
+	Total Rank: 307
+	Dump: mutant-1.class
+------------------------------------------------
+3.
+	Mutator: ConditionalsBoundaryMutator
+	Description: changed conditional boundary
+	File Name: org/apache/commons/math/optimization/linear/SimplexSolver.java
+	Line Number: 83
+	Rank: 3
+	Total Rank: 975
+	Dump: mutant-2.class
+------------------------------------------------

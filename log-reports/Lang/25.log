@@ -1,0 +1,92 @@
+PraPR Fix Report - Fri Apr 05 12:28:11 CDT 2019
+Number of Plausible Fixes: 8
+Total Number of Patches: 18
+===================================================
+1.
+	Class Name: org.apache.commons.lang3.text.translate.EntityArrays
+	Method Name: ISO8859_1_ESCAPE
+	Method Descriptor: ()[[Ljava/lang/String;
+	File Name: org/apache/commons/lang3/text/translate/EntityArrays.java
+	Line Number: 30
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to ISO8859_1_ESCAPE with an access to HTML40_EXTENDED_ESCAPE
+	Suspiciousness Value: 0.707107
+	Rank: 5
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.lang3.text.translate.EntityArrays
+	Method Name: ISO8859_1_ESCAPE
+	Method Descriptor: ()[[Ljava/lang/String;
+	File Name: org/apache/commons/lang3/text/translate/EntityArrays.java
+	Line Number: 30
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to ISO8859_1_ESCAPE with an access to BASIC_UNESCAPE
+	Suspiciousness Value: 0.707107
+	Rank: 5
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.lang3.text.translate.EntityArrays
+	Method Name: ISO8859_1_ESCAPE
+	Method Descriptor: ()[[Ljava/lang/String;
+	File Name: org/apache/commons/lang3/text/translate/EntityArrays.java
+	Line Number: 30
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to ISO8859_1_ESCAPE with an access to HTML40_EXTENDED_UNESCAPE
+	Suspiciousness Value: 0.707107
+	Rank: 5
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.lang3.text.translate.EntityArrays
+	Method Name: ISO8859_1_ESCAPE
+	Method Descriptor: ()[[Ljava/lang/String;
+	File Name: org/apache/commons/lang3/text/translate/EntityArrays.java
+	Line Number: 30
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to ISO8859_1_ESCAPE with an access to BASIC_ESCAPE
+	Suspiciousness Value: 0.707107
+	Rank: 5
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.lang3.text.translate.EntityArrays
+	Method Name: ISO8859_1_ESCAPE
+	Method Descriptor: ()[[Ljava/lang/String;
+	File Name: org/apache/commons/lang3/text/translate/EntityArrays.java
+	Line Number: 30
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to ISO8859_1_ESCAPE with an access to APOS_ESCAPE
+	Suspiciousness Value: 0.707107
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.lang3.text.translate.EntityArrays
+	Method Name: ISO8859_1_ESCAPE
+	Method Descriptor: ()[[Ljava/lang/String;
+	File Name: org/apache/commons/lang3/text/translate/EntityArrays.java
+	Line Number: 30
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.lang3.text.translate.EntityArrays.ISO8859_1_ESCAPE is replaced by the call to org.apache.commons.lang3.text.translate.EntityArrays::BASIC_ESCAPE()[[Ljava/lang/String;
+	Suspiciousness Value: 0.707107
+	Rank: 8
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.lang3.text.translate.EntityArrays
+	Method Name: ISO8859_1_ESCAPE
+	Method Descriptor: ()[[Ljava/lang/String;
+	File Name: org/apache/commons/lang3/text/translate/EntityArrays.java
+	Line Number: 30
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.lang3.text.translate.EntityArrays.ISO8859_1_ESCAPE is replaced by the call to org.apache.commons.lang3.text.translate.EntityArrays::HTML40_EXTENDED_UNESCAPE()[[Ljava/lang/String;
+	Suspiciousness Value: 0.707107
+	Rank: 8
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.lang3.text.translate.EntityArrays
+	Method Name: ISO8859_1_ESCAPE
+	Method Descriptor: ()[[Ljava/lang/String;
+	File Name: org/apache/commons/lang3/text/translate/EntityArrays.java
+	Line Number: 30
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.lang3.text.translate.EntityArrays.ISO8859_1_ESCAPE is replaced by the call to org.apache.commons.lang3.text.translate.EntityArrays::HTML40_EXTENDED_ESCAPE()[[Ljava/lang/String;
+	Suspiciousness Value: 0.707107
+	Rank: 8
+---------------------------------------------------

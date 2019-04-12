@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Mon Jan 14 21:11:19 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 1885
+================================================
+1.
+	Mutator: VoidMethodCallMutator
+	Description: removed call to org/junit/runners/BlockJUnit4ClassRunner::run
+	File Name: org/mockito/internal/runners/JUnit45AndHigherRunnerImpl.java
+	Line Number: 37
+	Rank: 1
+	Total Rank: 536
+	Dump: mutant-1.class
+------------------------------------------------

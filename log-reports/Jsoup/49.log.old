@@ -1,0 +1,31 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 11:28:10 CST 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 3242
+================================================
+1.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to java.lang.String::equals(Ljava/lang/Object;)Z is replaced with the used of default value false
+	File Name: org/jsoup/parser/TreeBuilderState.java
+	Line Number: 250
+	Rank: 2
+	Total Rank: 609
+	Dump: mutant-3.class
+------------------------------------------------
+2.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to org.jsoup.parser.TreeBuilderState::access$400()Ljava/lang/String; is replaced with the used of default value null
+	File Name: org/jsoup/parser/TreeBuilderState.java
+	Line Number: 250
+	Rank: 2
+	Total Rank: 609
+	Dump: mutant-1.class
+------------------------------------------------
+3.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: org/jsoup/parser/TreeBuilderState.java
+	Line Number: 250
+	Rank: 3
+	Total Rank: 612
+	Dump: mutant-2.class
+------------------------------------------------

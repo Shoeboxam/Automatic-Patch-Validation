@@ -1,0 +1,70 @@
+PraPR Fix Report - Fri Apr 05 12:32:48 CDT 2019
+Number of Plausible Fixes: 6
+Total Number of Patches: 246
+===================================================
+1.
+	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
+	Method Name: readTypeVariables
+	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
+	Line Number: 376
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.277350
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
+	Method Name: readTypeVariables
+	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
+	Line Number: 376
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 0 with 1
+	Suspiciousness Value: 0.277350
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
+	Method Name: readTypeVariables
+	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
+	Line Number: 376
+	Mutator Name: LocalNameMutator
+	Mutator Description: local i$ is replaced by local len$ to be used
+	Suspiciousness Value: 0.277350
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
+	Method Name: readTypeVariables
+	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
+	Line Number: 376
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len$ is replaced by local i$ to be used
+	Suspiciousness Value: 0.277350
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
+	Method Name: readTypeVariables
+	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
+	Line Number: 377
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType::registerTypeVariablesOn
+	Suspiciousness Value: 0.277350
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType
+	Method Name: readTypeVariables
+	Method Descriptor: ()V
+	File Name: org/mockito/internal/util/reflection/GenericMetadataSupport.java
+	Line Number: 376
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.277350
+	Rank: 6
+---------------------------------------------------

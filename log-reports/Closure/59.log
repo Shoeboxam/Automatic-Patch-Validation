@@ -1,0 +1,81 @@
+PraPR Fix Report - Fri Apr 05 10:11:17 CDT 2019
+Number of Plausible Fixes: 7
+Total Number of Patches: 68085
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.WarningLevel
+	Method Name: addVerboseWarnings
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/WarningLevel.java
+	Line Number: 79
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to checkGlobalThisLevel with an access to checkFunctions
+	Suspiciousness Value: 0.242536
+	Rank: 6
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.WarningLevel
+	Method Name: addVerboseWarnings
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/WarningLevel.java
+	Line Number: 79
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to checkGlobalThisLevel with an access to checkMethods
+	Suspiciousness Value: 0.242536
+	Rank: 6
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.WarningLevel
+	Method Name: addVerboseWarnings
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/WarningLevel.java
+	Line Number: 79
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to checkGlobalThisLevel with an access to reportMissingOverride
+	Suspiciousness Value: 0.242536
+	Rank: 6
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.WarningLevel
+	Method Name: addVerboseWarnings
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/WarningLevel.java
+	Line Number: 79
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to checkGlobalThisLevel with an access to aggressiveVarCheck
+	Suspiciousness Value: 0.242536
+	Rank: 6
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.jscomp.WarningLevel
+	Method Name: addVerboseWarnings
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/WarningLevel.java
+	Line Number: 79
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to WARNING with an access to OFF
+	Suspiciousness Value: 0.242536
+	Rank: 6
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.jscomp.WarningLevel
+	Method Name: addVerboseWarnings
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/WarningLevel.java
+	Line Number: 79
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to checkGlobalThisLevel with an access to checkShadowVars
+	Suspiciousness Value: 0.242536
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.jscomp.WarningLevel
+	Method Name: addVerboseWarnings
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/WarningLevel.java
+	Line Number: 79
+	Mutator Name: MemberVariableMutator
+	Mutator Description: Removed assignment to member variable checkGlobalThisLevel
+	Suspiciousness Value: 0.242536
+	Rank: 7
+---------------------------------------------------

@@ -1,0 +1,59 @@
+PraPR Fix Report - Fri Apr 05 11:17:29 CDT 2019
+Number of Plausible Fixes: 5
+Total Number of Patches: 23856
+===================================================
+1.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
+	Line Number: 1405
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field next is replaced by access to local n
+	Suspiciousness Value: 0.036049
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
+	Line Number: 1405
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local n is replaced by access to field last
+	Suspiciousness Value: 0.036049
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
+	Line Number: 1405
+	Mutator Name: LocalNameMutator
+	Mutator Description: local n is replaced by local n2 to be used
+	Suspiciousness Value: 0.036049
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
+	Line Number: 1410
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.036043
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
+	Line Number: 1410
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.036043
+	Rank: 5
+---------------------------------------------------

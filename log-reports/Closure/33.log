@@ -1,0 +1,37 @@
+PraPR Fix Report - Fri Apr 05 08:15:27 CDT 2019
+Number of Plausible Fixes: 3
+Total Number of Patches: 49416
+===================================================
+1.
+	Class Name: com.google.javascript.rhino.jstype.PrototypeObjectType
+	Method Name: matchConstraint
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/ObjectType;)V
+	File Name: com/google/javascript/rhino/jstype/PrototypeObjectType.java
+	Line Number: 570
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.rhino.jstype.PrototypeObjectType::isPropertyTypeDeclared(Ljava/lang/String;)Z is replaced with the used of field nativeType
+	Suspiciousness Value: 0.277350
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.TypeInference
+	Method Name: inferPropertyTypesToMatchConstraint
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	File Name: com/google/javascript/jscomp/TypeInference.java
+	Line Number: 1119
+	Mutator Name: NakedReceiverMutator
+	Mutator Description: replaced call to com/google/javascript/rhino/jstype/JSType::restrictByNotNullOrUndefined with receiver
+	Suspiciousness Value: 0.031250
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.TypeInference
+	Method Name: inferPropertyTypesToMatchConstraint
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	File Name: com/google/javascript/jscomp/TypeInference.java
+	Line Number: 1119
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to restrictByNotNullOrUndefined with a call to collapseUnion
+	Suspiciousness Value: 0.031250
+	Rank: 3
+---------------------------------------------------

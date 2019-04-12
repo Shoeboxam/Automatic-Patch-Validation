@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 18:09:37 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 207
+================================================
+1.
+	Mutator: LocalNameMutator
+	Description: local pos is replaced by local pt to be used
+	File Name: org/apache/commons/lang3/text/translate/CharSequenceTranslator.java
+	Line Number: 95
+	Rank: 1
+	Total Rank: 160
+	Dump: mutant-1.class
+------------------------------------------------

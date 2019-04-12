@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 07:12:02 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 10161
+================================================
+1.
+	Mutator: RemoveConditionalMutator_EQUAL_IF
+	Description: removed conditional - replaced equality check with true
+	File Name: com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java
+	Line Number: 120
+	Rank: 1
+	Total Rank: 535
+	Dump: mutant-1.class
+------------------------------------------------

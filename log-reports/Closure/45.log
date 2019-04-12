@@ -1,0 +1,169 @@
+PraPR Fix Report - Fri Apr 05 09:11:48 CDT 2019
+Number of Plausible Fixes: 15
+Total Number of Patches: 30233
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.RemoveUnusedVars
+	Method Name: interpretAssigns
+	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/RemoveUnusedVars.java
+	Line Number: 735
+	Mutator Name: NakedReceiverMutator
+	Mutator Description: replaced call to com/google/javascript/rhino/Node::getLastChild with receiver
+	Suspiciousness Value: 0.235702
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.RemoveUnusedVars
+	Method Name: interpretAssigns
+	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/RemoveUnusedVars.java
+	Line Number: 735
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.235702
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.RemoveUnusedVars
+	Method Name: interpretAssigns
+	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/RemoveUnusedVars.java
+	Line Number: 735
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.jscomp.NodeUtil::isLiteralValue(Lcom/google/javascript/rhino/Node;Z)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.235702
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.RemoveUnusedVars
+	Method Name: interpretAssigns
+	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/RemoveUnusedVars.java
+	Line Number: 735
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.jscomp.NodeUtil::isLiteralValue(Lcom/google/javascript/rhino/Node;Z)Z is replaced with the used of local changes
+	Suspiciousness Value: 0.235702
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.jscomp.RemoveUnusedVars
+	Method Name: interpretAssigns
+	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/RemoveUnusedVars.java
+	Line Number: 735
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to getFirstChild
+	Suspiciousness Value: 0.235702
+	Rank: 9
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.jscomp.RemoveUnusedVars
+	Method Name: interpretAssigns
+	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/RemoveUnusedVars.java
+	Line Number: 735
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to getParent
+	Suspiciousness Value: 0.235702
+	Rank: 9
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.jscomp.RemoveUnusedVars
+	Method Name: interpretAssigns
+	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/RemoveUnusedVars.java
+	Line Number: 735
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to cloneTree
+	Suspiciousness Value: 0.235702
+	Rank: 9
+---------------------------------------------------
+8.
+	Class Name: com.google.javascript.jscomp.RemoveUnusedVars
+	Method Name: interpretAssigns
+	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/RemoveUnusedVars.java
+	Line Number: 735
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to getLastSibling
+	Suspiciousness Value: 0.235702
+	Rank: 9
+---------------------------------------------------
+9.
+	Class Name: com.google.javascript.jscomp.RemoveUnusedVars
+	Method Name: interpretAssigns
+	Method Descriptor: ()V
+	File Name: com/google/javascript/jscomp/RemoveUnusedVars.java
+	Line Number: 735
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getLastChild with a call to cloneNode
+	Suspiciousness Value: 0.235702
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: com.google.javascript.jscomp.RemoveUnusedVars
+	Method Name: traverseNode
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/Scope;)V
+	File Name: com/google/javascript/jscomp/RemoveUnusedVars.java
+	Line Number: 281
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.google.javascript.jscomp.RemoveUnusedVars::isRemovableVar(Lcom/google/javascript/jscomp/Scope$Var;)Z is replaced with the used of field removeGlobals
+	Suspiciousness Value: 0.107211
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
+	Line Number: 1427
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field next is replaced by access to local n
+	Suspiciousness Value: 0.017303
+	Rank: 11
+---------------------------------------------------
+12.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
+	Line Number: 1427
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local n is replaced by access to field last
+	Suspiciousness Value: 0.017303
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
+	Line Number: 1427
+	Mutator Name: LocalNameMutator
+	Mutator Description: local n is replaced by local n2 to be used
+	Suspiciousness Value: 0.017303
+	Rank: 13
+---------------------------------------------------
+14.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
+	Line Number: 1432
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.017301
+	Rank: 14
+---------------------------------------------------
+15.
+	Class Name: com.google.javascript.rhino.Node
+	Method Name: checkTreeEqualsImpl
+	Method Descriptor: (Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node$NodeMismatch;
+	File Name: com/google/javascript/rhino/Node.java
+	Line Number: 1432
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.017301
+	Rank: 15
+---------------------------------------------------

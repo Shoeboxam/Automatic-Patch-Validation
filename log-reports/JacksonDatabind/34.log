@@ -1,0 +1,26 @@
+PraPR Fix Report - Fri Apr 05 02:57:05 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 18237
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.type.SimpleType
+	Method Name: _narrow
+	Method Descriptor: (Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/SimpleType.java
+	Line Number: 135
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field _superClass is replaced by access to local this
+	Suspiciousness Value: 0.277350
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.databind.type.SimpleType
+	Method Name: _narrow
+	Method Descriptor: (Ljava/lang/Class;)Lcom/fasterxml/jackson/databind/JavaType;
+	File Name: com/fasterxml/jackson/databind/type/SimpleType.java
+	Line Number: 135
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.databind.type.SimpleType._superClass is replaced by the call to com.fasterxml.jackson.databind.type.SimpleType::withStaticTyping()Lcom/fasterxml/jackson/databind/JavaType;
+	Suspiciousness Value: 0.277350
+	Rank: 2
+---------------------------------------------------

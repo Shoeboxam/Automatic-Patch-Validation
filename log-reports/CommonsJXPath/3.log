@@ -1,0 +1,246 @@
+PraPR Fix Report - Fri Apr 05 02:41:01 CDT 2019
+Number of Plausible Fixes: 22
+Total Number of Patches: 10973
+===================================================
+1.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 692
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.w3c.dom.Attr::getValue()Ljava/lang/String; is replaced with the used of local uri
+	Suspiciousness Value: 0.577350
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 692
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.w3c.dom.Attr::getValue()Ljava/lang/String; is replaced with the used of default value null
+	Suspiciousness Value: 0.577350
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 692
+	Mutator Name: ReturnValsMutator
+	Mutator Description: mutated return of Object value for org/apache/commons/jxpath/ri/model/dom/DOMNodePointer::getNamespaceURI to ( if (x != null) null else throw new RuntimeException )
+	Suspiciousness Value: 0.577350
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 685
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.121268
+	Rank: 7
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 688
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.121268
+	Rank: 7
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 689
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.121268
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 691
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.121268
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 685
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.121268
+	Rank: 9
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 688
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.121268
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 690
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qname is replaced by access to field XML_NAMESPACE_URI
+	Suspiciousness Value: 0.121268
+	Rank: 13
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 685
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local prefix is replaced by access to field XML_NAMESPACE_URI
+	Suspiciousness Value: 0.121268
+	Rank: 13
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 685
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local prefix is replaced by access to field XMLNS_NAMESPACE_URI
+	Suspiciousness Value: 0.121268
+	Rank: 13
+---------------------------------------------------
+13.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 690
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qname is replaced by access to field XMLNS_NAMESPACE_URI
+	Suspiciousness Value: 0.121268
+	Rank: 13
+---------------------------------------------------
+14.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 689
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.w3c.dom.Node::getNodeType()S is replaced with the used of default value 0
+	Suspiciousness Value: 0.121268
+	Rank: 16
+---------------------------------------------------
+15.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 690
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.w3c.dom.Element::getAttributeNode(Ljava/lang/String;)Lorg/w3c/dom/Attr; is replaced with the used of default value null
+	Suspiciousness Value: 0.121268
+	Rank: 16
+---------------------------------------------------
+16.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 684
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.jxpath.ri.model.dom.DOMNodePointer::getPrefix(Lorg/w3c/dom/Node;)Ljava/lang/String; is replaced with the used of field XML_NAMESPACE_URI
+	Suspiciousness Value: 0.121268
+	Rank: 16
+---------------------------------------------------
+17.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 689
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.121268
+	Rank: 17
+---------------------------------------------------
+18.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 684
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getPrefix with a call to getLocalName
+	Suspiciousness Value: 0.121268
+	Rank: 18
+---------------------------------------------------
+19.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 680
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.120386
+	Rank: 19
+---------------------------------------------------
+20.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 680
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local uri is replaced by access to field XMLNS_NAMESPACE_URI
+	Suspiciousness Value: 0.120386
+	Rank: 21
+---------------------------------------------------
+21.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 680
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local uri is replaced by access to field XML_NAMESPACE_URI
+	Suspiciousness Value: 0.120386
+	Rank: 21
+---------------------------------------------------
+22.
+	Class Name: org.apache.commons.jxpath.ri.model.dom.DOMNodePointer
+	Method Name: getNamespaceURI
+	Method Descriptor: (Lorg/w3c/dom/Node;)Ljava/lang/String;
+	File Name: org/apache/commons/jxpath/ri/model/dom/DOMNodePointer.java
+	Line Number: 680
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.120386
+	Rank: 22
+---------------------------------------------------

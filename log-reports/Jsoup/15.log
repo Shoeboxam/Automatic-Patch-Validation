@@ -1,0 +1,26 @@
+PraPR Fix Report - Fri Apr 05 03:02:41 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 3683
+===================================================
+1.
+	Class Name: org.jsoup.parser.CharacterReader
+	Method Name: matchesLetter
+	Method Descriptor: ()Z
+	File Name: org/jsoup/parser/CharacterReader.java
+	Line Number: 300
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.053529
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.jsoup.parser.CharacterReader
+	Method Name: matchesLetter
+	Method Descriptor: ()Z
+	File Name: org/jsoup/parser/CharacterReader.java
+	Line Number: 300
+	Mutator Name: RemoveConditionalMutator_ORDER_IF
+	Mutator Description: removed conditional - replaced comparison check with true
+	Suspiciousness Value: 0.053529
+	Rank: 2
+---------------------------------------------------

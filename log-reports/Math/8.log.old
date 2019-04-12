@@ -1,0 +1,67 @@
+PraPR 2 (JDK 1.7) Fix Report - Fri Jan 11 21:58:50 CST 2019
+Number of Plausible Fixes: 7
+Total Number of Patches: 1086
+================================================
+1.
+	Mutator: LocalNameMutator
+	Description: local i is replaced by local sampleSize to be used
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
+	Line Number: 189
+	Rank: 2
+	Total Rank: 26
+	Dump: mutant-5.class
+------------------------------------------------
+2.
+	Mutator: LocalNameMutator
+	Description: local sampleSize is replaced by local i to be used
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
+	Line Number: 189
+	Rank: 2
+	Total Rank: 26
+	Dump: mutant-4.class
+------------------------------------------------
+3.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to org.apache.commons.math3.distribution.DiscreteDistribution::sample()Ljava/lang/Object; is replaced with the used of default value null
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
+	Line Number: 190
+	Rank: 3
+	Total Rank: 30
+	Dump: mutant-2.class
+------------------------------------------------
+4.
+	Mutator: InlineConstantMutator
+	Description: Substituted 0 with 1
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
+	Line Number: 189
+	Rank: 5
+	Total Rank: 32
+	Dump: mutant-3.class
+------------------------------------------------
+5.
+	Mutator: InlineConstantMutator
+	Description: Substituted 0 with 1
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
+	Line Number: 187
+	Rank: 5
+	Total Rank: 32
+	Dump: mutant-7.class
+------------------------------------------------
+6.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
+	Line Number: 189
+	Rank: 6
+	Total Rank: 34
+	Dump: mutant-1.class
+------------------------------------------------
+7.
+	Mutator: RemoveConditionalMutator_ORDER_ELSE
+	Description: removed conditional - replaced comparison check with false
+	File Name: org/apache/commons/math3/distribution/DiscreteDistribution.java
+	Line Number: 189
+	Rank: 7
+	Total Rank: 36
+	Dump: mutant-6.class
+------------------------------------------------

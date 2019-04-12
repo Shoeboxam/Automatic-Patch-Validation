@@ -1,0 +1,48 @@
+PraPR Fix Report - Fri Apr 05 04:04:16 CDT 2019
+Number of Plausible Fixes: 4
+Total Number of Patches: 17598
+===================================================
+1.
+	Class Name: com.google.javascript.rhino.testing.Asserts
+	Method Name: assertTypeEquals
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	File Name: com/google/javascript/rhino/testing/Asserts.java
+	Line Number: 96
+	Mutator Name: VoidMethodCallMutator
+	Mutator Description: removed call to com/google/javascript/rhino/testing/Asserts::assertTypeEquals
+	Suspiciousness Value: 0.064282
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.rhino.testing.Asserts
+	Method Name: assertTypeEquals
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	File Name: com/google/javascript/rhino/testing/Asserts.java
+	Line Number: 96
+	Mutator Name: LocalNameMutator
+	Mutator Description: local b is replaced by local a to be used
+	Suspiciousness Value: 0.064282
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.rhino.testing.Asserts
+	Method Name: assertTypeEquals
+	Method Descriptor: (Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	File Name: com/google/javascript/rhino/testing/Asserts.java
+	Line Number: 96
+	Mutator Name: LocalNameMutator
+	Mutator Description: local a is replaced by local b to be used
+	Suspiciousness Value: 0.064282
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.rhino.testing.Asserts
+	Method Name: assertTypeEquals
+	Method Descriptor: (Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;Lcom/google/javascript/rhino/jstype/JSType;)V
+	File Name: com/google/javascript/rhino/testing/Asserts.java
+	Line Number: 103
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.051232
+	Rank: 4
+---------------------------------------------------

@@ -1,0 +1,26 @@
+PraPR Fix Report - Fri Apr 05 12:30:43 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 3302
+===================================================
+1.
+	Class Name: org.joda.time.DateTimeZone
+	Method Name: getOffsetFromLocal
+	Method Descriptor: (J)I
+	File Name: org/joda/time/DateTimeZone.java
+	Line Number: 900
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.037294
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.joda.time.DateTimeZone
+	Method Name: getOffsetFromLocal
+	Method Descriptor: (J)I
+	File Name: org/joda/time/DateTimeZone.java
+	Line Number: 900
+	Mutator Name: RemoveConditionalMutator_ORDER_IF
+	Mutator Description: removed conditional - replaced comparison check with true
+	Suspiciousness Value: 0.037294
+	Rank: 2
+---------------------------------------------------

@@ -1,0 +1,26 @@
+PraPR Fix Report - Fri Apr 05 03:04:42 CDT 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 2772
+===================================================
+1.
+	Class Name: org.jfree.chart.plot.XYPlot
+	Method Name: getDataRange
+	Method Descriptor: (Lorg/jfree/chart/axis/ValueAxis;)Lorg/jfree/data/Range;
+	File Name: org/jfree/chart/plot/XYPlot.java
+	Line Number: 4492
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to getAnnotations()Ljava/util/Collection; is guarded returning local result
+	Suspiciousness Value: 0.517970
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.jfree.chart.plot.XYPlot
+	Method Name: getDataRange
+	Method Descriptor: (Lorg/jfree/chart/axis/ValueAxis;)Lorg/jfree/data/Range;
+	File Name: org/jfree/chart/plot/XYPlot.java
+	Line Number: 4492
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to getAnnotations()Ljava/util/Collection; is guarded returning default value null
+	Suspiciousness Value: 0.517970
+	Rank: 2
+---------------------------------------------------

@@ -1,0 +1,49 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 05:29:53 CST 2019
+Number of Plausible Fixes: 5
+Total Number of Patches: 934
+================================================
+1.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local contextType is replaced by access to field CLS_ENUM
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 602
+	Rank: 5
+	Total Rank: 62
+	Dump: mutant-1.class
+------------------------------------------------
+2.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local contextType is replaced by access to field CLS_STRING
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 602
+	Rank: 5
+	Total Rank: 62
+	Dump: mutant-3.class
+------------------------------------------------
+3.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local contextType is replaced by access to field CLS_CLASS
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 602
+	Rank: 5
+	Total Rank: 62
+	Dump: mutant-4.class
+------------------------------------------------
+4.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local contextType is replaced by access to field CLS_OBJECT
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 602
+	Rank: 5
+	Total Rank: 62
+	Dump: mutant-2.class
+------------------------------------------------
+5.
+	Mutator: LocalToFieldAccessMutator
+	Description: access to local contextType is replaced by access to field CLS_COMPARABLE
+	File Name: com/fasterxml/jackson/databind/type/TypeFactory.java
+	Line Number: 602
+	Rank: 5
+	Total Rank: 62
+	Dump: mutant-5.class
+------------------------------------------------

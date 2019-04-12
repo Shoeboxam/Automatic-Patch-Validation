@@ -1,0 +1,211 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 23:48:39 CST 2019
+Number of Plausible Fixes: 23
+Total Number of Patches: 4844
+================================================
+1.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: com/fasterxml/jackson/core/filter/FilteringParserDelegate.java
+	Line Number: 239
+	Rank: 1
+	Total Rank: 43
+	Dump: mutant-8.class
+------------------------------------------------
+2.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: com/fasterxml/jackson/core/filter/FilteringParserDelegate.java
+	Line Number: 239
+	Rank: 2
+	Total Rank: 45
+	Dump: mutant-1.class
+------------------------------------------------
+3.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to com.fasterxml.jackson.core.filter.TokenFilterContext::isStartHandled()Z is replaced with the used of default value false
+	File Name: com/fasterxml/jackson/core/filter/FilteringParserDelegate.java
+	Line Number: 239
+	Rank: 4
+	Total Rank: 50
+	Dump: mutant-4.class
+------------------------------------------------
+4.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to com.fasterxml.jackson.core.filter.TokenFilterContext::isStartHandled()Z is replaced with the used of field _allowMultipleMatches
+	File Name: com/fasterxml/jackson/core/filter/FilteringParserDelegate.java
+	Line Number: 239
+	Rank: 4
+	Total Rank: 50
+	Dump: mutant-3.class
+------------------------------------------------
+5.
+	Mutator: MethodNameMutator
+	Description: replaced call to isStructEnd with a call to isBoolean
+	File Name: com/fasterxml/jackson/core/filter/FilteringParserDelegate.java
+	Line Number: 238
+	Rank: 5
+	Total Rank: 403
+	Dump: mutant-5.class
+------------------------------------------------
+6.
+	Mutator: RemoveConditionalMutator_EQUAL_ELSE
+	Description: removed conditional - replaced equality check with false
+	File Name: com/fasterxml/jackson/core/filter/FilteringParserDelegate.java
+	Line Number: 238
+	Rank: 6
+	Total Rank: 461
+	Dump: mutant-2.class
+------------------------------------------------
+7.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to com.fasterxml.jackson.core.JsonToken::isStructEnd()Z is replaced with the used of field _allowMultipleMatches
+	File Name: com/fasterxml/jackson/core/filter/FilteringParserDelegate.java
+	Line Number: 238
+	Rank: 8
+	Total Rank: 479
+	Dump: mutant-6.class
+------------------------------------------------
+8.
+	Mutator: NonVoidMethodCallRemovalMutator
+	Description: the call to com.fasterxml.jackson.core.JsonToken::isStructEnd()Z is replaced with the used of default value false
+	File Name: com/fasterxml/jackson/core/filter/FilteringParserDelegate.java
+	Line Number: 238
+	Rank: 8
+	Total Rank: 479
+	Dump: mutant-7.class
+------------------------------------------------
+9.
+	Mutator: FieldToLocalAccessMutator
+	Description: access to field _parent is replaced by access to local this
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
+	Line Number: 233
+	Rank: 10
+	Total Rank: 4814
+	Dump: mutant-19.class
+------------------------------------------------
+10.
+	Mutator: FieldToLocalAccessMutator
+	Description: access to field _parent is replaced by access to local this
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 223
+	Rank: 10
+	Total Rank: 4814
+	Dump: mutant-53.class
+------------------------------------------------
+11.
+	Mutator: FieldAccessToMethodCallMutator
+	Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._intern is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::nukeSymbols(Z)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 225
+	Rank: 15
+	Total Rank: 4822
+	Dump: mutant-50.class
+------------------------------------------------
+12.
+	Mutator: FieldAccessToMethodCallMutator
+	Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._seed is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
+	Line Number: 234
+	Rank: 15
+	Total Rank: 4822
+	Dump: mutant-20.class
+------------------------------------------------
+13.
+	Mutator: FieldAccessToMethodCallMutator
+	Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._failOnDoS is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::nukeSymbols(Z)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 226
+	Rank: 15
+	Total Rank: 4822
+	Dump: mutant-28.class
+------------------------------------------------
+14.
+	Mutator: FieldAccessToMethodCallMutator
+	Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._longestCollisionList is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
+	Line Number: 241
+	Rank: 15
+	Total Rank: 4822
+	Dump: mutant-17.class
+------------------------------------------------
+15.
+	Mutator: FieldAccessToMethodCallMutator
+	Description: the access to field com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._flags is replaced by the call to com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer::reportTooManyCollisions(I)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
+	Line Number: 238
+	Rank: 15
+	Total Rank: 4822
+	Dump: mutant-18.class
+------------------------------------------------
+16.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to <init>(II[Ljava/lang/String;[Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$Bucket;)V with a call to <init>(Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
+	Line Number: 809
+	Rank: 23
+	Total Rank: 4844
+	Dump: mutant-48.class
+------------------------------------------------
+17.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to <init>(IZIZ)V with a call to <init>(Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;ZIZLcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer$TableInfo;)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 296
+	Rank: 23
+	Total Rank: 4844
+	Dump: mutant-59.class
+------------------------------------------------
+18.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to createRoot(I)Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer; with a call to createRoot()Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
+	Line Number: 296
+	Rank: 23
+	Total Rank: 4844
+	Dump: mutant-11.class
+------------------------------------------------
+19.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to createRoot(I)Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer; with a call to createRoot()Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 290
+	Rank: 23
+	Total Rank: 4844
+	Dump: mutant-31.class
+------------------------------------------------
+20.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to <init>(I)V with a call to <init>(Lcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer;IILcom/fasterxml/jackson/core/sym/CharsToNameCanonicalizer$TableInfo;)V
+	File Name: com/fasterxml/jackson/core/sym/CharsToNameCanonicalizer.java
+	Line Number: 300
+	Rank: 23
+	Total Rank: 4844
+	Dump: mutant-22.class
+------------------------------------------------
+21.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to <init>(Lcom/fasterxml/jackson/core/ObjectCodec;)V with a call to <init>(Lcom/fasterxml/jackson/core/JsonFactory;Lcom/fasterxml/jackson/core/ObjectCodec;)V
+	File Name: com/fasterxml/jackson/core/JsonFactory.java
+	Line Number: 285
+	Rank: 23
+	Total Rank: 4844
+	Dump: mutant-35.class
+------------------------------------------------
+22.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to <init>(Lcom/fasterxml/jackson/core/ObjectCodec;)V with a call to <init>()V
+	File Name: com/fasterxml/jackson/core/JsonFactory.java
+	Line Number: 285
+	Rank: 23
+	Total Rank: 4844
+	Dump: mutant-34.class
+------------------------------------------------
+23.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to <init>(III[I[Ljava/lang/String;II)V with a call to <init>(Lcom/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer;)V
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 1254
+	Rank: 23
+	Total Rank: 4844
+	Dump: mutant-36.class
+------------------------------------------------

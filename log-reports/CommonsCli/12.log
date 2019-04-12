@@ -1,0 +1,103 @@
+PraPR Fix Report - Fri Apr 05 02:40:24 CDT 2019
+Number of Plausible Fixes: 9
+Total Number of Patches: 1427
+===================================================
+1.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: processNonOptionToken
+	Method Descriptor: (Ljava/lang/String;)V
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 191
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.List::add(Ljava/lang/Object;)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.500000
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: processNonOptionToken
+	Method Descriptor: (Ljava/lang/String;)V
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 191
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.List::add(Ljava/lang/Object;)Z is replaced with the used of field eatTheRest
+	Suspiciousness Value: 0.500000
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: processNonOptionToken
+	Method Descriptor: (Ljava/lang/String;)V
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 191
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to add with a call to contains
+	Suspiciousness Value: 0.500000
+	Rank: 5
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: processNonOptionToken
+	Method Descriptor: (Ljava/lang/String;)V
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 191
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to add with a call to equals
+	Suspiciousness Value: 0.500000
+	Rank: 5
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: processNonOptionToken
+	Method Descriptor: (Ljava/lang/String;)V
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 191
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to add with a call to remove
+	Suspiciousness Value: 0.500000
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: processOptionToken
+	Method Descriptor: (Ljava/lang/String;Z)V
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 210
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.cli.Options::hasOption(Ljava/lang/String;)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.172774
+	Rank: 7
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: processOptionToken
+	Method Descriptor: (Ljava/lang/String;Z)V
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 210
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.apache.commons.cli.Options::hasOption(Ljava/lang/String;)Z is replaced with the used of field eatTheRest
+	Suspiciousness Value: 0.172774
+	Rank: 7
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: processOptionToken
+	Method Descriptor: (Ljava/lang/String;Z)V
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 210
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.172774
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.cli.PosixParser
+	Method Name: processOptionToken
+	Method Descriptor: (Ljava/lang/String;Z)V
+	File Name: org/apache/commons/cli/PosixParser.java
+	Line Number: 210
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.172774
+	Rank: 9
+---------------------------------------------------

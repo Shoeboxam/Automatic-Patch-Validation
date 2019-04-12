@@ -1,0 +1,15 @@
+PraPR Fix Report - Fri Apr 05 11:07:27 CDT 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 7175
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.CodeGenerator
+	Method Name: strEscape
+	Method Descriptor: (Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/CharsetEncoder;)Ljava/lang/String;
+	File Name: com/google/javascript/jscomp/CodeGenerator.java
+	Line Number: 1045
+	Mutator Name: ConditionalsBoundaryMutator
+	Mutator Description: changed conditional boundary
+	Suspiciousness Value: 0.046778
+	Rank: 1
+---------------------------------------------------

@@ -1,0 +1,180 @@
+PraPR Fix Report - Fri Apr 05 03:04:44 CDT 2019
+Number of Plausible Fixes: 16
+Total Number of Patches: 1039
+===================================================
+1.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: getMaxMiddleIndex
+	Method Descriptor: ()I
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 552
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to maxMiddleIndex with an access to maxEndIndex
+	Suspiciousness Value: 0.707107
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: getMaxMiddleIndex
+	Method Descriptor: ()I
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 552
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to maxMiddleIndex with an access to maxStartIndex
+	Suspiciousness Value: 0.707107
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: getMaxMiddleIndex
+	Method Descriptor: ()I
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 552
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.jfree.data.time.TimePeriodValues.maxMiddleIndex is replaced by the call to org.jfree.data.time.TimePeriodValues::getMaxStartIndex()I
+	Suspiciousness Value: 0.707107
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 300
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to minMiddleIndex with an access to maxEndIndex
+	Suspiciousness Value: 0.277350
+	Rank: 12
+---------------------------------------------------
+5.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 300
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to minMiddleIndex with an access to maxMiddleIndex
+	Suspiciousness Value: 0.277350
+	Rank: 12
+---------------------------------------------------
+6.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 302
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to minMiddleIndex with an access to maxMiddleIndex
+	Suspiciousness Value: 0.277350
+	Rank: 12
+---------------------------------------------------
+7.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 288
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to minMiddleIndex with an access to maxStartIndex
+	Suspiciousness Value: 0.277350
+	Rank: 12
+---------------------------------------------------
+8.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 288
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to minMiddleIndex with an access to maxEndIndex
+	Suspiciousness Value: 0.277350
+	Rank: 12
+---------------------------------------------------
+9.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 300
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to minMiddleIndex with an access to maxStartIndex
+	Suspiciousness Value: 0.277350
+	Rank: 12
+---------------------------------------------------
+10.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 288
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to minMiddleIndex with an access to maxMiddleIndex
+	Suspiciousness Value: 0.277350
+	Rank: 12
+---------------------------------------------------
+11.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 302
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to minMiddleIndex with an access to maxStartIndex
+	Suspiciousness Value: 0.277350
+	Rank: 12
+---------------------------------------------------
+12.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 302
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to minMiddleIndex with an access to maxEndIndex
+	Suspiciousness Value: 0.277350
+	Rank: 12
+---------------------------------------------------
+13.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 300
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.jfree.data.time.TimePeriodValues.minMiddleIndex is replaced by the call to org.jfree.data.time.TimePeriodValues::getMaxStartIndex()I
+	Suspiciousness Value: 0.277350
+	Rank: 15
+---------------------------------------------------
+14.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 302
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.jfree.data.time.TimePeriodValues.minMiddleIndex is replaced by the call to org.jfree.data.time.TimePeriodValues::getMaxStartIndex()I
+	Suspiciousness Value: 0.277350
+	Rank: 15
+---------------------------------------------------
+15.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 288
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.jfree.data.time.TimePeriodValues.minMiddleIndex is replaced by the call to org.jfree.data.time.TimePeriodValues::getMaxStartIndex()I
+	Suspiciousness Value: 0.277350
+	Rank: 15
+---------------------------------------------------
+16.
+	Class Name: org.jfree.data.time.TimePeriodValues
+	Method Name: updateBounds
+	Method Descriptor: (Lorg/jfree/data/time/TimePeriod;I)V
+	File Name: org/jfree/data/time/TimePeriodValues.java
+	Line Number: 306
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local index is replaced by access to field maxStartIndex
+	Suspiciousness Value: 0.277350
+	Rank: 16
+---------------------------------------------------

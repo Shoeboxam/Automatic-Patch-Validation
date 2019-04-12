@@ -1,0 +1,70 @@
+PraPR Fix Report - Fri Apr 05 03:19:42 CDT 2019
+Number of Plausible Fixes: 6
+Total Number of Patches: 39828
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.CompilationLevel
+	Method Name: applySafeCompilationOptions
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Mutator Name: MemberVariableMutator
+	Mutator Description: Removed assignment to member variable closurePass
+	Suspiciousness Value: 0.235702
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.CompilationLevel
+	Method Name: applySafeCompilationOptions
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to closurePass with an access to allowLegacyJsMessages
+	Suspiciousness Value: 0.235702
+	Rank: 5
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.CompilationLevel
+	Method Name: applySafeCompilationOptions
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to closurePass with an access to checkDuplicateMessages
+	Suspiciousness Value: 0.235702
+	Rank: 5
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.CompilationLevel
+	Method Name: applySafeCompilationOptions
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to closurePass with an access to checkSuspiciousCode
+	Suspiciousness Value: 0.235702
+	Rank: 5
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.jscomp.CompilationLevel
+	Method Name: applySafeCompilationOptions
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to closurePass with an access to strictMessageReplacement
+	Suspiciousness Value: 0.235702
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.jscomp.CompilationLevel
+	Method Name: applySafeCompilationOptions
+	Method Descriptor: (Lcom/google/javascript/jscomp/CompilerOptions;)V
+	File Name: com/google/javascript/jscomp/CompilationLevel.java
+	Line Number: 94
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.235702
+	Rank: 6
+---------------------------------------------------

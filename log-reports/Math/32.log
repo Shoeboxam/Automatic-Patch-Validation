@@ -1,0 +1,70 @@
+PraPR Fix Report - Fri Apr 05 12:29:04 CDT 2019
+Number of Plausible Fixes: 6
+Total Number of Patches: 17539
+===================================================
+1.
+	Class Name: org.apache.commons.math3.geometry.euclidean.threed.Vector3D
+	Method Name: orthogonal
+	Method Descriptor: ()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;
+	File Name: org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java
+	Line Number: 330
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double division with multiplication
+	Suspiciousness Value: 0.258199
+	Rank: 2
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.math3.geometry.euclidean.threed.Vector3D
+	Method Name: orthogonal
+	Method Descriptor: ()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;
+	File Name: org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java
+	Line Number: 330
+	Mutator Name: MathMutator
+	Mutator Description: Replaced double multiplication with division
+	Suspiciousness Value: 0.258199
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.math3.geometry.partitioning.AbstractRegion$1
+	Method Name: compare
+	Method Descriptor: (Lorg/apache/commons/math3/geometry/partitioning/SubHyperplane;Lorg/apache/commons/math3/geometry/partitioning/SubHyperplane;)I
+	File Name: org/apache/commons/math3/geometry/partitioning/AbstractRegion.java
+	Line Number: 105
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.258199
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.math3.geometry.euclidean.threed.Vector3D
+	Method Name: orthogonal
+	Method Descriptor: ()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;
+	File Name: org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java
+	Line Number: 330
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to sqrt with a call to signum
+	Suspiciousness Value: 0.258199
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.math3.geometry.euclidean.threed.Vector3D
+	Method Name: orthogonal
+	Method Descriptor: ()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;
+	File Name: org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java
+	Line Number: 330
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to z with an access to x
+	Suspiciousness Value: 0.258199
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.math3.geometry.euclidean.threed.Vector3D
+	Method Name: orthogonal
+	Method Descriptor: ()Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;
+	File Name: org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java
+	Line Number: 330
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.apache.commons.math3.geometry.euclidean.threed.Vector3D.z is replaced by the call to org.apache.commons.math3.geometry.euclidean.threed.Vector3D::getX()D
+	Suspiciousness Value: 0.258199
+	Rank: 6
+---------------------------------------------------

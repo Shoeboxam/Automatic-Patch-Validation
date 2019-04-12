@@ -1,0 +1,92 @@
+PraPR Fix Report - Fri Apr 05 03:46:04 CDT 2019
+Number of Plausible Fixes: 8
+Total Number of Patches: 12446
+===================================================
+1.
+	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
+	Method Name: parseFunctionType
+	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+	Line Number: 2012
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to parseContextTypeExpression with a call to parseTypeExpression
+	Suspiciousness Value: 0.143592
+	Rank: 8
+---------------------------------------------------
+2.
+	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
+	Method Name: parseFunctionType
+	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+	Line Number: 2012
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to parseContextTypeExpression with a call to parseAndRecordTypeNode
+	Suspiciousness Value: 0.143592
+	Rank: 8
+---------------------------------------------------
+3.
+	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
+	Method Name: parseFunctionType
+	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+	Line Number: 2012
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to parseContextTypeExpression with a call to parseTopLevelTypeExpression
+	Suspiciousness Value: 0.143592
+	Rank: 8
+---------------------------------------------------
+4.
+	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
+	Method Name: parseContextTypeExpression
+	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+	Line Number: 1908
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to parseTypeName with a call to parseTypeExpressionAnnotation
+	Suspiciousness Value: 0.143592
+	Rank: 8
+---------------------------------------------------
+5.
+	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
+	Method Name: parseContextTypeExpression
+	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+	Line Number: 1908
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to parseTypeName with a call to parseTopLevelTypeExpression
+	Suspiciousness Value: 0.143592
+	Rank: 8
+---------------------------------------------------
+6.
+	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
+	Method Name: parseContextTypeExpression
+	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+	Line Number: 1908
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to parseTypeName with a call to parseAndRecordTypeNode
+	Suspiciousness Value: 0.143592
+	Rank: 8
+---------------------------------------------------
+7.
+	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
+	Method Name: parseContextTypeExpression
+	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+	Line Number: 1908
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to parseTypeName with a call to parseTypeExpression
+	Suspiciousness Value: 0.143592
+	Rank: 8
+---------------------------------------------------
+8.
+	Class Name: com.google.javascript.jscomp.parsing.JsDocInfoParser
+	Method Name: parseFunctionType
+	Method Descriptor: (Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;
+	File Name: com/google/javascript/jscomp/parsing/JsDocInfoParser.java
+	Line Number: 2012
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to parseContextTypeExpression with a call to parseTypeExpressionAnnotation
+	Suspiciousness Value: 0.143592
+	Rank: 8
+---------------------------------------------------

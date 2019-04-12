@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jan 13 11:32:58 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 5017
+================================================
+1.
+	Mutator: MethodNameMutator
+	Description: replaced call to get with a call to getIgnoreCase
+	File Name: org/jsoup/nodes/Element.java
+	Line Number: 1092
+	Rank: 1
+	Total Rank: 36
+	Dump: mutant-1.class
+------------------------------------------------

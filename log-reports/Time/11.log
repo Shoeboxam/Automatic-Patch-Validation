@@ -1,0 +1,356 @@
+PraPR Fix Report - Fri Apr 05 12:30:18 CDT 2019
+Number of Plausible Fixes: 32
+Total Number of Patches: 2908
+===================================================
+1.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone
+	Method Name: create
+	Method Descriptor: (Ljava/lang/String;ZLjava/util/ArrayList;Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;)Lorg/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1460
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.joda.time.tz.ZoneInfoCompiler::verbose()Z is replaced with the used of default value false
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.joda.time.tz.ZoneInfoCompiler
+	Method Name: verbose
+	Method Descriptor: ()Z
+	File Name: org/joda/time/tz/ZoneInfoCompiler.java
+	Line Number: 78
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.Boolean::booleanValue()Z is replaced with the used of default value false
+	Suspiciousness Value: 0.707107
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: org.joda.time.tz.ZoneInfoCompiler
+	Method Name: verbose
+	Method Descriptor: ()Z
+	File Name: org/joda/time/tz/ZoneInfoCompiler.java
+	Line Number: 78
+	Mutator Name: NonVoidMethodCallGuardMutator
+	Mutator Description: the call to java.lang.Boolean::booleanValue()Z is guarded using default value false
+	Suspiciousness Value: 0.707107
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: org.joda.time.tz.ZoneInfoCompiler
+	Method Name: verbose
+	Method Descriptor: ()Z
+	File Name: org/joda/time/tz/ZoneInfoCompiler.java
+	Line Number: 78
+	Mutator Name: ReturningMethodCallGuardMutator
+	Mutator Description: the call to booleanValue()Z is guarded returning default value false
+	Suspiciousness Value: 0.707107
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone
+	Method Name: create
+	Method Descriptor: (Ljava/lang/String;ZLjava/util/ArrayList;Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;)Lorg/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1458
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.408248
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1154
+	Mutator Name: ConstructorCallMutator
+	Mutator Description: removed call to org/joda/time/tz/DateTimeZoneBuilder$DSTZone::<init>
+	Suspiciousness Value: 0.408248
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone
+	Method Name: create
+	Method Descriptor: (Ljava/lang/String;ZLjava/util/ArrayList;Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;)Lorg/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1458
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::equals(Ljava/lang/Object;)Z is replaced with the used of default value false
+	Suspiciousness Value: 0.408248
+	Rank: 8
+---------------------------------------------------
+8.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone
+	Method Name: create
+	Method Descriptor: (Ljava/lang/String;ZLjava/util/ArrayList;Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;)Lorg/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1458
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.joda.time.tz.DateTimeZoneBuilder$Recurrence::getNameKey()Ljava/lang/String; is replaced with the used of default value null
+	Suspiciousness Value: 0.408248
+	Rank: 8
+---------------------------------------------------
+9.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1154
+	Mutator Name: NullReturnValsMutator
+	Mutator Description: replaced return value with null for org/joda/time/tz/DateTimeZoneBuilder$RuleSet::buildTailZone
+	Suspiciousness Value: 0.408248
+	Rank: 9
+---------------------------------------------------
+10.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1154
+	Mutator Name: ReturnValsMutator
+	Mutator Description: mutated return of Object value for org/joda/time/tz/DateTimeZoneBuilder$RuleSet::buildTailZone to ( if (x != null) null else throw new RuntimeException )
+	Suspiciousness Value: 0.408248
+	Rank: 10
+---------------------------------------------------
+11.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder
+	Method Name: toDateTimeZone
+	Method Descriptor: (Ljava/lang/String;Z)Lorg/joda/time/DateTimeZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 371
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.377964
+	Rank: 14
+---------------------------------------------------
+12.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1141
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.377964
+	Rank: 14
+---------------------------------------------------
+13.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone
+	Method Name: create
+	Method Descriptor: (Ljava/lang/String;ZLjava/util/ArrayList;Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;)Lorg/joda/time/tz/DateTimeZoneBuilder$PrecalculatedZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1457
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.377964
+	Rank: 14
+---------------------------------------------------
+14.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1144
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.377964
+	Rank: 14
+---------------------------------------------------
+15.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder
+	Method Name: toDateTimeZone
+	Method Descriptor: (Ljava/lang/String;Z)Lorg/joda/time/DateTimeZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 372
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.joda.time.tz.DateTimeZoneBuilder$RuleSet::buildTailZone(Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone; is replaced with the used of default value null
+	Suspiciousness Value: 0.377964
+	Rank: 19
+---------------------------------------------------
+16.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1141
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.ArrayList::size()I is replaced with the used of field YEAR_LIMIT
+	Suspiciousness Value: 0.377964
+	Rank: 19
+---------------------------------------------------
+17.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1144
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.joda.time.tz.DateTimeZoneBuilder$Rule::getToYear()I is replaced with the used of field YEAR_LIMIT
+	Suspiciousness Value: 0.377964
+	Rank: 19
+---------------------------------------------------
+18.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1144
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to org.joda.time.tz.DateTimeZoneBuilder$Rule::getToYear()I is replaced with the used of default value 0
+	Suspiciousness Value: 0.377964
+	Rank: 19
+---------------------------------------------------
+19.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1141
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.util.ArrayList::size()I is replaced with the used of default value 0
+	Suspiciousness Value: 0.377964
+	Rank: 19
+---------------------------------------------------
+20.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder
+	Method Name: toDateTimeZone
+	Method Descriptor: (Ljava/lang/String;Z)Lorg/joda/time/DateTimeZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 371
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.377964
+	Rank: 22
+---------------------------------------------------
+21.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1144
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 2147483647 with -2147483648
+	Suspiciousness Value: 0.377964
+	Rank: 22
+---------------------------------------------------
+22.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1141
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 2 with 3
+	Suspiciousness Value: 0.377964
+	Rank: 22
+---------------------------------------------------
+23.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder
+	Method Name: toDateTimeZone
+	Method Descriptor: (Ljava/lang/String;Z)Lorg/joda/time/DateTimeZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 371
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.377964
+	Rank: 24
+---------------------------------------------------
+24.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1144
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.377964
+	Rank: 24
+---------------------------------------------------
+25.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$Rule
+	Method Name: getToYear
+	Method Descriptor: ()I
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 827
+	Mutator Name: ReturnValsMutator
+	Mutator Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	Suspiciousness Value: 0.377964
+	Rank: 25
+---------------------------------------------------
+26.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$Rule
+	Method Name: getToYear
+	Method Descriptor: ()I
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 827
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.joda.time.tz.DateTimeZoneBuilder$Rule.iToYear is replaced by the call to org.joda.time.tz.DateTimeZoneBuilder$Rule::getFromYear()I
+	Suspiciousness Value: 0.377964
+	Rank: 27
+---------------------------------------------------
+27.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$Rule
+	Method Name: getToYear
+	Method Descriptor: ()I
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 827
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field org.joda.time.tz.DateTimeZoneBuilder$Rule.iToYear is replaced by the call to org.joda.time.tz.DateTimeZoneBuilder$Rule::getSaveMillis()I
+	Suspiciousness Value: 0.377964
+	Rank: 27
+---------------------------------------------------
+28.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$Rule
+	Method Name: getToYear
+	Method Descriptor: ()I
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 827
+	Mutator Name: PrimitiveReturnsMutator
+	Mutator Description: replaced int return with 0 for org/joda/time/tz/DateTimeZoneBuilder$Rule::getToYear
+	Suspiciousness Value: 0.377964
+	Rank: 28
+---------------------------------------------------
+29.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder
+	Method Name: toDateTimeZone
+	Method Descriptor: (Ljava/lang/String;Z)Lorg/joda/time/DateTimeZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 371
+	Mutator Name: MathMutator
+	Mutator Description: Replaced integer subtraction with addition
+	Suspiciousness Value: 0.377964
+	Rank: 29
+---------------------------------------------------
+30.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$Rule
+	Method Name: getToYear
+	Method Descriptor: ()I
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 827
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to iToYear with an access to iFromYear
+	Suspiciousness Value: 0.377964
+	Rank: 30
+---------------------------------------------------
+31.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1144
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getToYear with a call to getSaveMillis
+	Suspiciousness Value: 0.377964
+	Rank: 32
+---------------------------------------------------
+32.
+	Class Name: org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+	Method Name: buildTailZone
+	Method Descriptor: (Ljava/lang/String;)Lorg/joda/time/tz/DateTimeZoneBuilder$DSTZone;
+	File Name: org/joda/time/tz/DateTimeZoneBuilder.java
+	Line Number: 1144
+	Mutator Name: MethodNameMutator
+	Mutator Description: replaced call to getToYear with a call to getFromYear
+	Suspiciousness Value: 0.377964
+	Rank: 32
+---------------------------------------------------

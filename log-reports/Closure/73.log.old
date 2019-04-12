@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Mon Jan 14 07:46:37 CST 2019
+Number of Plausible Fixes: 1
+Total Number of Patches: 7181
+================================================
+1.
+	Mutator: ConditionalsBoundaryMutator
+	Description: changed conditional boundary
+	File Name: com/google/javascript/jscomp/CodeGenerator.java
+	Line Number: 1045
+	Rank: 1
+	Total Rank: 71
+	Dump: mutant-1.class
+------------------------------------------------

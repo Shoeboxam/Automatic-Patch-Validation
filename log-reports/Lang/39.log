@@ -1,0 +1,136 @@
+PraPR Fix Report - Fri Apr 05 12:28:17 CDT 2019
+Number of Plausible Fixes: 12
+Total Number of Patches: 687
+===================================================
+1.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3675
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.707107
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3676
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::length()I is replaced with the used of local timeToLive
+	Suspiciousness Value: 0.707107
+	Rank: 4
+---------------------------------------------------
+3.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3676
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::length()I is replaced with the used of default value 0
+	Suspiciousness Value: 0.707107
+	Rank: 4
+---------------------------------------------------
+4.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3676
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to java.lang.String::length()I is replaced with the used of field INDEX_NOT_FOUND
+	Suspiciousness Value: 0.707107
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3676
+	Mutator Name: NonVoidMethodCallGuardMutator
+	Mutator Description: the call to java.lang.String::length()I is guarded using default value 0
+	Suspiciousness Value: 0.707107
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3675
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.707107
+	Rank: 6
+---------------------------------------------------
+7.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3676
+	Mutator Name: LocalNameMutator
+	Mutator Description: local replacementList is replaced by local searchList to be used
+	Suspiciousness Value: 0.707107
+	Rank: 11
+---------------------------------------------------
+8.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3675
+	Mutator Name: LocalNameMutator
+	Mutator Description: local i is replaced by local searchLength to be used
+	Suspiciousness Value: 0.707107
+	Rank: 11
+---------------------------------------------------
+9.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3676
+	Mutator Name: LocalNameMutator
+	Mutator Description: local i is replaced by local textIndex to be used
+	Suspiciousness Value: 0.707107
+	Rank: 11
+---------------------------------------------------
+10.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3675
+	Mutator Name: LocalNameMutator
+	Mutator Description: local i is replaced by local replacementLength to be used
+	Suspiciousness Value: 0.707107
+	Rank: 11
+---------------------------------------------------
+11.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3676
+	Mutator Name: LocalNameMutator
+	Mutator Description: local i is replaced by local replaceIndex to be used
+	Suspiciousness Value: 0.707107
+	Rank: 11
+---------------------------------------------------
+12.
+	Class Name: org.apache.commons.lang3.StringUtils
+	Method Name: replaceEach
+	Method Descriptor: (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZI)Ljava/lang/String;
+	File Name: org/apache/commons/lang3/StringUtils.java
+	Line Number: 3675
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local i is replaced by access to field PAD_LIMIT
+	Suspiciousness Value: 0.707107
+	Rank: 12
+---------------------------------------------------

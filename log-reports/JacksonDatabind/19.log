@@ -1,0 +1,70 @@
+PraPR Fix Report - Fri Apr 05 02:48:06 CDT 2019
+Number of Plausible Fixes: 6
+Total Number of Patches: 14111
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.databind.ser.PropertyBuilder
+	Method Name: getDefaultValue
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/ser/PropertyBuilder.java
+	Line Number: 360
+	Mutator Name: NullReturnValsMutator
+	Mutator Description: replaced return value with null for com/fasterxml/jackson/databind/ser/PropertyBuilder::getDefaultValue
+	Suspiciousness Value: 1.000000
+	Rank: 1
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.databind.ser.PropertyBuilder
+	Method Name: getDefaultValue
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/ser/PropertyBuilder.java
+	Line Number: 360
+	Mutator Name: ReturnValsMutator
+	Mutator Description: mutated return of Object value for com/fasterxml/jackson/databind/ser/PropertyBuilder::getDefaultValue to ( if (x != null) null else throw new RuntimeException )
+	Suspiciousness Value: 1.000000
+	Rank: 2
+---------------------------------------------------
+3.
+	Class Name: com.fasterxml.jackson.databind.ser.PropertyBuilder
+	Method Name: getDefaultValue
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/ser/PropertyBuilder.java
+	Line Number: 359
+	Mutator Name: LocalNameMutator
+	Mutator Description: local cls is replaced by local prim to be used
+	Suspiciousness Value: 1.000000
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.fasterxml.jackson.databind.ser.PropertyBuilder
+	Method Name: getDefaultValue
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/ser/PropertyBuilder.java
+	Line Number: 359
+	Mutator Name: LocalToMethodCallMutator
+	Mutator Description: the access to the local cls is replaced a call cls.getSuperclass()
+	Suspiciousness Value: 1.000000
+	Rank: 4
+---------------------------------------------------
+5.
+	Class Name: com.fasterxml.jackson.databind.ser.PropertyBuilder
+	Method Name: getDefaultValue
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/ser/PropertyBuilder.java
+	Line Number: 359
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 1.000000
+	Rank: 5
+---------------------------------------------------
+6.
+	Class Name: com.fasterxml.jackson.databind.ser.PropertyBuilder
+	Method Name: getDefaultValue
+	Method Descriptor: (Lcom/fasterxml/jackson/databind/JavaType;)Ljava/lang/Object;
+	File Name: com/fasterxml/jackson/databind/ser/PropertyBuilder.java
+	Line Number: 359
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 1.000000
+	Rank: 6
+---------------------------------------------------

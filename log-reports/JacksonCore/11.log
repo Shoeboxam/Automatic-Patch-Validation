@@ -1,0 +1,1225 @@
+PraPR Fix Report - Fri Apr 05 02:41:28 CDT 2019
+Number of Plausible Fixes: 111
+Total Number of Patches: 6741
+===================================================
+1.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to _findSecondary(II[II)Ljava/lang/String; with a call to _findSecondary(IIII)Ljava/lang/String;
+	Suspiciousness Value: 0.707107
+	Rank: 3
+---------------------------------------------------
+2.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to _findSecondary(II[II)Ljava/lang/String; with a call to _findSecondary(II)Ljava/lang/String;
+	Suspiciousness Value: 0.707107
+	Rank: 3
+---------------------------------------------------
+3.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: ArgumentsListMutator
+	Mutator Description: replaced call to _findSecondary(II[II)Ljava/lang/String; with a call to _findSecondary(III)Ljava/lang/String;
+	Suspiciousness Value: 0.707107
+	Rank: 3
+---------------------------------------------------
+4.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local qlen is replaced by local origOffset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+5.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: LocalNameMutator
+	Mutator Description: local origOffset is replaced by local qlen to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+6.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local len to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+7.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local offset2 to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+8.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local end is replaced by local origOffset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+9.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local offset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+10.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalNameMutator
+	Mutator Description: local qlen is replaced by local offset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+11.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local len to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+12.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local hash to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+13.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local origOffset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+14.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local end is replaced by local offset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+15.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local qlen to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+16.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local len2 to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+17.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local end is replaced by local qlen to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+18.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local offset2 to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+19.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local bucketSize to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+20.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len is replaced by local origOffset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+21.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalNameMutator
+	Mutator Description: local qlen is replaced by local offset2 to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+22.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local qlen to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+23.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len is replaced by local offset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+24.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local end to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+25.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local qlen is replaced by local end to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+26.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local len to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+27.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 705
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local bucketSize to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+28.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local qlen is replaced by local bucketSize to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+29.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len is replaced by local end to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+30.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len is replaced by local bucketSize to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+31.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local qlen to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+32.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local len is replaced by local hash to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+33.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local qlen is replaced by local offset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+34.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local bucketSize to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+35.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 705
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local len to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+36.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalNameMutator
+	Mutator Description: local qlen is replaced by local hash to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+37.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local bucketSize to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+38.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local qlen is replaced by local hash to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+39.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local end to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+40.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local qlen to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+41.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local end to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+42.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 703
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local qlen to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+43.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local end is replaced by local bucketSize to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+44.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local offset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+45.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalNameMutator
+	Mutator Description: local offset is replaced by local origOffset to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+46.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalNameMutator
+	Mutator Description: local hash is replaced by local qlen to be used
+	Suspiciousness Value: 0.707107
+	Rank: 46
+---------------------------------------------------
+47.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field MAX_ENTRIES_FOR_REUSE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+48.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local offset is replaced by access to field MAX_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+49.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local offset is replaced by access to field _seed
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+50.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 705
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local offset is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+51.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+52.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qlen is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+53.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field _seed
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+54.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qlen is replaced by access to field MAX_ENTRIES_FOR_REUSE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+55.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qlen is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+56.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local len is replaced by access to field MAX_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+57.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local offset is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+58.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local len is replaced by access to field MIN_HASH_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+59.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local len is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+60.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field MIN_HASH_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+61.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field MAX_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+62.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local offset is replaced by access to field MIN_HASH_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+63.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local offset is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+64.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qlen is replaced by access to field MAX_ENTRIES_FOR_REUSE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+65.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local this is replaced by access to field _parent
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+66.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field MIN_HASH_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+67.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local end is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+68.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local offset is replaced by access to field MAX_ENTRIES_FOR_REUSE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+69.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qlen is replaced by access to field MIN_HASH_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+70.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field _seed
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+71.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qlen is replaced by access to field _seed
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+72.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qlen is replaced by access to field MIN_HASH_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+73.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local len is replaced by access to field MAX_ENTRIES_FOR_REUSE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+74.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+75.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local len is replaced by access to field _seed
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+76.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qlen is replaced by access to field MAX_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+77.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field MAX_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+78.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field MAX_ENTRIES_FOR_REUSE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+79.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qlen is replaced by access to field _seed
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+80.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local offset is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+81.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local end is replaced by access to field MIN_HASH_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+82.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local qlen is replaced by access to field MAX_T_SIZE
+	Suspiciousness Value: 0.707107
+	Rank: 82
+---------------------------------------------------
+83.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 598
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.707107
+	Rank: 85
+---------------------------------------------------
+84.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.707107
+	Rank: 85
+---------------------------------------------------
+85.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.707107
+	Rank: 85
+---------------------------------------------------
+86.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: RemoveConditionalMutator_ORDER_ELSE
+	Mutator Description: removed conditional - replaced comparison check with false
+	Suspiciousness Value: 0.707107
+	Rank: 86
+---------------------------------------------------
+87.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 598
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.707107
+	Rank: 87
+---------------------------------------------------
+88.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 702
+	Mutator Name: MathMutator
+	Mutator Description: Replaced integer addition with subtraction
+	Suspiciousness Value: 0.707107
+	Rank: 90
+---------------------------------------------------
+89.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 701
+	Mutator Name: MathMutator
+	Mutator Description: Replaced Shift Left with Shift Right
+	Suspiciousness Value: 0.707107
+	Rank: 90
+---------------------------------------------------
+90.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 703
+	Mutator Name: MathMutator
+	Mutator Description: Replaced integer addition with subtraction
+	Suspiciousness Value: 0.707107
+	Rank: 90
+---------------------------------------------------
+91.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 705
+	Mutator Name: ReturnValsMutator
+	Mutator Description: mutated return of Object value for com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer::_findSecondary to ( if (x != null) null else throw new RuntimeException )
+	Suspiciousness Value: 0.707107
+	Rank: 91
+---------------------------------------------------
+92.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 704
+	Mutator Name: RemoveConditionalMutator_EQUAL_ELSE
+	Mutator Description: removed conditional - replaced equality check with false
+	Suspiciousness Value: 0.707107
+	Rank: 92
+---------------------------------------------------
+93.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to _tertiaryStart with an access to _hashSize
+	Suspiciousness Value: 0.707107
+	Rank: 98
+---------------------------------------------------
+94.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to _tertiaryShift with an access to _seed
+	Suspiciousness Value: 0.707107
+	Rank: 98
+---------------------------------------------------
+95.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to _tertiaryStart with an access to _tertiaryShift
+	Suspiciousness Value: 0.707107
+	Rank: 98
+---------------------------------------------------
+96.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to _tertiaryStart with an access to _count
+	Suspiciousness Value: 0.707107
+	Rank: 98
+---------------------------------------------------
+97.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to _tertiaryShift with an access to _hashSize
+	Suspiciousness Value: 0.707107
+	Rank: 98
+---------------------------------------------------
+98.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldNameMutator
+	Mutator Description: replaced access to _tertiaryStart with an access to _spilloverEnd
+	Suspiciousness Value: 0.707107
+	Rank: 98
+---------------------------------------------------
+99.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryStart is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::size()I
+	Suspiciousness Value: 0.707107
+	Rank: 103
+---------------------------------------------------
+100.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryShift is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::hashSeed()I
+	Suspiciousness Value: 0.707107
+	Rank: 103
+---------------------------------------------------
+101.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryStart is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::primaryCount()I
+	Suspiciousness Value: 0.707107
+	Rank: 103
+---------------------------------------------------
+102.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryStart is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::secondaryCount()I
+	Suspiciousness Value: 0.707107
+	Rank: 103
+---------------------------------------------------
+103.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldAccessToMethodCallMutator
+	Mutator Description: the access to field com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryStart is replaced by the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::bucketCount()I
+	Suspiciousness Value: 0.707107
+	Rank: 103
+---------------------------------------------------
+104.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 703
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 3 with 4
+	Suspiciousness Value: 0.707107
+	Rank: 105
+---------------------------------------------------
+105.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 701
+	Mutator Name: InlineConstantMutator
+	Mutator Description: Substituted 1 with 0
+	Suspiciousness Value: 0.707107
+	Rank: 105
+---------------------------------------------------
+106.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 601
+	Mutator Name: NonVoidMethodCallRemovalMutator
+	Mutator Description: the call to com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer::_findSecondary(II[II)Ljava/lang/String; is replaced with the used of default value null
+	Suspiciousness Value: 0.707107
+	Rank: 106
+---------------------------------------------------
+107.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field _tertiaryShift is replaced by access to local qlen
+	Suspiciousness Value: 0.707107
+	Rank: 108
+---------------------------------------------------
+108.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: _findSecondary
+	Method Descriptor: (II[II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 698
+	Mutator Name: FieldToLocalAccessMutator
+	Mutator Description: access to field _tertiaryStart is replaced by access to local qlen
+	Suspiciousness Value: 0.707107
+	Rank: 108
+---------------------------------------------------
+109.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 574
+	Mutator Name: LocalToFieldAccessMutator
+	Mutator Description: access to local hash is replaced by access to field DEFAULT_T_SIZE
+	Suspiciousness Value: 0.377964
+	Rank: 109
+---------------------------------------------------
+110.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 586
+	Mutator Name: NegateConditionalsMutator
+	Mutator Description: negated conditional
+	Suspiciousness Value: 0.377964
+	Rank: 110
+---------------------------------------------------
+111.
+	Class Name: com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer
+	Method Name: findName
+	Method Descriptor: ([II)Ljava/lang/String;
+	File Name: com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java
+	Line Number: 586
+	Mutator Name: RemoveConditionalMutator_EQUAL_IF
+	Mutator Description: removed conditional - replaced equality check with true
+	Suspiciousness Value: 0.377964
+	Rank: 111
+---------------------------------------------------

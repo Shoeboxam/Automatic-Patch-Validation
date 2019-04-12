@@ -1,0 +1,22 @@
+PraPR 2 (JDK 1.7) Fix Report - Sat Jan 12 23:36:56 CST 2019
+Number of Plausible Fixes: 2
+Total Number of Patches: 4897
+================================================
+1.
+	Mutator: FieldNameMutator
+	Description: replaced access to _charBufferLength with an access to _outputMaxContiguous
+	File Name: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java
+	Line Number: 425
+	Rank: 1
+	Total Rank: 1725
+	Dump: mutant-2.class
+------------------------------------------------
+2.
+	Mutator: MemberVariableMutator
+	Description: Removed assignment to member variable _charBufferLength
+	File Name: com/fasterxml/jackson/core/json/UTF8JsonGenerator.java
+	Line Number: 127
+	Rank: 2
+	Total Rank: 2425
+	Dump: mutant-1.class
+------------------------------------------------

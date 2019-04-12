@@ -1,0 +1,67 @@
+PraPR 2 (JDK 1.7) Fix Report - Fri Jan 11 10:11:28 CST 2019
+Number of Plausible Fixes: 7
+Total Number of Patches: 4171
+================================================
+1.
+	Mutator: InlineConstantMutator
+	Description: Substituted 0 with 1
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
+	Line Number: 260
+	Rank: 1
+	Total Rank: 1637
+	Dump: mutant-1.class
+------------------------------------------------
+2.
+	Mutator: MethodNameMutator
+	Description: replaced call to sqrt with a call to sinh
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
+	Line Number: 267
+	Rank: 6
+	Total Rank: 1754
+	Dump: mutant-6.class
+------------------------------------------------
+3.
+	Mutator: MethodNameMutator
+	Description: replaced call to sqrt with a call to asinh
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
+	Line Number: 267
+	Rank: 6
+	Total Rank: 1754
+	Dump: mutant-5.class
+------------------------------------------------
+4.
+	Mutator: MethodNameMutator
+	Description: replaced call to sqrt with a call to nextUp
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
+	Line Number: 267
+	Rank: 6
+	Total Rank: 1754
+	Dump: mutant-2.class
+------------------------------------------------
+5.
+	Mutator: MethodNameMutator
+	Description: replaced call to sqrt with a call to expm1
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
+	Line Number: 267
+	Rank: 6
+	Total Rank: 1754
+	Dump: mutant-3.class
+------------------------------------------------
+6.
+	Mutator: MethodNameMutator
+	Description: replaced call to sqrt with a call to tanh
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
+	Line Number: 267
+	Rank: 6
+	Total Rank: 1754
+	Dump: mutant-4.class
+------------------------------------------------
+7.
+	Mutator: ArgumentPropagationMutator
+	Description: replaced call to org/apache/commons/math/util/FastMath::sqrt with argument
+	File Name: org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
+	Line Number: 267
+	Rank: 7
+	Total Rank: 1768
+	Dump: mutant-7.class
+------------------------------------------------
