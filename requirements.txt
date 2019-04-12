@@ -1,0 +1,8 @@
+torch>=1.0.1
+numpy
+scikit-learn
+skorch
+scikit-plot
+matplotlib
+Cython
+seqlearn

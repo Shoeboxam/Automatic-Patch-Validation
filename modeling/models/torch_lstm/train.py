@@ -1,6 +1,6 @@
 from modeling.models.torch_lstm.network import LSTMClassifier
-import numpy as np
 
+import numpy as np
 import torch
 
 
@@ -41,6 +41,7 @@ def test_lstm(data, networkparameters):
     expected, actual = [], []
 
     with torch.no_grad():
+
         for datum in data:
             actual.append(int(np.argmax(np.squeeze(model(datum['buggy'])))))
             expected.append(int(datum['label']))

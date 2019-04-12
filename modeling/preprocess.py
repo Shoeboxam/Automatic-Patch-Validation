@@ -4,12 +4,13 @@ import json
 dataset_path = '../dataset.json'
 
 
-def vocab_size():
+def get_vocabulary():
     vocabulary = set()
 
     with open(dataset_path, 'r') as infile:
         for obs in json.load(infile):
-            vocabulary |= obs
+            vocabulary = vocabulary.union(obs['buggy'])
+    print(vocabulary)
 
 
 def dataset_sampler():
@@ -19,4 +20,5 @@ def dataset_sampler():
 
 
 if __name__ == '__main__':
-    print(vocab_size())
+    print(get_vocabulary())
+

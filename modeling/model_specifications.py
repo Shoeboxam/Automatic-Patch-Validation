@@ -44,13 +44,13 @@ except ImportError:
 try:
     from seqlearn.hmm import MultinomialHMM
 
-    model_specifications.extend([
-        {
-            "name": "Multinomial Hidden Markov Model",
-            "class": MultinomialHMM,
-            "datasource": lambda: dataset_sampler(),
-            "kwargs": {}
-        }
-    ])
+    # model_specifications.extend([
+    #     {
+    #         "name": "Multinomial Hidden Markov Model",
+    #         "class": MultinomialHMM,
+    #         "datasource": lambda: dataset_sampler(),
+    #         "kwargs": {}
+    #     }
+    # ])
 except ImportError:
     print('Multinomial hidden markov model is not loaded because seqlearn is not installed.')

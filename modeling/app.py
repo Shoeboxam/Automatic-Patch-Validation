@@ -1,4 +1,4 @@
-from modeling.preprocess import dataset_sampler, test_train_split
+from modeling.preprocess import dataset_sampler
 
 from scikitplot.metrics import plot_roc
 from sklearn.metrics import classification_report
@@ -7,15 +7,13 @@ from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_sc
 
 from matplotlib import pyplot as plt
 
-import numpy as np
-
 import warnings
 from collections import Counter
 
 import json
 
 from modeling.model_specifications import model_specifications
-from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import GridSearchCV, train_test_split
 import os
 import shutil
 
@@ -61,7 +59,7 @@ def evaluate(expected, actual, probas, name=''):
 
 def run_lstm():
     from modeling.models.torch_lstm.train import train_lstm, test_lstm
-    sampler = lambda: dataset_sampler(x_format='OneHot', y_format='Ordinal')
+    sampler = lambda: dataset_sampler()
 
     params = {
         'input_size': 25,
@@ -92,14 +90,8 @@ if __name__ == '__main__':
     os.mkdir('./plots/')
 
     for model_spec in model_specifications:
-        # if model_spec['name'] != 'KerasANN':
-        #     continue
 
-        split = test_train_split(model_spec['datasource']())
-        x_train, y_train, x_test, y_test = [np.array(val) for val in split]
-
-        # remove the singleton axis from y if ordinal, and ensure long datatype
-        y_train, y_test = [np.squeeze(val.astype(np.int64)) for val in (y_train, y_test)]
+        X_train, X_test, y_train, y_test = train_test_split(*zip(*[[datum['buggy', 'label'] for datum in dataset_sampler()]]))
 
         # catch warnings in bulk, show frequencies for each after grid search
         with warnings.catch_warnings(record=True) as warns:
@@ -110,12 +102,12 @@ if __name__ == '__main__':
             model = model_spec['class'](**(model_spec.get('kwargs', {})))
 
             search = GridSearchCV(model, param_grid=model_spec['hyperparameters'], cv=5, scoring='accuracy')
-            search.fit(x_train, y_train)
+            search.fit(X_train, y_train)
 
-            y_true, y_pred = y_test, search.predict(x_test)
+            y_true, y_pred = y_test, search.predict(X_test)
 
             try:
-                y_probas = search.predict_proba(x_test)
+                y_probas = search.predict_proba(X_test)
             except AttributeError:
                 y_probas = None
 
