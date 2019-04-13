@@ -1,8 +1,7 @@
-from modeling.preprocess import dataset_sampler
+from sklearn.model_selection import StratifiedKFold
 
 from scikitplot.metrics import plot_roc
-from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
 from matplotlib import pyplot as plt
@@ -59,7 +58,7 @@ def evaluate(expected, actual, probas, name=''):
 
 def run_lstm():
     from modeling.models.torch_lstm.train import train_lstm, test_lstm
-    sampler = lambda: dataset_sampler()
+    sampler = lambda: sampler()
 
     params = {
         'input_size': 25,
@@ -91,7 +90,10 @@ if __name__ == '__main__':
 
     for model_spec in model_specifications:
 
-        X_train, X_test, y_train, y_test = train_test_split(*zip(*[[datum['buggy', 'label'] for datum in dataset_sampler()]]))
+        # if model_spec['name'] != 'Multinomial Naive Bayes TF IDF':
+        #     continue
+
+        X_train, X_test, y_train, y_test = train_test_split(*model_spec['datasource']())
 
         # catch warnings in bulk, show frequencies for each after grid search
         with warnings.catch_warnings(record=True) as warns:
@@ -101,7 +103,7 @@ if __name__ == '__main__':
             # create an instance of the model
             model = model_spec['class'](**(model_spec.get('kwargs', {})))
 
-            search = GridSearchCV(model, param_grid=model_spec['hyperparameters'], cv=5, scoring='accuracy')
+            search = GridSearchCV(model, param_grid=model_spec['hyperparameters'], cv=StratifiedKFold(n_splits=5), scoring='accuracy')
             search.fit(X_train, y_train)
 
             y_true, y_pred = y_test, search.predict(X_test)
