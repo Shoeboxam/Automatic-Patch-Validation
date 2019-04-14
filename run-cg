@@ -24,20 +24,22 @@ if [ "$#" -eq 1 ]; then
 fi
 
 echo "["
-for line in $(cat cg-info-71.csv); do
+for line in $(cat cg-info.csv); do
     subject=$(echo $line | awk 'BEGIN{FS=","}{print $1}')
     bugId=$(echo $line | awk 'BEGIN{FS=","}{print $2}')
     patchNo=$(echo $line | awk 'BEGIN{FS=","}{print $3}')
     classInternalName=$(echo $line | awk 'BEGIN{FS=","}{print $4}' | sed 's/\./\//g')
     lineNo=$(echo $line | awk 'BEGIN{FS=","}{print $5}')
-    label=$(echo $line | awk 'BEGIN{FS=","}{print $6}')
-    echo -e "\t{"
-    echo -ne "\t\t\"buggy\":"
-    outUnmutatedWnd $windowCapacity $subject $bugId $classInternalName $lineNo
-    echo -ne "\t\t\"fixed\":"
-    outMutatedWnd $windowCapacity $subject $bugId $patchNo $lineNo
-    echo -e "\t\t\"label\":$label"
-    echo -e "\t}"
+    buggy=$(outUnmutatedWnd $windowCapacity $subject $bugId $classInternalName $lineNo)
+    if [ $buggy != "[]," ]; then
+	fixed=$(outMutatedWnd $windowCapacity $subject $bugId $patchNo $lineNo)
+	label=$(echo $line | awk 'BEGIN{FS=","}{print $6}')
+	echo -e "\t{"
+	echo -e "\t\t\"buggy\":$buggy"
+	echo -e "\t\t\"fixed\":$fixed"
+	echo -e "\t\t\"label\":$label"
+	echo -e "\t}"
+    fi
 done
 echo "]"
 
