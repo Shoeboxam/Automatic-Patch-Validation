@@ -1,4 +1,4 @@
-from modeling.models.torch_lstm.network import LSTMClassifier
+from modeling.models.torch_recurrent.network import RecurrentClassifier
 
 import numpy as np
 import torch
@@ -12,7 +12,7 @@ def train_lstm(data, hyperparameters, trainparameters=None):
         **(trainparameters or {})
     }
 
-    model = LSTMClassifier(**hyperparameters)
+    model = RecurrentClassifier(**hyperparameters)
 
     criterion = torch.nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(model.parameters(), lr=trainparameters['learning_rate'])
@@ -33,7 +33,7 @@ def train_lstm(data, hyperparameters, trainparameters=None):
 
 
 def test_lstm(data, networkparameters):
-    model = LSTMClassifier(**networkparameters)
+    model = RecurrentClassifier(**networkparameters)
 
     model.load_state_dict(torch.load('./modeling/models/torch_lstm/weights'))
     model.eval()  # turn on evaluation mode

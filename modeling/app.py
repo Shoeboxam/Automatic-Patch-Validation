@@ -1,4 +1,4 @@
-from sklearn.model_selection import StratifiedKFold
+# from sklearn.model_selection import StratifiedShuffleSplit
 
 from scikitplot.metrics import plot_roc
 from sklearn.metrics import classification_report, confusion_matrix
@@ -19,36 +19,36 @@ import shutil
 print_results = True
 
 
-def evaluate(expected, actual, probas, name=''):
+def evaluate(expected, fitted, probabilities, name=''):
     """Collect diagnostics about model performance
 
     Args:
         expected: array of expected values
-        actual: array of actual values
+        fitted: array of fitted values
     """
 
     if print_results:
         print("\nClassification report:")
-        print(classification_report(expected, actual))
+        print(classification_report(expected, fitted))
 
         print("\nConfusion matrix:")
-        print(confusion_matrix(expected, actual))
+        print(confusion_matrix(expected, fitted))
 
         print("\nAccuracy Score:")
-        print(accuracy_score(expected, actual))
+        print(accuracy_score(expected, fitted))
 
-        if probas is not None:
+        if probabilities is not None:
             print("\n<Receiver Operating Characteristic Plot>")
-            plot_roc(expected, probas)
+            plot_roc(expected, probabilities)
             plt.title('ROC Curve ' + name)
             plt.savefig(f'./plots/{name}.png')
             # plt.show()
 
     scores = [
-        precision_score(expected, actual, average='macro'),
-        recall_score(expected, actual, average='macro'),
-        f1_score(expected, actual, average='macro'),
-        accuracy_score(expected, actual),
+        precision_score(expected, fitted, average='macro'),
+        recall_score(expected, fitted, average='macro'),
+        f1_score(expected, fitted, average='macro'),
+        accuracy_score(expected, fitted),
     ]
     scores = [round(score, 4) for score in scores]
 
@@ -57,7 +57,7 @@ def evaluate(expected, actual, probas, name=''):
 
 
 def run_lstm():
-    from modeling.models.torch_lstm.train import train_lstm, test_lstm
+    from modeling.models.torch_recurrent.train import train_lstm, test_lstm
     sampler = lambda: sampler()
 
     params = {
@@ -90,10 +90,12 @@ if __name__ == '__main__':
 
     for model_spec in model_specifications:
 
-        # if model_spec['name'] != 'Multinomial Naive Bayes TF IDF':
-        #     continue
+        if model_spec['name'] != 'TorchRecurrent':
+            continue
 
-        X_train, X_test, y_train, y_test = train_test_split(*model_spec['datasource']())
+        splits = train_test_split(*model_spec['datasource']())
+
+        train, test = splits[::2], splits[1::2]
 
         # catch warnings in bulk, show frequencies for each after grid search
         with warnings.catch_warnings(record=True) as warns:
@@ -101,17 +103,22 @@ if __name__ == '__main__':
             print(f'{model_spec["name"]}: Tuning hyper-parameters')
 
             # create an instance of the model
-            model = model_spec['class'](**(model_spec.get('kwargs', {})))
+            model = model_spec['class'](
+                *(model_spec.get('args', [])),
+                **(model_spec.get('kwargs', {})))
 
-            search = GridSearchCV(model, param_grid=model_spec['hyperparameters'], cv=StratifiedKFold(n_splits=5), scoring='accuracy')
-            search.fit(X_train, y_train)
+            search = GridSearchCV(model,
+                                  param_grid=model_spec['hyperparameters'],
+                                  cv=None,
+                                  scoring='accuracy')
+            search.fit(*train)
 
-            y_true, y_pred = y_test, search.predict(X_test)
+            y_true, y_pred = test[1], search.predict(test[0])
 
             try:
-                y_probas = search.predict_proba(X_test)
+                y_prob = search.predict_proba(test[0])
             except AttributeError:
-                y_probas = None
+                y_prob = None
 
             best_params = search.best_params_
 
@@ -129,7 +136,7 @@ if __name__ == '__main__':
                 print('Warnings during grid search:')
                 print(json.dumps(warning_counts, indent=4))
 
-            evaluate(y_true, y_pred, y_probas, name=model_spec['name'])
+            evaluate(y_true, y_pred, y_prob, name=model_spec['name'])
 
             formatted_params = [
                 model_spec['name'],
