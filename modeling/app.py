@@ -1,4 +1,4 @@
-# from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.model_selection import KFold
 
 from scikitplot.metrics import plot_roc
 from sklearn.metrics import classification_report, confusion_matrix
@@ -109,7 +109,7 @@ if __name__ == '__main__':
 
             search = GridSearchCV(model,
                                   param_grid=model_spec['hyperparameters'],
-                                  cv=None,
+                                  cv=KFold(n_splits=10),
                                   scoring='accuracy')
             search.fit(*train)
 

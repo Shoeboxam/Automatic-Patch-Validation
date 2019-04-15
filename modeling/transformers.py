@@ -27,5 +27,5 @@ class PadTransformer(BaseEstimator, TransformerMixin):
 
     def transform(self, X):
         longest = max(map(lambda x: len(x[0]), X))
-        return np.array([[self.token] * (longest - len(Xi[0]) + Xi[0]) for Xi in X], dtype=self.dtype)
+        return np.array([[self.token] * (longest - len(Xi[0])) + Xi[0] for Xi in X], dtype=self.dtype)
 

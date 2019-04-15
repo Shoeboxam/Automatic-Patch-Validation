@@ -47,7 +47,6 @@ model_specifications = [
 
 # torch models
 try:
-    from dstoolbox.transformers import Padder2d
     from .models.torch_recurrent.network import RecurrentClassifier
 
     from skorch import NeuralNetClassifier
