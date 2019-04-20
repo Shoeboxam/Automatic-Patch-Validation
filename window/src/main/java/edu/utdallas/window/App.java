@@ -11,6 +11,7 @@ public class App {
         final int lineNumber = Integer.parseInt(args[1]);
         final Window window = new Window(lineNumber);
         WindowPopulator.populate(classFile, window);
-        System.out.println(window);
+        System.out.print(window);
+        System.out.println(",");
     }
 }

@@ -5,3 +5,10 @@
 build/
 .gradle/
 .idea/
+
+dataset.json
+
+__pycache__/
+modeling/plots/
+modeling/scores.csv
+modeling/parameters.csv

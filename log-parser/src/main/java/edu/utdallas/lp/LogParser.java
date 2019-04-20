@@ -75,12 +75,12 @@ public final class LogParser {
                 String.valueOf(bugId.getBugNo()),
                 dumpFileName);
         System.out.println("\t{");
-        System.out.print("\t\tbuggy:");
+        System.out.print("\t\t\"buggy\":");
         extractWindow(originalClassFile, lineNumber);
-        System.out.print("\t\tfixed:");
+        System.out.print("\t\t\"fixed\":");
         extractWindow(mutatedClassFile, lineNumber);
-        System.out.printf("\t\tlabel:%s%n", label.toString());
-        System.out.println("\t}");
+        System.out.printf("\t\t\"label\":%s%n", '\"' + label.toString() + '\"');
+        System.out.print("\t}");
     }
 
     private void extractWindow(final File classFile, int lineNumber) {
@@ -121,13 +121,17 @@ public final class LogParser {
         }
     }
 
-    private void processBug(final BugId bugId) {
+    private void processBug(final int index, final BugId bugId) {
         final File logFile = bugId.getLogFile();
+        boolean first = index == 0;
         try (final BufferedReader br = new BufferedReader(new FileReader(logFile))) {
             String line;
             while ((line = br.readLine()) != null) {
+
                 line = line.trim();
                 if (line.matches(ROW_HEADER)) {
+                    if (!first) System.out.println(",");
+                    first = false;
                     final int rowNo = Integer.parseInt(line.substring(0, line.length() - 1));
                     LogParser.v().processRow(bugId, rowNo, br);
                 }
@@ -139,7 +143,12 @@ public final class LogParser {
     }
 
     private void processBugs() {
-        this.allBugs.stream().forEach(LogParser.this::processBug);
+
+        for (int i=0; i < this.allBugs.size(); i++)
+            this.processBug(i, this.allBugs.get(i));
+//        IntStream.range(0, this.allBugs.size())
+//                .forEach(i -> LogParser.this::processBug(i, this.allBugs.get(i)));
+//        this.allBugs.stream().forEach(LogParser.this::processBug);
     }
 
     public static void main(String[] args) throws Exception {
@@ -147,8 +156,8 @@ public final class LogParser {
         final File correctPatchesFile = new File(args[1]);
         LogParser.v().loadAllBugs(allBugsFile);
         LogParser.v().loadCorrectPatches(correctPatchesFile);
-        System.out.println("{");
+        System.out.println("[");
         LogParser.v().processBugs();
-        System.out.println("}");
+        System.out.print("]");
     }
 }
