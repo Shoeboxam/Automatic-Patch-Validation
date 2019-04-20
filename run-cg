@@ -34,10 +34,12 @@ for line in $(cat cg-info.csv); do
     if [ $buggy != "[]," ]; then
 	fixed=$(outMutatedWnd $windowCapacity $subject $bugId $patchNo $lineNo)
 	label=$(echo $line | awk 'BEGIN{FS=","}{print $6}')
+	opr=$(echo $line | awk 'BEGIN{FS=","}{print $7}')
 	echo -e "\t{"
 	echo -e "\t\t\"buggy\":$buggy"
 	echo -e "\t\t\"fixed\":$fixed"
-	echo -e "\t\t\"label\":$label"
+	echo -e "\t\t\"label\":\"$label\","
+	echo -e "\t\t\"operator\":\"$opr\""
 	echo -e "\t}"
     fi
 done

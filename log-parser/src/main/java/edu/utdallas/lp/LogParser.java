@@ -79,7 +79,8 @@ public final class LogParser {
         extractWindow(originalClassFile, lineNumber);
         System.out.print("\t\t\"fixed\":");
         extractWindow(mutatedClassFile, lineNumber);
-        System.out.printf("\t\t\"label\":%s%n", '\"' + label.toString() + '\"');
+        System.out.printf("\t\t\"label\":%s,%n", '\"' + label.toString() + '\"');
+        System.out.printf("\t\t\"operator\":\"%s\"%n", mutatorName);
         System.out.print("\t}");
     }
 
