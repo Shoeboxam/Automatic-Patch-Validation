@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+
+group 'edu.utdallas'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-csv:1.6'
+    compile 'commons-io:commons-io:2.6'
+    compile 'fr.inria.gforge.spoon.labs:gumtree-spoon-ast-diff:1.6'
+}
+
+mainClassName="edu.utdallas.diff.Driver"
+
+jar {
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA'
+}
