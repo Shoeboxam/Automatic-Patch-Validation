@@ -1,7 +1,8 @@
 #!/bin/bash
 
+BASEDIR=$(dirname $0)
 if [ "$#" -eq 1 ]; then
-    java -Dwindow.capacity=$1 -cp log-parser/build/libs/log-parser-1.0.jar edu.utdallas.lp.LogParser all-bugs.csv correct-patches.csv > ./dataset.json
+    java -Dwindow.capacity=$1 -cp $BASEDIR/log-parser/build/libs/log-parser-1.0.jar edu.utdallas.lp.LogParser $BASEDIR/all-bugs.csv $BASEDIR/correct-patches.csv
 else
-    java -cp log-parser/build/libs/log-parser-1.0.jar edu.utdallas.lp.LogParser all-bugs.csv correct-patches.csv > ./dataset.json
+    java -cp $BASEDIR/log-parser/build/libs/log-parser-1.0.jar edu.utdallas.lp.LogParser $BASEDIR/all-bugs.csv $BASEDIR/correct-patches.csv
 fi

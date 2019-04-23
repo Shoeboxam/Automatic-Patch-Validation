@@ -1,17 +1,24 @@
 import numpy as np
 import json
 from collections import Counter
+import os
+import subprocess
+import re
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 
-dataset_path = '../dataset.json'
 
-
-def get_vocabulary():
+def get_vocabulary(labeled=False, window=21):
     vocabulary = set()
-    with open(dataset_path, 'r') as infile:
-        for obs in json.load(infile):
-            vocabulary = vocabulary.union(obs['buggy'])
+    for obs in data_generator(labeled, window):
+        vocabulary = vocabulary.union(obs['buggy'])
     return vocabulary
+
+
+def get_operations(labeled=False, window=21):
+    operations = set()
+    for obs in data_generator(labeled, window):
+        operations.add(obs['operator'])
+    return operations
 
 
 def get_class_priors():
@@ -19,15 +26,32 @@ def get_class_priors():
     return [counts[count] / sum(counts.values()) for count in counts]
 
 
-# TODO: generate data with specified window
-def data_generator(window=20):
-    with open(dataset_path, 'r') as infile:
-        for obs in json.load(infile):
-            yield obs
+def data_generator(labeled=False, window=21):
+    data_path = f'../dataset_{"labeled" if labeled else "unlabeled"}_{window}.txt'
+
+    if not os.path.exists(data_path):
+        if labeled:
+            print('Writing', data_path)
+            ps = subprocess.Popen(['./run-cg', str(window)], stdout=subprocess.PIPE, cwd='../')
+            with open(data_path, 'w') as outfile:
+                outfile.writelines(
+                    re.sub(r'}(?=[^.]*})', '},', ps.communicate()[0].decode('utf-8')).split('\n')
+                )
+
+        if not labeled:
+            ps = subprocess.Popen(['./run', str(window)], stdout=subprocess.PIPE, cwd='../')
+            with open(data_path, 'w') as outfile:
+                outfile.writelines(ps.communicate()[0].decode('utf-8'))
+
+    with open(data_path, 'r') as infile:
+        return json.load(infile)
+
+
+def split_labeled(data):
+    return list(zip(*((datum['buggy'], datum['operator'], datum['label']) for datum in data)))
 
 
 def split_buggy(data):
-    print('buggy')
     return list(zip(*((datum['buggy'], datum['label']) for datum in data)))
 
 
@@ -60,11 +84,9 @@ def mutate_pad(splits):
 
 def mutate_numpy(splits):
     return [np.array(split) for split in splits]
-    # return (np.array(splits[0]), *splits[1:])
 
 
 def mutate_labels(splits):
-
     return (splits[0], [1 if obs == 'CORRECT' else 0 for obs in splits[1]], *splits[2:])
 
 
