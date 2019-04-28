@@ -16,7 +16,9 @@ from sklearn.model_selection import GridSearchCV, train_test_split
 import os
 import shutil
 
-from modeling.models.torch_recurrent_labeled.train import train_network
+from modeling.models.torch_recurrent_labeled.data import DatasetLabeledBytecode
+from modeling.models.torch_recurrent_labeled.network import RecurrentClassifier
+from modeling.models.torch_recurrent_labeled.train import train_network, test_network
 from modeling.preprocess import data_generator, get_operations, get_vocabulary
 import torch
 
@@ -79,15 +81,30 @@ def run_lstm():
 
 if __name__ == '__main__':
     data_preferences = {"labeled": True, "window": 21}
-    train_network(data_generator(**data_preferences), hyperparameters={
-        "input_size": 25,
-        "output_size": 2,
+    hyperparameters = {
+        "input_size": 5,
         "vocabulary_size": len(get_vocabulary(**data_preferences)),
         "operators_size": len(get_operations(**data_preferences)),
         "layer_type": torch.nn.LSTM,
-        "recurrent_hidden_dim": 5,
+        "recurrent_hidden_dim": 1,
         "recurrent_layers": 1,
-    })
+    }
+
+    trainparameters = {
+        'epochs': 50
+    }
+
+    train_network(
+        DatasetLabeledBytecode(data_generator(**data_preferences), split='train'),
+        RecurrentClassifier(**hyperparameters),
+        trainparameters
+    )
+
+    evaluate(*test_network(
+        DatasetLabeledBytecode(data_generator(**data_preferences), split='test'),
+        RecurrentClassifier(**hyperparameters)
+    ), name='Recurrent_Labeled')
+
     #
     #
     # with open('./scores.csv', 'w') as file:

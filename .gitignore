@@ -9,6 +9,8 @@ build/
 dataset.json
 
 __pycache__/
-modeling/plots/
-modeling/scores.csv
-modeling/parameters.csv
+# modeling/plots/
+# modeling/scores.csv
+# modeling/parameters.csv
+modeling/models/*/weights
+dataset_*

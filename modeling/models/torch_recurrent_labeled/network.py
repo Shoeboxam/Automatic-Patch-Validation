@@ -2,21 +2,22 @@ import torch
 
 
 class RecurrentClassifier(torch.nn.Module):
-    def __init__(self, input_size, output_size, vocabulary_size, operators_size, layer_type=torch.nn.RNN, recurrent_hidden_dim=20, recurrent_layers=1):
+    def __init__(self, input_size,
+                 vocabulary_size, operators_size,
+                 layer_type=torch.nn.RNN,
+                 recurrent_hidden_dim=20, recurrent_layers=1):
         """Network initialization
 
         Args:
             input_size: number of features in an observation
-            output_size: number of classes in a prediction
             vocabulary_size: number of levels in the input vector
+            operators_size: number of levels in operators vector
+            layer_type: RNN, LSTM, or GRU
             recurrent_hidden_dim: number of features in each recurrent hidden layer
-            recurrent_layers: number of layers in the recurrent
+            recurrent_layers: number of recurrent layers
         """
 
         super().__init__()
-        # number of output nodes from LSTM, and input nodes to typical linear layer
-        self.recurrent_hidden_dim = recurrent_hidden_dim
-        self.recurrent_layers = recurrent_layers
 
         self.embedding = torch.nn.Embedding(vocabulary_size * 2, input_size)
 
@@ -27,19 +28,16 @@ class RecurrentClassifier(torch.nn.Module):
             num_layers=recurrent_layers,
             batch_first=True)
 
+        self.recurrent_state = torch.nn.Parameter(
+            torch.zeros(recurrent_layers, 1, recurrent_hidden_dim))
+        self.cell_state = torch.nn.Parameter(
+            torch.zeros(recurrent_layers, 1, recurrent_hidden_dim))
+
         # linear layer maps from intermediate feature space to class label
-        self.linear = torch.nn.Linear(recurrent_hidden_dim + operators_size, output_size)
+        self.linear = torch.nn.Linear(recurrent_hidden_dim + operators_size, 2)
+
         # activation transforms features to probability vector
         self.activation_final = torch.nn.Sigmoid()
-
-        self.recurrent_state = ()
-
-    def recurrent_state_init(self, batch_size):
-        """sets the state of the recurrent layers"""
-        self.recurrent_state = (
-            torch.zeros(self.recurrent_layers, batch_size, self.recurrent_hidden_dim),
-            torch.zeros(self.recurrent_layers, batch_size, self.recurrent_hidden_dim)
-        )
 
     def forward(self, data):
         """Given an observation, return the network prediction
@@ -53,17 +51,24 @@ class RecurrentClassifier(torch.nn.Module):
         """
         # [None] adds an axis for sequence length: number of time steps represented in the tensor, which is one
         # after making an observation, save the output and update the internal state
-
         sequences = self.embedding(data['sequence'])
 
-        # reset the state with current batch size
-        # the state is not being used, since observations are uncorrelated between, correlated within
-        self.recurrent_state_init(sequences.shape[0])
+        # start all recurrent states with learned initial values
+        # the final state after forward prop is not shared between sequences
+        batch_size = sequences.shape[0]
+        initial_state = (
+            self.recurrent_state.expand(-1, batch_size, -1),
+            self.cell_state.expand(-1, batch_size, -1)
+        )
 
-        recurrent_out, self.recurrent_state = self.recurrent(sequences, self.recurrent_state)
+        # ignore final state via [0]
+        # take the final forward of each sequence
+        recurrent_out = self.recurrent(sequences, initial_state)[0][:, -1]
 
-        # combine the operator with the lstm output
-        combined = torch.cat((recurrent_out[:, -1], data['operator'][:, 0]), 1)
+        # combine the recurrent output with the operator
+        combined = torch.cat((recurrent_out, data['operator'][:, 0]), 1)
 
-        # take the final recurrent state of each time series
-        return self.activation_final(self.linear(combined))
+        x = self.linear(combined)
+
+        return x if self.training else self.activation_final(x)
+
