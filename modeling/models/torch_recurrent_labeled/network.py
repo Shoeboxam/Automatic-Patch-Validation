@@ -1,4 +1,5 @@
 import torch
+import torch.nn.functional as F
 
 
 class RecurrentClassifier(torch.nn.Module):
@@ -51,7 +52,7 @@ class RecurrentClassifier(torch.nn.Module):
         """
         # [None] adds an axis for sequence length: number of time steps represented in the tensor, which is one
         # after making an observation, save the output and update the internal state
-        sequences = self.embedding(data['sequence'])
+        sequences = F.relu(self.embedding(data['sequence']))
 
         # start all recurrent states with learned initial values
         # the final state after forward prop is not shared between sequences
@@ -61,9 +62,10 @@ class RecurrentClassifier(torch.nn.Module):
             self.cell_state.expand(-1, batch_size, -1)
         )
 
-        # ignore final state via [0]
-        # take the final forward of each sequence
-        recurrent_out = self.recurrent(sequences, initial_state)[0][:, -1]
+        # (forward, (hidden state, cell state))[1][0][:, 0] propagates internal hidden state
+        # (forward, state)[0][:, -1] propagates final forward pass in sequence
+        # take the final state of each sequence
+        recurrent_out = F.relu(self.recurrent(sequences, initial_state)[0][:, -1])
 
         # combine the recurrent output with the operator
         combined = torch.cat((recurrent_out, data['operator'][:, 0]), 1)

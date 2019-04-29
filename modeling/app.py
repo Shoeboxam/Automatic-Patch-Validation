@@ -82,26 +82,26 @@ def run_lstm():
 if __name__ == '__main__':
     data_preferences = {"labeled": True, "window": 21}
     hyperparameters = {
-        "input_size": 5,
+        "input_size": 10,
         "vocabulary_size": len(get_vocabulary(**data_preferences)),
         "operators_size": len(get_operations(**data_preferences)),
         "layer_type": torch.nn.LSTM,
-        "recurrent_hidden_dim": 1,
+        "recurrent_hidden_dim": 5,
         "recurrent_layers": 1,
     }
 
     trainparameters = {
-        'epochs': 50
+        'epochs': 20
     }
 
     train_network(
-        DatasetLabeledBytecode(data_generator(**data_preferences), split='train'),
+        DatasetLabeledBytecode(data_generator(**data_preferences), split='train', seed=2),
         RecurrentClassifier(**hyperparameters),
         trainparameters
     )
 
     evaluate(*test_network(
-        DatasetLabeledBytecode(data_generator(**data_preferences), split='test'),
+        DatasetLabeledBytecode(data_generator(**data_preferences), split='test', seed=2),
         RecurrentClassifier(**hyperparameters)
     ), name='Recurrent_Labeled')
 
