@@ -1,1 +1,7 @@
-Multinomial Naive Bayes TF IDF, naiveBayes__class_prior=[0.3, 0.7], selector__key=buggy, selector__window_size=11
+Multinomial Naive Bayes TF IDF, naiveBayes__class_prior=[0.3, 0.7], selector__key=buggy, selector__window_size=51
+Multinomial Naive Bayes Counts, naiveBayes__class_prior=[0.3, 0.7], selector__key=buggy, selector__window_size=11
+Decision Tree, selector__key=fixed, selector__window_size=11
+Support Vector Classifier, selector__key=buggy, selector__window_size=51
+Logistic Regression Operator, union__bytecodes__selector__window_size=21
+Logistic Regression PCA, selector__window_size=21
+Logistic Regression, selector__window_size=21

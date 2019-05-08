@@ -1,2 +1,8 @@
 Algorithm, Avg Precision, Avg Recall, Avg F1, Accuracy
-Multinomial Naive Bayes TF IDF, 0.5091, 0.7842, 0.3802, 0.5718
+Multinomial Naive Bayes TF IDF, 0.5064, 0.6908, 0.2887, 0.3864
+Multinomial Naive Bayes Counts, 0.5042, 0.6501, 0.4549, 0.7989
+Decision Tree, 0.7199, 0.7471, 0.7327, 0.9898
+Support Vector Classifier, 0.5148, 0.7717, 0.4836, 0.8282
+Logistic Regression Operator, 0.5447, 0.8549, 0.5583, 0.9085
+Logistic Regression PCA, 0.5178, 0.7857, 0.4716, 0.7718
+Logistic Regression, 0.5347, 0.8836, 0.5414, 0.9096
