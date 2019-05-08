@@ -16,12 +16,6 @@ from sklearn.model_selection import GridSearchCV, train_test_split
 import os
 import shutil
 
-from modeling.models.torch_recurrent_operator.data import DatasetLabeledBytecode
-from modeling.models.torch_recurrent_operator.network import RecurrentClassifierOperator
-from modeling.models.torch_recurrent_operator.train import train_network, test_network
-from modeling.preprocess import data_generator, get_operations, get_vocabulary
-import torch
-
 
 print_results = True
 
@@ -63,49 +57,43 @@ def evaluate(expected, fitted, probabilities, name=''):
         score_file.writelines(', '.join([str(j) for j in [name, *scores]]) + '\n')
 
 
-def run_lstm():
-    from modeling.models.torch_recurrent.train import train_lstm, test_lstm
-    sampler = lambda: sampler()
+def manual_torch_recurrent_operator():
 
-    params = {
-        'input_size': 25,
-        'output_size': 4,
+    from modeling.models.torch_recurrent_operator.data import DatasetLabeledBytecode
+    from modeling.models.torch_recurrent_operator.network import RecurrentClassifierOperator
+    from modeling.models.torch_recurrent_operator.train import train_network, test_network
+    from modeling.preprocess import data_generator, get_operations, get_vocabulary
+    import torch
 
-        'lstm_hidden_dim': 20,
-        'lstm_layers': 2,
-        'batch_size': 1
+    data_preferences = {"labeled": True, "window": 21}
+
+    hyperparameters = {
+        "input_size": 10,
+        "window_size": 21,
+        "vocabulary_size": len(get_vocabulary(**data_preferences)),
+        "operators_size": len(get_operations(**data_preferences)),
+        "layer_type": torch.nn.LSTM,
+        "recurrent_hidden_dim": 5,
+        "recurrent_layers": 1,
     }
-    train_lstm(sampler, params)
-    evaluate(*test_lstm(sampler, params))
+
+    trainparameters = {
+        'epochs': 20
+    }
+
+    train_network(
+        DatasetLabeledBytecode(data_generator(**data_preferences), split='train', seed=2),
+        RecurrentClassifierOperator(**hyperparameters),
+        trainparameters
+    )
+
+    evaluate(*test_network(
+        DatasetLabeledBytecode(data_generator(**data_preferences), split='test', seed=2),
+        RecurrentClassifierOperator(**hyperparameters)
+    ), name='Recurrent_Labeled')
 
 
 if __name__ == '__main__':
-    # data_preferences = {"labeled": True, "window": 21}
-    #
-    # hyperparameters = {
-    #     "input_size": 10,
-    #     "window_size": 21,
-    #     "vocabulary_size": len(get_vocabulary(**data_preferences)),
-    #     "operators_size": len(get_operations(**data_preferences)),
-    #     "layer_type": torch.nn.LSTM,
-    #     "recurrent_hidden_dim": 5,
-    #     "recurrent_layers": 1,
-    # }
-    #
-    # trainparameters = {
-    #     'epochs': 20
-    # }
-    #
-    # train_network(
-    #     DatasetLabeledBytecode(data_generator(**data_preferences), split='train', seed=2),
-    #     RecurrentClassifier(**hyperparameters),
-    #     trainparameters
-    # )
-    #
-    # evaluate(*test_network(
-    #     DatasetLabeledBytecode(data_generator(**data_preferences), split='test', seed=2),
-    #     RecurrentClassifier(**hyperparameters)
-    # ), name='Recurrent_Labeled')
 
     with open('./scores.csv', 'w') as file:
         file.write(', '.join([

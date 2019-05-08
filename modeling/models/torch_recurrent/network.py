@@ -42,7 +42,6 @@ class RecurrentClassifier(torch.nn.Module):
         )
 
     def forward(self, data):
-        print(data)
         """Given an observation, return the network prediction
 
         Args:
