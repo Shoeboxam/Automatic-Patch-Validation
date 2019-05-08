@@ -9,7 +9,9 @@ class RecurrentClassifierOperator(torch.nn.Module):
     The bytecode sequence is embedded, and then passed through a recurrent net
     The operator is encoded and feature unioned with the final recurrent forward pass
 
-    Copy of torch_recurrent_operator, with an embedded dataset for skorch/sklearn compatibility
+    Similar network structure to torch_recurrent_operator, with two changes:
+        1. support for batches, via separate passes through the lstm for each example, and stacking
+        2. embedded dataset for skorch/sklearn compatibility (skorch passes indices, not data)
     """
     def __init__(self, data, window_size, input_size,
                  vocabulary_size, operators_size,

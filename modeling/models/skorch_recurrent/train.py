@@ -1,4 +1,4 @@
-from modeling.models.torch_recurrent.network import RecurrentClassifier
+from modeling.models.skorch_recurrent.network import RecurrentClassifier
 
 import numpy as np
 import torch

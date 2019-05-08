@@ -36,10 +36,15 @@ class RecurrentClassifier(torch.nn.Module):
 
     def recurrent_state_init(self, batch_size):
         """sets the state of the recurrent layers"""
-        self.recurrent_state = (
-            torch.zeros(self.recurrent_layers, batch_size, self.recurrent_hidden_dim),
-            torch.zeros(self.recurrent_layers, batch_size, self.recurrent_hidden_dim)
-        )
+        if issubclass(type(self.recurrent), torch.nn.RNN):
+            self.recurrent_state = torch.zeros(self.recurrent_layers, batch_size, self.recurrent_hidden_dim)
+        elif issubclass(type(self.recurrent), torch.nn.LSTM):
+            self.recurrent_state = (
+                torch.zeros(self.recurrent_layers, batch_size, self.recurrent_hidden_dim),
+                torch.zeros(self.recurrent_layers, batch_size, self.recurrent_hidden_dim)
+            )
+        else:
+            print('Unrecognized layer class in state init!')
 
     def forward(self, data):
         """Given an observation, return the network prediction

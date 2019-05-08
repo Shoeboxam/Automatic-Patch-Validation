@@ -16,7 +16,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.preprocessing import OneHotEncoder
 
 # feature Engineering- custom
-from modeling.models.skorch_recurrent_operator.network import RecurrentClassifierOperator
 from .transformers import \
     IndexToData, \
     PadTransformer, \
@@ -137,11 +136,12 @@ model_specifications = [
             ('selector', SequenceSelector(data=window_data, key='buggy')),
             ('tfIdfVectorizer', TfidfVectorizer(preprocessor=lambda x: x, tokenizer=lambda x: x)),
             ('to_dense', DenseTransformer()),
-            ('canonicalCorrelation', PCA(n_components=10)),
+            ('principalComponents', PCA(n_components=10)),
             ('logisticRegression', LogisticRegression())
         ]],
         "datasource": index_datasource,
         "hyperparameters": {
+            'principalComponents__n_components': [10, 15, 30],
             "selector__window_size": WINDOW_SIZES  # maximum window size to collect bytecodes
         }
     },
@@ -164,7 +164,8 @@ model_specifications = [
 
 # torch models
 try:
-    from .models.torch_recurrent.network import RecurrentClassifier
+    from .models.skorch_recurrent.network import RecurrentClassifier
+    from modeling.models.skorch_recurrent_operator.network import RecurrentClassifierOperator
 
     from skorch import NeuralNetClassifier
     import torch
@@ -192,7 +193,7 @@ try:
                 'deindexer__function': [lambda x: x['buggy'], lambda x: x['fixed']],
 
                 # [step name]__[skorch object]__[hyperparam axis]
-                "model__module__layer_type": [torch.nn.LSTM, torch.nn.RNN],
+                "model__module__layer_type": [torch.nn.RNN, torch.nn.LSTM],
                 "model__module__input_size": [25],
                 "model__module__recurrent_hidden_dim": [5],  # dimensionality of the hidden LSTM layers
                 "model__module__recurrent_layers": [1, 4],  # number of LSTM layers
@@ -219,7 +220,7 @@ try:
                 'model__module__data': [window_data],
 
                 # [step name]__[skorch object]__[hyperparam axis]
-                "model__module__layer_type": [torch.nn.LSTM, torch.nn.RNN],
+                "model__module__layer_type": [torch.nn.LSTM],  # torch.nn.RNN
                 "model__module__input_size": [10],
                 "model__module__recurrent_hidden_dim": [5],  # dimensionality of the hidden LSTM layers
                 "model__module__recurrent_layers": [1, 4],  # number of LSTM layers

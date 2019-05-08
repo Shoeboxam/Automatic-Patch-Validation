@@ -1,7 +1,10 @@
-Multinomial Naive Bayes TF IDF, naiveBayes__class_prior=[0.3, 0.7], selector__key=buggy, selector__window_size=51
-Multinomial Naive Bayes Counts, naiveBayes__class_prior=[0.3, 0.7], selector__key=buggy, selector__window_size=11
-Decision Tree, selector__key=fixed, selector__window_size=11
-Support Vector Classifier, selector__key=buggy, selector__window_size=51
+TorchRecurrent, deindexer__function=<function <lambda> at 0x7f70dfaac510>, deindexer__window=11, model__module__input_size=25, model__module__layer_type=<class 'torch.nn.modules.rnn.LSTM'>, model__module__recurrent_hidden_dim=5, model__module__recurrent_layers=1, model__optimizer__lr=0.1
+TorchRecurrentLabeled, model__module__input_size=10, model__module__layer_type=<class 'torch.nn.modules.rnn.LSTM'>, model__module__recurrent_hidden_dim=5, model__module__recurrent_layers=1, model__module__window_size=21, model__optimizer__lr=0.5
+Multinomial Naive Bayes TF IDF, naiveBayes__class_prior=[0.3, 0.7], selector__key=buggy, selector__window_size=11
+Multinomial Naive Bayes Counts, naiveBayes__class_prior=[0.3, 0.7], selector__key=buggy, selector__window_size=21
+Decision Tree, selector__key=fixed, selector__window_size=21
+Support Vector Classifier, selector__key=fixed, selector__window_size=21
 Logistic Regression Operator, union__bytecodes__selector__window_size=21
-Logistic Regression PCA, selector__window_size=21
-Logistic Regression, selector__window_size=21
+Logistic Regression PCA, principalComponents__n_components=30, selector__window_size=51
+Logistic Regression, selector__window_size=11
+Multinomial Hidden Markov Model, selector__key=fixed, selector__window_size=21
