@@ -12,6 +12,7 @@ from seqlearn._utils import atleast2d_or_csr, count_trans, safe_sparse_dot
 
 np.set_printoptions(threshold=np.inf)
 
+
 class MultinomialHMM(BaseSequenceClassifier):
     """First-order hidden Markov model with multinomial event model.
 

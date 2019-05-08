@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 
 
-class RecurrentClassifier(torch.nn.Module):
+class RecurrentClassifierOperator(torch.nn.Module):
     def __init__(self, input_size,
                  vocabulary_size, operators_size,
                  layer_type=torch.nn.RNN,

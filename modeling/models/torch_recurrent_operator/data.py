@@ -2,8 +2,10 @@ import torch
 from sklearn.preprocessing import OneHotEncoder
 import random
 
+from torch.utils import data
 
-class DatasetLabeledBytecode(torch.utils.data.Dataset):
+
+class DatasetLabeledBytecode(data.Dataset):
     def __init__(self, data, split=None, seed=1, test_size=5):
         self.operatorEncoder = OneHotEncoder()
         self.operatorEncoder.fit([[datum['operator']] for datum in data])
